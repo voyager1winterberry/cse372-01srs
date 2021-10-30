@@ -9,3 +9,5 @@
 *Italic Text*
 
 To create paragraphs, use a blank line to separate one or more lines of text.
+
+Anchor/Link: <a name="abcd"></a>
