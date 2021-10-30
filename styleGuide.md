@@ -8,6 +8,8 @@ Anything with more than one decimal will be a sub header.
 1. Number lists
 
 **Bold Stuff**
+Used to distinguish words that have definition
+
 *Italic Text*
 
 To create paragraphs, use a blank line to separate one or more lines of text.
