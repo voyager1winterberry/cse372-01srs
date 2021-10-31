@@ -17,4 +17,4 @@ The myJym app is to help people at all levels of experience feel confident using
 
 1.1.3 Excluded Features
 - Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
-- Not a video platform. Not supposet to have recorded workout videos to follow.
+- Not a video platform. Not supposed to have recorded workout videos to follow.
