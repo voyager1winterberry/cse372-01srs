@@ -6,7 +6,7 @@
 Anything with one decimal or less will be a main header.
 
 ### Sub Header
-Sub header level should match the number of decimals on the subcategory. For example, 1.3.1 would be a third level subheader in markdown preceded by ###. 1.3.1.2 would be preeceded by ####.
+Sub header level should match the number of decimal places + 1 on the subcategory. For example, 1.3.1 would be a third level subheader in markdown preceded by ###. 1.3.1.2 would be preeceded by ####.
 
 - Bullet/List Items
 * Also a bulleted list
