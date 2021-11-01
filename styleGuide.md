@@ -20,9 +20,7 @@ Used to distinguish words that have definition in glossary.
 
 To create paragraphs, use a blank line to separate one or more lines of text.
 
-Anchor/Link: <a name="abcd"></a>
-More Anchor stuff: [here](#place-2)
-Used to quickly jump to sub headers within document.
-
 [Internal Document Linking](#main-header)
 * Each subsection should be added to the table of contents.
+* Used to quickly jump to sub headers within document.
+* Syntax: [Description of link] + (#section-name)
