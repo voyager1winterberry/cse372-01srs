@@ -1,9 +1,23 @@
 # SRS
-## Purpose
+
+## Table of Contents
+* [1.0 Purpose](#1.0-purpose)
+    * [1.1 Scope](#1.1-scope)
+        * [1.1.1 Included Core Features](#1.1.1-included-core-features) 
+        * [1.1.2 Possible Features](#1.1.2-possible-features)
+        * [1.1.3 Excluded Features](#1.1.3-excluded-features)
+        * [1.3.1 Product Perspective](#1.3.1-product-perspective)
+            * [1.3.1.1 System Interfaces](#1.3.1.1-system-interfaces)
+            * [1.3.1.2 User Interfaces](#1.3.1.2-user-interfaces)
+            * [1.3.1.3 Hardware Interfaces](#1.3.1.3-hardware-interfaces)
+            * [1.3.1.4 Software Interfaces](1.3.1.4-software-interfaces)
+             
+
+## 1.0 Purpose
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connects users to personal trainors.  Additional features include work out regiments, gym maps, and abbility to track fitness goals.
 
-## Scope
-1.1.1 Included Core Features
+## 1.1 Scope
+### 1.1.1 Included Core Features
 - Suggest workouts to user based on what user wants to do
 - Let user create or augment their own workouts
 - Track user workouts and progress
@@ -11,21 +25,21 @@ The myJym app is to help people at all levels of experience feel confident using
 - Connect users to trainors to get their advice on workouts
 - Gym will have QR codes to scan that will bring up information about how to use specific equipment
 
-1.1.2 Possible Features
+### 1.1.2 Possible Features
 - Map that shows location of specific equipment
 - Have social media aspect for trainors to get recognized
 
-1.1.3 Excluded Features
+### 1.1.3 Excluded Features
 - Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
 - Not a video platform. Not supposet to have recorded workout videos to follow.
 
 
-## 1.3.1 Product Perspective
+### 1.3.1 Product Perspective
 
-1.3.1.1 System Interfaces
+#### 1.3.1.1 System Interfaces
 - The application will be running on the most recent **iOS** and **macOS**. It will also be connected with a database to store information.
 
-1.3.1.2 User Interfaces
+#### 1.3.1.2 User Interfaces
 * The application **GUI** will include:
     - Interactive menus
     - Interactive buttons
@@ -38,21 +52,21 @@ The myJym app is to help people at all levels of experience feel confident using
     - Log In menu
     - Navigation bars
 
-1.3.1.3 Hardware Interfaces
+#### 1.3.1.3 Hardware Interfaces
 * Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the ios and android devices are able to connect to the internet. Since the **app** will be a fitness app, the hardware will require **users** to have the feature of location tracking for personal coach and exercise equipment tutorial videos. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. 
 
-1.3.1.4 Software Interfaces
+#### 1.3.1.4 Software Interfaces
 * Specify the use of other required software products.
     - Operating System: iOS and Android devices. 
     - Linkage: Users are allowed to sign up myJam with their existing social media or email accounts. (Facebook, Gmail, etc) 
 
-1.3.1.5 Communications Interfaces
+#### 1.3.1.5 Communications Interfaces
 * Communication interfaces shall include communication between the users and **trainers**, including a means of messaging within the app. Communication shall also include a means of communicating with myJym for issues or to receive help.
 
-1.3.1.6 Memory
+#### 1.3.1.6 Memory
 * **Primary memory** shall be used to store the user’s data such as **profile** and user agreements. **Secondary memory** will not be utilized.
 
-1.3.1.7 Operations
+#### 1.3.1.7 Operations
 * Operations by the user shall include:
     - Creating a profile upon first use of the app
     - Connect with trainers that can offer insight and assistance into the workout  schedule of the user
@@ -62,22 +76,22 @@ The myJym app is to help people at all levels of experience feel confident using
     - Receiving approval from myJym to contact and train users through an approval process
     -Connect with users through messaging and other means through the app to assist with training goals
 
-1.3.1.8 Site Adaption Requirements
+#### 1.3.1.8 Site Adaption Requirements
 * **Android**
 * **IOS**
 * Web application
 
-1.3.1.9 Interfaces with Services
+#### 1.3.1.9 Interfaces with Services
 * (No knowledge of whether we plan to use cloud-based services or Saas)
 
-## 1.3.2 Product Functions
-**User Profiles:**
+### 1.3.2 Product Functions
+#### 1.3.2.1 User Profiles:
  - A returned missionary attending BYU-Idaho, in their early twenties, has a busy schedule with work and a heavy course load.
  - A student in their junior year, also attending BYU-Idaho, in their early twenties, they enjoy playing football with their friends and family.
  - A new freshman, halfway through the semester wanting to lose weight, but unsure of where to start.
  - A couple that likes to spend time together by playing sports and working out.
 
-**User Scenarios:**
+#### 1.3.2.2 User Scenarios:
 - Only being able to attend the gym in the early morning, with no previous time to set a workout routine or research workout machines.
 - Brand new to exercising, there is a fear of feeling inadequate and confused in front of others, and a desire to be helped in a discreet way.
 - Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
