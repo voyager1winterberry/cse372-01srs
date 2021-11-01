@@ -1,4 +1,5 @@
-*Click 'view raw' on the [SRS Style Guide](https://github.com/voyager1winterberry/cse372-01srs/edit/main/styleGuide.md) to see markdown syntax in use.*
+*Click 'Raw' on the [SRS Style Guide](https://github.com/voyager1winterberry/cse372-01srs/blob/main/styleGuide.md) to see markdown syntax in use.*
+
 *[Markdown Tutorial](https://www.markdownguide.org/basic-syntax/)*
 
 ## Main Header
@@ -22,3 +23,6 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 Anchor/Link: <a name="abcd"></a>
 More Anchor stuff: [here](#place-2)
 Used to quickly jump to sub headers within document.
+
+[Internal Document Linking](#main-header)
+* Each subsection should be added to the table of contents.
