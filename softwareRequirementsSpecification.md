@@ -72,16 +72,16 @@ The myJym app is to help people at all levels of experience feel confident using
 
 ## 1.3.2 Product Functions
 **User Profiles:**
-    -  A returned missionary attending BYU-Idaho, in their early twenties, has a busy schedule with work and a heavy course load.
-    -  A student in their junior year, also attending BYU-Idaho, in their early twenties, they enjoy playing football with their friends and family.
-    -  A new freshman, halfway through the semester wanting to lose weight, but unsure of where to start.
-    -  A couple that likes to spend time together by playing sports and working out.
+ *A returned missionary attending BYU-Idaho, in their early twenties, has a busy schedule with work and a heavy course load.
+ *A student in their junior year, also attending BYU-Idaho, in their early twenties, they enjoy playing football with their friends and family.
+ *A new freshman, halfway through the semester wanting to lose weight, but unsure of where to start.
+ *A couple that likes to spend time together by playing sports and working out.
 
 **User Scenarios:**
-    -  Only being able to attend the gym in the early morning, with no previous time to set a workout routine or research workout machines.
-    -  Brand new to exercising, there is a fear of feeling inadequate and confused in front of others, and a desire to be helped in a discreet way.
-    -  Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
-    -  Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
+*Only being able to attend the gym in the early morning, with no previous time to set a workout routine or research workout machines.
+*Brand new to exercising, there is a fear of feeling inadequate and confused in front of others, and a desire to be helped in a discreet way.
+*Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
+*Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
 
 ## Definitions
 | Word   |  Definition |
