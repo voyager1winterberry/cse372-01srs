@@ -1,3 +1,6 @@
+*Click 'view raw' on the [SRS Style Guide](https://github.com/voyager1winterberry/cse372-01srs/edit/main/styleGuide.md) to see markdown syntax in use.*
+*[Markdown Tutorial](https://www.markdownguide.org/basic-syntax/)*
+
 ## Main Header
 Anything with one decimal or less will be a main header.
 
@@ -5,10 +8,12 @@ Anything with one decimal or less will be a main header.
 Anything with more than one decimal will be a sub header.
 
 - Bullet/List Items
+* Also a bulleted list
 1. Number lists
 
+
 **Bold Stuff**
-Used to distinguish words that have definition
+Used to distinguish words that have definition in glossary.
 
 *Italic Text*
 
