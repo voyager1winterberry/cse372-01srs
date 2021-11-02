@@ -1,4 +1,4 @@
-# MyJym Software Requirements Specification
+# myJym Software Requirements Specification
 
 ## Table of Contents
 * [1.0 Purpose](#1.0-purpose)
