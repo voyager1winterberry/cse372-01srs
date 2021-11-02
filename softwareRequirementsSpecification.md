@@ -12,6 +12,7 @@
     * [1.3.1.3 Hardware Interfaces](#1.3.1.3-hardware-interfaces)
     * [1.3.1.4 Software Interfaces](#1.3.1.4-software-interfaces)
              
+<br>
 
 ## 1.0 Purpose
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connects users to personal trainors.  Additional features include work out regiments, gym maps, and abbility to track fitness goals.
