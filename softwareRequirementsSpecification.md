@@ -99,29 +99,43 @@ The myJym app is to help people at all levels of experience feel confident using
 - Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
 
 ## Definitions
+## 1.4 Definitions
+
 | Word   |  Definition |
 |------- | -------     |
-|Android 11: | The minimum android version that will be required for the project.|
-| App: | myJym mobile application. |
+|Android 11:| The minimum android version that will be required for the project.|
+|Audit Functions:| Functions of the application that allow for user feedback and error handling.|
+|App:| myJym mobile application.|
+|Control Functions:| The interface with which the user will interact with and control the app.|
+|Criticality of the Application:| Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
 |Embedded Video: | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video.|
-|Forms: | Digital way to collect relevant information from the user. |
-|GUI: | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals.|
-| Interface| A point where two systems, subjects, organizations, etc. meet and interact.|
+|Forms:| Digital way to collect relevant information from the user.|
+|Hardware Limitations: | Physical technological factors that might limit or slow the progress of the app and its construction.|
+|Higher-Order Language Requirements:| Knowledge of high-level programming languages such as Kotlin and Swift.|
+|GUI:| GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals.|
+|Interface| A point where two systems, subjects, organizations, etc. meet and interact.|
+|Interfaces to other applications:| The ability to interact with third party applications.|
 |iOS:| Internet Operating System or iPhone Operating System. It is the operating system used on Apple products, such as iPhone and iPad.|
-|IOS 14.1: | The minimum IOS version that will be required for the project. |
-|macOS: | The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions. |
-|Mnemonic: | The device that uses patterns of letters, associations to assist users to remember a specific feature and its functionality. |
-|Name: | The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand. |
-|Primary memory: | Memory utilized by the app on the individual devices. |
-|Profile: | A personalized account created by the user that will be associated with them and required to utilize the app. |
-|QR Scanning: | the ability of a mobile device to capture QR codes in their camera and then open the associated links. |
-|Secondary memory: | removable or external memory used by the individual devices. |
-|Source: | A specific reference for the research and citation purpose to avoid plagiarism. |
-|Specification number: | For the purpose of organization feature within the SRS documentation.|
-|Trainers: | Individuals that work in conjunction with the app to provide a means of providing feedback and encouraging users with workout goals. Trainers will use the app as a way of communicating with the users. | 
-|Users: | Clients that will use the app to progress with their training and receive help and support from trainers |
-|Version number: | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
-|Working camera: | camera capable of taking clear photos. |
+|IOS 14.1:| The minimum IOS version that will be required for the project. |
+|macOS:| The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions. |
+|Mnemonic:| The device that uses patterns of letters, associations to assist users to remember a specific feature and its functionality.|
+|Name:| The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand.|
+|Parallel Operation:| The ability of an application to run in parallel to other applications without getting in their way or being interrupted by them.|
+|Physical/mental considerations:| Considerations that pertain to the physical and mental health of the application.|
+|Primary memory:| Memory utilized by the app on the individual devices.|
+|Profile:| A personalized account created by the user that will be associated with them and required to utilize the app.|
+|QR Scanning:| The ability of a mobile device to capture QR codes in their camera and then open the associated links.|
+|Quality Requirements:| The reliability of the application, as well as the other quality metrics that represent how well it fulfills its tasks.|
+|Regulatory Requirements and Policies:| Application requirements that need to comply with legal regulations and policies.|
+|Safety and Security Considerations:| Keeping the user’s physical and personal safety in mind, including sensitive or confidential information.|
+|Secondary memory:| removable or external memory used by the individual devices.|
+|Signal Handshake Protocols:| How the app interacts securely with other applications and the internet.|
+|Source:| A specific reference for the research and citation purpose to avoid plagiarism.|
+|Specification number:| For the purpose of organization feature within the SRS documentation.|
+|Trainers:| Individuals that work in conjunction with the app to provide a means of providing feedback and encouraging users with workout goals. Trainers will use the app as a way of communicating with the users.| 
+|Users:| Clients that will use the app to progress with their training and receive help and support from trainers|
+|Version number:| A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
+|Working camera:| camera capable of taking clear photos.|
 
 
 ## References
