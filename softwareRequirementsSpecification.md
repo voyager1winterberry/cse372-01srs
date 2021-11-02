@@ -7,10 +7,10 @@
         * [1.1.2 Possible Features](#1.1.2-possible-features)
         * [1.1.3 Excluded Features](#1.1.3-excluded-features)
         * [1.3.1 Product Perspective](#1.3.1-product-perspective)
-            * [1.3.1.1 System Interfaces](#1.3.1.1-system-interfaces)
+        * [1.3.1.1 System Interfaces](#1.3.1.1-system-interfaces)
             * [1.3.1.2 User Interfaces](#1.3.1.2-user-interfaces)
             * [1.3.1.3 Hardware Interfaces](#1.3.1.3-hardware-interfaces)
-            * [1.3.1.4 Software Interfaces](1.3.1.4-software-interfaces)
+            * [1.3.1.4 Software Interfaces](#1.3.1.4-software-interfaces)
              
 
 ## 1.0 Purpose
