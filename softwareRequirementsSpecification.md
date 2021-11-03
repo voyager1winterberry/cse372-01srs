@@ -187,13 +187,16 @@ The limitations of YouTube and whichever messaging service we decide to use will
 
 | Word   |  Definition |
 | ------ | -------     |
+| Admin | The people that run the app. They will connect the user's location to the gym and create QR codes that can be scanned by the user |
 | Android 11 | The minimum android version that will be required for the project |
 | Audit Functions | Functions of the application that allow for user feedback and error handling |
 | App | myJym mobile application |
 | Control Functions | The interface with which the user will interact with and control the app |
 |Criticality of the Application:| Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
+| Equipment | The machines at the student gym |
 | Embedded Video | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video |
 | Forms | Digital way to collect relevant information from the user |
+| Gym | A location with workout machines available |
 | Hardware Limitations | Physical technological factors that might limit or slow the progress of the app and its construction |
 | Higher-Order Language Requirements | Knowledge of high-level programming languages such as Kotlin and Swift |
 | GUI | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals |
@@ -203,8 +206,12 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | IOS 14.1 | The minimum IOS version that will be required for the project |
 | macOS | The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions |
 | Mnemonic | The device that uses patterns of letters, associations to assist users to remember a specific feature and its functionality |
+| Mobile Application (myJym) | The application that will be used to allow communication/digital connection between the user and personal trainer. It will also hold the data and information about the equipment available through QR codes |
+| Modal Income | Is the income amount that divides the population into two groups, half having the income above average and the other half below the average|
 | Name | The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand |
 | Parallel Operation | The ability of an application to run in parallel to other applications without getting in their way or being interrupted by them |
+| Personal Trainer | Personal Trainers are individuals with a certification stating they are competent in working out safely and efficiently |
+| Personal Trainer Certificate | A document clarifying that the personal trainer has achieved a level of competency for delivering safe and effective exercise programs and techniques |
 | Physical/mental considerations | Considerations that pertain to the physical and mental health of the application |
 | Primary memory | Memory utilized by the app on the individual devices |
 | Profile | A personalized account created by the user that will be associated with them and required to utilize the app |
@@ -216,10 +223,12 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | Signal Handshake Protocols | How the app interacts securely with other applications and the internet |
 | Source | A specific reference for the research and citation purpose to avoid plagiarism |
 | Specification number | For the purpose of organization feature within the SRS documentation |
-| Trainers | Individuals that work in conjunction with the app to provide a means of providing feedback and encouraging users with workout goals. Trainers will use the app as a way of communicating with the users | 
+| Trainers | Individuals that work in conjunction with the app to provide a means of providing feedback and encouraging users with workout goals. Trainers will use the app as a way of communicating with the users |
+| Trainee | A person of the public. They will attend the gym to use the equipment and will be connected to the equipment details and personal trainers through the app | 
 | Users | Clients that will use the app to progress with their training and receive help and support from trainers |
 | Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
 | Working camera | camera capable of taking clear photos |
+| Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
 
 
 ## References
