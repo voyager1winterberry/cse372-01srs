@@ -103,7 +103,7 @@ The myJym app is to help people at all levels of experience feel confident using
 | User Group       | Trainee       |
 | -------------    | ------------  |
 | User Profile | This User group will be using the myJym application to connect to a personal trainer, as well as obtain information on workout equipment and techniques. The Trainee will have to register on the myJym application and have time available to meet with a Personal Trainer, learn workout equipment and routines, and have an open mind to learn |
-| **Demographic Criteria** |
+| ***Demographic Criteria*** |
 | Age | 18 - 70 |
 | Income | Modal income |
 | Education | All forms of education|
