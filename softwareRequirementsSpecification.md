@@ -167,21 +167,21 @@ Some of the limitations of interfacing with other applications would be teh lice
 The project sponsor would like to track calories of the user. This could require the use of a smart watch or fitness tracker which not everyone will have. Bluetooth would be used to connect the devices; Bluetooth could cause problems for less tech savvy users and Bluetooth connections can have issues at times.
 #### 1.3.4.5 Audit Functions <a name="1.3.4.5-audit-functions" />
 Bug report tool/ user feedback. We may not get relevant data from the user feedback, and we will need a team of people to handle user feedback.
-#### 1.3.4.5 Control Functions <a name="1.3.4.5-control-functions" />
+#### 1.3.4.6 Control Functions <a name="1.3.4.6-control-functions" />
 The skills and knowledge of the student developers will limit how well the control functions of the app are written and used.
-#### 1.3.4.6 Higher-Order Language Requirements <a name="1.3.4.6-higher-order-language-requirements" />
+#### 1.3.4.7 Higher-Order Language Requirements <a name="1.3.4.7-higher-order-language-requirements" />
 Since this is a mobile application two different apps need to be written, one for android and one for apple. This will require the use of Kotlin and Swift so the developers will need to learn or know at least one of these languages. This could also cause problems in ensuring that the apps are the same. A way to get around this would be to use a web app.
-#### 1.3.4.7 Signal Handshake Protocols <a name="1.3.4.7-signal-handshake-protocols" />
+#### 1.3.4.8 Signal Handshake Protocols <a name="1.3.4.8-signal-handshake-protocols" />
 Finding people who have knowledge of single handshake protocols will be a challenge.
-#### 1.3.4.8 Quality Requirements (e.g. reliability) <a name="1.3.4.8-quality-requirements" />
+#### 1.3.4.9 Quality Requirements (e.g. reliability) <a name="1.3.4.9-quality-requirements" />
 The app needs to be easily accessible, needs to be efficient process and handling data. Lack of experience could result in reduced quality.
-#### 1.3.4.9 Criticality of the Application <a name="1.3.4.9-criticality-of-the-application" />
+#### 1.3.4.10 Criticality of the Application <a name="1.3.4.10-criticality-of-the-application" />
 Most of the app is dependent upon personal trainers and YouTube. If either of these fail it could cause major problems in the app.
-#### 1.3.4.10 Safety and Security Considerations <a name="1.3.4.10-safety-and-security-considerations" />
+#### 1.3.4.11 Safety and Security Considerations <a name="1.3.4.11-safety-and-security-considerations" />
 We need to protect user data, especially if the app stores payment information. We will have to find someone who can work on security.
-#### 1.3.4.11 Physical/Mental Considerations <a name="1.3.4.11-physical/mental-considerations" />
+#### 1.3.4.12 Physical/Mental Considerations <a name="1.3.4.12-physical/mental-considerations" />
 We will need to consider the physical limitations of the person using the app. We will need to include a liability waiver in the terms and conditions.
-#### 1.3.4.12 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface <a name="1.3.4.12-could-this-heading-get-any-longer-who-came-up-with-this" />
+#### 1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface <a name="1.3.4.13-could-this-heading-get-any-longer-who-came-up-with-this" />
 The limitations of YouTube and whichever messaging service we decide to use will apply to the app.
 
 ## 1.4 Definitions: <a name="1.4-definitions" />
