@@ -16,15 +16,15 @@
     * [1.3.4.1 Regulatory Requirements and Policies](#1.3.4.1-regulatory-requirements-and-policies)
     * [1.3.4.2 Hardware Limitations](#1.3.4.2-hardware-limitations)
     * [1.3.4.3 Interfaces to Other Applications](#1.3.4.3-interfaces-to-other-applications)
-    * [1.3.4.4 Parallel Operation](1.3.4.4-parallel-operation)
+    * [1.3.4.4 Parallel Operation](#1.3.4.4-parallel-operation)
     * [1.3.4.5 Audit Functions](#1.3.4.5-audit-functions)
     * [1.3.4.6 Control Functions](#1.3.4.6-control-functions) 
     * [1.3.4.7 Higher-order Language Requirements](#1.3.4.7-higher-order-language-requirements)
     * [1.3.4.8 Signal Handshake Protocols](#1.3.4.8-signal-handshake-protocols)
-    * [1.3.4.9 Quality Requirements](#1.3.4.8-quality-requirements)
-    * [1.3.4.10 Criticality of the Application](#criticality-of-the-application)
+    * [1.3.4.9 Quality Requirements](#1.3.4.9-quality-requirements)
+    * [1.3.4.10 Criticality of the Application](#1.3.4.10-criticality-of-the-application)
     * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
-    * [1.3.4.12 Physical/Mental Considerations](*1.3.4.12-physical/mental-considerations)
+    * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
     * [1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface](#1.3.4.13-could-this-heading-get-any-longer-who-came-up-with-this)
 * [References](#references)
 
@@ -114,7 +114,7 @@ The myJym app is to help people at all levels of experience feel confident using
 - Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
 - Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
 
-### 1.3.3 User Characteristics <a name="1.3.3-user-scenarios" />
+### 1.3.3 User Characteristics <a name="1.3.3-user-characteristics" />
 
 | ***User Group***       | ***Trainee***       |
 | -------------    | ------------  |
