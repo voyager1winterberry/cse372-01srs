@@ -25,7 +25,8 @@
     * [1.3.4.10 Criticality of the Application](#criticality-of-the-application)
     * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
     * [1.3.4.12 Physical/Mental Considerations](*1.3.4.12-physical/mental-considerations)
-    * [1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface](#1.3.4.13-limitations-that-are-sourced-from-other-systems,-including-real-time-requirements-from-the-controlled-system-through-interface)
+    * [1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface](#1.3.4.13-could-this-heading-get-any-longer-who-came-up-with-this)
+* [References](#references)
 
     <br>
 
@@ -168,22 +169,22 @@ The project sponsor would like to track calories of the user. This could require
 Bug report tool/ user feedback. We may not get relevant data from the user feedback, and we will need a team of people to handle user feedback.
 #### 1.3.4.5 Control Functions <a name="1.3.4.5-control-functions" />
 The skills and knowledge of the student developers will limit how well the control functions of the app are written and used.
-#### 1.3.4.6 Higher-Order Language Requirements
+#### 1.3.4.6 Higher-Order Language Requirements <a name="1.3.4.6-higher-order-language-requirements" />
 Since this is a mobile application two different apps need to be written, one for android and one for apple. This will require the use of Kotlin and Swift so the developers will need to learn or know at least one of these languages. This could also cause problems in ensuring that the apps are the same. A way to get around this would be to use a web app.
-#### 1.3.4.7 Signal Handshake Protocols
+#### 1.3.4.7 Signal Handshake Protocols <a name="1.3.4.7-signal-handshake-protocols" />
 Finding people who have knowledge of single handshake protocols will be a challenge.
-#### 1.3.4.8 Quality Requirements (e.g. reliability)
+#### 1.3.4.8 Quality Requirements (e.g. reliability) <a name="1.3.4.8-quality-requirements" />
 The app needs to be easily accessible, needs to be efficient process and handling data. Lack of experience could result in reduced quality.
-#### 1.3.4.9 Criticality of the Application
+#### 1.3.4.9 Criticality of the Application <a name="1.3.4.9-criticality-of-the-application" />
 Most of the app is dependent upon personal trainers and YouTube. If either of these fail it could cause major problems in the app.
-#### 1.3.4.10 Safety and Security Considerations
+#### 1.3.4.10 Safety and Security Considerations <a name="1.3.4.10-safety-and-security-considerations" />
 We need to protect user data, especially if the app stores payment information. We will have to find someone who can work on security.
-#### 1.3.4.11 Physical/Mental Considerations
+#### 1.3.4.11 Physical/Mental Considerations <a name="1.3.4.11-physical/mental-considerations" />
 We will need to consider the physical limitations of the person using the app. We will need to include a liability waiver in the terms and conditions.
-#### 1.3.4.12 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface
+#### 1.3.4.12 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface <a name="1.3.4.12-could-this-heading-get-any-longer-who-came-up-with-this" />
 The limitations of YouTube and whichever messaging service we decide to use will apply to the app.
 
-## 1.4 Definitions:
+## 1.4 Definitions: <a name="1.4-definitions" />
 
 | Word   |  Definition |
 | ------ | -------     |
@@ -231,7 +232,7 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
 
 
-## References
+## References <a name="references" />
 * [1] S.R.O., Eccam. “Example Software Requirements Specification (SRS) | ReqView Documentation.” ReqView, 2018, www.reqview.com/doc/iso-iec-ieee-29148-srs-example.
 
 * [2] IIEEE, " 29148-2018 - ISO/IEC/IEEE International Standard - Systems and software engineering -- Life cycle processes -- Requirements engineering " pp. 56-87, Jul. 2018. [Online] Available: https://ieeexplore-ieee-org.byui.idm.oclc.org/document/8559686 
