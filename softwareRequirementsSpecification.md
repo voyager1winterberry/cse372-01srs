@@ -99,17 +99,31 @@ The myJym app is to help people at all levels of experience feel confident using
 - Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
 
 ### 1.3.3 User Characteristics
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text | 
 
-| User Groups      |               |
+###### User Groups
+
 | ----------       | ------------- |
 | User Group       | Trainee       |
-| User Profile | This User group will be using the myJym application to connect to a personal trainer, as well as obtain information on workout equipment and techniques. The Trainee will have to register on the myJym application and have time available to meet with a Personal Trainer, learn workout equipment and routines, and have an open mind to learn. |
-| Demographic Criteria |           |
-| ------------------   | --------  |
+| -------------    | ------------  |
+| User Profile | This User group will be using the myJym application to connect to a personal trainer, as well as obtain information on workout equipment and techniques. The Trainee will have to register on the myJym application and have time available to meet with a Personal Trainer, learn workout equipment and routines, and have an open mind to learn |
+| Demographic Criteria            |
+| ------------------------------- |
+| Age | 18 - 70 |
+| Income | Modal income |
+| Education | All forms of education|
+| Geography | Cities with public gyms and access to personal trainers locally |
+| City Size | Large enough city with access to gyms and trainers |
+| Disabilities | Many workouts require the user to be a fully functional adult |
+| Gender | Any gender |
+| Technical Expertise | Competent, able to navigate through most applications |
+| Psychographic Criteria |
+| ---------------------- |
+| Information Availability and Content | Information availability is key information if the user wants to connect to the Personal Trainer. If user wants to understand gym equipment and make a workout routine, they need to have a time commitment. Simple information is required about the user like age, sex, and location, but no detailed information about the user is required |
+| Ease of Use | Users require and easy-to-use application, that can be operated with mobile devices |
+| Privacy and Security | Security, as well as user information security, need to be adequate. Though no strong security or privacy settings are applicable |
+| Graphic Style | Application appearance/graphics should be functional but most importantly readable, there should be no small fonts or distracting colors or images to allow easy use |
+| Fulfillment and reliability | Reliability is essential. The application should always be functional since the ability to constantly communicate between users and trainers should be available |
+
 
 ### 1.3.4 Limitations
 #### 1.3.4.1 Regulatory Requirements and Policies
