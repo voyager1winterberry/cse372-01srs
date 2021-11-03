@@ -98,8 +98,35 @@ The myJym app is to help people at all levels of experience feel confident using
 - Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
 - Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
 
-## Definitions
-## 1.4 Definitions
+### 1.3.4 Limitations
+#### 1.3.4.1 Regulatory Requirements and Policies
+HIPPA / GDPR - Restrictions on collecting personal information. Important to be transparent. Ensure that personal information does not have to be given to operate, only given voluntarily. Personal trainers need to be qualified and licensed.
+#### 1.3.4.2 Hardware Limitations (e.g. signal timing requirements)
+Hardware requirements are a camera, internet access, and a mobile device. Development limitations are the fact that it is a school project, so computers and coding software will have to be provided by the developers and the school.
+#### 1.3.4.3 Interfaces to Other Applications
+Some of the limitations of interfacing with other applications would be teh licensing of a third-party video service and a third-party messaging service. The video service might also run ads, this hurt the user experience. The messaging service could require the user to create an account, this could deter some users from using the app.
+#### 1.3.4.4 Parallel Operation
+The project sponsor would like to track calories of the user. This could require the use of a smart watch or fitness tracker which not everyone will have. Bluetooth would be used to connect the devices; Bluetooth could cause problems for less tech savvy users and Bluetooth connections can have issues at times.
+#### 1.3.4.5 Audit Functions
+Bug report tool/ user feedback. We may not get relevant data from the user feedback, and we will need a team of people to handle user feedback.
+#### 1.3.4.5 Control Functions
+The skills and knowledge of the student developers will limit how well the control functions of the app are written and used.
+#### 1.3.4.6 Higher-Order Language Requirements
+Since this is a mobile application two different apps need to be written, one for android and one for apple. This will require the use of Kotlin and Swift so the developers will need to learn or know at least one of these languages. This could also cause problems in ensuring that the apps are the same. A way to get around this would be to use a web app.
+#### 1.3.4.7 Signal Handshake Protocols
+Finding people who have knowledge of single handshake protocols will be a challenge.
+#### 1.3.4.8 Quality Requirements (e.g. reliability)
+The app needs to be easily accessible, needs to be efficient process and handling data. Lack of experience could result in reduced quality.
+#### 1.3.4.9 Criticality of the Application
+Most of the app is dependent upon personal trainers and YouTube. If either of these fail it could cause major problems in the app.
+#### 1.3.4.10 Safety and Security Considerations
+We need to protect user data, especially if the app stores payment information. We will have to find someone who can work on security.
+#### 1.3.4.11 Physical/Mental Considerations
+We will need to consider the physical limitations of the person using the app. We will need to include a liability waiver in the terms and conditions.
+#### 1.3.4.12 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface
+The limitations of YouTube and whichever messaging service we decide to use will apply to the app.
+
+## 1.4 Definitions:
 
 | Word   |  Definition |
 |------- | -------     |
