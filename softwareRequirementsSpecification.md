@@ -98,6 +98,19 @@ The myJym app is to help people at all levels of experience feel confident using
 - Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
 - Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
 
+### 1.3.3 User Characteristics
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text | 
+
+| User Groups      |               |
+| ----------       | ------------- |
+| User Group       | Trainee       |
+| User Profile | This User group will be using the myJym application to connect to a personal trainer, as well as obtain information on workout equipment and techniques. The Trainee will have to register on the myJym application and have time available to meet with a Personal Trainer, learn workout equipment and routines, and have an open mind to learn. |
+| Demographic Criteria |           |
+| ------------------   | --------  |
+
 ### 1.3.4 Limitations
 #### 1.3.4.1 Regulatory Requirements and Policies
 HIPPA / GDPR - Restrictions on collecting personal information. Important to be transparent. Ensure that personal information does not have to be given to operate, only given voluntarily. Personal trainers need to be qualified and licensed.
