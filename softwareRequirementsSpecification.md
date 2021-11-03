@@ -1,8 +1,8 @@
 # myJym Software Requirements Specification
 
 ## Table of Contents
-[1.0 Purpose](#1.0-purpose)
-[1.1 Scope](#1.1-scope)
+* [1.0 Purpose](#<a name="1.0-purpose" />)
+* [1.1 Scope](#1.1-scope)
     * [1.1.1 Included Core Features](#1.1.1-included-core-features) 
     * [1.1.2 Possible Features](#1.1.2-possible-features)
     * [1.1.3 Excluded Features](#1.1.3-excluded-features)
