@@ -100,9 +100,8 @@ The myJym app is to help people at all levels of experience feel confident using
 
 ### 1.3.3 User Characteristics
 
-###### User Groups
+#### User Groups
 
-| ----------       | ------------- |
 | User Group       | Trainee       |
 | -------------    | ------------  |
 | User Profile | This User group will be using the myJym application to connect to a personal trainer, as well as obtain information on workout equipment and techniques. The Trainee will have to register on the myJym application and have time available to meet with a Personal Trainer, learn workout equipment and routines, and have an open mind to learn |
@@ -123,6 +122,28 @@ The myJym app is to help people at all levels of experience feel confident using
 | Privacy and Security | Security, as well as user information security, need to be adequate. Though no strong security or privacy settings are applicable |
 | Graphic Style | Application appearance/graphics should be functional but most importantly readable, there should be no small fonts or distracting colors or images to allow easy use |
 | Fulfillment and reliability | Reliability is essential. The application should always be functional since the ability to constantly communicate between users and trainers should be available |
+
+| User Group | Personal Trainer |
+|------------- | ---------------- |
+| User Profile | This Personal Trainer group will be using the myJym application to connect to trainees, as well as obtain information on available equipment and trainees looking for a personal trainer. The Personal Trainer will have to register on the myJym application, and have time available to meet with a trainee, and have a clear understanding of equipment and techniques, and able to teach and make a workout routine for the trainee |
+| Demographic Criteria |
+| -------------------- |
+| Age | 18 - 50 |
+| Income | Modal income |
+| Education | Personal Trainer Certificate |
+| Geography | Cities with public gyms and access to personal trainers locally |
+| City Size | Large enough city with access to gyms |
+| Disabilities | Many workouts require the user to be a fully functional adult |
+| Gender | Any Gender |
+| Technical Expertise | Competent, able to navigate through most applications |
+| Psychographic Criteria |
+| ---------------------- |
+| Information Availability and Content | Information availability is key information if the user wants to connect to the Personal Trainer. The trainer should have a public profile on the myJym application which displays the trainer's availability and method of teaching, but no detailed information about the user is required |
+| Ease of Use | Users require and easy-to-use application that can be operated with mobile devices |
+| Privacy and Security | Security, as well as user information security, need to be adequate. Though no strong security or privacy settings are applicable |
+| Graphic Style | App appearance/graphics should be functional but most importantly readable, there should be no small fonts or distracting colors or images to allow easy use |
+| Fulfillment and reliability | Reliability is essential, the application should be always functional since ability to constantly communicate between users and trainers should be available |
+
 
 
 ### 1.3.4 Limitations
