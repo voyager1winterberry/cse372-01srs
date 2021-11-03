@@ -14,14 +14,14 @@
 * [1.3.3 User Characteristics](#1.3.3-user-characteristics)
 * [1.3.4 Limitations](#1.3.4-limitations)
     * [1.3.4.1 Regulatory Requirements and Policies](#1.3.4.1-regulatory-requirements-and-policies)
-    * [1.3.4.2 Hardware Limitations](#1.3.4.2-hardware-limitations-(e.g.-signal-timing-requirements))
+    * [1.3.4.2 Hardware Limitations](#1.3.4.2-hardware-limitations)
     * [1.3.4.3 Interfaces to Other Applications](#1.3.4.3-interfaces-to-other-applications)
     * [1.3.4.4 Parallel Operation](1.3.4.4-parallel-operation)
     * [1.3.4.5 Audit Functions](#1.3.4.5-audit-functions)
     * [1.3.4.6 Control Functions](#1.3.4.6-control-functions) 
     * [1.3.4.7 Higher-order Language Requirements](#1.3.4.7-higher-order-language-requirements)
     * [1.3.4.8 Signal Handshake Protocols](#1.3.4.8-signal-handshake-protocols)
-    * [1.3.4.9 Quality Requirements](#1.3.4.8-quality-requirements-(e.g.-reliability))
+    * [1.3.4.9 Quality Requirements](#1.3.4.8-quality-requirements)
     * [1.3.4.10 Criticality of the Application](#criticality-of-the-application)
     * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
     * [1.3.4.12 Physical/Mental Considerations](*1.3.4.12-physical/mental-considerations)
@@ -32,8 +32,8 @@
 ## 1.0 Purpose <a name="1.0-purpose" />
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connects users to personal trainors.  Additional features include work out regiments, gym maps, and abbility to track fitness goals.
 
-## 1.1 Scope
-### 1.1.1 Included Core Features
+## 1.1 Scope <a name="1.1-scope" />
+### 1.1.1 Included Core Features <a name="1.1.1-included-core-features" />
 - Suggest workouts to user based on what user wants to do
 - Let user create or augment their own workouts
 - Track user workouts and progress
@@ -41,21 +41,21 @@ The myJym app is to help people at all levels of experience feel confident using
 - Connect users to trainors to get their advice on workouts
 - Gym will have QR codes to scan that will bring up information about how to use specific equipment
 
-### 1.1.2 Possible Features
+### 1.1.2 Possible Features <a name="1.1.2-possible-features" />
 - Map that shows location of specific equipment
 - Have social media aspect for trainors to get recognized
 
-### 1.1.3 Excluded Features
+### 1.1.3 Excluded Features <a name="1.1.3-excluded-features" />
 - Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
 - Not a video platform. Not supposet to have recorded workout videos to follow.
 
 
-### 1.3.1 Product Perspective
+### 1.3.1 Product Perspective <a name="1.3.1-product-perspective" />
 
-#### 1.3.1.1 System Interfaces
+#### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
 - The application will be running on the most recent **iOS** and **macOS**. It will also be connected with a database to store information.
 
-#### 1.3.1.2 User Interfaces
+#### 1.3.1.2 User Interfaces <a name="1.3.1.2-user-interfaces" />
 * The application **GUI** will include:
     - Interactive menus
     - Interactive buttons
@@ -68,21 +68,21 @@ The myJym app is to help people at all levels of experience feel confident using
     - Log In menu
     - Navigation bars
 
-#### 1.3.1.3 Hardware Interfaces
+#### 1.3.1.3 Hardware Interfaces <a name="1.3.1.3-hardware-interfaces" />
 * Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the ios and android devices are able to connect to the internet. Since the **app** will be a fitness app, the hardware will require **users** to have the feature of location tracking for personal coach and exercise equipment tutorial videos. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. 
 
-#### 1.3.1.4 Software Interfaces
+#### 1.3.1.4 Software Interfaces <a name="1.3.1.4-software-interfaces" />
 * Specify the use of other required software products.
     - Operating System: iOS and Android devices. 
     - Linkage: Users are allowed to sign up myJam with their existing social media or email accounts. (Facebook, Gmail, etc) 
 
-#### 1.3.1.5 Communications Interfaces
+#### 1.3.1.5 Communications Interfaces <a name="1.3.1.5-communications-interfaces" />
 * Communication interfaces shall include communication between the users and **trainers**, including a means of messaging within the app. Communication shall also include a means of communicating with myJym for issues or to receive help.
 
-#### 1.3.1.6 Memory
+#### 1.3.1.6 Memory <a name="1.3.1.6-memory" />
 * **Primary memory** shall be used to store the user’s data such as **profile** and user agreements. **Secondary memory** will not be utilized.
 
-#### 1.3.1.7 Operations
+#### 1.3.1.7 Operations <a name="1.3.1.7-operations" />
 * Operations by the user shall include:
     - Creating a profile upon first use of the app
     - Connect with trainers that can offer insight and assistance into the workout  schedule of the user
@@ -92,28 +92,28 @@ The myJym app is to help people at all levels of experience feel confident using
     - Receiving approval from myJym to contact and train users through an approval process
     -Connect with users through messaging and other means through the app to assist with training goals
 
-#### 1.3.1.8 Site Adaption Requirements
+#### 1.3.1.8 Site Adaption Requirements <a name="1.3.1.8-site-adaption-requirements" />
 * **Android**
 * **IOS**
 * Web application
 
-#### 1.3.1.9 Interfaces with Services
+#### 1.3.1.9 Interfaces with Services <a name="1.3.1.9-interfaces-with-services" />
 * (No knowledge of whether we plan to use cloud-based services or Saas)
 
-### 1.3.2 Product Functions
-#### 1.3.2.1 User Profiles:
+### 1.3.2 Product Functions <a name="1.3.2-product-functions" />
+#### 1.3.2.1 User Profiles <a name="1.3.2.1-user-profiles" />
  - A returned missionary attending BYU-Idaho, in their early twenties, has a busy schedule with work and a heavy course load.
  - A student in their junior year, also attending BYU-Idaho, in their early twenties, they enjoy playing football with their friends and family.
  - A new freshman, halfway through the semester wanting to lose weight, but unsure of where to start.
  - A couple that likes to spend time together by playing sports and working out.
 
-#### 1.3.2.2 User Scenarios:
+#### 1.3.2.2 User Scenarios <a name="1.3.2.2-user-scenarios" />
 - Only being able to attend the gym in the early morning, with no previous time to set a workout routine or research workout machines.
 - Brand new to exercising, there is a fear of feeling inadequate and confused in front of others, and a desire to be helped in a discreet way.
 - Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
 - Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
 
-### 1.3.3 User Characteristics
+### 1.3.3 User Characteristics <a name="1.3.3-user-scenarios" />
 
 | ***User Group***       | ***Trainee***       |
 | -------------    | ------------  |
@@ -155,18 +155,18 @@ The myJym app is to help people at all levels of experience feel confident using
 
 
 
-### 1.3.4 Limitations
-#### 1.3.4.1 Regulatory Requirements and Policies
+### 1.3.4 Limitations <a name="1.3.4-limitations" />
+#### 1.3.4.1 Regulatory Requirements and Policies <a name="1.3.4.1-regulatory-requirements-and-policies" />
 HIPPA / GDPR - Restrictions on collecting personal information. Important to be transparent. Ensure that personal information does not have to be given to operate, only given voluntarily. Personal trainers need to be qualified and licensed.
-#### 1.3.4.2 Hardware Limitations (e.g. signal timing requirements)
+#### 1.3.4.2 Hardware Limitations (e.g. signal timing requirements) <a name="1.3.4.2-hardware-limitations" />
 Hardware requirements are a camera, internet access, and a mobile device. Development limitations are the fact that it is a school project, so computers and coding software will have to be provided by the developers and the school.
-#### 1.3.4.3 Interfaces to Other Applications
+#### 1.3.4.3 Interfaces to Other Applications <a name="1.3.4.3-interfaces-to-other-applications" />
 Some of the limitations of interfacing with other applications would be teh licensing of a third-party video service and a third-party messaging service. The video service might also run ads, this hurt the user experience. The messaging service could require the user to create an account, this could deter some users from using the app.
-#### 1.3.4.4 Parallel Operation
+#### 1.3.4.4 Parallel Operation <a name="1.3.4.4-parallel-operation" />
 The project sponsor would like to track calories of the user. This could require the use of a smart watch or fitness tracker which not everyone will have. Bluetooth would be used to connect the devices; Bluetooth could cause problems for less tech savvy users and Bluetooth connections can have issues at times.
-#### 1.3.4.5 Audit Functions
+#### 1.3.4.5 Audit Functions <a name="1.3.4.5-audit-functions" />
 Bug report tool/ user feedback. We may not get relevant data from the user feedback, and we will need a team of people to handle user feedback.
-#### 1.3.4.5 Control Functions
+#### 1.3.4.5 Control Functions <a name="1.3.4.5-control-functions" />
 The skills and knowledge of the student developers will limit how well the control functions of the app are written and used.
 #### 1.3.4.6 Higher-Order Language Requirements
 Since this is a mobile application two different apps need to be written, one for android and one for apple. This will require the use of Kotlin and Swift so the developers will need to learn or know at least one of these languages. This could also cause problems in ensuring that the apps are the same. A way to get around this would be to use a web app.
