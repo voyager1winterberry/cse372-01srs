@@ -11,8 +11,23 @@
     * [1.3.1.2 User Interfaces](#1.3.1.2-user-interfaces)
     * [1.3.1.3 Hardware Interfaces](#1.3.1.3-hardware-interfaces)
     * [1.3.1.4 Software Interfaces](#1.3.1.4-software-interfaces)
-             
-<br>
+* [1.3.3 User Characteristics](#1.3.3-user-characteristics)
+* [1.3.4 Limitations](#1.3.4-limitations)
+    * [1.3.4.1 Regulatory Requirements and Policies](#1.3.4.1-regulatory-requirements-and-policies)
+    * [1.3.4.2 Hardware Limitations](#1.3.4.2-hardware-limitations-(e.g.-signal-timing-requirements))
+    * [1.3.4.3 Interfaces to Other Applications](#1.3.4.3-interfaces-to-other-applications)
+    * [1.3.4.4 Parallel Operation](1.3.4.4-parallel-operation)
+    * [1.3.4.5 Audit Functions](#1.3.4.5-audit-functions)
+    * [1.3.4.6 Control Functions](#1.3.4.6-control-functions) 
+    * [1.3.4.7 Higher-order Language Requirements](#1.3.4.7-higher-order-language-requirements)
+    * [1.3.4.8 Signal Handshake Protocols](#1.3.4.8-signal-handshake-protocols)
+    * [1.3.4.9 Quality Requirements](#1.3.4.8-quality-requirements-(e.g.-reliability))
+    * [1.3.4.10 Criticality of the Application](#criticality-of-the-application)
+    * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
+    * [1.3.4.12 Physical/Mental Considerations](*1.3.4.12-physical/mental-considerations)
+    * [1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface](#1.3.4.13-limitations-that-are-sourced-from-other-systems,-including-real-time-requirements-from-the-controlled-system-through-interface)
+
+    <br>
 
 ## 1.0 Purpose
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connects users to personal trainors.  Additional features include work out regiments, gym maps, and abbility to track fitness goals.
