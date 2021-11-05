@@ -192,6 +192,7 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | Android 11 | The minimum android version that will be required for the project |
 | Audit Functions | Functions of the application that allow for user feedback and error handling |
 | App | myJym mobile application |
+| Client | A gym-goer that uses the myJym app |
 | Control Functions | The interface with which the user will interact with and control the app |
 |Criticality of the Application:| Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
 | Equipment | The machines at the student gym |
