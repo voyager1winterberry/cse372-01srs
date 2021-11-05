@@ -15,4 +15,4 @@ Due to the word *client* being used in multiple places, and due to it representi
 
 The discrepancies found in the definitions section concerning the definitions of *client*, *user*, *personal trainer*, *trainer*, and *trainee* have now been resolved.
 
-A further note; if it is believed by general members of those included in the creation of this document that these new definitions are not true reflections of what the words ought to be, then it is suggested that the true representation of the word be used with consistency. See the way *user* is used in the second paragraph.
+A further note; if it is believed by general members of those included in the creation of this document that these new definitions are not true reflections of what the words ought to be, then it is suggested that the true representation of the word be used with consistency. See the way *user* and *trainer* is used in the second paragraph. 
