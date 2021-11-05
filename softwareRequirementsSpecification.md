@@ -6,6 +6,7 @@
     * [1.1.1 Included Core Features](#1.1.1-included-core-features) 
     * [1.1.2 Possible Features](#1.1.2-possible-features)
     * [1.1.3 Excluded Features](#1.1.3-excluded-features)
+* [1.3](#1.3)
 * [1.3.1 Product Perspective](#1.3.1-product-perspective)
     * [1.3.1.1 System Interfaces](#1.3.1.1-system-interfaces)
     * [1.3.1.2 User Interfaces](#1.3.1.2-user-interfaces)
@@ -50,6 +51,7 @@ The myJym app is to help people at all levels of experience feel confident using
 - Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
 - Not a video platform. Not supposet to have recorded workout videos to follow.
 
+## 1.3 <a name="1.3" />
 
 ### 1.3.1 Product Perspective <a name="1.3.1-product-perspective" />
 
@@ -192,7 +194,7 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | Android 11 | The minimum android version that will be required for the project |
 | Audit Functions | Functions of the application that allow for user feedback and error handling |
 | App | myJym mobile application |
-| Client | A gym-goer that uses the myJym app |
+| Client | see *user* |
 | Control Functions | The interface with which the user will interact with and control the app |
 |Criticality of the Application:| Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
 | Equipment | The machines at the student gym |
@@ -212,8 +214,8 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | Modal Income | Is the income amount that divides the population into two groups, half having the income above average and the other half below the average|
 | Name | The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand |
 | Parallel Operation | The ability of an application to run in parallel to other applications without getting in their way or being interrupted by them |
-| Personal Trainer | Personal Trainers are individuals with a certification stating they are competent in working out safely and efficiently |
-| Personal Trainer Certificate | A document clarifying that the personal trainer has achieved a level of competency for delivering safe and effective exercise programs and techniques |
+| Personal Trainer | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers assist clients. |
+| Personal Trainer Certificate | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers can assist clients, and can do so while working in conjunction with the myJym app |
 | Physical/mental considerations | Considerations that pertain to the physical and mental health of the application |
 | Primary memory | Memory utilized by the app on the individual devices |
 | Profile | A personalized account created by the user that will be associated with them and required to utilize the app |
@@ -225,9 +227,9 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | Signal Handshake Protocols | How the app interacts securely with other applications and the internet |
 | Source | A specific reference for the research and citation purpose to avoid plagiarism |
 | Specification number | For the purpose of organization feature within the SRS documentation |
-| Trainers | Individuals that work in conjunction with the app to provide a means of providing feedback and encouraging users with workout goals. Trainers will use the app as a way of communicating with the users |
-| Trainee | A person of the public. They will attend the gym to use the equipment and will be connected to the equipment details and personal trainers through the app | 
-| Users | Clients that will use the app to progress with their training and receive help and support from trainers |
+| Trainers | see *Personal Trainer* |
+| Trainee | see *user* | 
+| User | A person that uses the myJym app along with help from a personal trainer to progress with their training |
 | Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
 | Working camera | camera capable of taking clear photos |
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |

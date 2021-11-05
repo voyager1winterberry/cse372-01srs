@@ -1,6 +1,18 @@
 ### 11/4/2021
-Discrepancy between two definitions of "user." Two Definitions:
-* A personal trainer, an admin, or a trainee that attends the gym and uses myJym.
-* Clients that will use the app to progress with their training and receive help and support from trainers
-Decision is based on how the word is used throughout our documents. One way it is used is: "Allow users and trainers to archive (save and store) their data (goals, workouts, clients, etc..)" which makes users appear to be gym attendees.
-Solution: Use second definition, and include a definition of "client," being "a gym-goer that uses the myJym app"
+Discrepancy between two definitions of *user*, concerning the use of the word *client*, and concerning definitions of *personal trainer*, *trainer*, and "trainee." The two definitions of *user* are: "A personal trainer, an admin, or a trainee that attends the gym and uses myJym." Also: "Clients that will use the app to progress with their training and receive help and support from trainers."
+
+Decision on solutions is based on how the word is used throughout our documents rather than our own thoughts on the matter. One way it is used is: "Allow users and trainers to archive (save and store) their data (goals, workouts, clients, etc..)" which makes *users* appear to be gym attendees.
+
+ In respect to this, the solution is to change the definition of *user* to "A person that uses the myJym app along with help from a personal trainer to progress with their training."
+
+Personal Trainer definition will then be changed to reflect their purpose which is to assist the users. Old personal trainer definition: "Personal Trainers are individuals with a certification stating they are competent in working out safely and efficiently." New definition of personal trainer: "Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers can assist clients, and can do so while working in conjunction with the myJym app."
+
+With this, another discrepancy is brought to light, being the two definitions for personal trainers and trainers, which refer to the same people, but do not have the same definition. The definition for trainer will be changed. Old definition: "Individuals that work in conjunction with the app to provide a means of providing feedback and encouraging users with workout goals. Trainers will use the app as a way of communicating with the users." What shall be put in its place: "see *Personal Trainer*." Part of the old definition of Trainer will be placed in the definition of Personal Trainer, the definition being mentioned previously.
+
+Looking further at the definitions, there is a definition for *trainee* that represent the same thing as a *user*. *Trainee* will be changed to "see *user*" from the old definition of "A person of the public. They will attend the gym to use the equipment and will be connected to the equipment details and personal trainers through the app." In reality, *trainee* could perhaps be a general person that receives training from a personal trainer, with or without the myJym app, but considering the definition that was put in place, it is a redundant representation of the word *user* and does not require another definition. 
+
+Due to the word *client* being used in multiple places, and due to it representing this same thing as a *user*, it will be added to the definition list and contain the following: "see *user*"
+
+The discrepancies found in the definitions section concerning the definitions of *client*, *user*, *personal trainer*, *trainer*, and *trainee* have now been resolved.
+
+A further note; if it is believed by general members of those included in the creation of this document that these new definitions are not true reflections of what the words ought to be, then it is suggested that the true representation of the word be used with consistency. See the way *user* is used in the second paragraph.
