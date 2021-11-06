@@ -24,3 +24,6 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 * Each subsection should be added to the table of contents.
 * Used to quickly jump to sub headers within document.
 * Syntax: [Description of link] + (#section-name)
+
+### Writing Style Recommendation:
+Use the word 'shall' when appropriate. For example, "The application shall only accept input within appropriate parameters."
