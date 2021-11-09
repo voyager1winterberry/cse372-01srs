@@ -234,6 +234,47 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | Working camera | camera capable of taking clear photos |
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
 
+## 3.0 System Requirements <a name="3.0-system-requirements" />
+### 3.1 External Interfaces <a name="3.1-external-interfaces" />
+#### 3.1.1 Gym Map Interfaces <a name="3.1.1-gym-map-interfaces" />
+   * Description of Purpose: Provide a map of the Gym that shows the various utilities and workout equipment available. This will show the user where they could go for each activity they may wish to fulfill inside of the gym.
+   * Inputs and Outputs: Input gym location and outputs location of gym equiment and services.
+   * Tolerance: Accurate to within tolerance of phone GPS using the following units of measure:
+   1. Metric - Scale in meters.
+   1. Imperial - Scale in yards.
+   * Timing: Able to load under 4G data specs.
+   * Input/Output Relationships: Workout Creation - Aware of equipment placement in the gym.
+   * Data Formats:
+   1. JSON
+   1. PNG
+   * Data Items
+   1. Gym Map (PNG)
+   1. Equipment Tiles (PNG)
+   1. Service Locations (JSON)
+   
+### 3.2 Functions <a name="3.2-functions" />
+#### 3.2.1 Gym Map Functions <a name="3.2.1-gym-map-functions" />
+   * Input Validity Checks: 
+   1. Check the location of the user/device with myJym installed.
+   2. Check the location of the gym relative to the user.
+   3. Dispaly locations of gym equipment and distance from the user.
+   * Exact Sequence of Operations: 1.	The user opens the app on their device. The app has an option to show the map of the gym area. The user opens this access, and by zooming in and out while moving the map around as needed, the different machine options are displayed with popup small detailed information. The user follows the areas on the map and is guided to the machine they desire to use.
+   * Responses to abnormal situations:
+   1. overflow – the map will need to be refreshed
+   2. communication facilities - the map will need to be refreshed
+   3. hardware faults and failures - the map will need to be refreshed
+   4. error handling and recovery – the map will need to be refreshed
+   * Effect of Parameters: The parameters of the myJym app will be defined by the user’s location. The map will show only the machines of the gym they are in.
+   * Relationship of Outputs to Inputs: 
+   1. input/output sequences – The user’s location will be input, the map will be outputted or displayed to the screen with locations of machines and details.
+   2. formulas for input to output conversion - geolocation of the user vs the gym’s machines
+
+### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
+#### 3.3.1 Gym Map Usability Requirements <a name="3.3.1-gym-map-usability-requirements" />
+   The myJym system map displays the location of machines in the gym. These machines are shown in relation to each other and to the user. This should be done through geolocation services through the QR codes so that it will be accurate. It will track the user as they move around, and will allow them to see details of the various machines around them.
+   
+
+
 
 ## References <a name="references" />
 * [1] S.R.O., Eccam. “Example Software Requirements Specification (SRS) | ReqView Documentation.” ReqView, 2018, www.reqview.com/doc/iso-iec-ieee-29148-srs-example.
