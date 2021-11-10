@@ -29,6 +29,7 @@
     * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
     * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
     * [1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface](#1.3.4.13-could-this-heading-get-any-longer-who-came-up-with-this)
+    * [3.?? Workout Creation](#3.??-workout-creation)
 * [References](#references)
 
     <br>
@@ -61,7 +62,7 @@ The myJym app is to help people at all levels of experience feel confident using
 ### 1.2.2 What Will the Software Product Do <a name="1.2.2-what-will-the-software-product-do" />
 - The product, the myJym app, will assist users in creating workouts, working out and connecting with trainers.
 
-    <br>
+     <br>
 
 ## 1.3 <a name="1.3" />
 
@@ -284,9 +285,59 @@ The limitations of YouTube and whichever messaging service we decide to use will
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
 #### 3.3.1 Gym Map Usability Requirements <a name="3.3.1-gym-map-usability-requirements" />
    The myJym system map displays the location of machines in the gym. These machines are shown in relation to each other and to the user. This should be done through geolocation services through the QR codes so that it will be accurate. It will track the user as they move around, and will allow them to see details of the various machines around them.
-   
+
+## 3.?? Workout Creation <a name="3.??-workout-creation" />
+The ability to let general users create their own workouts, find premade workouts or view previously saved workouts.
+
+#### **Create Workout from Scratch**
+- Allows user to create a new customized workout from scratch.
+
+Once the user clicks "workouts" from the home page, it shall take them to a previously saved workout page.
+
+On the previously saved workout page the user shall be able to click any of the saved workouts within the list.
+
+When the user clicks on a saved workout it shall have a pop-up prompt the user to edit the current workout or immediately begin the workout.
+
+When the user clicks "begin workout" it shall launch the "begin workout" page.
+
+When the user click "edit" the pop up shall take them to the "create workout" page.
+
+The "create workout" page shall be populated by the selected workout.
 
 
+On the "saved workout" page there shall be a plus symbol button in the bottom corner of the screen.
+
+When the user clicks on the plus button, they shall be presented with a pop up that will give them the option to create their own workout or search previously made workouts from other users.
+
+If the user clicks the "search" button, it shall direct them to a search page that will have a search bar at the top with a button on the side labeled "tags."
+
+If the user clicks the "search" bar, they shall be allowed to input any number of characters to search for other users with published workouts.
+
+When the user inputs their search criteria, the search bar shall populate based on found users and those users published workouts.
+
+If the user clicks on a workout made by another user, they shall be directed to the "create workout" page where they can edit or save the selected workout.
+
+If the user clicks on the "tags" button they shall be prompted with a list of tags that can filter search results.
+
+These tags shall include, "trainers", "premade", "exercise type", and "difficulty." (Trainers tag will limit results to only verified trainers. The premade tag will limit results to only the premade workouts that come with the app. The exercise type tag will take them to a second list that will let them further specify singular or multiple workout types that will limit results to only the selected workout types. Finally, the difficulty tab will direct the user to a second list that will let them specify a singular or multiple difficulty levels that will limit results to that specified difficulty.)
+
+
+When the user clicks "create workout" button will create a pop up that displays two touchable buttons that say "search for workout" or "create my own".
+
+When the user clicks on "create my own" they will be taken to a page that gives them the option to add segments of a workout.
+
+When the user selects to add a workout segment, they shall be able to pick a body part to focus on.
+
+Once the user selects a body part, they shall be able to pick what type of related workout they want to do for selected body part or they may input their own workout name as a string.
+
+Once the user has selected the preferred workout, they shall assign an integer value to the sets and repetitions fields.
+
+- Validity Check: check that input for reps and sets are only an integer. They shall not be less than zero or more than 999.
+
+- Usability Requirements: User must have a working phone that can run the myJym app and user cannot store more than 100 workouts.
+
+- Performance Requirements: The number of simultaneous users when creating a workout is one.  There should not be more than one user adding to a workout.  95% of transactions should be done in under 1 second. (This may vary based on user's device.) The other 5% of transactions may vary based on user's internet signal.
+    <br><br/>
 
 ## References <a name="references" />
 * [1] S.R.O., Eccam. “Example Software Requirements Specification (SRS) | ReqView Documentation.” ReqView, 2018, www.reqview.com/doc/iso-iec-ieee-29148-srs-example.
