@@ -47,7 +47,6 @@ The myJym app is to help people at all levels of experience feel confident using
 - Gym Map showing locations of workout equipment and services in the gym.
 
 ### 1.1.2 Possible Features <a name="1.1.2-possible-features" />
-- Map that shows location of specific equipment
 - Have social media aspect for trainors to get recognized
 
 ### 1.1.3 Excluded Features <a name="1.1.3-excluded-features" />
