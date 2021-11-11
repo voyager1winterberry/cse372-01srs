@@ -44,6 +44,7 @@ The myJym app is to help people at all levels of experience feel confident using
 - Store user profile information
 - Connect users to trainors to get their advice on workouts
 - Gym will have QR codes to scan that will bring up information about how to use specific equipment
+- Gym Map showing locations of workout equipment and services in the gym.
 
 ### 1.1.2 Possible Features <a name="1.1.2-possible-features" />
 - Map that shows location of specific equipment
