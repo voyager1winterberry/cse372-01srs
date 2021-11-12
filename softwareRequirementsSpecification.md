@@ -285,6 +285,17 @@ Define all inputs and outputs from the software system. The description should c
 | Relationships to other inputs/outputs | The user shall input their current weight and height. They shall also input their desired goals (weight, BMI, calories burned, etc.) The app and calorie tracking device shall input all the other information that pertains to the user fitness goals. Shall output all the users desired goals and tracking information on one page. |
 | Data Formats | We shall use a list of goals and a graph to display the user's goals and their progress |
 | Command Formats | We shall have an input form where the user puts in his/her goals and where they can also provide his/her current weight and height. |
+
+| ***Progress Bar*** | |
+| --- | --- |
+| Description of purpose | The progress bar shall track the user’s progress throughout the duration of the workout and specific exercises. |
+| Source of input or destination of output | The output shall be displayed on each specific exercise video page. |
+| Valid range, accuracy and/or tolerance | The accuracy of the progress bar shall be based on the number of sets or the number of exercises per the corresponding exercise or workout. |
+| Units of measure | This shall either be measured in periods of time or by calories burned if you have a smart watch. |
+| Timing | The timing shall be based on the duration of the exercise, workout, or set or the number of calories. |
+| Relationships to other inputs/outputs | The progress bar shall be related to the workout videos and possibly a calorie tracker. |
+| Data formats | We shall use an animated "progress bar" for this. |
+| Command formats | The user shall see a popup for connecting to a health tracker device the first time the user accesses a screen with a progress bar. |
    
 ### 3.2 Functions <a name="3.2-functions" />
 #### 3.2.1 Gym Map Functions <a name="3.2.1-gym-map-functions" />
