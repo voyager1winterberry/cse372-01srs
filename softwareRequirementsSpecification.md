@@ -275,7 +275,7 @@ The limitations of YouTube and whichever messaging service we decide to use will
    1. Service Locations (JSON)
 ### 3.1.2 Progress Tracking Interfaces <a name="3.1.2-progress-tracking-interfaces" />
 Define all inputs and outputs from the software system. The description should complement the interface descriptions in 9.6.4.1 through 9.6.4.5 and should not repeat information there. Each interface defined should include the following content:
-| Goal Tracking| |
+| Goal Tracking|
 | Description of purpose | Goal tracking shall Enable the user to keep track of their progress using goals. These goals can include lift weights, burning calories, body measurements, BMI, and weight. |
 | Source of input or destination of output | Source of input shall be the user, a calorie tracking app, and lift weights from the workout tracking part of the app. The destination of our output will be on a goals screen. |
 | Valid range, accuracy and/or tolerance | The accuracy for weight shall have to accommodate all possible human weights to and round to hundredth. For lift weight it shall include all possible lift weights for humans and round to the tenth. Calorie goals shall be shown with whole numbers only and go up 50,000. The body measurements shall include all possible body measurements in inches. The BMI shall be displayed in standard BMI format. |
