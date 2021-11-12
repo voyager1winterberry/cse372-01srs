@@ -32,7 +32,7 @@
 * [3.0 System Requirements](#3.0-system-requirements) 
 * [3.1 External Interfaces](#3.1-external-interfaces)
     * [3.1.1 Gym Map Interfaces](#3.1.1-gym-map-interfaces)
-    * [3.1.2 Progress Tracking Interfaces] [//]: # "Team 5's work" 
+    * [3.1.2 Progress Tracking Interfaces] <!-- "Team 5's work" --> 
 * [3.2 Functions](#3.2-functions)
     * [3.2.1 Gym Map Functions](#3.2.1-gym-map-functions)
 * [3.3 Usability Requirements](#3.3-usability-requirements)
