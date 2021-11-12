@@ -39,12 +39,12 @@
 * [3.?? Workout Creation](#3.??-workout-creation)
 * [References](#references)
 
-    <br>
+<br>
 
 ## 1.1 Purpose <a name="1.1-purpose" />
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainors.  Additional features include work out regiments, gym maps, and abbility to track fitness goals.
 
-    <br>
+<br>
 
 ## 1.2 Scope <a name="1.2-scope" />
 ### 1.2.1 Products to be Produced <a name="1.2.1-proucts-to-be-produced" />
@@ -69,7 +69,7 @@ The myJym app is to help people at all levels of experience feel confident using
 - Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
 - Not a video platform. Not supposet to have recorded workout videos to follow.
 
-     <br>
+<br>
 
 ## 1.3 <a name="1.3" />
 
