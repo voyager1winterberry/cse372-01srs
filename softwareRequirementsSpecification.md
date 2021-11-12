@@ -33,7 +33,7 @@
     * [3.1 External Interfaces](#3.1-external-interfaces)
         * [3.1.1 Gym Map Interfaces](#3.1.1-gym-map-interfaces)
     * [3.2 Functions](#3.2-functions)
-        * [3.2.1 Gym Map Functions](3.2.1-gym-map-functions)
+        * [3.2.1 Gym Map Functions](#3.2.1-gym-map-functions)
     * [3.3 Usability Requirements](#3.3.1-usability-requirements)
         * [3.3.1 Gym Map Usability Requirements](#3.3.1-gym-map-usability-requirements)
 * [3.?? Workout Creation](#3.??-workout-creation)
