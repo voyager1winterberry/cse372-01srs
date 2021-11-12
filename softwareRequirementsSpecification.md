@@ -283,8 +283,8 @@ Define all inputs and outputs from the software system. The description should c
 | Units of measure | Shall use the imperial system while the app is distributed in US markets only. If it is distributed internationally in shall also have an option to use the metric system. |
 | Timing | Shall use days, weeks, or months depending on the user’s goal. |
 | Relationships to other inputs/outputs | The user shall input their current weight and height. They shall also input their desired goals (weight, BMI, calories burned, etc.) The app and calorie tracking device shall input all the other information that pertains to the user fitness goals. Shall output all the users desired goals and tracking information on one page. |
-| Data Formats | We shall use a list of goals and a graph to display the user's goals and their progress |
-| Command Formats | We shall have an input form where the user puts in his/her goals and where they can also provide his/her current weight and height. |
+| Data formats | We shall use a list of goals and a graph to display the user's goals and their progress |
+| Command formats | We shall have an input form where the user puts in his/her goals and where they can also provide his/her current weight and height. |
 
 | ***Progress Bar*** | |
 | --- | --- |
