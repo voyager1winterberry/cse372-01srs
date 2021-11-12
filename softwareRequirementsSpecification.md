@@ -29,7 +29,14 @@
     * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
     * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
     * [1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface](#1.3.4.13-could-this-heading-get-any-longer-who-came-up-with-this)
-    * [3.?? Workout Creation](#3.??-workout-creation)
+* [3.0 System Requirements](#3.0-system-requirements) 
+    * [3.1 External Interfaces](#3.1-external-interfaces)
+        * [3.1.1 Gym Map Interfaces](#3.1.1-gym-map-interfaces)
+    * [3.2 Functions](#3.2-functions)
+        * [3.2.1 Gym Map Functions](#3.2.1-gym-map-functions)
+    * [3.3 Usability Requirements](#3.3-usability-requirements)
+        * [3.3.1 Gym Map Usability Requirements](#3.3.1-gym-map-usability-requirements)
+* [3.?? Workout Creation](#3.??-workout-creation)
 * [References](#references)
 
     <br>
