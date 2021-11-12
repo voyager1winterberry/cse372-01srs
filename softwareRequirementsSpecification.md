@@ -2,12 +2,12 @@
 
 ## Table of Contents
 * [1.1 Purpose](#1.1-purpose)
-    * [1.2.1 Included Core Features](#1.1.1-included-core-features) 
-    * [1.2.2 Possible Features](#1.1.2-possible-features)
-    * [1.2.3 Excluded Features](#1.1.3-excluded-features)
 * [1.2 Scope](#1.2-scope)
     * [1.2.1 Products to be Produced](#1.2.1-products-to-be-produced)
     * [1.2.2 What Will the Software Product Do](#1.2.2-what-will-the-software-product-do)
+    * [1.2.3 Included Core Features](#1.2.3-included-core-features) 
+    * [1.2.4 Possible Features](#1.2.4-possible-features)
+    * [1.2.5 Excluded Features](#1.2.5-excluded-features)
 * [1.3](#1.3)
 * [1.3.1 Product Perspective](#1.3.1-product-perspective)
     * [1.3.1.1 System Interfaces](#1.3.1.1-system-interfaces)
@@ -37,22 +37,6 @@
 ## 1.1 Purpose <a name="1.1-purpose" />
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainors.  Additional features include work out regiments, gym maps, and abbility to track fitness goals.
 
-### 1.1.1 Included Core Features <a name="1.1.1-included-core-features" />
-- Suggest workouts to user based on what user wants to do
-- Let user create or augment their own workouts
-- Track user workouts and progress
-- Store user profile information
-- Connect users to trainors to get their advice on workouts
-- Gym will have QR codes to scan that will bring up information about how to use specific equipment
-- Gym Map showing locations of workout equipment and services in the gym.
-
-### 1.1.2 Possible Features <a name="1.1.2-possible-features" />
-- Have social media aspect for trainors to get recognized
-
-### 1.1.3 Excluded Features <a name="1.1.3-excluded-features" />
-- Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
-- Not a video platform. Not supposet to have recorded workout videos to follow.
-
     <br>
 
 ## 1.2 Scope <a name="1.2-scope" />
@@ -61,6 +45,22 @@ The myJym app is to help people at all levels of experience feel confident using
 
 ### 1.2.2 What Will the Software Product Do <a name="1.2.2-what-will-the-software-product-do" />
 - The product, the myJym app, will assist users in creating workouts, working out and connecting with trainers.
+
+### 1.2.3 Included Core Features <a name="1.2.3-included-core-features" />
+- Suggest workouts to user based on what user wants to do
+- Let user create or augment their own workouts
+- Track user workouts and progress
+- Store user profile information
+- Connect users to trainors to get their advice on workouts
+- Gym will have QR codes to scan that will bring up information about how to use specific equipment
+- Gym Map showing locations of workout equipment and services in the gym.
+
+### 1.2.4 Possible Features <a name="1.2.4-possible-features" />
+- Have social media aspect for trainors to get recognized
+
+### 1.2.5 Excluded Features <a name="1.2.5-excluded-features" />
+- Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
+- Not a video platform. Not supposet to have recorded workout videos to follow.
 
      <br>
 
