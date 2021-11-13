@@ -333,7 +333,7 @@ Define all inputs and outputs from the software system. The description should c
    * Relationship of Outputs to Inputs: 
    1. input/output sequences – The user’s location will be input, the map will be outputted or displayed to the screen with locations of machines and details.
    2. formulas for input to output conversion - geolocation of the user vs the gym’s machines
-#### 3.2.2 Progress Tracking Functions <a name="3.2.2-progress-tracking-functions /> <!-- team 5's work -->
+#### 3.2.2 Progress Tracking Functions <a name="3.2.2-progress-tracking-functions" /> <!-- team 5's work -->
 | Goal Tracking | |
 | --- | --- |
 | Validity checks on the inputs | The app shall display notifications when it has gathered new information about you. |
