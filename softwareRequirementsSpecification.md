@@ -32,11 +32,11 @@
 * [3.0 System Requirements](#3.0-system-requirements) 
 * [3.1 External Interfaces](#3.1-external-interfaces)
     * [3.1.1 Gym Map Interfaces](#3.1.1-gym-map-interfaces)
-    * [3.1.2 Progress Tracking Interfaces] <!-- "Team 5's work" -->
+    * [3.1.2 Progress Tracking Interfaces](#3.1.2-progress-tracking-interfaces) <!-- Team 5's work -->
     * [3.1.3] <!--  Team 3's work -->
 * [3.2 Functions](#3.2-functions)
     * [3.2.1 Gym Map Functions](#3.2.1-gym-map-functions)
-    * [3.2.2 Progress Tracking Functions](#3.2.2-progress-tracking-functions)
+    * [3.2.2 Progress Tracking Functions](#3.2.2-progress-tracking-functions) <!-- team 5's work -->
 * [3.3 Usability Requirements](#3.3-usability-requirements)
     * [3.3.1 Gym Map Usability Requirements](#3.3.1-gym-map-usability-requirements)
 * [3.?? Workout Creation](#3.??-workout-creation)
@@ -326,6 +326,20 @@ Define all inputs and outputs from the software system. The description should c
    1. input/output sequences – The user’s location will be input, the map will be outputted or displayed to the screen with locations of machines and details.
    2. formulas for input to output conversion - geolocation of the user vs the gym’s machines
 #### 3.2.2 Progress Tracking Functions <a name="3.2.2-progress-tracking-functions /> <!-- team 5's work -->
+| Goal Tracking | |
+| --- | --- |
+| Validity checks on the inputs | The app shall display notifications when it has gathered new information about you. |
+| Exact sequence of operations | Shall open goal view page to see progress of goals |
+| Responses to abnormal situations | ***Overflow***: The app shall stop current operation and revert to home screen. Log of errors will be kept and sent to developers. ***Communication facilities***: shall be able to interact with other users in the app to share and compete in workouts. ***hardware faults and failures***: The app shall stop current operation and revert to hoe screen. Log of errors will be kept and sent to developers. ***Error handling and recovery***: The app shall stop current operation and revert to home screen. Log of errors will be kept and sent to developers. |
+| Effect of parameters | Shall be limited to the parameters of the gym and no workouts outside of it. |
+| Relationship of outputs to inputs | ***input/output sequences***: shall have the option to record user input and make it available as a readable item later in a graph format. ***formulas for input to output converstion***: shall have a computing method to show what the status of the user's input has become over time.
+
+| Progress Bar | |
+| --- | --- |
+| Validity checks on the inputs | There shall be checks that ensure that the time of the video that affects the progress bar is accurate |
+| Exact sequence of operations | User shall open the app -> shall open the exercise video tab -> shall set up calorie tracking input device (optional) -> shall play the video/begin tracking. |
+| Responses to abnormal situations | ***overflow***: The app shall stop the progress bar operation. Log of errors will be kept and sent to developers and a data overflow notification will be shown to the user. ***communication facilities***: N/A. ***Hardware faults and failures***: The app shall stop current operation and revert to home screen. Log of the error will be kept and sent to developers. ***Error handling and recover***: The app shall stop progress bar operation. Log of errors will be kept and sent to developers and an error message will be shown to the user. |
+
 
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
 #### 3.3.1 Gym Map Usability Requirements <a name="3.3.1-gym-map-usability-requirements" />
