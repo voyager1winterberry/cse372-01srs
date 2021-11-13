@@ -1,9 +1,7 @@
-<span align="center">
 myJym Software Requirements Specification
 =========================================
 <br><br><br><br>
 ### Authors
-</span>
 
 <div>
     <div style="column-count:3">
