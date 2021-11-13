@@ -3,20 +3,11 @@ myJym Software Requirements Specification
 
 ### Authors
 
-**Team 1**
-
-**Team 2**
-
-**Team 3**
-
-**Team 4**
-
-**Team 5**
-Roberts, Russell
-Collins, Daniel
-Pitcher, Jeffrey
-Mencl, Justyn
-Michael, Jackson
+<div>
+    <div style="column-count:3">
+        Ales, Grant; Collins, Grant; Crowson, Avery; Dean, Joshua; Elzinga, Jacob; Hedgecock, Marcus; Hoyt, Devan; Hsu, Wei; Huang, Jason; Jackson, Michael; LeSueur, Whitney; Lofgran, Rachel; Mencl, Justyn; Pitcher, Jeffrey Thomas; Powell, Hunter; Richards, Olivia; Roberts, Russell; Stapley, Collette; Warner, Spencer; Whittier, Aaron
+    </div>
+</div>
 
 
 
