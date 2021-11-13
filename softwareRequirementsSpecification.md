@@ -39,6 +39,7 @@
     * [3.2.2 Progress Tracking Functions](#3.2.2-progress-tracking-functions) <!-- team 5's work -->
 * [3.3 Usability Requirements](#3.3-usability-requirements)
     * [3.3.1 Gym Map Usability Requirements](#3.3.1-gym-map-usability-requirements)
+    * [3.3.2 Progress Tracking Usability Requirements](#3.3.2-progress-tracking-usability-requirements) <!-- team 5's work -->
 * [3.?? Workout Creation](#3.??-workout-creation)
 * [References](#references)
 
@@ -355,6 +356,11 @@ Define all inputs and outputs from the software system. The description should c
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
 #### 3.3.1 Gym Map Usability Requirements <a name="3.3.1-gym-map-usability-requirements" />
    The myJym system map displays the location of machines in the gym. These machines are shown in relation to each other and to the user. This should be done through geolocation services through the QR codes so that it will be accurate. It will track the user as they move around, and will allow them to see details of the various machines around them.
+#### 3.3.2 Progress Tracking Usability Requirements <a name="3.3.2-progress-tracking-usability-requirements" /> <!-- team 5's work -->
+Define usability and quality in use requirements and objectives for the software system that can include:
+* ***Measurable effectiveness***: Shall measure changes in the user over time, including their weight used in various exercises, body weight, and BMI. Users will be able to view their progress. Shall measure how long users continue using the application. 
+* ***Efficiency satisfaction criteria***: Shall measure the changes in progress against an expected rate of growth with a margin of error (plus or minus). 
+* ***Avoidance of harm that could arise from use in specific contexts of use***: Shall include disclaimer to inform users of potential dangers and encourage their personal accountability to stay safe. The disclaimer is also meant to help avoid lawsuits, which shall keep stakeholders safe. Videos featured in application shall have narration meant to accurately explain how to do exercise safely. Text shall include talk about safety pitfalls. 
 
 ## 3.?? Workout Creation <a name="3.??-workout-creation" />
 The ability to let general users create their own workouts, find premade workouts or view previously saved workouts.
