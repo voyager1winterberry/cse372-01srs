@@ -1,6 +1,32 @@
 myJym Software Requirements Specification
 =========================================
 
+### Authors
+
+**Team 1**
+
+**Team 2**
+
+**Team 3**
+
+**Team 4**
+
+**Team 5**
+Roberts, Russell
+Collins, Daniel
+Pitcher, Jeffrey
+Mencl, Justyn
+Michael, Jackson
+
+
+
+
+
+
+
+
+
+
 ## Table of Contents
 * [1.1 Purpose](#1.1-purpose)
 * [1.2 Scope](#1.2-scope)
