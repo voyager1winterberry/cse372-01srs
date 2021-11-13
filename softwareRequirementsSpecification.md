@@ -342,6 +342,15 @@ Define all inputs and outputs from the software system. The description should c
 | Effect of parameters | The time stamp of a video or the number of calories burned shall affect what the progress bar will show. If the app is only partnered with certain gyms, the user shall want to limit the progress bar feature to when the user is in the gym, but this is optional. |
 | Relationship of outputs to inputs | ***Input/output sequences***: Shall show the user a growing progress bar as more input is put in reference to th e current workout ***formulas for input to output conversion***: Shall convert the number of reps or sets into sections on the progress bar. Shall convert calories and video time into progress. |
 
+| Workout Tracking | |
+| --- | --- |
+| Validity checks on the input | The app shall compare inputs against previous inputs and a valid range. |
+| Exact sequence of operations | After a set of any workout, the application shall prompt the user for input concerning their set. |
+| Responses to abnormal situations | ***overflow***: Shall re-prompt for input. Shall send log of error to developers. ***communication facilities***: Shall only be in sync with the types of machines and activities present in the gym the app data is synced with. ***hardware faults and failures***: Shall cleanup of problems and re-prompt for input. Shall send log of error to developers. ***error handling and recovery***: Shall stop operation. Shall re-prompt for input. Shall send log of error to developers. |
+| Effect of parameters | Shall be limited to the location the gym the user is working out in. |
+| Relationship of outputs to inputs | ***input/output sequences***: Shall only show what the user what the progress is for the workouts done in the gym. ***Formulas for input to output conversion***: Shall compute a history for proper tracking of each workout and times in the past when more completion was done. |
+* It may be appropriate to partition the functional requirements into sub-functions or sub-processes. This does not imply that the software design will also be partitioned that way. 
+
 
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
 #### 3.3.1 Gym Map Usability Requirements <a name="3.3.1-gym-map-usability-requirements" />
