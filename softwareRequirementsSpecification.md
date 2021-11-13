@@ -9,14 +9,7 @@ myJym Software Requirements Specification
     </div>
 </div>
 
-
-
-
-
-
-
-
-
+<br><br><br><br><br><br><br><br>
 
 ## Table of Contents
 * [1.1 Purpose](#1.1-purpose)
