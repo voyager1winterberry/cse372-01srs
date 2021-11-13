@@ -339,6 +339,8 @@ Define all inputs and outputs from the software system. The description should c
 | Validity checks on the inputs | There shall be checks that ensure that the time of the video that affects the progress bar is accurate |
 | Exact sequence of operations | User shall open the app -> shall open the exercise video tab -> shall set up calorie tracking input device (optional) -> shall play the video/begin tracking. |
 | Responses to abnormal situations | ***overflow***: The app shall stop the progress bar operation. Log of errors will be kept and sent to developers and a data overflow notification will be shown to the user. ***communication facilities***: N/A. ***Hardware faults and failures***: The app shall stop current operation and revert to home screen. Log of the error will be kept and sent to developers. ***Error handling and recover***: The app shall stop progress bar operation. Log of errors will be kept and sent to developers and an error message will be shown to the user. |
+| Effect of parameters | The time stamp of a video or the number of calories burned shall affect what the progress bar will show. If the app is only partnered with certain gyms, the user shall want to limit the progress bar feature to when the user is in the gym, but this is optional. |
+| Relationship of outputs to inputs | ***Input/output sequences***: Shall show the user a growing progress bar as more input is put in reference to th e current workout ***formulas for input to output conversion***: Shall convert the number of reps or sets into sections on the progress bar. Shall convert calories and video time into progress. |
 
 
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
