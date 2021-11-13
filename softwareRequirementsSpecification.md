@@ -36,6 +36,7 @@
     * [3.1.3] <!--  Team 3's work -->
 * [3.2 Functions](#3.2-functions)
     * [3.2.1 Gym Map Functions](#3.2.1-gym-map-functions)
+    * [3.2.2 Progress Tracking Functions](#3.2.2-progress-tracking-functions)
 * [3.3 Usability Requirements](#3.3-usability-requirements)
     * [3.3.1 Gym Map Usability Requirements](#3.3.1-gym-map-usability-requirements)
 * [3.?? Workout Creation](#3.??-workout-creation)
@@ -273,7 +274,7 @@ The limitations of YouTube and whichever messaging service we decide to use will
    1. Gym Map (PNG)
    1. Equipment Tiles (PNG)
    1. Service Locations (JSON)
-### 3.1.2 Progress Tracking Interfaces <a name="3.1.2-progress-tracking-interfaces" />
+### 3.1.2 Progress Tracking Interfaces <a name="3.1.2-progress-tracking-interfaces" /> <!-- team 5's work-->
 Define all inputs and outputs from the software system. The description should complement the interface descriptions in 9.6.4.1 through 9.6.4.5 and should not repeat information there. Each interface defined should include the following content:
 | ***Goal Tracking*** | |
 | --- | --- |
@@ -296,6 +297,17 @@ Define all inputs and outputs from the software system. The description should c
 | Relationships to other inputs/outputs | The progress bar shall be related to the workout videos and possibly a calorie tracker. |
 | Data formats | We shall use an animated "progress bar" for this. |
 | Command formats | The user shall see a popup for connecting to a health tracker device the first time the user accesses a screen with a progress bar. |
+
+| ***Workout Tracking*** | |
+| --- | --- |
+| Description of purpose | Shall track the exercise types, amounts, and weights. |
+| Source of input or destination of output | Input shall come from the user. |
+| Valid range, accuracy and/or tolerance | The app shall detect erroneous inputs, or inputs that are significantly different than previous inputs. The app shall re-prompt for input in the event of an erroneous input. |
+| Unit of measure | Weights shall be measured in the imperial system, and the exercises shall be measured by the number of reps and sets. |
+| Timing | The tracking shall be entered in after every set to ensure that numbers are accurately recorded. |
+| Relationships to other inputs/outputs | The tracker shall transmit its data to the screen to display |
+| Data formats | A table shall display data to the user. |
+| Command formats | The application shall prompt for input after each set. |
    
 ### 3.2 Functions <a name="3.2-functions" />
 #### 3.2.1 Gym Map Functions <a name="3.2.1-gym-map-functions" />
@@ -313,6 +325,7 @@ Define all inputs and outputs from the software system. The description should c
    * Relationship of Outputs to Inputs: 
    1. input/output sequences – The user’s location will be input, the map will be outputted or displayed to the screen with locations of machines and details.
    2. formulas for input to output conversion - geolocation of the user vs the gym’s machines
+#### 3.2.2 Progress Tracking Functions <a name="3.2.2-progress-tracking-functions /> <!-- team 5's work -->
 
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
 #### 3.3.1 Gym Map Usability Requirements <a name="3.3.1-gym-map-usability-requirements" />
