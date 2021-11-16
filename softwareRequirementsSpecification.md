@@ -39,7 +39,7 @@ myJym Software Requirements Specification
         * [1.3.4.10 Criticality of the Application](#1.3.4.10-criticality-of-the-application)
         * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
         * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
-        * [1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface](#1.3.4.13-could-this-heading-get-any-longer-who-came-up-with-this)
+        * [1.3.4.13 External System Limitations](#1.3.4.13-external-system-limitations)
 * [3.0 System Requirements](#3.0-system-requirements) 
 * [3.1 External Interfaces](#3.1-external-interfaces)
     * [3.1.1 Gym Map Interfaces](#3.1.1-gym-map-interfaces)
@@ -222,7 +222,7 @@ Most of the app is dependent upon personal trainers and YouTube. If either of th
 We need to protect user data, especially if the app stores payment information. We will have to find someone who can work on security.
 #### 1.3.4.12 Physical/Mental Considerations <a name="1.3.4.12-physical/mental-considerations" />
 We will need to consider the physical limitations of the person using the app. We will need to include a liability waiver in the terms and conditions.
-#### 1.3.4.13 Limitations That Are Sourced From Other Systems, Including Real-time Requirements From the Controlled System Through Interface <a name="1.3.4.13-could-this-heading-get-any-longer-who-came-up-with-this" />
+#### 1.3.4.13 External System Limitations <a name="1.3.4.13-external-system-limitations" />
 The limitations of YouTube and whichever messaging service we decide to use will apply to the app.
 
 ## 1.4 Definitions: <a name="1.4-definitions" />
