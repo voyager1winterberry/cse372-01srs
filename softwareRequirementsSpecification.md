@@ -319,20 +319,13 @@ Define all inputs and outputs from the software system. The description should c
    
 ### 3.2 Functions <a name="3.2-functions" />
 #### 3.2.1 Gym Map Functions <a name="3.2.1-gym-map-functions" />
-   * Input Validity Checks: 
-   1. Check the location of the user/device with myJym installed.
-   2. Check the location of the gym relative to the user.
-   3. Dispaly locations of gym equipment and distance from the user.
-   * Exact Sequence of Operations: 1.	The user opens the app on their device. The app has an option to show the map of the gym area. The user opens this access, and by zooming in and out while moving the map around as needed, the different machine options are displayed with popup small detailed information. The user follows the areas on the map and is guided to the machine they desire to use.
-   * Responses to abnormal situations:
-   1. overflow – the map will need to be refreshed
-   2. communication facilities - the map will need to be refreshed
-   3. hardware faults and failures - the map will need to be refreshed
-   4. error handling and recovery – the map will need to be refreshed
-   * Effect of Parameters: The parameters of the myJym app will be defined by the user’s location. The map will show only the machines of the gym they are in.
-   * Relationship of Outputs to Inputs: 
-   1. input/output sequences – The user’s location will be input, the map will be outputted or displayed to the screen with locations of machines and details.
-   2. formulas for input to output conversion - geolocation of the user vs the gym’s machines
+| Gym Map                                      |                                                                                                                                                                                                                                                                                                                                                                                                |
+|----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Validity Checks on the Inputs                | The app shall verify the location of gym equipment.                                                                                                                                                                                                                                                                                                                                            |
+| Exact Sequence of Operations                 | Shall open a scrollable map able to display the gym services.                                                                                                                                                                                                                                                                                                                                  |
+| Response to Abnormal Situations              | ***Overflow***: The map will stop and refresh. ***Communication Facilities***: The map will provide access to service links. ***Hardware Faults and Failures***: The map will close and reopen, sending an error log to the developers. ***Error Handling and Recovery***: The app shall stop current operation and revert to home screen. Log of errors will be kept and sent to developers.  |
+| Effect of Parameters                         | Limited to the workout machines, services, and floor plan of the gym.                                                                                                                                                                                                                                                                                                                          |
+| Relationship of Inputs to Outputs Conversion | Shall handle input of a JSON object to translate into the gym map.                                                                                                                                                                                                                                                                                                                             |
 #### 3.2.2 Progress Tracking Functions <a name="3.2.2-progress-tracking-functions" /> <!-- team 5's work -->
 | Goal Tracking | |
 | --- | --- |
