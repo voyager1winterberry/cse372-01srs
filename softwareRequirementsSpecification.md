@@ -1,7 +1,6 @@
 myJym Software Requirements Specification
 =========================================
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-### Authors
+<br><br><br><br><br><br><br>
 
 | Authors:     |                  |                   |                         |                  |
 |-------------------|------------------|-------------------|-------------------------|------------------|
