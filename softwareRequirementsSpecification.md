@@ -79,7 +79,8 @@ The myJym app is to help people at all levels of experience feel confident using
 - Gym Map <!-- showing locations of workout equipment and services in the gym. -->
 
 <!-- login page (external interface) /these were discussed in class and should be added to core features/ -->
-<!--  -->
+<!-- home page MyJym (external interface) sub interfaces -->
+   <!-- my trainer, my workout, my videos, gym map, -->
 
 ### 1.2.4 Possible Features <a name="1.2.4-possible-features" />
 - Have a social media aspect for trainers to get recognized.
