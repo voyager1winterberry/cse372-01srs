@@ -45,7 +45,7 @@ myJym Software Requirements Specification
 * [3.1 External Interfaces](#3.1-external-interfaces)
     * [3.1.1 Gym Map Interfaces](#3.1.1-gym-map-interfaces)
     * [3.1.2 Progress Tracking Interfaces](#3.1.2-progress-tracking-interfaces) <!-- Team 5's work -->
-    * [3.1.3] <!--  Team 3's work -->
+    * [3.1.3 Exercise Instruction Interfaces](#3.1.3-exercise-instruction-interfaces) <!--  Team 3's work -->
 * [3.2 Functions](#3.2-functions)
     * [3.2.1 Gym Map Functions](#3.2.1-gym-map-functions)
     * [3.2.2 Progress Tracking Functions](#3.2.2-progress-tracking-functions) <!-- team 5's work -->
@@ -318,6 +318,14 @@ Define all inputs and outputs from the software system. The description should c
 | Data formats | A table shall display data to the user. |
 | Command formats | The application shall prompt for input after each set. |
    
+#### 3.1.3 Exercise Instruction Interfaces <a name="3.1.3-exercise-instruction-interfaces" />
+
+MyJym provides training videos to serve as an example for exercises. The training videos provided are recommended on data that the user has inputted into myJym and will change based on the goal the user sets for themselves.
+
+***Database***
+
+***YouTube***
+
 ### 3.2 Functions <a name="3.2-functions" />
 This is how the myJym app will handled the processing of the needed inputs and how it creates and generates the needed outputs:
 #### 3.2.1 Gym Map Functions <a name="3.2.1-gym-map-functions" /> <!--Group 2-->
