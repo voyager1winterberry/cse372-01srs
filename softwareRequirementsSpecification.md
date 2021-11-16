@@ -1,9 +1,14 @@
 myJym Software Requirements Specification
 =========================================
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ### Authors
 
-Ales, Grant; Collins, Grant; Crowson, Avery; Dean, Joshua; Elzinga, Jacob; Hedgecock, Marcus; Hoyt, Devan; Hsu, Wei; Huang, Jason; Jackson, Michael; LeSueur, Whitney; Lofgran, Rachel; Mencl, Justyn; Pitcher, Jeffrey Thomas; Powell, Hunter; Richards, Olivia; Roberts, Russell; Stapley, Collette; Warner, Spencer; Whittier, Aaron
+| Authors:     |                  |                   |                         |                  |
+|-------------------|------------------|-------------------|-------------------------|------------------|
+| Ales, Grant       | Collins, Grant   | Crowson, Avery    | Dean, Joshua            | Elzinga, Jacob   |
+| Hedgecock, Marcus | Hoyt, Devan      | Hsu, Wei          | Huang, Jason            | Jackson, Michael |
+| LeSueur, Whitney  | Lofgran, Rachel  | Mencl, Justyn     | Pitcher, Jeffrey Thomas | Powell, Hunter   |
+| Richards, Olivia  | Roberts, Russell | Stapley, Collette | Warner, Spencer         | Whittier, Aaron  |
 
 <br><br><br>
 
