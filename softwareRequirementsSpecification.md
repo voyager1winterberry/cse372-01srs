@@ -323,8 +323,9 @@ Define all inputs and outputs from the software system. The description should c
 MyJym provides training videos to serve as an example for exercises. The training videos provided are recommended on data that the user has inputted into myJym and will change based on the goal the user sets for themselves.
 
 ***Database***
-
+The database will store account information for both users, trainers, and admins. As well as store information on workout instructions, plans, and techniques. This will also include video demonstrations how to perform workouts and use specific equipment. The database will also sore information on connected social media accounts and workout history. 
 ***YouTube***
+YouTube’s API will be used to allow trainers, users, and admins to share workout routines, specific exercises, and correct way to use gym equipment. 
 
 ### 3.2 Functions <a name="3.2-functions" />
 This is how the myJym app will handled the processing of the needed inputs and how it creates and generates the needed outputs:
