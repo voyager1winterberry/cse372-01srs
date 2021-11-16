@@ -82,9 +82,8 @@ The myJym app is to help people at all levels of experience feel confident using
 
 <br>
 
-## 1.3 <a name="1.3" />
-
-### 1.3.1 Product Perspective <a name="1.3.1-product-perspective" />
+### 1.3.1 Product Perspective <a name="1.3.1-product-perspective" /> <!-- Was this section never assigned to a team by the cop leads? (aaron) -->
+This section details the relationship of the myJym app to products that are simmilar or related to it. 
 
 #### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
 - The application will be running on the most recent **iOS** and **macOS**. It will also be connected with a database to store information.
@@ -190,6 +189,7 @@ The myJym app is to help people at all levels of experience feel confident using
 
 
 ### 1.3.4 Limitations <a name="1.3.4-limitations" />
+This section will focus on providing a general decription of of any aspect of project that could result in a supply or hardware restiction limitation.
 #### 1.3.4.1 Regulatory Requirements and Policies <a name="1.3.4.1-regulatory-requirements-and-policies" />
 HIPPA / GDPR - Restrictions on collecting personal information. Important to be transparent. Ensure that personal information does not have to be given to operate, only given voluntarily. Personal trainers need to be qualified and licensed.
 #### 1.3.4.2 Hardware Limitations (e.g. signal timing requirements) <a name="1.3.4.2-hardware-limitations" />
@@ -218,7 +218,7 @@ We will need to consider the physical limitations of the person using the app. W
 The limitations of YouTube and whichever messaging service we decide to use will apply to the app.
 
 ## 1.4 Definitions: <a name="1.4-definitions" />
-
+This is a comprehensive list of needed definitions used by the myJym application:
 | Word   |  Definition |
 | ------ | -------     |
 | Admin | The people that run the app. They will connect the user's location to the gym and create QR codes that can be scanned by the user |
@@ -269,7 +269,7 @@ The limitations of YouTube and whichever messaging service we decide to use will
 This section detaails the System Requirements of myJym. This will focus on the "software design, development and verification" for the application. 
 ### 3.1 External Interfaces <a name="3.1-external-interfaces" />
 The myGym application features various user facing interfaces. These are as follows:
-#### 3.1.1 Gym Map Interfaces <a name="3.1.1-gym-map-interfaces" />
+#### 3.1.1 Gym Map Interfaces <a name="3.1.1-gym-map-interfaces" /> <!-- Group 2 -->
 | Gym Map Interfaces                             |                                                                                                                                                                                                      |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description of Purpose                   | Provide a map of the Gym that shows the various utilities and workout equipment available. This will show the user where they could go for each activity they may wish to fulfill inside of the gym. |
@@ -314,6 +314,7 @@ Define all inputs and outputs from the software system. The description should c
 | Command formats | The application shall prompt for input after each set. |
    
 ### 3.2 Functions <a name="3.2-functions" />
+This is how the myJym app will handled the processing of the needed inputs and how it creates and generates the needed outputs:
 #### 3.2.1 Gym Map Functions <a name="3.2.1-gym-map-functions" /> <!--Group 2-->
 | Gym Map                                      |                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -350,6 +351,8 @@ Define all inputs and outputs from the software system. The description should c
 
 
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
+This seciton will define the usability requirements as well as the objectives of the software. It will detail how they can be measured and the various contextual use
+cases associated with them.
 #### 3.3.1 Gym Map Usability Requirements <a name="3.3.1-gym-map-usability-requirements" />
    The myJym system map displays the location of machines in the gym. These machines are shown in relation to each other and to the user. This should be done through geolocation services through the QR codes so that it will be accurate. It will track the user as they move around, and will allow them to see details of the various machines around them.
 #### 3.3.2 Progress Tracking Usability Requirements <a name="3.3.2-progress-tracking-usability-requirements" /> <!-- team 5's work -->
