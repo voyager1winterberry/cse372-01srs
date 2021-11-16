@@ -49,6 +49,7 @@ myJym Software Requirements Specification
 * [3.2 Functions](#3.2-functions)
     * [3.2.1 Gym Map Functions](#3.2.1-gym-map-functions)
     * [3.2.2 Progress Tracking Functions](#3.2.2-progress-tracking-functions) <!-- team 5's work -->
+    * [3.2.3 Exercise Instruction Interfaces](#3.2.3-exercise-instruction-interfaces)
 * [3.3 Usability Requirements](#3.3-usability-requirements)
     * [3.3.1 Gym Map Usability Requirements](#3.3.1-gym-map-usability-requirements)
     * [3.3.2 Progress Tracking Usability Requirements](#3.3.2-progress-tracking-usability-requirements) <!-- team 5's work -->
@@ -362,6 +363,10 @@ This is how the myJym app will handled the processing of the needed inputs and h
 | Effect of parameters | Shall be limited to the location the gym the user is working out in. |
 | Relationship of outputs to inputs | ***input/output sequences***: Shall only show what the user what the progress is for the workouts done in the gym. ***Formulas for input to output conversion***: Shall compute a history for proper tracking of each workout and times in the past when more completion was done. |
 * It may be appropriate to partition the functional requirements into sub-functions or sub-processes. This does not imply that the software design will also be partitioned that way. 
+
+#### 3.2.3 Exercise Interface Functions <a name="3.2.3-exercise-interface-functionality" />
+
+This section contains the requirements for MyJym application. These requirements are organized by the features declared in the document Scope. The features mentioned in the scope are then refined into requirements and details about the app’s appearance and its features.
 
 
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
