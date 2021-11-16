@@ -266,22 +266,18 @@ The limitations of YouTube and whichever messaging service we decide to use will
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
 
 ## 3.0 System Requirements <a name="3.0-system-requirements" />
+This section detaails the System Requirements of myJym. This will focus on the "software design, development and verification" for the application. 
 ### 3.1 External Interfaces <a name="3.1-external-interfaces" />
+The myGym application features various user facing interfaces. These are as follows:
 #### 3.1.1 Gym Map Interfaces <a name="3.1.1-gym-map-interfaces" />
-   * Description of Purpose: Provide a map of the Gym that shows the various utilities and workout equipment available. This will show the user where they could go for each activity they may wish to fulfill inside of the gym.
-   * Inputs and Outputs: Input gym location and outputs location of gym equiment and services.
-   * Tolerance: Accurate to within tolerance of phone GPS using the following units of measure:
-   1. Metric - Scale in meters.
-   1. Imperial - Scale in yards.
-   * Timing: Able to load under 4G data specs.
-   * Input/Output Relationships: Workout Creation - Aware of equipment placement in the gym.
-   * Data Formats:
-   1. JSON
-   1. PNG
-   * Data Items
-   1. Gym Map (PNG)
-   1. Equipment Tiles (PNG)
-   1. Service Locations (JSON)
+| Gym Map Interfaces                             |                                                                                                                                                                                                      |
+|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Description of Purpose                   | Provide a map of the Gym that shows the various utilities and workout equipment available. This will show the user where they could go for each activity they may wish to fulfill inside of the gym. |
+| Source of input or destination of output | Source of input shall be a JSON file storing the map layout. The output will be a screen organizing the PNG images in the JSON file onto the map display.                                            |
+| Valid range, accuracy and/or tolerance   | The accuracy of the map icons shall be within within 1 meter of the actual position in the gym.                                                                                                      |
+| Units of Measure                         | Shall use the imperial system while the app is distributed in US markets only. If it is distributed internationally in shall also have an option to use the metric system.                           |
+| Timing                                   | Shall meet requirements for the 4G phone data specification.                                                                                                                                         |
+| Data Formats                             | The gym map shall make use of a JSON object storing PNG images needed for the map.                                                                                                                   |
 ### 3.1.2 Progress Tracking Interfaces <a name="3.1.2-progress-tracking-interfaces" /> <!-- team 5's work-->
 Define all inputs and outputs from the software system. The description should complement the interface descriptions in 9.6.4.1 through 9.6.4.5 and should not repeat information there. Each interface defined should include the following content:
 | ***Goal Tracking*** | |
@@ -318,7 +314,7 @@ Define all inputs and outputs from the software system. The description should c
 | Command formats | The application shall prompt for input after each set. |
    
 ### 3.2 Functions <a name="3.2-functions" />
-#### 3.2.1 Gym Map Functions <a name="3.2.1-gym-map-functions" />
+#### 3.2.1 Gym Map Functions <a name="3.2.1-gym-map-functions" /> <!--Group 2-->
 | Gym Map                                      |                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Validity Checks on the Inputs                | The app shall verify the location of gym equipment.                                                                                                                                                                                                                                                                                                                                            |
