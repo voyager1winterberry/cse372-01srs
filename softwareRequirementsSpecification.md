@@ -1,6 +1,6 @@
 myJym Software Requirements Specification
 =========================================
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 ### Authors
 
 | Authors:     |                  |                   |                         |                  |
@@ -59,7 +59,7 @@ myJym Software Requirements Specification
 <br>
 
 ## 1.1 Purpose <a name="1.1-purpose" />
-The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainors.  Additional features include work out regiments, gym maps, and abbility to track fitness goals.
+The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainors.  Additional features include work out regiments, gym maps, and ability to track fitness goals.
 
 <br>
 
@@ -75,16 +75,19 @@ The myJym app is to help people at all levels of experience feel confident using
 - Let user create or augment their own workouts
 - Track user workouts and progress
 - Store user profile information
-- Connect users to trainors to get their advice on workouts
+- Connect users to trainers to get their advice on workouts
 - Gym will have QR codes to scan that will bring up information about how to use specific equipment
-- Gym Map showing locations of workout equipment and services in the gym.
+- Gym Map <!-- showing locations of workout equipment and services in the gym. -->
+
+<!-- login page (external interface) /these were discussed in class and should be added to core features/ -->
+<!--  -->
 
 ### 1.2.4 Possible Features <a name="1.2.4-possible-features" />
-- Have social media aspect for trainors to get recognized
+- Have a social media aspect for trainers to get recognized.
 
 ### 1.2.5 Excluded Features <a name="1.2.5-excluded-features" />
 - Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
-- Not a video platform. Not supposet to have recorded workout videos to follow.
+- Not a video platform. Not intended to have recorded workout videos to follow.
 
 <br>
 
@@ -92,7 +95,7 @@ The myJym app is to help people at all levels of experience feel confident using
 This section details the relationship of the myJym app to products that are simmilar or related to it. 
 
 #### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
-- The application will be running on the most recent **iOS** and **macOS**. It will also be connected with a database to store information.
+- The application will be running on the most recent **iOS** and **Android**. It will also be connected with a database to store information.
 
 #### 1.3.1.2 User Interfaces <a name="1.3.1.2-user-interfaces" />
 * The application **GUI** will include:
@@ -366,7 +369,7 @@ This is how the myJym app will handled the processing of the needed inputs and h
 
 #### 3.2.3 Exercise Interface Functions <a name="3.2.3-exercise-interface-functionality" />
 
-This section contains the requirements for MyJym application. These requirements are organized by the features declared in the document Scope. The features mentioned in the scope are then refined into requirements and details about the app’s appearance and its features.
+This section contains the requirements for MyJym application. These requirements are organized by the features declared in the document scope. The features mentioned in the scope are then refined into requirements and details about the app’s appearance and its features.
 
 
 ### 3.3 Usability Requirements <a name="3.3-usability-requirements" />
