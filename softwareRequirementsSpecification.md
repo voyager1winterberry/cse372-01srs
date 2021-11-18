@@ -383,6 +383,8 @@ Define usability and quality in use requirements and objectives for the software
 * ***Efficiency satisfaction criteria***: Shall measure the changes in progress against an expected rate of growth with a margin of error (plus or minus). 
 * ***Avoidance of harm that could arise from use in specific contexts of use***: Shall include disclaimer to inform users of potential dangers and encourage their personal accountability to stay safe. The disclaimer is also meant to help avoid lawsuits, which shall keep stakeholders safe. Videos featured in application shall have narration meant to accurately explain how to do exercise safely. Text shall include talk about safety pitfalls. 
 
+
+<!-- This section should be revised to fit under each of the subsections for section 3 -->
 ## 3.?? Workout Creation <a name="3.??-workout-creation" />
 The ability to let general users create their own workouts, find premade workouts or view previously saved workouts.
 
