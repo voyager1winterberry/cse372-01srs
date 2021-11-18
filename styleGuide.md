@@ -27,3 +27,11 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 
 ### Writing Style Recommendation:
 Use the word 'shall' when appropriate. For example, "The application shall only accept input within appropriate parameters."
+
+## Section 3
+We will order it based on feature. Meaning each group will be responsible for a feautre and do all 8 sections for that feature. Example of how that will work:
+- 3.x My Trainer
+- 3.1 Functions
+- Some blah blah about function requirements
+- 3.2 ...
+- Continue in a similar fashion for all 8 sections
