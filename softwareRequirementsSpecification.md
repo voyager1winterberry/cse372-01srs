@@ -395,7 +395,7 @@ Define usability and quality in use requirements and objectives for the software
 * ***Avoidance of harm that could arise from use in specific contexts of use***: Shall include disclaimer to inform users of potential dangers and encourage their personal accountability to stay safe. The disclaimer is also meant to help avoid lawsuits, which shall keep stakeholders safe. Videos featured in application shall have narration meant to accurately explain how to do exercise safely. Text shall include talk about safety pitfalls. 
 
 
-## My Workout <!-- team 4's stuff>
+## My Workout <!-- team 4's stuff-->
 W.3.0.2.1 The workout function shall have the ability to let users create their own workouts.
 
 W.3.0.2.2 The workout function shall have the ability to let users find premade workouts.
