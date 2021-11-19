@@ -95,20 +95,29 @@ The myJym app is to help people at all levels of experience feel confident using
 This section details the relationship of the myJym app to products that are simmilar or related to it. 
 
 #### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
-- The application will be running on the most recent **iOS** and **Android**. It will also be connected with a database to store information.
+- The application shall run on the most recent **iOS**. 
+- The application shall run on the most recent **macOS**.  
+- The application shall be connected to a database to store data.  
+- The application shall be using google authentication. 
 
 #### 1.3.1.2 User Interfaces <a name="1.3.1.2-user-interfaces" />
-* The application **GUI** will include:
-    - Interactive menus
-    - Interactive buttons
-    - In-app keyboards  
-    - Built-in messaging
-    - Video recording
-    - **Embedded videos**
-    - **Interactive Forms**
-    - Settings
-    - Log In menu
-    - Navigation bars
+* The application shall have a **GUI**.
+    - The GUI shall contain interactive buttons. 
+    - The GUI shall contain an onscreen keyboard. 
+    - The GUI shall contain a built-in messaging system. 
+    - The GUI shall contain a sign-in page. 
+    - The GUI shall contain a log in menu. 
+    - The GUI shall contain interactive forms. 
+    - The GUI shall contain a navigation bar. 
+    - The GUI shall contain a search bar. 
+    - The GUI shall contain a settings page. 
+    - The GUI shall contain hyperlinks to workout videos. 
+    - The GUI shall contain a find workout page. 
+    - The GUI shall contain a create workout page. 
+    - The GUI shall contain a my Gym page. 
+    - The my Gym page shall have a search for gym option. 
+    - The my Gym page shall have the option to see the home gym of user. 
+    - The my Gym page shall have a map of where equipment is in the gym. 
 
 #### 1.3.1.3 Hardware Interfaces <a name="1.3.1.3-hardware-interfaces" />
 * Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the ios and android devices are able to connect to the internet. Since the **app** will be a fitness app, the hardware will require **users** to have the feature of location tracking for personal coach and exercise equipment tutorial videos. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. 
@@ -116,10 +125,12 @@ This section details the relationship of the myJym app to products that are simm
 #### 1.3.1.4 Software Interfaces <a name="1.3.1.4-software-interfaces" />
 * Specify the use of other required software products.
     - Operating System: iOS and Android devices. 
-    - Linkage: Users are allowed to sign up myJam with their existing social media or email accounts. (Facebook, Gmail, etc) 
+    - Linkage: Users shall be allowed to sign up myJam with their existing social media email accounts. (Facebook, Gmail, etc.)  
 
 #### 1.3.1.5 Communications Interfaces <a name="1.3.1.5-communications-interfaces" />
-* Communication interfaces shall include communication between the users and **trainers**, including a means of messaging within the app. Communication shall also include a means of communicating with myJym for issues or to receive help.
+* Communication interfaces shall include communication between the users.
+* Communication interfaces shall include communication between the **trainers**, including a means of messaging within the app. 
+*Communication shall include a means of communicating with myJym to receive help.
 
 #### 1.3.1.6 Memory <a name="1.3.1.6-memory" />
 * **Primary memory** shall be used to store the user’s data such as **profile** and user agreements. **Secondary memory** will not be utilized.
