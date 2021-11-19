@@ -394,6 +394,7 @@ Define usability and quality in use requirements and objectives for the software
 * ***Efficiency satisfaction criteria***: Shall measure the changes in progress against an expected rate of growth with a margin of error (plus or minus). 
 * ***Avoidance of harm that could arise from use in specific contexts of use***: Shall include disclaimer to inform users of potential dangers and encourage their personal accountability to stay safe. The disclaimer is also meant to help avoid lawsuits, which shall keep stakeholders safe. Videos featured in application shall have narration meant to accurately explain how to do exercise safely. Text shall include talk about safety pitfalls. 
 
+<br>
 
 ## My Workout <!-- team 4's stuff-->
 W.3.0.2.1 The workout function shall have the ability to let users create their own workouts.
