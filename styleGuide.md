@@ -36,9 +36,27 @@ Use the word 'shall' when appropriate. For example, "The application shall only 
 - There shall be no use of colons in the section of the table containing the word or phrase being defined.
 
 ## Section 3
-We will order it based on feature. Meaning each group will be responsible for a feautre and do all 8 sections for that feature. Example of how that will work:
-- 3.x My Trainer
-- 3.1 Functions
-- Content about function requirements
-- 3.2 ...
-- Continue in a similar fashion for all 8 sections
+Section 3 shall be ordered based on feature. Attributes for the feature shall then be listed in the following order: 
+1. External Interface 
+2. Functions
+3. Usability Requirements
+4. Performance Requirements
+5. Logical Database Requirements
+6. Design Constraints 
+7. Software System Attributes
+The formatting will have this ordering:
+- 3.x myTrainer
+- 3.1 External Interfaces
+- Content about external interfaces
+- 3.2 Functions
+- Content about functions
+- 3.3 Usability Requirements
+- Content about usability requirements
+- 3.4 Performance Requirements
+- Content about performance requirements
+- 3.5 Logical Database Requirements
+- Content about logical database requirements
+- 3.6 Design Contraints
+- Content about design constraints
+- 3.7 Software System Attributes
+- Content about software system attributes
