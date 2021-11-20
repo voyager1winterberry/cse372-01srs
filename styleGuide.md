@@ -28,11 +28,12 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 ### Writing Style Recommendation:
 Use the word 'shall' when appropriate. For example, "The application shall only accept input within appropriate parameters."
 
-## Definitions
-- New definitions that are added to the table shall (excluding the one exception *[see next bullet point]*) be formatted as follows: | Word or phrase being defined | Definition of said word or phrase. |
-- There shall be periods at the end of each definition, except in the case of a reference to another definition, such as | Trainer |
- see *Personal Trainer* |
-- There shall be no use of colons in the section containing the word or phrase being defined.
+## Definitions; Section 1.4
+- The definitions shall be placed within one table.
+- New definitions that are added to the definition table shall (excluding the one exception of referencing another definition as the definition) be formatted as follows: | Word or phrase being defined | Definition of said word or phrase. |
+- There shall be periods at the end of each definition, except in the case of a definition that references another definition.
+- Word or phrases which contain a definition that is a reference to another definition shall be formatted as such: | Trainer | see *Personal Trainer* |
+- There shall be no use of colons in the section of the table containing the word or phrase being defined.
 
 ## Section 3
 We will order it based on feature. Meaning each group will be responsible for a feautre and do all 8 sections for that feature. Example of how that will work:
