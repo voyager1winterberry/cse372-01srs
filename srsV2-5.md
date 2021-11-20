@@ -272,3 +272,7 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
 | Working camera | camera capable of taking clear photos |
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
+
+## 3.4 Homepage <a name="3.4-homepage" />
+
+## 3.5 Login Page <a name="3.5-login-page" />
