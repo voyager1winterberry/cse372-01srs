@@ -40,6 +40,7 @@ myJym Software Requirements Specification
         * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
         * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
         * [1.3.4.13 External System Limitations](#1.3.4.13-external-system-limitations)
+* [1.4 Definitions](#1.4-definitions)
 * [References](#references)
 
 <br>
