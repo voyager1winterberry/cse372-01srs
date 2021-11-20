@@ -27,7 +27,7 @@ To create paragraphs, use a blank line to separate one or more lines of text.
 ### Writing Style Requirements:
 Use the word 'shall' when appropriate. For example, "The application shall only accept input within appropriate parameters."
 
-## Definitions; Section 1.4
+## Section 1.4: Definitions
 - The definitions shall be placed within one table.
 - New definitions that are added to the definition table shall (excluding the one exception of referencing another definition as the definition) be formatted as follows: | Word or phrase being defined | Definition of said word or phrase. |
 - There shall be periods at the end of each definition, except in the case of a definition that references another definition.
@@ -43,6 +43,7 @@ Section 3 shall be ordered based on feature. Attributes for the feature shall th
 5. Logical Database Requirements
 6. Design Constraints 
 7. Software System Attributes
+
 The formatting will have this ordering:
 - 3.x myTrainer
 - 3.1 External Interfaces
