@@ -45,18 +45,18 @@ Section 3 shall be ordered based on feature. Attributes for the feature shall th
 7. Software System Attributes
 
 Section 3 shall have the following order:
-- 3.x myTrainer
-- 3.x.1 External Interfaces
+- 3.1 myTrainer
+- 3.1.1 External Interfaces
 - Content about external interfaces
-- 3.x.2 Functions
+- 3.1.2 Functions
 - Content about functions
-- 3.x.3 Usability Requirements
+- 3.1.3 Usability Requirements
 - Content about usability requirements
-- 3.x.4 Performance Requirements
+- 3.1.4 Performance Requirements
 - Content about performance requirements
-- 3.x.5 Logical Database Requirements
+- 3.1.5 Logical Database Requirements
 - Content about logical database requirements
-- 3.x.6 Design Contraints
+- 3.1.6 Design Contraints
 - Content about design constraints
-- 3.x.7 Software System Attributes
+- 3.1.7 Software System Attributes
 - Content about software system attributes
