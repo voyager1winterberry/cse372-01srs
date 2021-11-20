@@ -40,19 +40,6 @@ myJym Software Requirements Specification
         * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
         * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
         * [1.3.4.13 External System Limitations](#1.3.4.13-external-system-limitations)
-* [3.0 System Requirements](#3.0-system-requirements) 
-* [3.1 External Interfaces](#3.1-external-interfaces)
-    * [3.1.1 Gym Map Interfaces](#3.1.1-gym-map-interfaces)
-    * [3.1.2 Progress Tracking Interfaces](#3.1.2-progress-tracking-interfaces) <!-- Team 5's work -->
-    * [3.1.3 Exercise Instruction Interfaces](#3.1.3-exercise-instruction-interfaces) <!--  Team 3's work -->
-* [3.2 Functions](#3.2-functions)
-    * [3.2.1 Gym Map Functions](#3.2.1-gym-map-functions)
-    * [3.2.2 Progress Tracking Functions](#3.2.2-progress-tracking-functions) <!-- team 5's work -->
-    * [3.2.3 Exercise Instruction Interfaces](#3.2.3-exercise-instruction-interfaces)
-* [3.3 Usability Requirements](#3.3-usability-requirements)
-    * [3.3.1 Gym Map Usability Requirements](#3.3.1-gym-map-usability-requirements)
-    * [3.3.2 Progress Tracking Usability Requirements](#3.3.2-progress-tracking-usability-requirements) <!-- team 5's work -->
-* [3.?? Workout Creation](#3.??-workout-creation)
 * [References](#references)
 
 <br>
