@@ -12,7 +12,6 @@ Sub header level should match the number of decimal places + 1 on the subcategor
 * Also a bulleted list
 1. Number lists
 
-
 **Bold Stuff**
 Used to distinguish words that have definition in glossary.
 
