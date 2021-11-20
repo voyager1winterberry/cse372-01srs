@@ -229,31 +229,33 @@ The limitations of YouTube and whichever messaging service we decide to use will
 This is a comprehensive list of needed definitions used by the myJym application:
 | Word   |  Definition |
 | ------ | -------     |
-| Admin | The people that run the app. They will connect the user's location to the gym and create QR codes that can be scanned by the user |
-| Android 11 | The minimum android version that will be required for the project |
-| Audit Functions | Functions of the application that allow for user feedback and error handling |
-| App | myJym mobile application |
+| Account | An arrangement allowing a user personalized access to the myJym application, requiring the use of a username and password to access. |
+| Admin | The people that run the app. They will connect the user's location to the gym and create QR codes that can be scanned by the user. |
+| Android 11 | The minimum android version that will be required for the project. |
+| Audit Functions | Functions of the application that allow for user feedback and error handling. |
+| App | myJym mobile application. |
 | Client | see *user* |
-| Control Functions | The interface with which the user will interact with and control the app |
+| Control Functions | The interface with which the user will interact with and control the app. |
 |Criticality of the Application:| Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
-| Equipment | The machines at the student gym |
-| Embedded Video | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video |
+| Equipment | The machines at the student gym. |
+| Embedded Video | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video. |
 | Error Message | A message stating that a condition is incorrect and requires that the condition be different. |
-| Forms | Digital way to collect relevant information from the user |
-| Google | An American company that specializes in internet-related services and products |
+| Forms | Digital way to collect relevant information from the user. |
+| Google | An American company that specializes in internet-related services and products. |
 | Google Authentication Key | A key provided by Google to authenticate users. |
-| GUI | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals |
-| Gym | A location with workout machines available |
-| Hardware Limitations | Physical technological factors that might limit or slow the progress of the app and its construction |
-| Higher-Order Language Requirements | Knowledge of high-level programming languages such as Kotlin and Swift |
-| Interface | A point where two systems, subjects, organizations, etc. meet and interact |
-| Interfaces to other applications | The ability to interact with third party applications |
+| GUI | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals. |
+| Gym | A location with workout machines available. |
+| Hardware Limitations | Physical technological factors that might limit or slow the progress of the app and its construction. |
+| Higher-Order Language Requirements | Knowledge of high-level programming languages such as Kotlin and Swift. |
+| Home Page | The view which allows access to myTrainer, myWorkout, myVideos, and myGymMap views. |
+| Interface | A point where two systems, subjects, organizations, etc. meet and interact. |
+| Interfaces to other applications | The ability to interact with third party applications. |
 | Invalid Credentials | Login credentials that do not match those associated with an account. |
-| iOS | Internet Operating System or iPhone Operating System. It is the operating system used on Apple products, such as iPhone and iPad |
+| iOS | Internet Operating System or iPhone Operating System. It is the operating system used on Apple products, such as iPhone and iPad. |
 | IOS 14.1 | The minimum IOS version that will be required for the project |
 | Login Page | A view that requests that the user login. |
 | macOS | The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions. |
-| Mnemonic | The device that uses patterns of letters, associations to assist users to remember a specific feature and its functionality |
+| Mnemonic | The device that uses patterns of letters, associations to assist users to remember a specific feature and its functionality. |
 | Mobile Application (myJym) | The application that will be used to allow communication/digital connection between the user and personal trainer. It will also hold the data and information about the equipment available through QR codes. |
 | Modal Income | Is the income amount that divides the population into two groups, half having the income above average and the other half below the average. |
 | Name | The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand. |
