@@ -35,7 +35,7 @@ Use the word 'shall' when appropriate. For example, "The application shall only 
 - There shall be no use of colons in the section of the table containing the word or phrase being defined.
 
 ## Section 3
-Section 3 shall be ordered based on feature. Attributes for the feature shall then be listed in the following order: 
+Section 3 shall be ordered based on feature (myTrainer, myGymMap, myVideos, myWorkouts, Home Page, Login Page). Attributes for the feature shall then be listed in the following order: 
 1. External Interface 
 2. Functions
 3. Usability Requirements
@@ -44,7 +44,7 @@ Section 3 shall be ordered based on feature. Attributes for the feature shall th
 6. Design Constraints 
 7. Software System Attributes
 
-Section 3 shall have the following order:
+Section 3, in its entirety, shall have the following order for each feature:
 - 3.1 myTrainer
 - 3.1.1 External Interfaces
 - Content about external interfaces
