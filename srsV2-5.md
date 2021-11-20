@@ -236,8 +236,10 @@ This is a comprehensive list of needed definitions used by the myJym application
 | App | myJym mobile application. |
 | Client | see *user* |
 | Control Functions | The interface with which the user will interact with and control the app. |
-|Criticality of the Application:| Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
+| Criticality of the Application | Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
+| The Database | A database that will store all information needed to run the application contraining the following tables: Admin, UserData, Trainer, and WorkOut. |
 | Equipment | The machines at the student gym. |
+| Email | A method of exchanging messages over the internet between electronic devices. |
 | Embedded Video | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video. |
 | Error Message | A message stating that a condition is incorrect and requires that the condition be different. |
 | Forms | Digital way to collect relevant information from the user. |
@@ -245,6 +247,7 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Google Authentication Key | A key provided by Google to authenticate users. |
 | GUI | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals. |
 | Gym | A location with workout machines available. |
+| Gym Hours | The hours that all partner gyms are open. |
 | Hardware Limitations | Physical technological factors that might limit or slow the progress of the app and its construction. |
 | Higher-Order Language Requirements | Knowledge of high-level programming languages such as Kotlin and Swift. |
 | Home Page | The view which allows access to myTrainer, myWorkout, myVideos, and myGymMap views. |
@@ -253,13 +256,17 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Invalid Credentials | Login credentials that do not match those associated with an account. |
 | iOS | Internet Operating System or iPhone Operating System. It is the operating system used on Apple products, such as iPhone and iPad. |
 | IOS 14.1 | The minimum IOS version that will be required for the project |
+| Jared's Senior Project Class | A project class that the project sponsor will be taking at some point in the future. |
+| Login Credentials | The username and password associated with an account. |
 | Login Page | A view that requests that the user login. |
 | macOS | The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions. |
 | Mnemonic | The device that uses patterns of letters, associations to assist users to remember a specific feature and its functionality. |
 | Mobile Application (myJym) | The application that will be used to allow communication/digital connection between the user and personal trainer. It will also hold the data and information about the equipment available through QR codes. |
 | Modal Income | Is the income amount that divides the population into two groups, half having the income above average and the other half below the average. |
+| The myJym app | An application that provides a variety of features for the purpose of making the gym a more approachable experience. |
 | Name | The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand. |
 | Parallel Operation | The ability of an application to run in parallel to other applications without getting in their way or being interrupted by them. |
+| Partner Gyms | These are gyms that are partnered with the myJym app. |
 | Password | A key word or phrase associated with an account. |
 | Password Recovery Email | An email the gym-goer and/or trainer provides with account creation to recover their account if they forget their password. |
 | Personal Trainer | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers assist clients. |
@@ -279,6 +286,8 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Trainers | see *Personal Trainer* |
 | Trainee | see *user* | 
 | User | A person that uses the myJym app along with help from a personal trainer to progress with their training. |
+| The UserData Database Table | A table in the database that contains user information, such as: username, password, weight, height, goals, W/O_Plan, email, and user_gym. |
+| Username | A unique name identifying an account. |
 | Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0. |
 | Working camera | camera capable of taking clear photos. |
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer. |
