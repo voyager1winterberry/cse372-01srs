@@ -56,7 +56,7 @@ Section 3 shall have the following order:
 - Content about performance requirements
 - 3.1.5 Logical Database Requirements
 - Content about logical database requirements
-- 3.1.6 Design Contraints
+- 3.1.6 Design Constraints
 - Content about design constraints
 - 3.1.7 Software System Attributes
 - Content about software system attributes
