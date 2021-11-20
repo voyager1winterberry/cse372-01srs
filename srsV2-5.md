@@ -238,6 +238,7 @@ This is a comprehensive list of needed definitions used by the myJym application
 |Criticality of the Application:| Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
 | Equipment | The machines at the student gym |
 | Embedded Video | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video |
+| Error Message | A message stating that a condition is incorrect and requires that the condition be different. |
 | Forms | Digital way to collect relevant information from the user |
 | Google | An American company that specializes in internet-related services and products |
 | Google Authentication Key | A key provided by Google to authenticate users. |
@@ -247,36 +248,38 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Higher-Order Language Requirements | Knowledge of high-level programming languages such as Kotlin and Swift |
 | Interface | A point where two systems, subjects, organizations, etc. meet and interact |
 | Interfaces to other applications | The ability to interact with third party applications |
+| Invalid Credentials | Login credentials that do not match those associated with an account. |
 | iOS | Internet Operating System or iPhone Operating System. It is the operating system used on Apple products, such as iPhone and iPad |
 | IOS 14.1 | The minimum IOS version that will be required for the project |
 | Login Page | A view that requests that the user login. |
-| macOS | The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions |
+| macOS | The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions. |
 | Mnemonic | The device that uses patterns of letters, associations to assist users to remember a specific feature and its functionality |
-| Mobile Application (myJym) | The application that will be used to allow communication/digital connection between the user and personal trainer. It will also hold the data and information about the equipment available through QR codes |
-| Modal Income | Is the income amount that divides the population into two groups, half having the income above average and the other half below the average|
-| Name | The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand |
-| Parallel Operation | The ability of an application to run in parallel to other applications without getting in their way or being interrupted by them |
+| Mobile Application (myJym) | The application that will be used to allow communication/digital connection between the user and personal trainer. It will also hold the data and information about the equipment available through QR codes. |
+| Modal Income | Is the income amount that divides the population into two groups, half having the income above average and the other half below the average. |
+| Name | The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand. |
+| Parallel Operation | The ability of an application to run in parallel to other applications without getting in their way or being interrupted by them. |
+| Password | A key word or phrase associated with an account. |
 | Password Recovery Email | An email the gym-goer and/or trainer provides with account creation to recover their account if they forget their password. |
 | Personal Trainer | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers assist clients. |
-| Personal Trainer Certificate | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers can assist clients, and can do so while working in conjunction with the myJym app |
-| Physical/mental considerations | Considerations that pertain to the physical and mental health of the application |
+| Personal Trainer Certificate | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers can assist clients, and can do so while working in conjunction with the myJym app. |
+| Physical/mental considerations | Considerations that pertain to the physical and mental health of the application. |
 | Primary memory | Memory utilized by the app on the individual devices |
-| Profile | A personalized account created by the user that will be associated with them and required to utilize the app |
-| QR Scanning | The ability of a mobile device to capture QR codes in their camera and then open the associated links |
-| Quality Requirements | The reliability of the application, as well as the other quality metrics that represent how well it fulfills its tasks |
-| Regulatory Requirements and Policies | Application requirements that need to comply with legal regulations and policies |
+| Profile | A personalized account created by the user that will be associated with them and required to utilize the app. |
+| QR Scanning | The ability of a mobile device to capture QR codes in their camera and then open the associated links. |
+| Quality Requirements | The reliability of the application, as well as the other quality metrics that represent how well it fulfills its tasks. |
+| Regulatory Requirements and Policies | Application requirements that need to comply with legal regulations and policies. |
 | Safety and Security Considerations | Keeping the user’s physical and personal safety in mind, including sensitive or confidential information |
-| Secondary memory | removable or external memory used by the individual devices |
-| Signal Handshake Protocols | How the app interacts securely with other applications and the internet |
-| Source | A specific reference for the research and citation purpose to avoid plagiarism |
-| Specification number | For the purpose of organization feature within the SRS documentation |
+| Secondary memory | removable or external memory used by the individual devices. |
+| Signal Handshake Protocols | How the app interacts securely with other applications and the internet. |
+| Source | A specific reference for the research and citation purpose to avoid plagiarism. |
+| Specification number | For the purpose of organization feature within the SRS documentation. |
 | The System | The backend code that processes the server requests to send or return data as requested by the server through the user's requests. |
 | Trainers | see *Personal Trainer* |
 | Trainee | see *user* | 
-| User | A person that uses the myJym app along with help from a personal trainer to progress with their training |
-| Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
-| Working camera | camera capable of taking clear photos |
-| Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
+| User | A person that uses the myJym app along with help from a personal trainer to progress with their training. |
+| Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0. |
+| Working camera | camera capable of taking clear photos. |
+| Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer. |
 
 ## 3.4 Homepage <a name="3.4-homepage" />
 
