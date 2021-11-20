@@ -239,20 +239,24 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Equipment | The machines at the student gym |
 | Embedded Video | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video |
 | Forms | Digital way to collect relevant information from the user |
+| Google | An American company that specializes in internet-related services and products |
+| Google Authentication Key | A key provided by Google to authenticate users. |
+| GUI | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals |
 | Gym | A location with workout machines available |
 | Hardware Limitations | Physical technological factors that might limit or slow the progress of the app and its construction |
 | Higher-Order Language Requirements | Knowledge of high-level programming languages such as Kotlin and Swift |
-| GUI | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals |
 | Interface | A point where two systems, subjects, organizations, etc. meet and interact |
 | Interfaces to other applications | The ability to interact with third party applications |
 | iOS | Internet Operating System or iPhone Operating System. It is the operating system used on Apple products, such as iPhone and iPad |
 | IOS 14.1 | The minimum IOS version that will be required for the project |
+| Login Page | A view that requests that the user login. |
 | macOS | The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions |
 | Mnemonic | The device that uses patterns of letters, associations to assist users to remember a specific feature and its functionality |
 | Mobile Application (myJym) | The application that will be used to allow communication/digital connection between the user and personal trainer. It will also hold the data and information about the equipment available through QR codes |
 | Modal Income | Is the income amount that divides the population into two groups, half having the income above average and the other half below the average|
 | Name | The name of the software’s feature. Generally, the name of the feature needs to be self-explanatory and easy to understand |
 | Parallel Operation | The ability of an application to run in parallel to other applications without getting in their way or being interrupted by them |
+| Password Recovery Email | An email the gym-goer and/or trainer provides with account creation to recover their account if they forget their password. |
 | Personal Trainer | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers assist clients. |
 | Personal Trainer Certificate | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers can assist clients, and can do so while working in conjunction with the myJym app |
 | Physical/mental considerations | Considerations that pertain to the physical and mental health of the application |
@@ -266,6 +270,7 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Signal Handshake Protocols | How the app interacts securely with other applications and the internet |
 | Source | A specific reference for the research and citation purpose to avoid plagiarism |
 | Specification number | For the purpose of organization feature within the SRS documentation |
+| The System | The backend code that processes the server requests to send or return data as requested by the server through the user's requests. |
 | Trainers | see *Personal Trainer* |
 | Trainee | see *user* | 
 | User | A person that uses the myJym app along with help from a personal trainer to progress with their training |
