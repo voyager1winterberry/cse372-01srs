@@ -478,14 +478,14 @@ Functions of the gym map and it's associated features are detailed below:
     	* The map shall support modification to facility locations by a system administrator.
     	* A simple tutorial of using the map shall display the first time a user opens to that view.
 * #### 3.2.2.2 Map Search Function
-    	* The map search bar shall perform validation on inputs matching them to gym functions.
-    	* The map shall provide a search bar used to locate gym functions.
-    	* The map search bar shall be a modeless interface not restricting user input to other parts of the application.
-    	* Facilities in the gym shall be searchable by name through the map search bar.
+    * The map search bar shall perform validation on inputs matching them to gym functions.
+    * The map shall provide a search bar used to locate gym functions.
+    * The map search bar shall be a modeless interface not restricting user input to other parts of the application.
+    * Facilities in the gym shall be searchable by name through the map search bar.
 * #### 3.2.2.2 Map Navigation
-    	* The map shall be scrollable edge to edge responding to user input.
-    	* The map shall support zooming detecting when a zoom request is made by the user.
-    	* Gym function icons shall be interactable to view options related that function.
+    * The map shall be scrollable edge to edge responding to user input.
+    * The map shall support zooming detecting when a zoom request is made by the user.
+    * Gym function icons shall be interactable to view options related that function.
 * ### 3.2.3 Usability Requirements
     * Ease of learning. The map shall be intuive allowing the user to easily form a mental model of its workings.
     * Task efficiency. The map shall facilitate a user quickly identifying where they should be in the gym to complete their desired activity.
@@ -499,7 +499,7 @@ Functions of the gym map and it's associated features are detailed below:
     * The map shall allow interaction with elements after a perdetmined time post loading.
 * ### 3.2.5 Logical Database Requirements
 The data used by the gym map and it's state will be detailed here.
-    * #### 3.2.5.1 Types of information used by various functions
+* #### 3.2.5.1 Types of information used by various functions
         * The map shall store the icons for the map as a JSON data construct.
 	* The map shall store the possible search results for the map search in the System Database as a table.
     * #### 3.2.5.2 Frequency of use
