@@ -292,7 +292,7 @@ This is a comprehensive list of needed definitions used by the myJym application
 
 <br>
 
-## 3.1 My Trainer
+## 3.1 My Trainer 
 * ### 3.1.1 External Interfaces
     * #### 3.1.1.1 Google Authentication
         * Google Authentication API shall be used by gymgoers and trainers to login to their accounts.
@@ -463,3 +463,38 @@ This is a comprehensive list of needed definitions used by the myJym application
 
     *  Description of the problems to be solved by the software:
     A problem that this software will solve is to give users the ability to connect with trainers.Trainers will be able to provide information to users about workouts and feedback on workout plans. Trainers will be able to access user data to be able to help them choose workout plans and give them the motivation to meet their goals.
+
+## 3.4 Login Page 
+* ### 3.4.1 External Interfaces
+    * ####
+* ### 3.4.2 Functions
+    * ####
+* ### 3.4.3 Usability Requirements
+    * ####
+* ### 3.4.4 Performance Requirements
+    * ####
+* ### 3.4.2 Logical Database Requirements
+    * ####
+* ### 3.4.2 Design Constraints
+    * ####
+* ### 3.4.2 Software System Attributes
+    * ####
+
+## 3.4 Home Page 
+* ### 3.4.1 External Interfaces
+    * ####
+* ### 3.4.2 Functions
+    * ####
+* ### 3.4.3 Usability Requirements
+    * ####
+* ### 3.4.4 Performance Requirements
+    * ####
+* ### 3.4.2 Logical Database Requirements
+    * ####
+* ### 3.4.2 Design Constraints
+    * ####
+* ### 3.4.2 Software System Attributes
+    * ####
+
+
+
