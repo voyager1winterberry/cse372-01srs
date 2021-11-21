@@ -464,6 +464,70 @@ This is a comprehensive list of needed definitions used by the myJym application
     *  Description of the problems to be solved by the software:
     A problem that this software will solve is to give users the ability to connect with trainers.Trainers will be able to provide information to users about workouts and feedback on workout plans. Trainers will be able to access user data to be able to help them choose workout plans and give them the motivation to meet their goals.
 
+## 3.2 Gym Map <!-- Team 2 -->
+The map of the gym used by the MyJym application and it's requirements will be detailed in this section.
+* ### 3.2.1 External Interfaces
+    * The map shall utilize the System Database to obtain needed information for the map generation.
+    * The map search bar shall obtain user data from the System Database.
+* ### 3.2.2 Functions
+Functions of the gym map and it's associated features are detailed below:
+    * #### 3.2.2.1 Map Display
+    	* The map shall organize gym equipment according to a JSON file detailing their locations.
+    	* The map shall organize gym services according to a JSON file detailing their locations.
+    	* When an abnormal state is encountered the map shall stop and refresh.
+    	* The map shall support modification to facility locations by a system administrator.
+    	* A simple tutorial of using the map shall display the first time a user opens to that view.
+    * #### 3.2.2.2 Map Search Function
+    	* The map search bar shall perform validation on inputs matching them to gym functions.
+    	* The map shall provide a search bar used to locate gym functions.
+    	* The map search bar shall be a modeless interface not restricting user input to other parts of the application.
+    	* Facilities in the gym shall be searchable by name through the map search bar.
+    * #### 3.2.2.2 Map Navigation
+    	* The map shall be scrollable edge to edge responding to user input.
+    	* The map shall support zooming detecting when a zoom request is made by the user.
+    	* Gym function icons shall be interactable to view options related that function.
+* ### 3.2.3 Usability Requirements
+    * Ease of learning. The map shall be intuive allowing the user to easily form a mental model of its workings.
+    * Task efficiency. The map shall facilitate a user quickly identifying where they should be in the gym to complete their desired activity.
+    * Ease of remembering. The map shall utilize simple command formats to ensure users are capable creating a mental model of the map functionalities. 
+    * Understandability: The user shall understand the purpose of the map. Map features shall use formats akin to those found on simmilar mobile applications. New users will be greeted by a tutorial upon first entering the map view.
+    * Task failure. When encountering a task failure the map shall stop its operation and refresh.
+    * Accessibility. Map iconography shall be created based upon commonly recognized symbols. 
+* ### 3.2.4 Performance Requirements
+    * The map shall prioritize loading of graphical display elements prior to lower priority tasks.
+    * The map search functionality shall return results in higher performant step timing than** O**(n log n).
+    * The map shall allow interaction with elements after a perdetmined time post loading.
+* ### 3.2.5 Logical Database Requirements
+The data used by the gym map and it's state will be detailed here.
+    * #### 3.2.5.1 Types of information used by various functions
+        * The map shall store the icons for the map as a JSON data construct.
+	* The map shall store the possible search results for the map search in the System Database as a table.
+    * #### 3.2.5.2 Frequency of use
+        * Map icons shall be loaded into memory when the view is selected.
+	* Map icons shall be discharged from memory when the view is released by the operating system.
+    * #### 3.2.5.3 Accessing Capabilities
+	    * The map shall have access to the schema of equipment in the gym.
+	    * The map shall have access to the schema for user data.
+    * #### 3.2.5.4 Data entities and their relationships
+        * The map shall handle storing of icons as tables in the database.
+	* The map shall handle storing of possible search results as key-value pairs.
+    * #### 3.2.5.5 Integrity Constraints
+	    * Map icons shall be possible entries.
+	    * Map entries shall have valid references.
+	    * Primary keys shall be used to distinguish unique data for the map.
+    * #### 3.2.5.6 Security
+	    * Map data shalled be transmitted via end-to-end encryption.
+* ### 3.2.6 Design Constraints
+    * The interactable map features shall provide sufficient **Pixels Per Inch** that the average human is able to cleanly select them.
+* ### 3.2.7 Software System Attributes
+The myGym map will hold to certain reliability and security guidelines which are detailed below:
+    * #### 3.1.7.1 Reliability 
+	    * The maps delivered to the user on MyJym shall deliver accurate data based on the information entered by the admin to the database.
+	    * MyJym map data shall be available throughout the time that the user uses MyJym.
+    * #### 3.1.7.2 Security
+    	    * The map shall not be editable by any unauthorized party. 
+
+
 ## 3.4 Login & Homepage
 * ### 3.4.1 External Interfaces
     * The login page shall provide the ability to login through Google.
