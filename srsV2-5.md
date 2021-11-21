@@ -489,9 +489,19 @@ This is a comprehensive list of needed definitions used by the myJym application
     * The database shall be accessed by the login page when user credentials are submitted through the login page.
     * The database shall keep the login credentials of users confidential.
 * ### 3.4.2 Design Constraints
-    * 
+    * The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.
+    * The budget for the myJym app shall be $0.00.
 * ### 3.4.2 Software System Attributes
-    * 
+    * #### 3.7.1 Reliability
+        * The app shall require the compliance of personal trainers.
+        * The app shall require an administrator.
+    * #### 3.7.2 Availability
+        * The myJym app shall be available during all gym hours.
+    * #### 3.7.3 Security
+        * The system shall encrypt user accounts.
+        * The system shall use a protocol to secure online communications.
+    * #### 3.7.4 Portability
+        * * The application shall be built with a programming language that can be ported to both iOS and Android.
 
 
 
