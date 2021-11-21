@@ -471,18 +471,18 @@ The map of the gym used by the MyJym application and it's requirements will be d
     * The map search bar shall obtain user data from the System Database.
 * ### 3.2.2 Functions
 Functions of the gym map and it's associated features are detailed below:
-    * #### 3.2.2.1 Map Display
-    	* The map shall organize gym equipment according to a JSON file detailing their locations.
+* #### 3.2.2.1 Map Display
+	* The map shall organize gym equipment according to a JSON file detailing their locations.
     	* The map shall organize gym services according to a JSON file detailing their locations.
     	* When an abnormal state is encountered the map shall stop and refresh.
     	* The map shall support modification to facility locations by a system administrator.
     	* A simple tutorial of using the map shall display the first time a user opens to that view.
-    * #### 3.2.2.2 Map Search Function
+* #### 3.2.2.2 Map Search Function
     	* The map search bar shall perform validation on inputs matching them to gym functions.
     	* The map shall provide a search bar used to locate gym functions.
     	* The map search bar shall be a modeless interface not restricting user input to other parts of the application.
     	* Facilities in the gym shall be searchable by name through the map search bar.
-    * #### 3.2.2.2 Map Navigation
+* #### 3.2.2.2 Map Navigation
     	* The map shall be scrollable edge to edge responding to user input.
     	* The map shall support zooming detecting when a zoom request is made by the user.
     	* Gym function icons shall be interactable to view options related that function.
