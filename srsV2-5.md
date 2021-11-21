@@ -472,11 +472,11 @@ The map of the gym used by the MyJym application and it's requirements will be d
 * ### 3.2.2 Functions
 Functions of the gym map and it's associated features are detailed below:
 * #### 3.2.2.1 Map Display
-	* The map shall organize gym equipment according to a JSON file detailing their locations.
-    	* The map shall organize gym services according to a JSON file detailing their locations.
-    	* When an abnormal state is encountered the map shall stop and refresh.
-    	* The map shall support modification to facility locations by a system administrator.
-    	* A simple tutorial of using the map shall display the first time a user opens to that view.
+    * The map shall organize gym equipment according to a JSON file detailing their locations.
+    * The map shall organize gym services according to a JSON file detailing their locations.
+    * When an abnormal state is encountered the map shall stop and refresh.
+    * The map shall support modification to facility locations by a system administrator.
+    * A simple tutorial of using the map shall display the first time a user opens to that view.
 * #### 3.2.2.2 Map Search Function
     * The map search bar shall perform validation on inputs matching them to gym functions.
     * The map shall provide a search bar used to locate gym functions.
@@ -500,23 +500,23 @@ Functions of the gym map and it's associated features are detailed below:
 * ### 3.2.5 Logical Database Requirements
 The data used by the gym map and it's state will be detailed here.
 * #### 3.2.5.1 Types of information used by various functions
-        * The map shall store the icons for the map as a JSON data construct.
-	* The map shall store the possible search results for the map search in the System Database as a table.
-    * #### 3.2.5.2 Frequency of use
-        * Map icons shall be loaded into memory when the view is selected.
-	* Map icons shall be discharged from memory when the view is released by the operating system.
-    * #### 3.2.5.3 Accessing Capabilities
-	    * The map shall have access to the schema of equipment in the gym.
-	    * The map shall have access to the schema for user data.
-    * #### 3.2.5.4 Data entities and their relationships
-        * The map shall handle storing of icons as tables in the database.
-	* The map shall handle storing of possible search results as key-value pairs.
-    * #### 3.2.5.5 Integrity Constraints
-	    * Map icons shall be possible entries.
-	    * Map entries shall have valid references.
-	    * Primary keys shall be used to distinguish unique data for the map.
-    * #### 3.2.5.6 Security
-	    * Map data shalled be transmitted via end-to-end encryption.
+    * The map shall store the icons for the map as a JSON data construct.
+    * The map shall store the possible search results for the map search in the System Database as a table.
+* #### 3.2.5.2 Frequency of use
+    * Map icons shall be loaded into memory when the view is selected.
+    * Map icons shall be discharged from memory when the view is released by the operating system.
+* #### 3.2.5.3 Accessing Capabilities
+    * The map shall have access to the schema of equipment in the gym.
+    * The map shall have access to the schema for user data.
+* #### 3.2.5.4 Data entities and their relationships
+    * The map shall handle storing of icons as tables in the database.
+    * The map shall handle storing of possible search results as key-value pairs.
+* #### 3.2.5.5 Integrity Constraints
+    * Map icons shall be possible entries.
+    * Map entries shall have valid references.
+    * Primary keys shall be used to distinguish unique data for the map.
+* #### 3.2.5.6 Security
+    * Map data shalled be transmitted via end-to-end encryption.
 * ### 3.2.6 Design Constraints
     * The interactable map features shall provide sufficient **Pixels Per Inch** that the average human is able to cleanly select them.
 * ### 3.2.7 Software System Attributes
