@@ -528,7 +528,7 @@ The myGym map will hold to certain reliability and security guidelines which are
     * The map shall not be editable by any unauthorized party. 
 
 
-## 3.5 Login & Homepage
+## 3.5 Login & Homepage <!-- 3.5 is Team 5's work -->
 * ### 3.5.1 External Interfaces
     * The login page shall provide the ability to login through Google.
     * The system shall send an automated password recovery email to the user on request
