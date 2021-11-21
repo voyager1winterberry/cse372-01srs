@@ -478,11 +478,16 @@ This is a comprehensive list of needed definitions used by the myJym application
     * The login page shall display an error message when invalid credentials are submitted.
     * The system shall check the login credentials against the database.
 * ### 3.4.3 Usability Requirements
-    * 
+    * The login page shall inform the user of password requirements.
+    * The login page shall allow the user to enter login credentials.
 * ### 3.4.4 Performance Requirements
-    * 
+    * The system shall have the ability to process login credentials.
 * ### 3.4.2 Logical Database Requirements
-    * 
+    * The UserData database table shall have a Google authentication key from the Google third party login.
+    * The UserData database table shall store usernames.
+    * The UserData database table shall store the passwords.
+    * The database shall be accessed by the login page when user credentials are submitted through the login page.
+    * The database shall keep the login credentials of users confidential.
 * ### 3.4.2 Design Constraints
     * 
 * ### 3.4.2 Software System Attributes
