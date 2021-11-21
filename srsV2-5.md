@@ -464,37 +464,31 @@ This is a comprehensive list of needed definitions used by the myJym application
     *  Description of the problems to be solved by the software:
     A problem that this software will solve is to give users the ability to connect with trainers.Trainers will be able to provide information to users about workouts and feedback on workout plans. Trainers will be able to access user data to be able to help them choose workout plans and give them the motivation to meet their goals.
 
-## 3.4 Login Page 
+## 3.4 Login & Homepage
 * ### 3.4.1 External Interfaces
-    * ####
+    * The login page shall provide the ability to login through Google.
+    * The system shall send an automated password recovery email to the user on request
 * ### 3.4.2 Functions
-    * ####
+    * The home page shall provide access to myTrainer.
+    * The home page shall provide access to myWorkouts.
+    * The home page shall provide access to myVideos.
+    * The home page shall provide access to myGymMap.
+    * The login page shall provide the user with the ability to recover a lost password.
+    * The login page shall provide the user with the ability to create an account.
+    * The login page shall display an error message when invalid credentials are submitted.
+    * The system shall check the login credentials against the database.
 * ### 3.4.3 Usability Requirements
-    * ####
+    * 
 * ### 3.4.4 Performance Requirements
-    * ####
+    * 
 * ### 3.4.2 Logical Database Requirements
-    * ####
+    * 
 * ### 3.4.2 Design Constraints
-    * ####
+    * 
 * ### 3.4.2 Software System Attributes
-    * ####
+    * 
 
-## 3.4 Home Page 
-* ### 3.4.1 External Interfaces
-    * ####
-* ### 3.4.2 Functions
-    * ####
-* ### 3.4.3 Usability Requirements
-    * ####
-* ### 3.4.4 Performance Requirements
-    * ####
-* ### 3.4.2 Logical Database Requirements
-    * ####
-* ### 3.4.2 Design Constraints
-    * ####
-* ### 3.4.2 Software System Attributes
-    * ####
+
 
 
 
