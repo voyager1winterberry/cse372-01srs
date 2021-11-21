@@ -118,7 +118,7 @@ This section details the relationship of the myJym app to products that are simm
 #### 1.3.1.5 Communications Interfaces <a name="1.3.1.5-communications-interfaces" />
 * Communication interfaces shall include communication between the users.
 * Communication interfaces shall include communication between the **trainers**, including a means of messaging within the app. 
-*Communication shall include a means of communicating with myJym to receive help.
+* Communication shall include a means of communicating with myJym to receive help.
 
 #### 1.3.1.6 Memory <a name="1.3.1.6-memory" />
 * **Primary memory** shall be used to store the user’s data such as **profile** and user agreements. **Secondary memory** will not be utilized.
@@ -272,3 +272,7 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
 | Working camera | camera capable of taking clear photos |
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
+
+<br>
+
+
