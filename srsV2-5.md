@@ -83,8 +83,8 @@ myJym Software Requirements Specification
         * [3.2.5.2 Frequency of use](#3.2.5.2-frequency-of-use)
         * [3.2.5.3 Accessing Capabilities](#3.2.5.3-accessing-capabilities)
         * [3.2.5.4 Data entities and their relationships](#3.2.5.4-data-entities-and-their-relationships)
-        * [3.2.5.5 Integrity Constraints]
-        * [3.2.5.6 Security]
+        * [3.2.5.5 Integrity Constraints](#3.2.5.5-integrity-constraints)
+        * [3.2.5.6 Security](#3.2.5.6-security)
     * [3.2.6 Design Constraints](#3.2.6-design-constraints)
     * [3.2.7 Software System Attributes](#3.2.7-software-system-attributes)
         * [3.2.7.1 Reliability](#3.2.7.1-reliability)
