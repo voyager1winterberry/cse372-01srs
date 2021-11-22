@@ -95,7 +95,7 @@ myJym Software Requirements Specification
     * [3.4.2 Functions](#3.4.2-functions)
     * [3.4.3 Usability Requirements](#3.4.3-usability-requirements)
     * [3.4.4 Performance Requirements](#3.4.4-performance-requirements)
-    * [3.4.5 Logical Database Requirements](#3.54.5-logical-database-requirements)
+    * [3.4.5 Logical Database Requirements](#3.4.5-logical-database-requirements)
     * [3.4.6 Design Constraints](#3.4.6-design-constraints)
     * [3.4.7 Software System Attributes](#3.4.7-software-system-attributes)
         * [3.4.7.1 Reliability](#3.4.7.1-reliability)
