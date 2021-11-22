@@ -90,18 +90,18 @@ myJym Software Requirements Specification
     * [3.2.7 Software System Attributes](#3.2.7-software-system-attributes)
         * [3.2.7.1 Reliability](#3.2.7.1-reliability)
         * [3.2.7.2 Security](#3.2.7.2-security)
-* [3.5 Login & Homepage](#3.5-login-&-homepage)
-    * [3.5.1 External Interfaces](#3.5.1-external-interfaces)
-    * [3.5.2 Functions](#3.5.2-functions)
-    * [3.5.3 Usability Requirements](#3.5.3-usability-requirements)
-    * [3.5.4 Performance Requirements](#3.5.4-performance-requirements)
-    * [3.5.5 Logical Database Requirements](#3.5.5-logical-database-requirements)
-    * [3.5.6 Design Constraints](#3.5.6-design-constraints)
-    * [3.5.7 Software System Attributes](#3.5.7-software-system-attributes)
-        * [3.5.7.1 Reliability](#3.5.7.1-reliability)
-        * [3.5.7.2 Availability](#3.5.7.2-availability)
-        * [3.5.7.3 Security](#3.5.7.3-security)
-        * [3.5.7.4 Portability](#3.5.7.4-portability)
+* [3.4 Login & Homepage](#3.4-login-&-homepage)
+    * [3.4.1 External Interfaces](#3.4.1-external-interfaces)
+    * [3.4.2 Functions](#3.4.2-functions)
+    * [3.4.3 Usability Requirements](#3.4.3-usability-requirements)
+    * [3.4.4 Performance Requirements](#3.4.4-performance-requirements)
+    * [3.4.5 Logical Database Requirements](#3.54.5-logical-database-requirements)
+    * [3.4.6 Design Constraints](#3.4.6-design-constraints)
+    * [3.4.7 Software System Attributes](#3.4.7-software-system-attributes)
+        * [3.4.7.1 Reliability](#3.4.7.1-reliability)
+        * [3.4.7.2 Availability](#3.4.7.2-availability)
+        * [3.4.7.3 Security](#3.4.7.3-security)
+        * [3.4.7.4 Portability](#3.4.7.4-portability)
 * [References](#references)
 
 <br>
@@ -590,11 +590,11 @@ The myGym map will hold to certain reliability and security guidelines which are
     * The map shall not be editable by any unauthorized party. 
 
 
-## 3.5 Login & Homepage <a name="3.5-login-&-homepage" /> <!-- 3.5 is Team 5's work -->
-* ### 3.5.1 External Interfaces <a name="3.5.1-external-interfaces" />
+## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
+* ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
     * The login page shall provide the ability to login through Google.
     * The system shall send an automated password recovery email to the user on request
-* ### 3.5.2 Functions <a name="3.5.2-functions" />
+* ### 3.4.2 Functions <a name="3.4.2-functions" />
     * The home page shall provide access to myTrainer.
     * The home page shall provide access to myWorkouts.
     * The home page shall provide access to myVideos.
@@ -603,30 +603,30 @@ The myGym map will hold to certain reliability and security guidelines which are
     * The login page shall provide the user with the ability to create an account.
     * The login page shall display an error message when invalid credentials are submitted.
     * The system shall check the login credentials against the database.
-* ### 3.5.3 Usability Requirements <a name="3.5.3-usability-requirements" />
+* ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
     * The login page shall inform the user of password requirements.
     * The login page shall allow the user to enter login credentials.
-* ### 3.5.4 Performance Requirements <a name="3.5.4-performance-requirements" />
+* ### 3.4.4 Performance Requirements <a name="3.4.4-performance-requirements" />
     * The system shall have the ability to process login credentials.
-* ### 3.5.5 Logical Database Requirements <a name="3.5.5-logical-database-requirements" />
+* ### 3.4.5 Logical Database Requirements <a name="3.4.5-logical-database-requirements" />
     * The UserData database table shall have a Google authentication key from the Google third party login.
     * The UserData database table shall store usernames.
     * The UserData database table shall store the passwords.
     * The database shall be accessed by the login page when user credentials are submitted through the login page.
     * The database shall keep the login credentials of users confidential.
-* ### 3.5.6 Design Constraints <a name="3.5.6-design-constraints" />
+* ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
     * The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.
     * The budget for the myJym app shall be $0.00.
-* ### 3.5.7 Software System Attributes <a name="3.5.7-software-system-attributes" />
-    * #### 3.5.7.1 Reliability <a name="3.5.7.1-reliability" />
+* ### 3.4.7 Software System Attributes <a name="3.4.7-software-system-attributes" />
+    * #### 3.4.7.1 Reliability <a name="3.4.7.1-reliability" />
         * The app shall require the compliance of personal trainers.
         * The app shall require an administrator.
-    * #### 3.5.7.2 Availability <a name="3.5.7.2-availability" />
+    * #### 3.4.7.2 Availability <a name="3.4.7.2-availability" />
         * The myJym app shall be available during all gym hours.
-    * #### 3.5.7.3 Security <a name="3.5.7.3-security" />
+    * #### 3.4.7.3 Security <a name="3.4.7.3-security" />
         * The system shall encrypt user accounts.
         * The system shall use a protocol to secure online communications.
-    * #### 3.5.7.4 Portability <a name="3.5.7.4-portability" />
+    * #### 3.4.7.4 Portability <a name="3.4.7.4-portability" />
         * * The application shall be built with a programming language that can be ported to both iOS and Android.
 
 <br>
