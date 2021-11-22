@@ -64,7 +64,7 @@ myJym Software Requirements Specification
         * [3.1.5.6 Security](#3.1.5.6-security)
         * [3.1.5.7 Data retention requirements](#3.1.5.7-data-retention-requirements)
     * [3.1.6 Design Constraints](#3.1.6-design-constraints)
-    * [3.1.7 Software System Attributes](#software-system-attributes)
+    * [3.1.7 Software System Attributes](#3.1.7-software-system-attributes)
         * [3.1.7.1 Reliability](#3.1.7.1-reliability)
         * [3.1.7.2 Security](#3.1.7.2-security)
         * [3.1.7.3 Data Privacy](#3.1.7.3-data-privacy)
