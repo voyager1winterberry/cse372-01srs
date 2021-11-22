@@ -360,23 +360,23 @@ This is a comprehensive list of needed definitions used by the myJym application
         * All users shall be able to create an account using a google google account.
 
 * ### 3.1.2 Functions <a name="3.1.2-functions" />
-    * #### 3.1.2.1 myJym <a name="3.1.2.1-myJym>
+    * #### 3.1.2.1 myJym <a name="3.1.2.1-myJym" />
         The myJym application will allow users to view the My Trainer page and receive system notifications.
 
         * The myJym application shall have a My Trainer page.
         * The myJym application shall send users Notifications. 
-    * #### 3.1.2.1 Notifications <a name="3.1.2.1-notifications" />
+    * #### 3.1.2.2 Notifications <a name="3.1.2.2-notifications" />
         Notifications will allow users to receive notifications/alerts.
 
         * A notification will be created when a user sets a time for their workout.
         * A notification will be created when a user receives a message.
-    * #### 3.1.2.2 My Trainer <a name="3.1.2.2-my-trainer" />
+    * #### 3.1.2.3 My Trainer <a name="3.1.2.3-my-trainer" />
         My trainer will allow users to search for trainers, see trainer profiles, and message trainers.
 
         * My Trainer page shall display a Trainer Profile.
         * My Trainer page shall have a Search Trainer bar.
 
-    * #### 3.1.2.3 View Trainer Profile <a name="3.1.2.3-view-trainer-profile" />
+    * #### 3.1.2.4 View Trainer Profile <a name="3.1.2.4-view-trainer-profile" />
         The trainer profile will provide a viewable page for users with the trainer's photo, short bio, links to youtube channels, a follow button, a link to workouts created by the trainer, and a button to message the trainer.
 
         * Trainer profile shall be viewable by gymGoers.
@@ -387,7 +387,7 @@ This is a comprehensive list of needed definitions used by the myJym application
         * “View Workouts” shall be an option on the Trainer profile.
         * “Message Trainer” shall be an option on the Trainer profile.
 
-    * #### 3.1.2.4 Edit Profile <a name="3.1.2.4-edit-profile" />
+    * #### 3.1.2.5 Edit Profile <a name="3.1.2.5-edit-profile" />
         The edit profile function will allow any user to make changes to their profile.
         * The Edit Profile page shall allow any user to edit their own picture.
         * The Edit Profile page shall allow any user to be able to edit their password.
@@ -395,13 +395,13 @@ This is a comprehensive list of needed definitions used by the myJym application
         * The Edit Profile page shall allow any user to edit their account configuration.
         * The Edit Profile page shall allow any user to edit their personal youtube link.
         
-    * #### 3.1.2.5 Search Trainer <a name="3.1.2.5-search-trainer" />
+    * #### 3.1.2.6 Search Trainer <a name="3.1.2.6-search-trainer" />
         Search trainer will allow users to view and input into a search bar to find trainers.
         * A search bar shall be viewable by the gymgoer.
         * A gymgoer shall be able to input into the search bar.
         * Search trainer shall enable the ability to find trainers matching input into search bar.
 
-    * #### 3.1.2.6 Message Trainer <a name="3.1.2.6-message-trainer" />
+    * #### 3.1.2.7 Message Trainer <a name="3.1.2.7-message-trainer" />
         Message trainer will allow a user to communicate with a trainer.
         * Message Trainer shall give a user the ability to send messages to a trainer. 
         * Message Trainer shall create a chat between a user and a trainer. 
@@ -412,7 +412,7 @@ This is a comprehensive list of needed definitions used by the myJym application
         * Message Trainer shall be able to handle messages containing links.
         * Message Trainer shall be able to handle messages containing video.
 
-    * #### 3.1.2.7 Message Users <a name="3.1.2.7-message-users" />
+    * #### 3.1.2.8 Message Users <a name="3.1.2.8-message-users" />
         Message Users shall allow the trainer to communicate with users. 
         * Message users shall give trainers the ability to send messages to users. 
         * Message users shall create a chat between trainer and users. 
