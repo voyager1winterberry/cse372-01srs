@@ -88,7 +88,7 @@ myJym Software Requirements Specification
     * [3.2.6 Design Constraints](#3.2.6-design-constraints)
     * [3.2.7 Software System Attributes](#3.2.7-software-system-attributes)
         * [3.2.7.1 Reliability](#3.2.7.1-reliability)
-        * [3.1.7.2 Security](#3.1.7.2-security)
+        * [3.2.7.2 Security](#3.2.7.2-security)
 * [3.5 Login & Homepage](#3.5-login-&-homepage)
     * [3.5.1 External Interfaces](#3.5.1-external-interfaces)
     * [3.5.2 Functions](#3.5.2-functions)
