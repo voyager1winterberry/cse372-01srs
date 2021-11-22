@@ -112,6 +112,7 @@ The myJym app is to help people at all levels of experience feel confident using
 <br>
 
 ## 1.2 Scope <a name="1.2-scope" />
+The myGym application will have the following related activities and features. What the application is not is also detailed in this section:
 ### 1.2.1 Products to be Produced <a name="1.2.1-proucts-to-be-produced" />
 - myJym app
 
