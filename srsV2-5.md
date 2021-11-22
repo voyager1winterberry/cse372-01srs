@@ -515,7 +515,7 @@ This is a comprehensive list of needed definitions used by the myJym application
         * #### 3.1.7.4 Maintainability <a name="3.1.7.4-maintainability" />
             * Users shall be allowed to report to the administration team if they forget their password, and need to have a reset password email sent to their personal email that has been registered on their myJym account. 
             * An automatic email shall be sent to the user's email address to allow the user to reset their password. 
-        * #### 3.1.7.5 Portability
+        * #### 3.1.7.5 Portability <a name="3.1.7.5-portability" />
             * System Database shall store user information. 
             * myJym application shall run on both Android and iOS mobile interface.
 
