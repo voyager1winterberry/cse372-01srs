@@ -606,7 +606,7 @@ The myGym map will hold to certain reliability and security guidelines which are
     * The login page shall allow the user to enter login credentials.
 * ### 3.5.4 Performance Requirements <a name="3.5.4-performance-requirements" />
     * The system shall have the ability to process login credentials.
-* ### 3.5.5 Logical Database Requirements <a name="3.5.5-logical-requirements" />
+* ### 3.5.5 Logical Database Requirements <a name="3.5.5-logical-database-requirements" />
     * The UserData database table shall have a Google authentication key from the Google third party login.
     * The UserData database table shall store usernames.
     * The UserData database table shall store the passwords.
