@@ -63,6 +63,32 @@ myJym Software Requirements Specification
         * [3.1.5.6 Security](#3.1.5.6-security)
         * [3.1.5.7 Data retention requirements](#3.1.5.7-data-retention-requirements)
     * [3.1.6 Design Constraints](#3.1.6-design-constraints)
+    * [3.1.7 Software System Attributes](#software-system-attributes)
+        * [3.1.7.1 Reliability](#3.1.7.1-reliability)
+        * [3.1.7.2 Security](#3.1.7.2-security)
+        * [3.1.7.3 Data Privacy](#3.1.7.3-data-privacy)
+        * [3.1.7.4 Maintainability](#3.1.7.4-maintainability)
+        * [3.1.7.5 Portability](#3.1.7.5-portability)
+    * [3.1.8 Supporting Information](#3.1.8-supporting-information)
+* [3.2 Gym Map](#3.2-gym-map)
+    * [3.2.1 External Interfaces](#3.2.1-external-interfaces)
+    * [3.2.2 Functions](#3.2.2-functions)
+        * [3.2.2.1 Map Display](#3.2.2.1-map-display)
+        * [3.2.2.2 Map Search Function](#3.2.2.2-map-search-function)
+        * [3.2.2.3 Map Navigation](#3.2.2.3-map-navigation)
+    * [3.2.3 Usability Requirements](#3.2.3-usability-requirements)
+    * [3.2.4 Performance Requirements](#3.2.4-performance-requirements)
+    * [3.2.5 Logical Database Requirements](#3.2.5-logical-database-requirements)
+        * [3.2.5.1 Types of information used by various functions](#3.2.5.1-types-of-information-used-by-various-functions)
+        * [3.2.5.2 Frequency of use](#3.2.5.2-frequency-of-use)
+        * [3.2.5.3 Accessing Capabilities](#3.2.5.3-accessing-capabilities)
+        * [3.2.5.4 Data entities and their relationships](#3.2.5.4-data-entities-and-their-relationships)
+        * [3.2.5.5 Integrity Constraints]
+        * [3.2.5.6 Security]
+    * [3.2.6 Design Constraints](#3.2.6-design-constraints)
+    * [3.2.7 Software System Attributes](#3.2.7-software-system-attributes)
+        * [3.2.7.1 Reliability](#3.2.7.1-reliability)
+        * [3.1.7.2 Security](#3.1.7.2-security)
 * [References](#references)
 
 <br>
@@ -455,56 +481,56 @@ This is a comprehensive list of needed definitions used by the myJym application
 * ### 3.1.6 Design Constraints
     ![Design Constraints Image](Images/DesignConstraintsImage.png)
 
-* ### 3.1.7 Software System Attributes
-    * #### 3.1.7.1 Reliability 
+* ### 3.1.7 Software System Attributes <a name="3.1.7-software-system-attributes" />
+    * #### 3.1.7.1 Reliability <a name="3.1.7.1-reliability" />
         * Applications shall not have errors within the codes to cause applications to close or crash. 
         * There will be functions within the software that performs verifications to notice errors before the application break or force closes.  
         * The system shall verify the information that matches from the server and the application. 
 
-    * #### 3.1.7.2 Security
+    * #### 3.1.7.2 Security <a name="3.1.7.2-security" />
         * Password Protection and Encryption 
         * User account creation 
             * User information shall be available to users and those have access. 
             * User shall be required to provide email, and password for the purpose of account creation. 
 
-        * #### 3.1.7.3 Data Privacy
+        * #### 3.1.7.3 Data Privacy <a name="3.1.7.3-data-privacy" />
             * User’s data shall be hidden from all other users and parties. 
             * Login Information 
             * Creating an account shall be safe and secure. 
             * All users shall be allowed to login securely. 
             * Once a user logs out from the account, all user information shall be removed from the login screen. 
-        * #### 3.1.7.4 Maintainability
+        * #### 3.1.7.4 Maintainability <a name="3.1.7.4-maintainability" />
             * Users shall be allowed to report to the administration team if they forget their password, and need to have a reset password email sent to their personal email that has been registered on their myJym account. 
             * An automatic email shall be sent to the user's email address to allow the user to reset their password. 
         * #### 3.1.7.5 Portability
             * System Database shall store user information. 
             * myJym application shall run on both Android and iOS mobile interface.
 
-* ### 3.1.8 Supporting Information
+* ### 3.1.8 Supporting Information <a name="3.1.8-supporting-information" />
     ![Design Constraints Image](Images/SupportingInfoImage.png)
 
     *  Description of the problems to be solved by the software:
     A problem that this software will solve is to give users the ability to connect with trainers.Trainers will be able to provide information to users about workouts and feedback on workout plans. Trainers will be able to access user data to be able to help them choose workout plans and give them the motivation to meet their goals.
 
-## 3.2 Gym Map <!-- Team 2 -->
+## 3.2 Gym Map <a name="3.2-gym-map" /> <!-- Team 2 -->
 The map of the gym used by the MyJym application and it's requirements will be detailed in this section.
-* ### 3.2.1 External Interfaces
+* ### 3.2.1 External Interfaces <a name="3.2.1-external-interfaces" />
     * The map shall utilize the System Database to obtain needed information for the map generation.
     * The map search bar shall obtain user data from the System Database.
-* ### 3.2.2 Functions
+* ### 3.2.2 Functions <a name="3.2.2-functions" />
 Functions of the gym map and it's associated features are detailed below:
-* #### 3.2.2.1 Map Display
+* #### 3.2.2.1 Map Display <a name="3.2.2.1-map-display" />
     * The map shall organize gym equipment according to a JSON file detailing their locations.
     * The map shall organize gym services according to a JSON file detailing their locations.
     * When an abnormal state is encountered the map shall stop and refresh.
     * The map shall support modification to facility locations by a system administrator.
     * A simple tutorial of using the map shall display the first time a user opens to that view.
-* #### 3.2.2.2 Map Search Function
+* #### 3.2.2.2 Map Search Function <a name="3.2.2.2-map-search-function" />
     * The map search bar shall perform validation on inputs matching them to gym functions.
     * The map shall provide a search bar used to locate gym functions.
     * The map search bar shall be a modeless interface not restricting user input to other parts of the application.
     * Facilities in the gym shall be searchable by name through the map search bar.
-* #### 3.2.2.2 Map Navigation
+* #### 3.2.2.3 Map Navigation <a name="3.2.2.3-map-navigation" />
     * The map shall be scrollable edge to edge responding to user input.
     * The map shall support zooming detecting when a zoom request is made by the user.
     * Gym function icons shall be interactable to view options related that function.
@@ -527,26 +553,26 @@ The data used by the gym map and it's state will be detailed here.
 * #### 3.2.5.2 Frequency of use
     * Map icons shall be loaded into memory when the view is selected.
     * Map icons shall be discharged from memory when the view is released by the operating system.
-* #### 3.2.5.3 Accessing Capabilities
+* #### 3.2.5.3 Accessing Capabilities <a name="3.2.5.3-accessing-capabilities" />
     * The map shall have access to the schema of equipment in the gym.
     * The map shall have access to the schema for user data.
-* #### 3.2.5.4 Data entities and their relationships
+* #### 3.2.5.4 Data entities and their relationships <a name="3.2.5.4-data-entities-and-their-relationships" />
     * The map shall handle storing of icons as tables in the database.
     * The map shall handle storing of possible search results as key-value pairs.
-* #### 3.2.5.5 Integrity Constraints
+* #### 3.2.5.5 Integrity Constraints <a name="3.2.5.5-integrity-constraints" />
     * Map icons shall be possible entries.
     * Map entries shall have valid references.
     * Primary keys shall be used to distinguish unique data for the map.
-* #### 3.2.5.6 Security
+* #### 3.2.5.6 Security <a name="3.2.5.6-security" />
     * Map data shalled be transmitted via end-to-end encryption.
-* ### 3.2.6 Design Constraints
+* ### 3.2.6 Design Constraints <a name="3.2.6-design-constraints" />
     * The interactable map features shall provide sufficient **Pixels Per Inch** that the average human is able to cleanly select them.
-* ### 3.2.7 Software System Attributes
+* ### 3.2.7 Software System Attributes <a name="3.2.7-software-system-attributes">
 The myGym map will hold to certain reliability and security guidelines which are detailed below:
-* #### 3.1.7.1 Reliability 
+* #### 3.1.7.1 Reliability <a name="3.1.7.1-reliability" />
     * The maps delivered to the user on MyJym shall deliver accurate data based on the information entered by the admin to the database.
     * MyJym map data shall be available throughout the time that the user uses MyJym.
-* #### 3.1.7.2 Security
+* #### 3.1.7.2 Security <a name="3.1.7.2-security" />
     * The map shall not be editable by any unauthorized party. 
 
 
