@@ -133,7 +133,7 @@ The myGym application will have the following related activities and features. W
    <!-- my trainer, my workout, my videos, gym map, -->
 
 ### 1.2.4 Possible Features <a name="1.2.4-possible-features" />
-- Have a social media aspect for trainers to get recognized.
+- myJym may have a social media page based around the trainers at a gym.
 
 ### 1.2.5 Excluded Features <a name="1.2.5-excluded-features" />
 - Not a nutrition app. It is not supposet to recommend meal plans, diets, count calories or anything else along those lines.
