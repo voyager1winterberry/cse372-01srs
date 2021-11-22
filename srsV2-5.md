@@ -581,10 +581,10 @@ The data used by the gym map and it's state will be detailed here.
     * The interactable map features shall provide sufficient **Pixels Per Inch** that the average human is able to cleanly select them.
 * ### 3.2.7 Software System Attributes <a name="3.2.7-software-system-attributes">
 The myGym map will hold to certain reliability and security guidelines which are detailed below:
-* #### 3.1.7.1 Reliability <a name="3.1.7.1-reliability" />
+* #### 3.2.7.1 Reliability <a name="3.2.7.1-reliability" />
     * The maps delivered to the user on MyJym shall deliver accurate data based on the information entered by the admin to the database.
     * MyJym map data shall be available throughout the time that the user uses MyJym.
-* #### 3.1.7.2 Security <a name="3.1.7.2-security" />
+* #### 3.2.7.2 Security <a name="3.2.7.2-security" />
     * The map shall not be editable by any unauthorized party. 
 
 
