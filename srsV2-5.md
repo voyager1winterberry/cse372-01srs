@@ -107,7 +107,7 @@ myJym Software Requirements Specification
 <br>
 
 ## 1.1 Purpose <a name="1.1-purpose" />
-The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainors.  Additional features include work out regiments, gym maps, and ability to track fitness goals.
+The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainers.  Additional features include work out regiments, gym maps, and ability to track fitness goals.
 
 <br>
 
