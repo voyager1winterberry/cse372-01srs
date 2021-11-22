@@ -546,23 +546,23 @@ Functions of the gym map and it's associated features are detailed below:
     * The map shall be scrollable edge to edge responding to user input.
     * The map shall support zooming detecting when a zoom request is made by the user.
     * Gym function icons shall be interactable to view options related that function.
-* ### 3.2.3 Usability Requirements
+* ### 3.2.3 Usability Requirements <a name="3.2.3-usability-requirements" />
     * Ease of learning. The map shall be intuive allowing the user to easily form a mental model of its workings.
     * Task efficiency. The map shall facilitate a user quickly identifying where they should be in the gym to complete their desired activity.
     * Ease of remembering. The map shall utilize simple command formats to ensure users are capable creating a mental model of the map functionalities. 
     * Understandability: The user shall understand the purpose of the map. Map features shall use formats akin to those found on simmilar mobile applications. New users will be greeted by a tutorial upon first entering the map view.
     * Task failure. When encountering a task failure the map shall stop its operation and refresh.
     * Accessibility. Map iconography shall be created based upon commonly recognized symbols. 
-* ### 3.2.4 Performance Requirements
+* ### 3.2.4 Performance Requirements <a name="3.2.4-performance-requirements" />
     * The map shall prioritize loading of graphical display elements prior to lower priority tasks.
     * The map search functionality shall return results in higher performant step timing than** O**(n log n).
     * The map shall allow interaction with elements after a perdetmined time post loading.
-* ### 3.2.5 Logical Database Requirements
+* ### 3.2.5 Logical Database Requirements <a name="3.2.5-logical-database-requirements" />
 The data used by the gym map and it's state will be detailed here.
-* #### 3.2.5.1 Types of information used by various functions
+* #### 3.2.5.1 Types of information used by various functions <a name="3.2.5.1-types-of-information-used-by-various-functions" />
     * The map shall store the icons for the map as a JSON data construct.
     * The map shall store the possible search results for the map search in the System Database as a table.
-* #### 3.2.5.2 Frequency of use
+* #### 3.2.5.2 Frequency of use <a name="3.2.5.2-frequency-of-use" />
     * Map icons shall be loaded into memory when the view is selected.
     * Map icons shall be discharged from memory when the view is released by the operating system.
 * #### 3.2.5.3 Accessing Capabilities <a name="3.2.5.3-accessing-capabilities" />
