@@ -49,6 +49,20 @@ myJym Software Requirements Specification
         * [3.1.2.2 My Trainer](#3.1.2.2-my-trainer)
         * [3.1.2.3-view-trainer-profile](#3.1.2.3-view-trainer-profile)
         * [3.1.2.4 Edit Profile](#3.1.2.4-edit-profile)
+        * [3.1.2.5 Search Trainer](#3.1.2.5-search-trainer)
+        * [3.1.2.6 Message Trainer](#3.1.2.6-message-trainer)
+        * [3.1.2.7 Message Users](#3.1.2.7-message-users)
+    * [3.1.3 Usability Requirements](#3.1.3-usability-requirements)
+    * [3.1.4 Performance Requirements](#3.1.4-performance-requirements)
+    * [3.1.5 Logical Database Requirements](#3.1.5-logical-database-requirements)
+        * [3.1.5.1 Types of information used by various functions](#3.1.5.1-types-of-information-used-by-various-functions)
+        * [3.1.5.2 Frequency of use](#3.1.5.2-frequency-of-use)
+        * [3.1.5.3 Accessing Capabilities](#3.1.5.3-accessing-capabilities)
+        * [3.1.5.4 Data entities and their relationships](#3.1.5.4-data-entities-and-their-relationships)
+        * [3.1.5.5 Integrity Constraints](#3.1.5.5-integrity-constraints)
+        * [3.1.5.6 Security](#3.1.5.6-security)
+        * [3.1.5.7 Data retention requirements](#3.1.5.7-data-retention-requirements)
+    * [3.1.6 Design Constraints](#3.1.6-design-constraints)
 * [References](#references)
 
 <br>
@@ -343,13 +357,13 @@ This is a comprehensive list of needed definitions used by the myJym application
         * The Edit Profile page shall allow any user to edit their account configuration.
         * The Edit Profile page shall allow any user to edit their personal youtube link.
         
-    * #### 3.1.2.5 Search Trainer
+    * #### 3.1.2.5 Search Trainer <a name="3.1.2.5-search-trainer" />
         Search trainer will allow users to view and input into a search bar to find trainers.
         * A search bar shall be viewable by the gymgoer.
         * A gymgoer shall be able to input into the search bar.
         * Search trainer shall enable the ability to find trainers matching input into search bar.
 
-    * #### 3.1.2.6 Message Trainer
+    * #### 3.1.2.6 Message Trainer <a name="3.1.2.6-message-trainer" />
         Message trainer will allow a user to communicate with a trainer.
         * Message Trainer shall give a user the ability to send messages to a trainer. 
         * Message Trainer shall create a chat between a user and a trainer. 
@@ -360,7 +374,7 @@ This is a comprehensive list of needed definitions used by the myJym application
         * Message Trainer shall be able to handle messages containing links.
         * Message Trainer shall be able to handle messages containing video.
 
-    * #### 3.1.2.7 Message Users
+    * #### 3.1.2.7 Message Users <a name="3.1.2.7-message-users" />
         Message Users shall allow the trainer to communicate with users. 
         * Message users shall give trainers the ability to send messages to users. 
         * Message users shall create a chat between trainer and users. 
@@ -368,7 +382,7 @@ This is a comprehensive list of needed definitions used by the myJym application
         * Message users shall list messages in chronological order. 
         * Message users shall be able to send the message. 
 
-* ### 3.1.3 Usability Requirements
+* ### 3.1.3 Usability Requirements <a name="3.1.3-usability-requirements" />
     * Ease of learning. The system shall be easy to learn for both novices and users with experience from similar systems. Users familiar with similar systems shall be able to create a new account and access the account within an average of 5 minutes.
 
     * Task efficiency. The system shall be efficient for the frequent user. Frequent users shall be given an option to be able to access their account without having to sign in each session. Tasks shall be able to be completed by the frequent user within an average of 25 seconds. 
@@ -385,7 +399,7 @@ This is a comprehensive list of needed definitions used by the myJym application
 
     * Accessibility. The system will be created with elements that ensure that it is accessible by the widest range of people as possible. These elements include but are not limited to: color, text, complexity, and exclusivity. 
 
-* ### 3.1.4 Performance Requirements
+* ### 3.1.4 Performance Requirements <a name="3.1.4-performance-requirements" />
     * The mytrainer page shall display views after a predetermined time.
     * The trainer shall receive messages after a predetermined time.
     * The trainer shall compose messages after a predetermined time.
@@ -395,45 +409,45 @@ This is a comprehensive list of needed definitions used by the myJym application
     * Trainer workout videos shall be processed in less than 5 s using hyperlinks.
     * 90% of setting trainer availability info shall be processed in 1 s.
 
-* ### 3.1.5 Logical Database Requirements
-    * #### 3.1.5.1 Types of information used by various functions
+* ### 3.1.5 Logical Database Requirements <a name="3.1.5-logical-database-requirements" />
+    * #### 3.1.5.1 Types of information used by various functions <a name="3.1.5.1-types-of-information-used-by-various-functions" />
         * MyTrainer shall store a trainers first name
         * MyTrainer shall store a trainer’s last name.
         * MyTrainer shall store a trainer’s email.
         * The system shall create a trainer_ID for each trainer.
         * The system shall create a personal key for each trainer.
 
-    * #### 3.1.5.2 Frequency of use
+    * #### 3.1.5.2 Frequency of use <a name="3.1.5.2-frequency-of-use" />
         * Email data types shall be used for a single account.
         * Primary keys shall be used on a single account.
 
-    * #### 3.1.5.3 Accessing Capabilities
+    * #### 3.1.5.3 Accessing Capabilities <a name="3.1.5.3-accessing-capabilities" />
 	    * Trainers shall have access to UserData first_name.
 	    * Trainers shall have access to UserData last_name.
 	    * Trainers shall have access to UserData goals.
 	    * Trainers shall have access to UserData W/O_plan.
 	    * Trainers shall have access to UserData gym.
 
-    * #### 3.1.5.4 Data entities and their relationships
+    * #### 3.1.5.4 Data entities and their relationships <a name="3.1.5.4-data-entities-and-their-relationships" />
         * MyTrainer shall have a data type for first_name.
         * MyTrainer shall have a data type for last_name
         * MyTrainer shall have a data type for email.
         * MyTrainer shall have a data type for trainer_ID.
         * MyTrainer shall have a personal key for each trainer.
 
-    * #### 3.1.5.5 Integrity Constraints
+    * #### 3.1.5.5 Integrity Constraints <a name="3.1.5.5-integrity-constraints" />
 	    * Data entries shall be possible entries.
 	    * Data entries shall be verified by the system.
 	    * Data entries shall have valid references.
 	    * Trainers shall have unique primary keys.
 	    * The system shall have entity integrity.
 
-    * #### 3.1.5.6 Security
+    * #### 3.1.5.6 Security <a name="3.1.5.6-security" />
 	    * Trainer accounts shall utilize google sign-in to access their account.
 	    * Trainers shall only have one account.
 	    * Admin accounts shall have access to all accounts
 
-    * #### 3.1.5.7 Data retention requirements
+    * #### 3.1.5.7 Data retention requirements <a name="3.1.5.7-data-retention-requirements" />
 		* Data shall be retained for 2(two) years.
 		* Data shall be retained in a database.
 		* Trainer accounts shall be accessible for 2(two) years after inactivity.
