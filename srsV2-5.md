@@ -631,6 +631,119 @@ The myGym map will hold to certain reliability and security guidelines which are
 
 <br>
 
+## My Workout <!-- team 3 and 4's stuff-->
+W.3.0.3.1 The workout function shall have the ability to let users create their own workouts.
+
+W.3.0.3.2 The workout function shall have the ability to let users find premade workouts.
+
+W.3.0.3.3 The workout function shall have the ability to let users view previously saved workouts.
+
+<br>
+
+### 3.1.3 External Interface
+Database
+- The database shall store workout **title**.
+- The database shall store workout video links.
+- The database shall store workout description.
+- The database shall store workout **sets**.
+- The database shall store workout **reps**.
+- The database shall store workout **tags**.
+
+YouTube
+
+The **API** for YouTube will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
+- **Gymgoers** shall have the ability to access workout videos.
+
+<br>
+
+### 3.2.3 Functions
+This section is responsible for explaining MyJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
+
+Create Workout
+- The workout creation shall allow the **user** to specify a workout name.
+- The workout creation shall allow the user to specify a muscle group to workout.
+- The workout creation shall allow the user to specify an amount of **reps**.
+- The workout creation shall allow the user to specify an amount of **sets**.
+- The workout creation shall allow the user to embed a video link.
+
+Find Workout
+- The find workout page shall have the ability to search by predetermined **tag**s.
+- One of the tags that can be used to search by shall be **author**.
+- One of the tags that can be used to search by shall be **name of workout**.
+- One of the tags that can be used to search by shall be **length**.
+- One of the tags that can be used to search by shall be **workout type**.
+- One of the tags that can be used to search by shall be **difficulty**.
+- One of the tags that can be used to search by shall be **equipment type**.
+- One of the tags that can be used to search by shall be **muscle groups**.
+- The user shall have the ability to save a workout they find to their saved workouts list.
+
+Saved Workout
+- The user shall have the option to edit the workout.
+- Selecting edit workout shall redirect the user back to the create workout page with all the workout information filled in.
+- The user shall have the option to immediatly start the workout.
+- Selecting start workout shall redirect the user to the workout in progress page.
+- The user shall have the option to delete a previously saved workout.
+
+Workout in Progress Page
+- The workout in progress page shall guide the user through their workout.
+- The workout in progress page shall display the workout information for the selected workout.
+
+<br>
+
+### 3.3.3 Usability Requirements
+Workouts
+- The user shall be able to create a workout.
+- The user shall be able to find a workout.
+- The user shall be able to save a workout.
+- The user shall be able to start a workout.
+- The user shall be able to see workout progress.
+
+<br>
+
+### 3.4.3 Performance Requiremnts
+- The user shall only be able to save one video link for a specific exercise.
+- The system shall support a configurable amount of workouts.
+- The system shall support a configurable amount of tags per workout.
+<br>
+
+### 3.5.3 Logical Database Requirements
+Workout Table
+- The workout table shall contain an exercise title column.
+- The workout table shall contain a tag column.
+- The workout table shall contain a rep column.
+- The workout table shall contain a set column.
+- The workout table shall contain a discription column.
+- The workout table shall contain a video link column.
+- The workout table shall contain a workout id column that acts as a **primary key**.
+
+<br>
+
+### 3.6.3 Design Constraints
+- The user shall only be able to add aproved YouTube links to an exercise.
+- The user shall only be able to input an integer into the rep field.
+- The user shall only be able to input an integer into the set field.
+- The user shall have to add a title to the workouts they create.
+
+<br>
+
+### 3.7.3 Software System Attributes
+Reliability
+- The system shall exit immediatly when user finds an error.
+- The app shall check that locally stored user information matches what is stored in database.
+
+Security
+-  The user shall only be able to add aproved YouTube links to an exercise.
+
+Maintainability
+- App administrators shall be able to remove **inapropriate** content.
+
+<br>
+
+### 3.8.3 Supporting Information
+- N/A
+
+<br>
+
 ## References <a name="references" />
 * [1] S.R.O., Eccam. “Example Software Requirements Specification (SRS) | ReqView Documentation.” ReqView, 2018, www.reqview.com/doc/iso-iec-ieee-29148-srs-example.
 

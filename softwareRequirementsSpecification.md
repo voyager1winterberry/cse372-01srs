@@ -505,7 +505,7 @@ Maintainability
 <br>
 
 ### 3.8.2 Supporting Information
-- N/A (Go look up "Not My Problem" song)
+- N/A
 
 <br>
 
