@@ -41,6 +41,14 @@ myJym Software Requirements Specification
         * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
         * [1.3.4.13 External System Limitations](#1.3.4.13-external-system-limitations)
 * [1.4 Definitions](#1.4-definitions)
+* [3.1 My Trainer](#3.1-my-trainer)
+    * [3.1.1 External Interfaces](#3.1.1-external-interfaces)
+        * [3.1.1.1 Google Authentication](#3.1.1.1-google-authentication)
+    * [3.1.2 Functions](#3.1.2-functions)
+        * [3.1.2.1 myJym](#3.1.2.1-myJym)
+        * [3.1.2.2 My Trainer](#3.1.2.2-my-trainer)
+        * [3.1.2.3-view-trainer-profile](#3.1.2.3-view-trainer-profile)
+        * [3.1.2.4 Edit Profile](#3.1.2.4-edit-profile)
 * [References](#references)
 
 <br>
@@ -292,31 +300,31 @@ This is a comprehensive list of needed definitions used by the myJym application
 
 <br>
 
-## 3.1 My Trainer 
-* ### 3.1.1 External Interfaces
-    * #### 3.1.1.1 Google Authentication
+## 3.1 My Trainer <a name="3.1-my-trainer" />
+* ### 3.1.1 External Interfaces <a name="3.1.1-external-interfaces" />
+    * #### 3.1.1.1 Google Authentication <a name="3.1.1.1-google-authentication" />
         * Google Authentication API shall be used by gymgoers and trainers to login to their accounts.
         * All users shall be able to login to their account using a google account.
         * All users shall be able to create an account using a google google account.
 
-* ### 3.1.2 Functions
-    * #### 3.1.2.1 myJym
+* ### 3.1.2 Functions <a name="3.1.2-functions" />
+    * #### 3.1.2.1 myJym <a name="3.1.2.1-myJym>
         The myJym application will allow users to view the My Trainer page and receive system notifications.
 
         * The myJym application shall have a My Trainer page.
         * The myJym application shall send users Notifications. 
-    * #### 3.1.2.1 Notifications
+    * #### 3.1.2.1 Notifications <a name="3.1.2.1-notifications" />
         Notifications will allow users to receive notifications/alerts.
 
         * A notification will be created when a user sets a time for their workout.
         * A notification will be created when a user receives a message.
-    * #### 3.1.2.2 My Trainer
+    * #### 3.1.2.2 My Trainer <a name="3.1.2.2-my-trainer" />
         My trainer will allow users to search for trainers, see trainer profiles, and message trainers.
 
         * My Trainer page shall display a Trainer Profile.
         * My Trainer page shall have a Search Trainer bar.
 
-    * #### 3.1.2.3 View Trainer Profile
+    * #### 3.1.2.3 View Trainer Profile <a name="3.1.2.3-view-trainer-profile" />
         The trainer profile will provide a viewable page for users with the trainer's photo, short bio, links to youtube channels, a follow button, a link to workouts created by the trainer, and a button to message the trainer.
 
         * Trainer profile shall be viewable by gymGoers.
@@ -327,7 +335,7 @@ This is a comprehensive list of needed definitions used by the myJym application
         * “View Workouts” shall be an option on the Trainer profile.
         * “Message Trainer” shall be an option on the Trainer profile.
 
-    * #### 3.1.2.4 Edit Profile
+    * #### 3.1.2.4 Edit Profile <a name="3.1.2.4-edit-profile" />
         The edit profile function will allow any user to make changes to their profile.
         * The Edit Profile page shall allow any user to edit their own picture.
         * The Edit Profile page shall allow any user to be able to edit their password.
