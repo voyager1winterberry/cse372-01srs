@@ -124,9 +124,10 @@ The myGym application will have the following related activities and features. W
 - Let user create or augment their own workouts
 - Track user workouts and progress
 - Store user profile information
-- Connect users to trainers to get their advice on workouts
-- Gym will have QR codes to scan that will bring up information about how to use specific equipment
-- Gym Map <!-- showing locations of workout equipment and services in the gym. -->
+<!-- Suggested format for updating features (Aaron) -->
+| Feature | Description                                                          |
+|---------|----------------------------------------------------------------------|
+| Gym Map | A map showing the location of equipment, services, and gym features. |
 
 <!-- login page (external interface) /these were discussed in class and should be added to core features/ -->
 <!-- home page MyJym (external interface) sub interfaces -->
