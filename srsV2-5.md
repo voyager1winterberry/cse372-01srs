@@ -211,6 +211,7 @@ This section details the relationship of the myJym app to products that are simm
 * (No knowledge of whether we plan to use cloud-based services or Saas)
 
 ### 1.3.2 Product Functions <a name="1.3.2-product-functions" />
+For the product functions of the myJym application the following User Profiles and User Scenarios will be as follows:
 #### 1.3.2.1 User Profiles <a name="1.3.2.1-user-profiles" />
  - A returned missionary attending BYU-Idaho, in their early twenties, has a busy schedule with work and a heavy course load.
  - A student in their junior year, also attending BYU-Idaho, in their early twenties, they enjoy playing football with their friends and family.
