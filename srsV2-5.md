@@ -1,10 +1,15 @@
 myJym Software Requirements Specification
 =========================================
+Project Sponsor: Jared Barnes
+Project Owner: Brother Clements
+=========================================
+11/20/21
+=========================================
 <br><br><br>
 
 | Authors:     |                  |                   |                         |                  |
 |-------------------|------------------|-------------------|-------------------------|------------------|
-| Ales, Grant       | Collins, Grant   | Crowson, Avery    | Dean, Joshua            | Elzinga, Jacob   |
+| Ales, Grant       | Collins, Daniel   | Crowson, Avery    | Dean, Joshua            | Elzinga, Jacob   |
 | Hedgecock, Marcus | Hoyt, Devan      | Hsu, Wei          | Huang, Jason            | Jackson, Michael |
 | LeSueur, Whitney  | Lofgran, Rachel  | Mencl, Justyn     | Pitcher, Jeffrey Thomas | Powell, Hunter   |
 | Richards, Olivia  | Roberts, Russell | Stapley, Collette | Warner, Spencer         | Whittier, Aaron  |
