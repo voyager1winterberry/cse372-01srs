@@ -226,7 +226,7 @@ The following User Scenarios serve to describe the use cases that have been elic
 - Only being able to attend the gym in the early morning, with no previous time to set a workout routine or research workout machines.
 - Brand new to exercising, there is a fear of feeling inadequate and confused in front of others, and a desire to be helped in a discreet way.
 - Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
-- Having exercised mostly through cardio before, a student wants to begin using machines to grow individual muscles and know what they can do to have a more efficient workout.
+- A student desires additional experience with a variety of exercises including strength training, endurance training, weight loss, and cardio training to be able to better meet their fitness goals.
 
 ### 1.3.3 User Characteristics <a name="1.3.3-user-characteristics" />
 
