@@ -213,12 +213,16 @@ This section details the relationship of the myJym app to products that are simm
 ### 1.3.2 Product Functions <a name="1.3.2-product-functions" />
 For the product functions of the myJym application the following User Profiles and User Scenarios will be as follows:
 #### 1.3.2.1 User Profiles <a name="1.3.2.1-user-profiles" />
+The following User Profiles define the target demographics for the myJym application:
  - A returned missionary attending BYU-Idaho, in their early twenties, has a busy schedule with work and a heavy course load.
  - A student in their junior year, also attending BYU-Idaho, in their early twenties, they enjoy playing football with their friends and family.
  - A new freshman, halfway through the semester wanting to lose weight, but unsure of where to start.
  - A couple that likes to spend time together by playing sports and working out.
+The application will be available to all age groups and demographics, however these groups will serve as the focus the application.
+
 
 #### 1.3.2.2 User Scenarios <a name="1.3.2.2-user-scenarios" />
+The following User Scenarios serve to describe the use cases that have been elicited to be applicable to the product functions of the myJym application:
 - Only being able to attend the gym in the early morning, with no previous time to set a workout routine or research workout machines.
 - Brand new to exercising, there is a fear of feeling inadequate and confused in front of others, and a desire to be helped in a discreet way.
 - Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
