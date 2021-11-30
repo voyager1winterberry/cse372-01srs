@@ -311,7 +311,7 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Android 11 | The minimum android version that will be required for the project. |
 | Audit Functions | Functions of the application that allow for user feedback and error handling. |
 | App | myJym mobile application. |
-| Client | see *user* |
+| Client | see *trainee* |
 | Control Functions | The interface with which the user will interact with and control the app. |
 | Criticality of the Application | Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
 | The Database | A database that will store all information needed to run the application contraining the following tables: Admin, UserData, Trainer, and WorkOut. |
@@ -361,8 +361,10 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Specification number | For the purpose of organization feature within the SRS documentation. |
 | The System | The backend code that processes the server requests to send or return data as requested by the server through the user's requests. |
 | Trainers | see *Personal Trainer* |
-| Trainee | see *user* | 
-| User | A person that uses the myJym app along with help from a personal trainer to progress with their training |
+| Trainee | A gym-goer being trained by a personal trainer. | 
+| User | A gym-goer and/or a trainer. |
+| User-admin | User that acts as an administrator. |
+| User-trainer | User who instructs gym-goers. |
 | Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
 | Working camera | camera capable of taking clear photos |
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
