@@ -212,12 +212,15 @@ Software interfaces (programming interfaces) are the languages, codes and messag
     -Connect with users through messaging and other means through the app to assist with training goals
 
 #### 1.3.1.8 Site Adaption Requirements <a name="1.3.1.8-site-adaption-requirements" />
-* **Android**
-* **IOS**
-* Web application
+The system must be available in the following formats. 
+* Android 
+* IOS 
+* Web application 
 
 #### 1.3.1.9 Interfaces with Services <a name="1.3.1.9-interfaces-with-services" />
-* (No knowledge of whether we plan to use cloud-based services or Saas)
+The different services that the system will interact with. 
+* YouTube links to the various workout videos must be accessible 
+* The server will connect accounts to the main database to access the account information 
 
 ### 1.3.2 Product Functions <a name="1.3.2-product-functions" />
 For the product functions of the myJym application the following User Profiles and User Scenarios will be as follows:
