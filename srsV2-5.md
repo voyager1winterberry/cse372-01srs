@@ -181,12 +181,17 @@ The user interfaces will be the functionality of the app. This functionality is 
 * The mJym app will have a myGym page which will find the gym you will be going to and a built-in map of that gym.
 
 #### 1.3.1.3 Hardware Interfaces <a name="1.3.1.3-hardware-interfaces" />
-* Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the ios and android devices are able to connect to the internet. Since the **app** will be a fitness app, the hardware will require **users** to have the feature of location tracking for personal coach and exercise equipment tutorial videos. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. 
+A hardware interface specifies the plugs, sockets, cables and electrical signals that pass through each line between the CPU and a peripheral device or communications network. 
+
+* Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the ios and android devices are able to connect to the internet. Since myJym will be a fitness app, features of myJym shall require users to have the feature of location tracking for personal coach and exercise equipment tutorial videos on their mobile device. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. The version of the iOS system shall be 15.1.1, and android system shall be 11.  
 
 #### 1.3.1.4 Software Interfaces <a name="1.3.1.4-software-interfaces" />
-* Specify the use of other required software products.
-    - Operating System: iOS and Android devices. 
-    - Linkage: Users shall be allowed to sign up myJam with their existing social media email accounts. (Facebook, Gmail, etc.)  
+Software interfaces (programming interfaces) are the languages, codes and messages that programs use to communicate with each other and to the hardware. Examples are the Windows, Mac and Linux operating systems, SMTP email, IP network protocols and the software drivers that activate the peripheral devices. 
+
+* Specify the use of other required software products.  
+    - Operating System: iOS and Android devices, and desktop applications, and the content will be operating within the mobile application.  
+
+    - Linkage: Users shall be allowed to sign up myJym with their existing personal email address to login to their accounts.   
 
 #### 1.3.1.5 Communications Interfaces <a name="1.3.1.5-communications-interfaces" />
 * Communication interfaces shall include communication between the users.
