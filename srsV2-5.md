@@ -224,6 +224,7 @@ The different services that the system will interact with.
 
 ### 1.3.2 Product Functions <a name="1.3.2-product-functions" />
 For the product functions of the myJym application the following User Profiles and User Scenarios will be as follows:
+
 #### 1.3.2.1 User Profiles <a name="1.3.2.1-user-profiles" />
 The following User Profiles define the target demographics for the myJym application:
  - A returned missionary attending BYU-Idaho, in their early twenties, has a busy schedule with work and a heavy course load.
