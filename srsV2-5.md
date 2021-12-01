@@ -155,29 +155,30 @@ The myGym application will have the following related activities and features. W
 This section details the relationship of the myJym app to products that are simmilar or related to it. 
 
 #### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
-- The application shall run on the most recent **iOS**. 
-- The application shall run on the most recent **macOS**.  
-- The application shall be connected to a database to store data.  
-- The application shall be using google authentication. 
+The system interfaces will be the systems that the application will be running on. The list below will be the systems used for the application. 
+
+* The myJym app will run on mobile services. 
+* The myJym app will run on web services. 
+* The myJym app will connect to google authentication for login credentials. 
 
 #### 1.3.1.2 User Interfaces <a name="1.3.1.2-user-interfaces" />
-* The application shall have a **GUI**.
-    - The GUI shall contain interactive buttons. 
-    - The GUI shall contain an onscreen keyboard. 
-    - The GUI shall contain a built-in messaging system. 
-    - The GUI shall contain a sign-in page. 
-    - The GUI shall contain a log in menu. 
-    - The GUI shall contain interactive forms. 
-    - The GUI shall contain a navigation bar. 
-    - The GUI shall contain a search bar. 
-    - The GUI shall contain a settings page. 
-    - The GUI shall contain hyperlinks to workout videos. 
-    - The GUI shall contain a find workout page. 
-    - The GUI shall contain a create workout page. 
-    - The GUI shall contain a my Gym page. 
-    - The my Gym page shall have a search for gym option. 
-    - The my Gym page shall have the option to see the home gym of user. 
-    - The my Gym page shall have a map of where equipment is in the gym. 
+The user interfaces will be the functionality of the app. This functionality is what the user will see when in the app.  
+
+* The myJym app will include a built-in messaging system to allow communication between users. 
+
+* The myJym app will include a sign-in page and a login page for the user. 
+
+* The myJym app will use the current systems keyboard to allow user input.  
+
+* The myJym app will have interactive buttons that will do different things according to the buttons pressed. These buttons will change the current page, modify workouts, and work with myJym’s built-in messaging. 
+
+* The myJym app will have a search bar that will allow the user to search for anything regarding the application such as different workouts. The search bar will allow for quick searches for the user's needs. 
+
+* The myJym app will have a settings page which will have everything in the page that the user can see and change in the app. Settings will include the user's profile and trainers they work with. 
+
+* The myJym app will have a workout page which will allow the user to create, delete, modify, and save workouts. 
+
+* The mJym app will have a myGym page which will find the gym you will be going to and a built-in map of that gym.
 
 #### 1.3.1.3 Hardware Interfaces <a name="1.3.1.3-hardware-interfaces" />
 * Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the ios and android devices are able to connect to the internet. Since the **app** will be a fitness app, the hardware will require **users** to have the feature of location tracking for personal coach and exercise equipment tutorial videos. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. 
