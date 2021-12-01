@@ -615,6 +615,71 @@ The myGym map will hold to certain reliability and security guidelines which are
 * #### 3.2.7.2 Security <a name="3.2.7.2-security" />
     * The map shall not be editable by any unauthorized party. 
 
+	
+## 3.3 MyJym Videos  
+
+This Specification section explains the MyJym application in detail, the specification goes over eight categories. Such as external interfaces, functionality, usability, performance, database, design constraints, and software system attribute requirements for the MyJym application. 
+
+### 3.3.1 External Interfaces Specification
+#### 3.3.1.1 Database
+* The MyJym application will use a database to store workout information, Specific columns and requirements of the database can be found in section 3.5.
+
+* The database shall store workout title
+
+* The database shall store workout video links
+
+* The database shall store workout description
+
+* The database shall store the image links
+ 
+#### 3.3.1.2 VIdeo Streaming
+* The API for a video streaming website will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
+
+* Gymgoers shall have the ability to access workout videos
+	
+### 3.3.2 Functions
+* This section is responsible for explaining MyJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
+
+#### 3.3.2.1 My Video
+* The purpose of the following section provides the capabilities of the video page. This represents an individual user for the MyJym application.
+* The My Video page shall display a workout title.
+
+* The My Video page shall display an equipment name.
+
+* The My Video page shall display a workout video.
+
+* The My Video page shall provide a save video button.
+
+### 3.3.3 Usability Requirement
+* User shall be able to save a selected video
+* User shall be able to view the workout video
+* User shall be able to view saved videos
+	
+### 3.3.4 Performance requirements
+For the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.
+* User shall be able to save a selected video
+* The user shall only be able to save one video link per exercise.
+* The My Video page shall support a configurable amount of workouts
+* The My Video page shall support a configurable amount of workouts videos
+
+### 3.3.5 Logical Database Requirements
+The MyJym database shall store all the tables that are necessary for storing information required by the application.
+* The workout table shall contain an exercise title column
+* The workout table shall contain a description column
+* The workout table shall contain a video link column
+* The workout table shall contain a workout id column that acts as a primary key
+
+### 3.3.6 Design Constraints
+* The user shall only be able to save workout video
+
+### 3.3.7 Software System Attributes
+#### 3.3.7.1 Reliability
+* The system shall exit immediately when a user finds an error.
+* The app shall check that locally stored user information matches what is stored in a database.
+#### 3.3.7.2 Security
+* The user shall only be able to add approved video links to an exercise.
+#### 3.3.7.3 Maintainability
+* App administrators shall be able to remove inappropriate content.
 
 ## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
 * ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
