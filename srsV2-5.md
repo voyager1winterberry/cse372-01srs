@@ -112,8 +112,7 @@ Date: 11/20/21
         * [3.4.7.3 Security](#3.4.7.3-security)
         * [3.4.7.4 Portability](#3.4.7.4-portability)
 * [References](#references)
-
-<br>
+<br><hr /><br>
 
 ## 1.1 Purpose <a name="1.1-purpose" />
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainers.  Additional features include work out regiments, gym maps, and ability to track fitness goals.
