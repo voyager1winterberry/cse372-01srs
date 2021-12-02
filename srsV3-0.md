@@ -126,22 +126,22 @@ Date: 11/20/21
         * [3.4.7.3 Security](#3.4.7.3-security)
         * [3.4.7.4 Portability](#3.4.7.4-portability)
 * [3.5 My Workout](#3.5-my-workout)
-    * 3.5.1 External Interface
-        * 3.5.1.1 Database
-        * 3.5.1.2 YouTube
-    * 3.5.2 Functions
-        * 3.5.2.1 Create Workout
-        * 3.5.2.2 Find Workout
-        * 3.5.2.3 Saved Workout
-        * 3.5.2.4 Workout in Progress Page
-    * 3.5.3 Usability Requirements
-    * 3.5.4 Performance Requiremnts
-    * 3.5.5 Logical Database Requirements
-    * 3.5.6 Design Constraints
-    * 3.5.7 Software System Attributes
-    * 3.5.7.1 Reliability
-        * 3.5.7.2 Security
-        * 3.5.7.3 Maintainability
+    * [3.5.1 External Interface](#3.5.1-external-interface)
+        * [3.5.1.1 Database](#3.5.1.1-database)
+        * [3.5.1.2 YouTube](#3.5.1.2-Youtube)
+    * [3.5.2 Functions](#3.5.2-functions)
+        * [3.5.2.1 Create Workout](#3.5.2.1-create-workout)
+        * [3.5.2.2 Find Workout](#3.5.2.2-find-workout)
+        * [3.5.2.3 Saved Workout](#3.5.2.3-saved-workout)
+        * [3.5.2.4 Workout in Progress Page](#3.5.2.4-workout-in-progress-page)
+    * [3.5.3 Usability Requirements](#3.5.3-usability-requirements)
+    * [3.5.4 Performance Requiremnts](#3.5.4-performance-requirements)
+    * [3.5.5 Logical Database Requirements](#3.5.5-logical-database-requirements)
+    * [3.5.6 Design Constraints](#3.5.6-design-constraints)
+    * [3.5.7 Software System Attributes](#3.5.7-software-system-attributes)
+        * [3.5.7.1 Reliability](#3.5.7.1-reliability)
+        * [3.5.7.2 Security](#3.5.7.2-security)
+        * [3.5.7.3 Maintainability](#3.5.7.3-maintainability)
 * [References](#references)
 <br><hr /><br>
 
@@ -651,8 +651,8 @@ The myGym map will hold to certain reliability and security guidelines which are
 
 This Specification section explains the MyJym application in detail, the specification goes over eight categories. Such as external interfaces, functionality, usability, performance, database, design constraints, and software system attribute requirements for the MyJym application. 
 
-### 3.3.1 External Interfaces Specification
-#### 3.3.1.1 Database
+### 3.3.1 External Interfaces Specification <a name="3.3.1-external-interfaces-specifications" />
+#### 3.3.1.1 Database <a name="3.3.1.1-database" />
 * The MyJym application will use a database to store workout information, Specific columns and requirements of the database can be found in section 3.5.
 
 * The database shall store workout title
@@ -663,15 +663,15 @@ This Specification section explains the MyJym application in detail, the specifi
 
 * The database shall store the image links
  
-#### 3.3.1.2 VIdeo Streaming
+#### 3.3.1.2 Video Streaming <a name="3.3.1.2-video-streaming" />
 * The API for a video streaming website will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
 
 * Gymgoers shall have the ability to access workout videos
 	
-### 3.3.2 Functions
+### 3.3.2 Functions <a name="3.3.2-functions" />
 * This section is responsible for explaining MyJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
 
-#### 3.3.2.1 My Video
+#### 3.3.2.1 My Video <a name="3.3.2.1-my-video" />
 * The purpose of the following section provides the capabilities of the video page. This represents an individual user for the MyJym application.
 * The My Video page shall display a workout title.
 
@@ -681,35 +681,35 @@ This Specification section explains the MyJym application in detail, the specifi
 
 * The My Video page shall provide a save video button.
 
-### 3.3.3 Usability Requirement
+### 3.3.3 Usability Requirement <a name="3.3.3-usability-requirement" />
 * User shall be able to save a selected video
 * User shall be able to view the workout video
 * User shall be able to view saved videos
 	
-### 3.3.4 Performance requirements
+### 3.3.4 Performance requirements <a name="3.3.4-performance-requirements" />
 For the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.
 * User shall be able to save a selected video
 * The user shall only be able to save one video link per exercise.
 * The My Video page shall support a configurable amount of workouts
 * The My Video page shall support a configurable amount of workouts videos
 
-### 3.3.5 Logical Database Requirements
+### 3.3.5 Logical Database Requirements <a name="3.3.5-logical-database-requirements" />
 The MyJym database shall store all the tables that are necessary for storing information required by the application.
 * The workout table shall contain an exercise title column
 * The workout table shall contain a description column
 * The workout table shall contain a video link column
 * The workout table shall contain a workout id column that acts as a primary key
 
-### 3.3.6 Design Constraints
+### 3.3.6 Design Constraints <a name="3.3.6-design-constraints" />
 * The user shall only be able to save workout video
 
-### 3.3.7 Software System Attributes
-#### 3.3.7.1 Reliability
+### 3.3.7 Software System Attributes <a name="3.3.7-software-system-attributes" />
+#### 3.3.7.1 Reliability <a name="3.3.7.1-reliability" />
 * The system shall exit immediately when a user finds an error.
 * The app shall check that locally stored user information matches what is stored in a database.
-#### 3.3.7.2 Security
+#### 3.3.7.2 Security <a name="3.3.7.2-security" />
 * The user shall only be able to add approved video links to an exercise.
-#### 3.3.7.3 Maintainability
+#### 3.3.7.3 Maintainability <a name="3.3.7.3-maintainability" />
 * App administrators shall be able to remove inappropriate content.
 
 ## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
@@ -753,7 +753,7 @@ The MyJym database shall store all the tables that are necessary for storing inf
 
 <br>
 
-## 3.5 My Workout <!-- team 3 and 4's stuff-->
+## 3.5 My Workout <a name="3.5-my-workout" /> <!-- team 3 and 4's stuff-->
 	
 	
 	
@@ -765,8 +765,8 @@ W.3.0.3.3 The workout function shall have the ability to let users view previous
 
 <br>
 
-### 3.5.1 External Interface
-#### 3.5.1.1 Database
+### 3.5.1 External Interface <a name="3.5.1-external-interface" />
+#### 3.5.1.1 Database <a name="3.5.1.1-database" />
 * The database shall store workout **title**.
 * The database shall store workout video links.
 * The database shall store workout description.
@@ -774,22 +774,22 @@ W.3.0.3.3 The workout function shall have the ability to let users view previous
 * The database shall store workout **reps**.
 * The database shall store workout **tags**.
 
-#### 3.5.1.2 YouTube
+#### 3.5.1.2 YouTube <a name="3.5.1.2-youtube" />
 
 * The **API** for YouTube will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
 * **Gymgoers** shall have the ability to access workout videos.
 	
-### 3.5.2 Functions
+### 3.5.2 Functions <a name="3.5.2-functions" />
 This section is responsible for explaining MyJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
 
-#### 3.5.2.1 Create Workout
+#### 3.5.2.1 Create Workout <a name="3.5.2.1-create-workout" />
 * The workout creation shall allow the **user** to specify a workout name.
 * The workout creation shall allow the user to specify a muscle group to workout.
 * The workout creation shall allow the user to specify an amount of **reps**.
 * The workout creation shall allow the user to specify an amount of **sets**.
 * The workout creation shall allow the user to embed a video link.
 
-#### 3.5.2.2 Find Workout
+#### 3.5.2.2 Find Workout <a name="3.5.2.2-find-workout" />
 * The find workout page shall have the ability to search by predetermined **tag**s.
 * One of the tags that can be used to search by shall be **author**.
 * One of the tags that can be used to search by shall be **name of workout**.
@@ -800,18 +800,18 @@ This section is responsible for explaining MyJym’s ability to perform to the U
 * One of the tags that can be used to search by shall be **muscle groups**.
 * The user shall have the ability to save a workout they find to their saved workouts list.
 
-#### 3.5.2.3 Saved Workout
+#### 3.5.2.3 Saved Workout <a name="3.5.2.3-saved-workout" />
 * The user shall have the option to edit the workout.
 * Selecting edit workout shall redirect the user back to the create workout page with all the workout information filled in.
 * The user shall have the option to immediatly start the workout.
 * Selecting start workout shall redirect the user to the workout in progress page.
 * The user shall have the option to delete a previously saved workout.
 
-#### 3.5.2.4 Workout in Progress Page
+#### 3.5.2.4 Workout in Progress Page <a name="3.5.2.4-workout-in-progress-page" />
 * The workout in progress page shall guide the user through their workout.
 * The workout in progress page shall display the workout information for the selected workout.
 
-### 3.5.3 Usability Requirements
+### 3.5.3 Usability Requirements <a name="3.5.3-usability-requirements" />
 <!--Workouts-->
 * The user shall be able to create a workout.
 * The user shall be able to find a workout.
@@ -819,12 +819,12 @@ This section is responsible for explaining MyJym’s ability to perform to the U
 * The user shall be able to start a workout.
 * The user shall be able to see workout progress.
 
-### 3.5.4 Performance Requiremnts
+### 3.5.4 Performance Requiremnts <a name="3.5.4-performance-requirments" />
 * The user shall only be able to save one video link for a specific exercise.
 * The system shall support a configurable amount of workouts.
 * The system shall support a configurable amount of tags per workout.
 
-### 3.5.5 Logical Database Requirements
+### 3.5.5 Logical Database Requirements <a name="3.5.5-logical-database-requirments" />
 <!--Workout Table-->
 * The workout table shall contain an exercise title column.
 * The workout table shall contain a tag column.
@@ -834,21 +834,21 @@ This section is responsible for explaining MyJym’s ability to perform to the U
 * The workout table shall contain a video link column.
 * The workout table shall contain a workout id column that acts as a **primary key**.
 
-### 3.5.6 Design Constraints
+### 3.5.6 Design Constraints <a name="3.5.6-design-constraints" />
 * The user shall only be able to add aproved YouTube links to an exercise.
 * The user shall only be able to input an integer into the rep field.
 * The user shall only be able to input an integer into the set field.
 * The user shall have to add a title to the workouts they create.
 
-### 3.5.7 Software System Attributes
-#### 3.5.7.1 Reliability
+### 3.5.7 Software System Attributes <a name="3.5.7-software-system-attributes" />
+#### 3.5.7.1 Reliability <a name="3.5.7.1-reliability" />
 * The system shall exit immediatly when user finds an error.
 * The app shall check that locally stored user information matches what is stored in database.
 
-#### 3.5.7.2 Security
+#### 3.5.7.2 Security <a name="3.5.7.2-security" />
 *  The user shall only be able to add aproved YouTube links to an exercise.
 
-#### 3.5.7.3 Maintainability
+#### 3.5.7.3 Maintainability <a name="3.5.7.3-maintainability" />
 * App administrators shall be able to remove **inapropriate** content.
 
 <!--3.8.3 Supporting Information
