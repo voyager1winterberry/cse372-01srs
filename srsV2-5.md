@@ -448,22 +448,25 @@ This is a comprehensive list of needed definitions used by the myJym application
         * Message users shall list messages in chronological order. 
         * Message users shall be able to send the message. 
 
-* ### 3.1.3 Usability Requirements <a name="3.1.3-usability-requirements" />
-    * Ease of learning. The system shall be easy to learn for both novices and users with experience from similar systems. Users familiar with similar systems shall be able to create a new account and access the account within an average of 5 minutes.
+### 3.1.3 Usability Requirements <a name="3.1.3-usability-requirements" />
+    Requirements that are part of the user experience. It is the different aspects of the system such as understandability, accessibility, task failure and more that impact how a user views and uses the system.  
 
-    * Task efficiency. The system shall be efficient for the frequent user. Frequent users shall be given an option to be able to access their account without having to sign in each session. Tasks shall be able to be completed by the frequent user within an average of 25 seconds. 
+* Ease of learning. The system shall be easy to learn for both novices and users with experience from similar systems. Users familiar with similar systems shall be able to create a new account with minimal errors. 
 
-    * Ease of remembering. The system shall be easy to remember for the casual user. Users experienced with this system shall be able to login to their account within an average of 1 minute. 
+* Task efficiency. The system shall be designed to be simple to use for frequent users. Frequent users shall be given an option to be able to access their account without having to sign in each session. Tasks shall be able to be completed by the frequent user quickly and efficiently.  
 
-    * Understandability: The user shall understand what the system does. The system shall keep every option available on the user interface to similar sizes so that no option is larger than the others. A new user shall be able to navigate to any desired option within an average of 30 seconds. A total of 99% of users shall be able to perform any given task. 
+* Ease of remembering. The system shall be clear and well defined. Users experienced with this system shall be able to login to their account quickly. 
 
-    * Subjective satisfaction. The user shall feel satisfied with the system. The system shall receive an average rating of 7 out of 10 by test groups, with 10 being the highest and 1 the lowest. 
+* Understandability:  A new user shall be able to navigate to any desired option quickly and efficiently . 
 
-    * Task failure. Task failure by the system shall be kept to an absolute minimum. Task failure shall be limited to at most, .2 per user.  
+* Subjective satisfaction. The system shall receive a high rating by test groups when released. 
 
-    * Requirements to undo. A safe environment shall be incorporated into the system where users are able to try things and undo them. The ability to undo should be incorporated into any part of the system that stores information, or task.
+* Task failure. Task failure by the system shall be kept to a minimum. 
 
-    * Accessibility. The system will be created with elements that ensure that it is accessible by the widest range of people as possible. These elements include but are not limited to: color, text, complexity, and exclusivity. 
+* Requirements to undo. The system should be able to allow users are able to try things and undo them. The ability to undo should be incorporated into any part of the system that stores information, or task. 
+
+* Accessibility. The system shall be created with elements that ensure that it is accessible to adults ranging from 18-40. These elements include but are not limited to: color, text, complexity, and exclusivity. 
+
 
 * ### 3.1.4 Performance Requirements <a name="3.1.4-performance-requirements" />
     * The mytrainer page shall display views after a predetermined time.
@@ -475,48 +478,46 @@ This is a comprehensive list of needed definitions used by the myJym application
     * Trainer workout videos shall be processed in less than 5 s using hyperlinks.
     * 90% of setting trainer availability info shall be processed in 1 s.
 
-* ### 3.1.5 Logical Database Requirements <a name="3.1.5-logical-database-requirements" />
-    * #### 3.1.5.1 Types of information used by various functions <a name="3.1.5.1-types-of-information-used-by-various-functions" />
-        * MyTrainer shall store a trainers first name
-        * MyTrainer shall store a trainer’s last name.
-        * MyTrainer shall store a trainer’s email.
-        * The system shall create a trainer_ID for each trainer.
-        * The system shall create a personal key for each trainer.
+### 3.1.5 Logical Database Requirements <a name="3.1.5-logical-database-requirements" />
 
-    * #### 3.1.5.2 Frequency of use <a name="3.1.5.2-frequency-of-use" />
-        * Email data types shall be used for a single account.
-        * Primary keys shall be used on a single account.
+- #### 3.1.5.1 Types of information used by various functions <a name="3.1.5.1-types-of-information-used-by-various-functions" /> 
+    The system shall include several types of data for each account.  
 
-    * #### 3.1.5.3 Accessing Capabilities <a name="3.1.5.3-accessing-capabilities" />
-	    * Trainers shall have access to UserData first_name.
-	    * Trainers shall have access to UserData last_name.
-	    * Trainers shall have access to UserData goals.
-	    * Trainers shall have access to UserData W/O_plan.
-	    * Trainers shall have access to UserData gym.
+    * MyTrainer shall store a trainers first name 
+    * MyTrainer shall store a trainer’s last name. 
+    * MyTrainer shall store a trainer’s email. 
+    * The system shall create a trainer_ID for each trainer. 
 
-    * #### 3.1.5.4 Data entities and their relationships <a name="3.1.5.4-data-entities-and-their-relationships" />
-        * MyTrainer shall have a data type for first_name.
-        * MyTrainer shall have a data type for last_name
-        * MyTrainer shall have a data type for email.
-        * MyTrainer shall have a data type for trainer_ID.
-        * MyTrainer shall have a personal key for each trainer.
+- #### 3.1.5.2 Frequency of use  
+    Data shall not be reused between accounts. This will require all emails and primary keys to be unique to each account. 
+    
+    * Email data types shall be used for a single account.   
 
-    * #### 3.1.5.5 Integrity Constraints <a name="3.1.5.5-integrity-constraints" />
-	    * Data entries shall be possible entries.
-	    * Data entries shall be verified by the system.
-	    * Data entries shall have valid references.
-	    * Trainers shall have unique primary keys.
-	    * The system shall have entity integrity.
+- #### 3.1.5.3 Accessing Capabilities  
+    The following is the different access that should be given between accounts. 
 
-    * #### 3.1.5.6 Security <a name="3.1.5.6-security" />
-	    * Trainer accounts shall utilize google sign-in to access their account.
-	    * Trainers shall only have one account.
-	    * Admin accounts shall have access to all accounts
+    * Trainers shall have access to UserData first_name. 
+    * Trainers shall have access to UserData last_name. 
+    * Trainers shall have access to UserData goals. 
+    * Trainers shall have access to UserData W/O_plan. 
+    * Trainers shall have access to UserData gym. 
 
-    * #### 3.1.5.7 Data retention requirements <a name="3.1.5.7-data-retention-requirements" />
-		* Data shall be retained for 2(two) years.
-		* Data shall be retained in a database.
-		* Trainer accounts shall be accessible for 2(two) years after inactivity.
+- #### 3.1.5.5 Integrity Constraints  
+    The following are constraints and regulations on the data within the database. 
+
+    * Data entries shall be possible entries. 
+    * Impossible data entries shall not be allowed. 
+    * Data entries shall be verified to ensure it is possible. 
+    * The database shall have entity integrity.  
+
+- #### 3.1.5.6 Security  
+    The following refers to account security and the different measures that should be taken to ensure account safety.  
+
+    * Trainer accounts shall utilize google sign-in to access their account. 
+    * User accounts shall utilize google sign-in to access their account. 
+    * Trainers shall only have one account. 
+    * Gymgoers shall only have one account. 
+    * Admin accounts shall have access to all accounts. 
 
 * ### 3.1.6 Design Constraints <a name="3.1.6-design-constraints" />
     ![Design Constraints Image](Images/DesignConstraintsImage.png)
