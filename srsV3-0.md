@@ -714,20 +714,17 @@ The MyJym database shall store all the tables that are necessary for storing inf
 
 ## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
 ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
-***3.4.1.1*** The login page shall provide the ability to login through Google.
+***3.4.1.1*** The login page shall provide the ability to login through Google.<br>
 ***3.4.1.2*** The system shall send an automated password recovery email to the user on request
 ### 3.4.2 Functions <a name="3.4.2-functions" />
-***3.4.2.1*** The home page shall provide access to myTrainer.
-***3.4.2.2*** The home page shall provide access to myWorkouts.
-***3.4.2.3*** The home page shall provide access to myVideos.
-***3.4.2.4*** The home page shall provide access to myGymMap.
-***3.4.2.5*** The login page shall provide the user with the ability to recover a lost password.
-#### 3.4.2.6
-The login page shall provide the user with the ability to create an account.
-#### 3.4.2.7 
-The login page shall display an error message when invalid credentials are submitted.
-#### 3.4.2.8 
-The system shall check the login credentials against the database.
+***3.4.2.1*** The home page shall provide access to myTrainer.<br>
+***3.4.2.2*** The home page shall provide access to myWorkouts.<br>
+***3.4.2.3*** The home page shall provide access to myVideos.<br>
+***3.4.2.4*** The home page shall provide access to myGymMap.<br>
+***3.4.2.5*** The login page shall provide the user with the ability to recover a lost password.<br>
+***3.4.2.6*** The login page shall provide the user with the ability to create an account.<br>
+***3.4.2.7*** The login page shall display an error message when invalid credentials are submitted.<br>
+***3.4.2.8*** The system shall check the login credentials against the database.
 ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
 #### 3.4.3.1 
 The login page shall inform the user of password requirements.
