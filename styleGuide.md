@@ -60,3 +60,5 @@ Section 3, in its entirety, shall have the following order for each feature:
 - Content about design constraints
 - 3.1.7 Software System Attributes
 - Content about software system attributes
+
+Section 3 shall have a numbering system instead of bullet points for the purpose of allowing section 4 to reference the material in section 3.
