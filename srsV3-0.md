@@ -713,34 +713,54 @@ The MyJym database shall store all the tables that are necessary for storing inf
 * App administrators shall be able to remove inappropriate content.
 
 ## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
-* ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
-    * The login page shall provide the ability to login through Google.
-    * The system shall send an automated password recovery email to the user on request
-* ### 3.4.2 Functions <a name="3.4.2-functions" />
-    * The home page shall provide access to myTrainer.
-    * The home page shall provide access to myWorkouts.
-    * The home page shall provide access to myVideos.
-    * The home page shall provide access to myGymMap.
-    * The login page shall provide the user with the ability to recover a lost password.
-    * The login page shall provide the user with the ability to create an account.
-    * The login page shall display an error message when invalid credentials are submitted.
-    * The system shall check the login credentials against the database.
-* ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
-    * The login page shall inform the user of password requirements.
-    * The login page shall allow the user to enter login credentials.
-* ### 3.4.4 Performance Requirements <a name="3.4.4-performance-requirements" />
-    * The system shall have the ability to process login credentials.
-* ### 3.4.5 Logical Database Requirements <a name="3.4.5-logical-database-requirements" />
-    * The UserData database table shall have a Google authentication key from the Google third party login.
-    * The UserData database table shall store usernames.
-    * The UserData database table shall store the passwords.
-    * The database shall be accessed by the login page when user credentials are submitted through the login page.
-    * The database shall keep the login credentials of users confidential.
-* ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
-    * The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.
-    * The budget for the myJym app shall be $0.00.
+### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
+#### 3.4.1.1 
+The login page shall provide the ability to login through Google.
+#### 3.4.1.2
+The system shall send an automated password recovery email to the user on request
+### 3.4.2 Functions <a name="3.4.2-functions" />
+#### 3.4.2.1 
+The home page shall provide access to myTrainer.
+#### 3.4.2.2 
+The home page shall provide access to myWorkouts.
+#### 3.4.2.3 
+The home page shall provide access to myVideos.
+#### 3.4.2.4 
+The home page shall provide access to myGymMap.
+#### 3.4.2.5 
+The login page shall provide the user with the ability to recover a lost password.
+#### 3.4.2.6
+The login page shall provide the user with the ability to create an account.
+#### 3.4.2.7 
+The login page shall display an error message when invalid credentials are submitted.
+#### 3.4.2.8 
+The system shall check the login credentials against the database.
+### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
+#### 3.4.3.1 
+The login page shall inform the user of password requirements.
+#### 3.4.3.2 
+The login page shall allow the user to enter login credentials.
+### 3.4.4 Performance Requirements <a name="3.4.4-performance-requirements" />
+#### 3.4.4.1 
+The system shall have the ability to process login credentials.
+### 3.4.5 Logical Database Requirements <a name="3.4.5-logical-database-requirements" />
+    #### 3.4.5.1
+The UserData database table shall have a Google authentication key from the Google third party login.
+    #### 3.4.5.2
+The UserData database table shall store usernames.
+    #### 3.4.5.3 
+The UserData database table shall store the passwords.
+    #### 3.4.5.4 
+The database shall be accessed by the login page when user credentials are submitted through the login page.
+    #### 3.4.5.5 
+The database shall keep the login credentials of users confidential.
+### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
+    #### 3.4.6.1 
+The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.
+    #### 3.4.6.2 
+The budget for the myJym app shall be $0.00.
 * ### 3.4.7 Software System Attributes <a name="3.4.7-software-system-attributes" />
-    * #### 3.4.7.1 Reliability <a name="3.4.7.1-reliability" />
+    #### 3.4.7.1 Reliability <a name="3.4.7.1-reliability" />
         * The app shall require the compliance of personal trainers.
         * The app shall require an administrator.
     * #### 3.4.7.2 Availability <a name="3.4.7.2-availability" />
