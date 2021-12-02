@@ -513,32 +513,36 @@ Requirements that are part of the user experience. It is the different aspects o
     * Admin accounts shall have access to all accounts. 
 
 * ### 3.1.6 Design Constraints <a name="3.1.6-design-constraints" />
+Design constraints are conditions that need to happen for a project to be successful. Design constraints help narrow choices when creating a project. 
+* The interactable map features shall provide sufficient Pixels Per Inch that the average human is able to cleanly select them. 
     ![Design Constraints Image](Images/DesignConstraintsImage.png)
 
 * ### 3.1.7 Software System Attributes <a name="3.1.7-software-system-attributes" />
-    * #### 3.1.7.1 Reliability <a name="3.1.7.1-reliability" />
-        * Applications shall not have errors within the codes to cause applications to close or crash. 
-        * There will be functions within the software that performs verifications to notice errors before the application break or force closes.  
-        * The system shall verify the information that matches from the server and the application. 
+Software Quality Attributes:  Features that facilitate the measurement of performance of a software product by Software Testing professionals, and include attributes such as availability, interoperability, correctness, reliability, learnability, robustness, maintainability, readability, extensibility, testability.
 
-    * #### 3.1.7.2 Security <a name="3.1.7.2-security" />
-        * Password Protection and Encryption 
-        * User account creation 
-            * User information shall be available to users and those have access. 
-            * User shall be required to provide email, and password for the purpose of account creation. 
+* #### 3.1.7.1 Reliability <a name="3.1.7.1-reliability" />
+    * Applications shall not have errors within the codes to cause applications to close or crash. 
+    * There will be functions within the software that performs verifications to notice errors before the application break or force closes.  
+    * The system shall verify the information that matches from the server and the application. 
 
-        * #### 3.1.7.3 Data Privacy <a name="3.1.7.3-data-privacy" />
-            * User’s data shall be hidden from all other users and parties. 
-            * Login Information 
-            * Creating an account shall be safe and secure. 
-            * All users shall be allowed to login securely. 
-            * Once a user logs out from the account, all user information shall be removed from the login screen. 
-        * #### 3.1.7.4 Maintainability <a name="3.1.7.4-maintainability" />
-            * Users shall be allowed to report to the administration team if they forget their password, and need to have a reset password email sent to their personal email that has been registered on their myJym account. 
-            * An automatic email shall be sent to the user's email address to allow the user to reset their password. 
-        * #### 3.1.7.5 Portability <a name="3.1.7.5-portability" />
-            * System Database shall store user information. 
-            * myJym application shall run on both Android and iOS mobile interface.
+* #### 3.1.7.2 Security <a name="3.1.7.2-security" />
+    * Password Protection and Encryption 
+    * User account creation 
+    * User information shall be available to users and those have access. 
+    * User shall be required to provide email, and password for the purpose of account creation. 
+
+* #### 3.1.7.3 Data Privacy <a name="3.1.7.3-data-privacy" />
+    * User’s data shall be hidden from all other users and parties. 
+    * Login Information 
+    * Creating an account shall be safe and secure. 
+    * All users shall be allowed to login securely. 
+    * Once a user logs out from the account, all user information shall be removed from the login screen. 
+* #### 3.1.7.4 Maintainability <a name="3.1.7.4-maintainability" />
+    * Users shall be allowed to report to the administration team if theyforget their password, and need to have a reset password email sent totheir personal email that has been registered on their myJym account. 
+    * An automatic email shall be sent to the user's email address to allow the user to reset their password. 
+* #### 3.1.7.5 Portability <a name="3.1.7.5-portability" />
+    * System Database shall store user information. 
+    * myJym application shall run on both Android and iOS mobile interface.
 
 * ### 3.1.8 Supporting Information <a name="3.1.8-supporting-information" />
     ![Design Constraints Image](Images/SupportingInfoImage.png)
