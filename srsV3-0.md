@@ -125,6 +125,23 @@ Date: 11/20/21
         * [3.4.7.2 Availability](#3.4.7.2-availability)
         * [3.4.7.3 Security](#3.4.7.3-security)
         * [3.4.7.4 Portability](#3.4.7.4-portability)
+* [3.5 My Workout](#3.5-my-workout)
+    * 3.5.1 External Interface
+        * 3.5.1.1 Database
+        * 3.5.1.2 YouTube
+    * 3.5.2 Functions
+        * 3.5.2.1 Create Workout
+        * 3.5.2.2 Find Workout
+        * 3.5.2.3 Saved Workout
+        * 3.5.2.4 Workout in Progress Page
+    * 3.5.3 Usability Requirements
+    * 3.5.4 Performance Requiremnts
+    * 3.5.5 Logical Database Requirements
+    * 3.5.6 Design Constraints
+    * 3.5.7 Software System Attributes
+    * 3.5.7.1 Reliability
+        * 3.5.7.2 Security
+        * 3.5.7.3 Maintainability
 * [References](#references)
 <br><hr /><br>
 
@@ -630,7 +647,7 @@ The myGym map will hold to certain reliability and security guidelines which are
     * The map shall not be editable by any unauthorized party. 
 
 	
-## 3.3 MyJym Videos  
+## 3.3 MyJym Videos  <a name="3.3-myjym-videos" />
 
 This Specification section explains the MyJym application in detail, the specification goes over eight categories. Such as external interfaces, functionality, usability, performance, database, design constraints, and software system attribute requirements for the MyJym application. 
 
