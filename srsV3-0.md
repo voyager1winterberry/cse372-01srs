@@ -101,10 +101,10 @@ Date: 11/20/21
 * [3.3 MyJym Videos](#3.3-myjym-videos)
     * [3.3.1 External Interfaces Specification](#3.3.1-external-interfaces-specification)
         * [3.3.1.1 Database](#3.3.1.1-database)
-        * [3.3.1.2 Video Streaming](#3.3.1.2-video-streaming)	
+        * [3.3.1.2 Video Streaming](#3.3.1.2-video-streaming)   
     * [3.3.2 Functions](#3.3.2-functions)
         * [3.3.2.1 My Video](#3.3.2.1-my-video)
-    * [3.3.3 Usability Requirement](#3.3.3-usability-requirement)	
+    * [3.3.3 Usability Requirement](#3.3.3-usability-requirement)   
     * [3.3.4 Performance requirements](#3.3.4-performance-requirements)
     * [3.3.5 Logical Database Requirements](#3.3.5-logical-database-requirements)
     * [3.3.6 Design Constraints](#3.3.6-design-constraints)
@@ -123,7 +123,7 @@ Date: 11/20/21
         * [3.4.7.1 Reliability](#3.4.7.1-reliability)
         * [3.4.7.2 Availability](#3.4.7.2-availability)
         * [3.4.7.3 Security](#3.4.7.3-security)
-        * [3.4.7.4 Portability](#3.4.7.4-portability)
+        * [3.4.7.4 Portability](#3.4.7.4-portability) 
 * [3.5 My Workout](#3.5-my-workout)
     * [3.5.1 External Interface](#3.5.1-external-interface)
         * [3.5.1.1 Database](#3.5.1.1-database)
@@ -162,26 +162,21 @@ The myJym app will utilize:
 
 ### 1.2.2 What Will the Software Product Do <a name="1.2.2-what-will-the-software-product-do" />
 This is a description of what the product to be produced will do.
-- The product, the myJym app, will assist users in creating workouts, working out and connecting with trainers.
+- The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
 
 ### 1.2.3 Included Core Features <a name="1.2.3-included-core-features" />
 This is a table outlining the main features of the app with a brief description of what the feature is.
-<!-- Suggested format for updating features (Aaron) -->
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
 | Login Page | The page that allows users to login with their credentials.       | 
-| Home Page | The first page that users will see after loging into the app.      |
+| Home Page | The first page that users will see after logging into the app.     |
 | My Trainers | Page to mediate interaction between trainers and gym goers.      |
 | My Workouts | Page that allows creation and execution of workouts.             |
 | My Videos | Page that has a list of links to all videos used by the app.       |
 | Gym Map | A map showing the location of equipment, services, and gym features. |
 
-<!-- login page (external interface) /these were discussed in class and should be added to core features/ -->
-<!-- home page MyJym (external interface) sub interfaces -->
-   <!-- my trainer, my workout, my videos, gym map, -->
-
 ### 1.2.4 Excluded Features <a name="1.2.4-excluded-features" />
-This is a table outlining what feautures are outside the scope of this project with a breif description of the feature.
+This is a table outlining what features are outside the scope of this project with a brief description of the feature.
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
 | Nutrition Information | Not intended to recommend meal plans, diets, count calories or anything else similar. | 
