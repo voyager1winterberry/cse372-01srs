@@ -726,33 +726,30 @@ The MyJym database shall store all the tables that are necessary for storing inf
 ***3.4.2.7*** The login page shall display an error message when invalid credentials are submitted.<br>
 ***3.4.2.8*** The system shall check the login credentials against the database.
 ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
-#### 3.4.3.1 
-The login page shall inform the user of password requirements.
-#### 3.4.3.2 
-The login page shall allow the user to enter login credentials.
+***3.4.3.1*** The login page shall inform the user of password requirements. <br>
+***3.4.3.2*** The login page shall allow the user to enter login credentials.
 ### 3.4.4 Performance Requirements <a name="3.4.4-performance-requirements" />
-#### 3.4.4.1
-The system shall have the ability to process login credentials.
+***3.4.4.1*** The system shall have the ability to process login credentials.
 ### 3.4.5 Logical Database Requirements <a name="3.4.5-logical-database-requirements" />
 ***3.4.5.1*** The UserData database table shall have a Google authentication key from the Google third party login.<br>
 ***3.4.5.2*** The UserData database table shall store usernames.<br>
 ***3.4.5.3*** The UserData database table shall store the passwords.<br>
-***3.4.5.4*** The database shall be accessed by the login page when user credentials are submitted through the login page.
+***3.4.5.4*** The database shall be accessed by the login page when user credentials are submitted through the login page.<br>
 ***3.4.5.5*** The database shall keep the login credentials of users confidential.
 ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
-***3.4.6.1*** The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.
+***3.4.6.1*** The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.<br>
 ***3.4.6.2*** The budget for the myJym app shall be $0.00.
 ### 3.4.7 Software System Attributes <a name="3.4.7-software-system-attributes" />
 #### 3.4.7.1 Reliability <a name="3.4.7.1-reliability" />
-        * The app shall require the compliance of personal trainers.
-        * The app shall require an administrator.
-    * #### 3.4.7.2 Availability <a name="3.4.7.2-availability" />
-        * The myJym app shall be available during all gym hours.
-    * #### 3.4.7.3 Security <a name="3.4.7.3-security" />
-        * The system shall encrypt user accounts.
-        * The system shall use a protocol to secure online communications.
-    * #### 3.4.7.4 Portability <a name="3.4.7.4-portability" />
-        * * The application shall be built with a programming language that can be ported to both iOS and Android.
+***3.4.7.1.1*** The app shall require the compliance of personal trainers.<br>
+***3.4.7.1.2*** The app shall require an administrator.
+#### 3.4.7.2 Availability <a name="3.4.7.2-availability" />
+***3.4.7.2.1*** The myJym app shall be available during all gym hours.
+#### 3.4.7.3 Security <a name="3.4.7.3-security" />
+***3.4.7.3.1*** The system shall encrypt user accounts.<br>
+***3.4.7.3.2*** The system shall use a protocol to secure online communications.
+#### 3.4.7.4 Portability <a name="3.4.7.4-portability" />
+***3.4.7.4.1*** The application shall be built with a programming language that can be ported to both iOS and Android.
 
 <br>
 
