@@ -773,31 +773,31 @@ The MyJym database shall store all the tables that are necessary for storing inf
 
 ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
 <p class="tab">
-3.4.6.1 The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.<br>
-3.4.6.2 The budget for the myJym app shall be $0.00.
+<i>3.4.6.1</i> The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.<br>
+<i>3.4.6.2</i> The budget for the myJym app shall be $0.00.
 </p>
 
 ### 3.4.7 Software System Attributes <a name="3.4.7-software-system-attributes" />
 #### 3.4.7.1 Reliability <a name="3.4.7.1-reliability" />
 <p class="tab">
-3.4.7.1.1 The app shall require the compliance of personal trainers.<br>
-3.4.7.1.2 The app shall require an administrator.
+<i>3.4.7.1.1</i> The app shall require the compliance of personal trainers.<br>
+<i>3.4.7.1.2</i> The app shall require an administrator.
 <p>
 
 #### 3.4.7.2 Availability <a name="3.4.7.2-availability" />
 <p class="tab">
-3.4.7.2.1 The myJym app shall be available during all gym hours.
+<i>3.4.7.2.1</i> The myJym app shall be available during all gym hours.
 </p>
 
 #### 3.4.7.3 Security <a name="3.4.7.3-security" />
 <p class="tab">
-3.4.7.3.1 The system shall encrypt user accounts.<br>
-3.4.7.3.2 The system shall use a protocol to secure online communications.
+<i>3.4.7.3.1</i> The system shall encrypt user accounts.<br>
+<i>3.4.7.3.2</i> The system shall use a protocol to secure online communications.
 </p>
 
 #### 3.4.7.4 Portability <a name="3.4.7.4-portability" />
 <p class="tab">
-3.4.7.4.1 The application shall be built with a programming language that can be ported to both iOS and Android.
+<i>3.4.7.4.1</i> The application shall be built with a programming language that can be ported to both iOS and Android.
 </p>
 
 <br>
