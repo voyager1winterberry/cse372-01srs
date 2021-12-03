@@ -667,64 +667,62 @@ This Specification section explains the MyJym application in detail, the specifi
 
 ### 3.3.1 External Interfaces Specification <a name="3.3.1-external-interfaces-specifications" />
 #### 3.3.1.1 Database <a name="3.3.1.1-database" />
-* The MyJym application will use a database to store workout information, Specific columns and requirements of the database can be found in section 3.5.
+***3.3.1.1.1*** The MyJym application will use a database to store workout information, Specific columns and requirements of the database can be found in section 3.5.<br>
+***3.3.1.1.2*** The database shall store workout title<br>
+***3.3.1.1.3*** The database shall store workout video links<br>
+***3.3.1.1.4*** The database shall store workout description<br>
+***3.3.1.1.5*** The database shall store the image links
 
-* The database shall store workout title
-
-* The database shall store workout video links
-
-* The database shall store workout description
-
-* The database shall store the image links
- 
 #### 3.3.1.2 Video Streaming <a name="3.3.1.2-video-streaming" />
-* The API for a video streaming website will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
+The API for a video streaming website will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
 
-* Gymgoers shall have the ability to access workout videos
+***3.3.1.2.1*** Gymgoers shall have the ability to access workout videos
 	
 ### 3.3.2 Functions <a name="3.3.2-functions" />
-* This section is responsible for explaining MyJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
+This section is responsible for explaining MyJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
 
 #### 3.3.2.1 My Video <a name="3.3.2.1-my-video" />
-* The purpose of the following section provides the capabilities of the video page. This represents an individual user for the MyJym application.
-* The My Video page shall display a workout title.
+The purpose of the following section provides the capabilities of the video page. This represents an individual user for the MyJym application.<br>
 
-* The My Video page shall display an equipment name.
-
-* The My Video page shall display a workout video.
-
-* The My Video page shall provide a save video button.
+***3.3.2.1.1*** The My Video page shall display a workout title.<br>
+***3.3.2.1.2*** The My Video page shall display an equipment name.<br>
+***3.3.2.1.3*** The My Video page shall display a workout video.<br>
+***3.3.2.1.4*** The My Video page shall provide a save video button.<br>
 
 ### 3.3.3 Usability Requirement <a name="3.3.3-usability-requirement" />
-* User shall be able to save a selected video
-* User shall be able to view the workout video
-* User shall be able to view saved videos
+***3.3.3.1*** User shall be able to save a selected video<br>
+***3.3.3.2*** User shall be able to view the workout video<br>
+***3.3.3.3*** User shall be able to view saved videos<br>
 	
 ### 3.3.4 Performance requirements <a name="3.3.4-performance-requirements" />
+
 For the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.
-* User shall be able to save a selected video
-* The user shall only be able to save one video link per exercise.
-* The My Video page shall support a configurable amount of workouts
-* The My Video page shall support a configurable amount of workouts videos
+***3.3.4.1*** User shall be able to save a selected video
+***3.3.4.2*** The user shall only be able to save one video link per exercise.
+***3.3.4.3*** The My Video page shall support a configurable amount of workouts
+***3.3.4.4*** The My Video page shall support a configurable amount of workouts videos
 
 ### 3.3.5 Logical Database Requirements <a name="3.3.5-logical-database-requirements" />
+
 The MyJym database shall store all the tables that are necessary for storing information required by the application.
-* The workout table shall contain an exercise title column
-* The workout table shall contain a description column
-* The workout table shall contain a video link column
-* The workout table shall contain a workout id column that acts as a primary key
+
+***3.3.5.1*** The workout table shall contain an exercise title column<br>
+***3.3.5.2*** The workout table shall contain a description column<br>
+***3.3.5.3*** The workout table shall contain a video link column<br>
+***3.3.5.4*** The workout table shall contain a workout id column that acts as a primary key<br>
 
 ### 3.3.6 Design Constraints <a name="3.3.6-design-constraints" />
-* The user shall only be able to save workout video
+
+***3.3.6.1*** The user shall only be able to save workout video
 
 ### 3.3.7 Software System Attributes <a name="3.3.7-software-system-attributes" />
 #### 3.3.7.1 Reliability <a name="3.3.7.1-reliability" />
-* The system shall exit immediately when a user finds an error.
-* The app shall check that locally stored user information matches what is stored in a database.
+***3.3.7.1.1*** The system shall exit immediately when a user finds an error.
+***3.3.7.1.2*** The app shall check that locally stored user information matches what is stored in a database.
 #### 3.3.7.2 Security <a name="3.3.7.2-security" />
-* The user shall only be able to add approved video links to an exercise.
+***3.3.7.2.1*** The user shall only be able to add approved video links to an exercise.
 #### 3.3.7.3 Maintainability <a name="3.3.7.3-maintainability" />
-* App administrators shall be able to remove inappropriate content.
+***3.3.7.3.1*** App administrators shall be able to remove inappropriate content.
 
 ## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
 ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
