@@ -294,7 +294,9 @@ This table is for the user characteristics from the perspective of a trainee use
 | Privacy and Security | Security, as well as user information security, need to be protected via encryption or password.|
 | Graphic Style | Application appearance/graphics should be functional but most importantly readable, there should be no small fonts or distracting colors or images to allow easy use, as well as allow for people with disabilities and international constraints |
 | Fulfillment and reliability | Reliability is essential. The application should always be functional since the ability to constantly communicate between users and trainers should be available |
+<br>
 This table is for the user characteristics from the perspective of a trainer user.
+
 | ***User Group*** | ***Personal Trainer*** |
 |------------- | ---------------- |
 | User Profile | This Personal Trainer group will be using the myJym application to connect to trainees, as well as obtain information on available equipment and trainees looking for a personal trainer. The Personal Trainer will have to register on the myJym application, and have time available to meet with a trainee, and have a clear understanding of equipment and techniques, and able to teach and make a workout routine for the trainee |
