@@ -913,6 +913,148 @@ Specifies the factors required to define a level of maintainability for the myJy
 
 <br>
 
+## Section 4 Validation
+This section will validate that all features from section 3 will be in working order.       
+
+<br>
+
+<!-- team 3 and 4's stuff--> 
+### 4.5.1 External Interface Verification <a name="4.5.1-external-interface-verification" />
+This section defines the verification for external interfaces for the myJym application.
+
+<br>
+
+#### 4.5.1.1 Database Verification <a name="4.5.1.1-database-verification" />
+This section defines the verification for the database for the my workout function.
+* Verify that the database shall store workout **title**. [Number of bullet point from section 3]
+* Verify that the database shall store workout video links.
+* Verify that the database shall store workout description.
+* Verify that the database shall store workout **sets**.
+* Verify that the database shall store workout **reps**.
+* Verify that the database shall store workout **tags**.
+
+<br>
+
+#### 4.5.1.2 Video Provider Verification <a name="4.5.1.2-video provider-verification" />
+This section defines the verification for the video provider integration for the my workout function.
+* Verify that the **gymgoers** shall have the ability to access workout videos.
+
+<br>
+    
+### 4.5.2 Functions Verification <a name="4.5.2-functions-verification" />
+This section defines the verification for functionality for the my workout feature.
+
+<br>
+
+#### 4.5.2.1 Create Workout Verification <a name="4.5.2.1-create-workout-verification" />
+This section defines the verification for the create workout function for the my workout feature.
+* Verify that the workout creation shall allow the **user** to specify a workout name. (Technique: demostration)
+* Verify that the workout creation shall allow the user to specify a muscle group to workout. (Technique: demostration)
+* Verify that the workout creation shall allow the user to specify an amount of **reps**. (Technique: demostration)
+* Verify that the workout creation shall allow the user to specify an amount of **sets**. (Technique: demostration)
+* Verify that the workout creation shall allow the user to embed a video link. (Technique: demostration)
+
+<br>
+
+#### 4.5.2.2 Find Workout Verification <a name="4.5.2.2-find-workout-verification" />
+This section defines the verification for the find workout function for the my workout feature.
+* Verify that the find workout page shall have the ability to search by predetermined **tag**s. (Technique: demostration)
+* Verify that one of the tags that can be used to search by shall be **author**. (Technique: demostration)
+* Verify that one of the tags that can be used to search by shall be **name of workout**. (Technique: demostration)
+* Verify that one of the tags that can be used to search by shall be **length**. (Technique: demostration)
+* Verify that one of the tags that can be used to search by shall be **workout type**. (Technique: demostration)
+* Verify that one of the tags that can be used to search by shall be **difficulty**. (Technique: demostration)
+* Verify that one of the tags that can be used to search by shall be **equipment type**. (Technique: demostration)
+* Verify that one of the tags that can be used to search by shall be **muscle groups**. (Technique: demostration)
+* Verify that the user shall have the ability to save a workout they find to their saved workouts list. (Technique: demostration)
+
+<br>
+
+#### 4.5.2.3 Saved Workout Verification <a name="4.5.2.3-saved-workout-verification" />
+This section defines the verification for the saved workout function for the my workout feature.
+* Verify that the user shall have the option to edit the workout. (Technique: demonstration)
+* Verify that selecting edit workout shall redirect the user back to the create workout page with all the workout information filled in. (Technique: demonstration)
+* Verify that the user shall have the option to immediately start the workout. (Technique: demonstration)
+* Verify that selecting start workout shall redirect the user to the workout in progress page. (Technique: demonstration)
+* Verify that the user shall have the option to delete a previously saved workout. (Technique: demonstration)
+
+<br>
+
+#### 4.5.2.4 Workout in Progress Page Verification <a name="4.5.2.4-workout-in-progress-page-verification" />
+This section defines the verification for the workout in progress function for the my workout feature.
+* Verify that the workout in progress page shall guide the user through their workout. (Technique: demonstration)
+* Verify that the workout in progress page shall display the workout information for the selected workout. (Technique: demonstration)
+
+<br>
+
+### 4.5.3 Usability Requirements Verification <a name="4.5.3-usability-requirements-verification" />
+This section defines the verification for the usability requirements for the my workout feature.
+* Verify that the user shall be able to create a workout. (Technique: demonstration)
+* Verify that the user shall be able to find a workout. (Technique: demonstration)
+* Verify that the user shall be able to save a workout. (Technique: demonstration)
+* Verify that the user shall be able to start a workout. (Technique: demonstration)
+* Verify that the user shall be able to see workout progress. (Technique: demonstration)
+
+<br>
+
+### 4.5.4 Performance Requirements Verification <a name="4.5.4-performance-requirments-verification" />
+This section defines the verification for the performance requirements for the my workout feature.
+* Verify that the user shall only be able to save one video link for a specific exercise. (Technique: test)
+* Verify that the system shall support a configurable amount of workouts. (Technique: test)
+* Verify that the system shall support a configurable amount of tags per workout. (Technique: test)
+
+<br>
+
+### 4.5.5 Logical Database Requirements Verification <a name="4.5.5-logical-database-requirments-verification" />
+This section defines the verification for the logical database requirements for the my workout feature.
+* Verify that the workout table shall contain an exercise title column. (Technique: inspection)
+* Verify that the workout table shall contain a tag column. (Technique: inspection)
+* Verify that the workout table shall contain a rep column. (Technique: inspection)
+* Verify that the workout table shall contain a set column. (Technique: inspection)
+* Verify that the workout table shall contain a description column. (Technique: inspection)
+* Verify that the workout table shall contain a video link column. (Technique: inspection)
+* Verify that the workout table shall contain a workout id column that acts as a **primary key**. (Technique: inspection)
+
+<br>
+
+### 4.5.6 Design Constraints Verification <a name="4.5.6-design-constraints-verification" />
+This section defines the verification for the design constraints for the my workout feature. 
+* Verify that the user shall only be able to add approved video links from a video provider to an exercise. (Technique: demonstration)
+* Verify that the user shall only be able to input an integer into the rep field. (Technique: demonstration)
+* Verify that the user shall only be able to input an integer into the set field. (Technique: demonstration)
+* Verify that the user shall have to add a title to the workouts they create. (Technique: demonstration)
+
+<br>
+
+### 4.5.7 Software System Attributes Verification <a name="4.5.7-software-system-attributes-verification" />
+This section defines the verification for the software system attributes for the my workout feature.
+
+<br>
+
+#### 4.5.7.1 Reliability Verification <a name="4.5.7.1-reliability-verification" />
+This section defines the verification for the reliability of the my workout feature.
+* Verify that the system shall exit immediately when user finds an error. (Technique: demonstration)
+* Verify that the app shall check that locally stored user information matches what is stored in database. (Technique: inspection)
+
+<br>
+
+#### 4.5.7.2 Security Verification <a name="4.5.7.2-security-verification" />
+This section defines the verification for the security of the my workout feature.
+*  Verify that the user shall only be able to add approved video links from a video provider to an exercise. (Technique: demonstration)
+
+<br>
+
+#### 4.5.7.3 Maintainability Verification <a name="4.5.7.3-maintainability-verification" />
+This section defines the verification for the maintainability of the my workout feature.
+* Verify that the app administrators shall be able to remove **inappropriate** content. (Technique: demonstration)
+
+<br>
+
+### 4.8.3 Supporting Information Verification
+- Not applicable for the my workout feature.
+
+<br>
+
 ## References <a name="references" />
 [1] S.R.O., Eccam. “Example Software Requirements Specification (SRS)  ReqView Documentation.” ReqView, 2018, www.reqview.com/doc/iso-iec-ieee-29148-srs-example.
 
