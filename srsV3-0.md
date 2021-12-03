@@ -948,25 +948,25 @@ This section defines the verification for functionality for the my workout featu
 
 #### 4.5.2.1 Create Workout Verification <a name="4.5.2.1-create-workout-verification" />
 This section defines the verification for the create workout function for the my workout feature.
-* Verify that the workout creation shall allow the **user** to specify a workout name. (Technique: demostration)
-* Verify that the workout creation shall allow the user to specify a muscle group to workout. (Technique: demostration)
-* Verify that the workout creation shall allow the user to specify an amount of **reps**. (Technique: demostration)
-* Verify that the workout creation shall allow the user to specify an amount of **sets**. (Technique: demostration)
-* Verify that the workout creation shall allow the user to embed a video link. (Technique: demostration)
+* Verify that the workout creation shall allow the **user** to specify a workout name. (Technique: demonstration)
+* Verify that the workout creation shall allow the user to specify a muscle group to workout. (Technique: demonstration)
+* Verify that the workout creation shall allow the user to specify an amount of **reps**. (Technique: demonstration)
+* Verify that the workout creation shall allow the user to specify an amount of **sets**. (Technique: demonstration)
+* Verify that the workout creation shall allow the user to embed a video link. (Technique: demonstration)
 
 <br>
 
 #### 4.5.2.2 Find Workout Verification <a name="4.5.2.2-find-workout-verification" />
 This section defines the verification for the find workout function for the my workout feature.
-* Verify that the find workout page shall have the ability to search by predetermined **tag**s. (Technique: demostration)
-* Verify that one of the tags that can be used to search by shall be **author**. (Technique: demostration)
-* Verify that one of the tags that can be used to search by shall be **name of workout**. (Technique: demostration)
-* Verify that one of the tags that can be used to search by shall be **length**. (Technique: demostration)
-* Verify that one of the tags that can be used to search by shall be **workout type**. (Technique: demostration)
-* Verify that one of the tags that can be used to search by shall be **difficulty**. (Technique: demostration)
-* Verify that one of the tags that can be used to search by shall be **equipment type**. (Technique: demostration)
-* Verify that one of the tags that can be used to search by shall be **muscle groups**. (Technique: demostration)
-* Verify that the user shall have the ability to save a workout they find to their saved workouts list. (Technique: demostration)
+* Verify that the find workout page shall have the ability to search by predetermined **tag**s. (Technique: demonstration)
+* Verify that one of the tags that can be used to search by shall be **author**. (Technique: demonstration)
+* Verify that one of the tags that can be used to search by shall be **name of workout**. (Technique: demonstration)
+* Verify that one of the tags that can be used to search by shall be **length**. (Technique: demonstration)
+* Verify that one of the tags that can be used to search by shall be **workout type**. (Technique: demonstration)
+* Verify that one of the tags that can be used to search by shall be **difficulty**. (Technique: demonstration)
+* Verify that one of the tags that can be used to search by shall be **equipment type**. (Technique: demonstration)
+* Verify that one of the tags that can be used to search by shall be **muscle groups**. (Technique: demonstration)
+* Verify that the user shall have the ability to save a workout they find to their saved workouts list. (Technique: demonstration)
 
 <br>
 
