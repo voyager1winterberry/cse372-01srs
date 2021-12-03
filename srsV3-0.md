@@ -127,7 +127,7 @@ Date: 11/20/21
 * [3.5 My Workout](#3.5-my-workout)
     * [3.5.1 External Interface](#3.5.1-external-interface)
         * [3.5.1.1 Database](#3.5.1.1-database)
-        * [3.5.1.2 YouTube](#3.5.1.2-Youtube)
+        * [3.5.1.2 video provider](#3.5.1.2-video provider)
     * [3.5.2 Functions](#3.5.2-functions)
         * [3.5.2.1 Create Workout](#3.5.2.1-create-workout)
         * [3.5.2.2 Find Workout](#3.5.2.2-find-workout)
@@ -252,7 +252,7 @@ The system must be available in the following formats.
 
 #### 1.3.1.9 Interfaces with Services <a name="1.3.1.9-interfaces-with-services" />
 The different services that the system will interact with. 
-* YouTube links to the various workout videos must be accessible 
+* Video links from a video provider links to the various workout videos must be accessible 
 * The server will connect accounts to the main database to access the account information 
 
 ### 1.3.2 Product Functions <a name="1.3.2-product-functions" />
@@ -339,13 +339,13 @@ Finding people who have knowledge of single handshake protocols will be a challe
 #### 1.3.4.9 Quality Requirements (e.g. reliability) <a name="1.3.4.9-quality-requirements" />
 The app needs to be easily accessible, needs to be efficient process and handling data. Lack of experience could result in reduced quality.
 #### 1.3.4.10 Criticality of the Application <a name="1.3.4.10-criticality-of-the-application" />
-Most of the app is dependent upon personal trainers and YouTube. If either of these fail it could cause major problems in the app.
+Most of the app is dependent upon personal trainers and video provider. If either of these fail it could cause major problems in the app.
 #### 1.3.4.11 Safety and Security Considerations <a name="1.3.4.11-safety-and-security-considerations" />
 We need to protect user data, especially if the app stores payment information. We will have to find someone who can work on security.
 #### 1.3.4.12 Physical/Mental Considerations <a name="1.3.4.12-physical/mental-considerations" />
 We will need to consider the physical limitations of the person using the app. We will need to include a liability waiver in the terms and conditions.
 #### 1.3.4.13 External System Limitations <a name="1.3.4.13-external-system-limitations" />
-The limitations of YouTube and whichever messaging service we decide to use will apply to the app.
+The limitations of video provider and whichever messaging service we decide to use will apply to the app.
 
 ## 1.4 Definitions: <a name="1.4-definitions" />
 This is a comprehensive list of needed definitions used by the myJym application:
@@ -444,12 +444,12 @@ The My trainer portion is a page accessible through the homepage.
         ***3.1.2.1.2*** A notification shall be sent to the user’s device when the user receives a message. <br>
 
     * ### 3.1.2.2 View Trainer Profile <a name="3.1.2.2-view-trainer-profile" />
-        The trainer profile will provide a viewable page for users with the trainer's photo, short bio, links to YouTube channels, a follow button, a link to workouts created by the trainer, and a button to message the trainer. 
+        The trainer profile will provide a viewable page for users with the trainer's photo, short bio, video links from a video provider, a follow button, a link to workouts created by the trainer, and a button to message the trainer.
 
         ***3.1.2.2.1*** Trainer profile shall be viewable by gymgoers. <br>
         ***3.1.2.2.2*** Trainer profile shall display a picture of the trainer. <br>
         ***3.1.2.2.3*** Trainer profile shall display a short biography of the trainer. <br>
-        ***3.1.2.2.4*** Trainer profile shall display a link to the trainer’s YouTube channel. <br>
+        ***3.1.2.2.4*** Trainer profile shall display a clickable link to the trainer’s videos on a video provider. <br>
         ***3.1.2.2.5*** “View Workouts” shall be an option on the Trainer profile that allows the user to view a trainer’s created workouts. <br>
         ***3.1.2.2.6*** “Message Trainer” shall be an option on the Trainer profile that allows the user to send a message to the trainer. <br>
         ***3.1.2.2.7*** Trainer profiles shall store a trainers first name <br>
@@ -463,7 +463,7 @@ The My trainer portion is a page accessible through the homepage.
 
         ***3.1.2.3.1*** Update Profile shall allow any user to update their own picture. <br>
         ***3.1.2.3.1*** Update Profile shall allow any user to update a biography text-field. <br>
-        ***3.1.2.3.1*** Update Profile shall allow any user to update their personal YouTube link. <br>
+        ***3.1.2.3.1*** Update Profile shall allow any user to update their personal video links. <br>
         ***3.1.2.3.1*** Update Profile shall allow any user to update their first and last name. <br>
         
     * #### 3.1.2.4 Search Trainer <a name="3.1.2.4-search-trainer" />
