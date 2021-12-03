@@ -661,7 +661,7 @@ The myGym map will hold to certain reliability and security guidelines which are
     * The map shall not be editable by any unauthorized party. 
 
 	
-## 3.3 MyJym Videos  <a name="3.3-myjym-videos" />
+## 3.3 MyJym Videos  <a name="3.3-myjym-videos" /> <!-- team 3's work -->
 
 This Specification section explains the MyJym application in detail, the specification goes over eight categories. Such as external interfaces, functionality, usability, performance, database, design constraints, and software system attribute requirements for the MyJym application. 
 
