@@ -769,11 +769,11 @@ The MyJym database shall store all the tables that are necessary for storing inf
 	
 	
 	
-W.3.0.3.1 The workout function shall have the ability to let users create their own workouts.
+W.3.5.1 The workout function shall have the ability to let users create their own workouts.
 
-W.3.0.3.2 The workout function shall have the ability to let users find premade workouts.
+W.3.5.2 The workout function shall have the ability to let users find premade workouts.
 
-W.3.0.3.3 The workout function shall have the ability to let users view previously saved workouts.
+W.3.5.3 The workout function shall have the ability to let users view previously saved workouts.
 
 <br>
 
