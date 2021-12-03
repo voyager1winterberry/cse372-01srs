@@ -741,14 +741,14 @@ The MyJym database shall store all the tables that are necessary for storing inf
 
 ### 3.4.2 Functions <a name="3.4.2-functions" />
 <p class="tab">
-3.4.2.1 The home page shall provide access to myTrainer.<br>
-3.4.2.2 The home page shall provide access to myWorkouts.<br>
-3.4.2.3 The home page shall provide access to myVideos.<br>
-3.4.2.4 The home page shall provide access to myGymMap.<br>
-3.4.2.5 The login page shall provide the user with the ability to recover a lost password.<br>
-3.4.2.6 The login page shall provide the user with the ability to create an account.<br>
-3.4.2.7 The login page shall display an error message when invalid credentials are submitted.<br>
-3.4.2.8 The system shall check the login credentials against the database.
+<i>3.4.2.1</i> The home page shall provide access to myTrainer.<br>
+<i>3.4.2.2</i> The home page shall provide access to myWorkouts.<br>
+<i>3.4.2.3</i> The home page shall provide access to myVideos.<br>
+<i>3.4.2.4</i> The home page shall provide access to myGymMap.<br>
+<i>3.4.2.5</i> The login page shall provide the user with the <i>ability</i> to recover a lost password.<br>
+<i>3.4.2.6</i> The login page shall provide the user with the ability to create an account.<br>
+<i>3.4.2.7</i> The login page shall display an error message when invalid credentials are submitted.<br>
+<i>3.4.2.8</i> The system shall check the login credentials against the database.
 </p>
 
 ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
