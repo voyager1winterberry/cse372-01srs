@@ -753,22 +753,22 @@ The MyJym database shall store all the tables that are necessary for storing inf
 
 ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
 <p class="tab">
-3.4.3.1 The login page shall inform the user of password requirements. <br>
-3.4.3.2 The login page shall allow the user to enter login credentials.
+<i>3.4.3.1</i> The login page shall inform the user of password requirements. <br>
+<i>3.4.3.2</i> The login page shall allow the user to enter login credentials.
 </p>
 
 ### 3.4.4 Performance Requirements <a name="3.4.4-performance-requirements" />
 <p class="tab">
-3.4.4.1 The system shall have the ability to process login credentials.
+<i>3.4.4.1</i> The system shall have the ability to process login credentials.
 </p>
 
 ### 3.4.5 Logical Database Requirements <a name="3.4.5-logical-database-requirements" />
 <p class="tab">
-3.4.5.1 The UserData database table shall have a Google authentication key from the Google third party login.<br>
-3.4.5.2 The UserData database table shall store usernames.<br>
-3.4.5.3 The UserData database table shall store the passwords.<br>
-3.4.5.4 The database shall be accessed by the login page when user credentials are submitted through the login page.<br>
-3.4.5.5 The database shall keep the login credentials of users confidential.
+<i>3.4.5.1</i> The UserData database table shall have a Google authentication key from the Google third party login.<br>
+<i>3.4.5.2</i> The UserData database table shall store usernames.<br>
+<i>3.4.5.3</i> The UserData database table shall store the passwords.<br>
+<i>3.4.5.4</i> The database shall be accessed by the login page when user credentials are submitted through the login page.<br>
+<i>3.4.5.5</i> The database shall keep the login credentials of users confidential.
 </p>
 
 ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
