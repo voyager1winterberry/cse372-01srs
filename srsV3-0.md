@@ -275,13 +275,13 @@ The following User Scenarios serve to describe the use cases that have been elic
 - A student desires additional experience with a variety of exercises including strength training, endurance training, weight loss, and cardio training to be able to better meet their fitness goals.
 
 ### 1.3.3 User Characteristics <a name="1.3.3-user-characteristics" />
-
+This table is for the user characteristics from the perspective of a trainee user.
 | ***User Group***       | ***Trainee***       |
 | -------------    | ------------  |
-| User Profile | This User group will be using the myJym application to connect to a personal trainer, as well as obtain information on workout equipment and techniques. The Trainee will have to register on the myJym application and have time available to meet with a Personal Trainer, learn workout equipment and routines, and have an open mind to learn |
+| User Profile | This User group will be using the myJym application to connect to a personal trainer, as well as obtain information on workout equipment and techniques. The Trainee will have to register on the myJym application and have time available to meet with a Personal Trainer, learn workout equipment and routines|
 | ***Demographic Criteria*** |
 | Age | 18 - 70 |
-| Income | Modal income |
+| Income | Middle class income |
 | Education | All forms of education|
 | Geography | Cities with public gyms and access to personal trainers locally |
 | City Size | Large enough city with access to gyms and trainers |
@@ -289,18 +289,18 @@ The following User Scenarios serve to describe the use cases that have been elic
 | Gender | Any gender |
 | Technical Expertise | Competent, able to navigate through most applications |
 | ***Psychographic Criteria*** |
-| Information Availability and Content | Information availability is key information if the user wants to connect to the Personal Trainer. If user wants to understand gym equipment and make a workout routine, they need to have a time commitment. Simple information is required about the user like age, sex, and location, but no detailed information about the user is required |
+| Information Availability and Content | Information availability is key information if the user wants to connect to the Personal Trainer. If user wants to understand gym equipment and make a workout routine. Simple information is required about the user like age, sex, and location, but no detailed information about the user is required |
 | Ease of Use | Users require and easy-to-use application, that can be operated with mobile devices |
-| Privacy and Security | Security, as well as user information security, need to be adequate. Though no strong security or privacy settings are applicable |
-| Graphic Style | Application appearance/graphics should be functional but most importantly readable, there should be no small fonts or distracting colors or images to allow easy use |
+| Privacy and Security | Security, as well as user information security, need to be protected via encryption or password.|
+| Graphic Style | Application appearance/graphics should be functional but most importantly readable, there should be no small fonts or distracting colors or images to allow easy use, as well as allow for people with disabilities and international constraints |
 | Fulfillment and reliability | Reliability is essential. The application should always be functional since the ability to constantly communicate between users and trainers should be available |
-
+This table is for the user characteristics from the perspective of a trainer user.
 | ***User Group*** | ***Personal Trainer*** |
 |------------- | ---------------- |
 | User Profile | This Personal Trainer group will be using the myJym application to connect to trainees, as well as obtain information on available equipment and trainees looking for a personal trainer. The Personal Trainer will have to register on the myJym application, and have time available to meet with a trainee, and have a clear understanding of equipment and techniques, and able to teach and make a workout routine for the trainee |
 | ***Demographic Criteria*** |             
 | Age | 18 - 50 |
-| Income | Modal income |
+| Income | Middle class income |
 | Education | Personal Trainer Certificate |
 | Geography | Cities with public gyms and access to personal trainers locally |
 | City Size | Large enough city with access to gyms |
