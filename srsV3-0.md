@@ -735,8 +735,8 @@ The MyJym database shall store all the tables that are necessary for storing inf
 ## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
 ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
 <p class="tab">
-3.4.1.1 The login page shall provide the ability to login through Google.<br>
-3.4.1.2 The system shall send an automated password recovery email to the user on request
+<i>3.4.1.1</i> The login page shall provide the ability to login through Google.<br>
+<i>3.4.1.2</i> The system shall send an automated password recovery email to the user on request
 </p>
 
 ### 3.4.2 Functions <a name="3.4.2-functions" />
