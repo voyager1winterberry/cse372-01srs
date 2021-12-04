@@ -133,7 +133,7 @@ Date: 11/20/21
 * [3.5 My Workout](#3.5-my-workout)
     * [3.5.1 External Interface](#3.5.1-external-interface)
         * [3.5.1.1 Database](#3.5.1.1-database)
-        * [3.5.1.2 video provider](#3.5.1.2-video provider)
+        * [3.5.1.2 video provider](#3.5.1.2-video-provider)
     * [3.5.2 Functions](#3.5.2-functions)
         * [3.5.2.1 Create Workout](#3.5.2.1-create-workout)
         * [3.5.2.2 Find Workout](#3.5.2.2-find-workout)
