@@ -705,11 +705,10 @@ This Specification section explains the MyJym application in detail, the specifi
 This section defines the inputs and outputs of the MyJym application.<br>
 #### 3.3.1.1 Database <a name="3.3.1.1-database" />
 This shows the what columns will be included to create the database. The specific column requirements are listed in section 3.5<br>
-***3.3.1.1.1*** The MyJym application will use a database to store workout information, Specific columns and requirements of the database can be found in section 3.5.<br>
-***3.3.1.1.2*** The database shall store workout title<br>
-***3.3.1.1.3*** The database shall store workout video links<br>
-***3.3.1.1.4*** The database shall store workout description<br>
-***3.3.1.1.5*** The database shall store the image links
+***3.3.1.1.1*** The database shall store workout title<br>
+***3.3.1.1.2*** The database shall store workout video links<br>
+***3.3.1.1.3*** The database shall store workout description<br>
+***3.3.1.1.4*** The database shall store the image links
 
 #### 3.3.1.2 Video Streaming <a name="3.3.1.2-video-streaming" />
 The API for a video streaming website will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
