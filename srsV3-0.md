@@ -720,6 +720,7 @@ The API for a video streaming website will be used to share videos on workout te
 This section is responsible for explaining MyJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
 
 #### 3.3.2.1 My Video <a name="3.3.2.1-my-video" />
+
 The purpose of the following section provides the capabilities of the video page. This represents an individual user for the MyJym application.<br>
 
 ***3.3.2.1.1*** The My Video page shall display a workout title.<br>
