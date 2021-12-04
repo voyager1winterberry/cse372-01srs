@@ -118,6 +118,7 @@ Date: 11/20/21
         * [3.3.7.1 Reliability](#3.3.7.1-reliability)
         * [3.3.7.2 Security](#3.3.7.2-security)
         * [3.3.7.3 Maintainability](#3.3.7.3-maintainability)
+    * [3.3.8 Supporting Information](#3.3.8-supporting-information)
 * [3.4 Login & Homepage](#3.4-login-&-homepage)
     * [3.4.1 External Interfaces](#3.4.1-external-interfaces)
     * [3.4.2 Functions](#3.4.2-functions)
@@ -157,6 +158,7 @@ Date: 11/20/21
         * [4.5.2.2 Find Workout Verification](#4.5.2.2-find-workout-verification)
         * [4.5.2.3 Saved Workout Verification](#4.5.2.3-saved-workout-verification)
         * [4.5.2.4 Workout in Progress Page Verification](#4.5.2.4-workout-in-progress-page-verification)
+        * [4.5.2.5 My Video page Verification](#4.5.2.5-my-video-page-verification)
     * [4.5.3 Usability Requirements Verification](#4.5.3-usability-requirements-verification)
     * [4.5.4 Performance Requirements Verification](#4.5.4-performance-requirments-verification)
     * [4.5.5 Logical Database Requirements Verification](#4.5.5-logical-database-requirments-verification)
@@ -700,7 +702,9 @@ The myGym map will hold to certain reliability and security guidelines which are
 This Specification section explains the MyJym application in detail, the specification goes over eight categories. Such as external interfaces, functionality, usability, performance, database, design constraints, and software system attribute requirements for the MyJym application. 
 
 ### 3.3.1 External Interfaces Specification <a name="3.3.1-external-interfaces-specifications" />
+This section defines the inputs and outputs of the MyJym application.<br>
 #### 3.3.1.1 Database <a name="3.3.1.1-database" />
+This shows the what columns will be included to create the database. The specific column requirements are listed in section 3.5<br>
 ***3.3.1.1.1*** The MyJym application will use a database to store workout information, Specific columns and requirements of the database can be found in section 3.5.<br>
 ***3.3.1.1.2*** The database shall store workout title<br>
 ***3.3.1.1.3*** The database shall store workout video links<br>
@@ -723,14 +727,14 @@ The purpose of the following section provides the capabilities of the video page
 ***3.3.2.1.3*** The My Video page shall display a workout video.<br>
 ***3.3.2.1.4*** The My Video page shall provide a save video button.<br>
 
-### 3.3.3 Usability Requirement <a name="3.3.3-usability-requirement" />
+### 3.3.3 Usability Requirements <a name="3.3.3-usability-requirement" />
+This section lists the quality and use requirements for the MyJym application. Including measurable effectiveness and satisfaction criteria for the My Video feature. <br>
 ***3.3.3.1*** User shall be able to save a selected video<br>
 ***3.3.3.2*** User shall be able to view the workout video<br>
 ***3.3.3.3*** User shall be able to view saved videos<br>
 	
 ### 3.3.4 Performance requirements <a name="3.3.4-performance-requirements" />
-
-For the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.
+For the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.<br>
 ***3.3.4.1*** User shall be able to save a selected video<br>
 ***3.3.4.2*** The user shall only be able to save one video link per exercise.<br>
 ***3.3.4.3*** The My Video page shall support a configurable amount of workouts<br>
@@ -738,7 +742,7 @@ For the MyJym application to meet performance standards, there are specific requ
 
 ### 3.3.5 Logical Database Requirements <a name="3.3.5-logical-database-requirements" />
 
-The MyJym database shall store all the tables that are necessary for storing information required by the application.
+The MyJym database shall store all the tables that are necessary for storing information required by the application.<br>
 
 ***3.3.5.1*** The workout table shall contain an exercise title column<br>
 ***3.3.5.2*** The workout table shall contain a description column<br>
@@ -746,17 +750,24 @@ The MyJym database shall store all the tables that are necessary for storing inf
 ***3.3.5.4*** The workout table shall contain a workout id column that acts as a primary key<br>
 
 ### 3.3.6 Design Constraints <a name="3.3.6-design-constraints" />
-
-***3.3.6.1*** The user shall only be able to save workout video
+This section specifies the constraints with the myJym application that would arise from project limitations, external standards, and specific requirements.<br>
+***3.3.6.1*** The user shall only be able to save workout the video<br>
 
 ### 3.3.7 Software System Attributes <a name="3.3.7-software-system-attributes" />
 #### 3.3.7.1 Reliability <a name="3.3.7.1-reliability" />
+Specifies factors required to establish reliability of the myJym application at the time of delivery.<br>
+	
 ***3.3.7.1.1*** The system shall exit immediately when a user finds an error.
 ***3.3.7.1.2*** The app shall check that locally stored user information matches what is stored in a database.
 #### 3.3.7.2 Security <a name="3.3.7.2-security" />
+Specifies the factors required to guarantee a defined level of availability for the myJym application in regards to the workout videos. <br>	
 ***3.3.7.2.1*** The user shall only be able to add approved video links to an exercise.
 #### 3.3.7.3 Maintainability <a name="3.3.7.3-maintainability" />
-***3.3.7.3.1*** App administrators shall be able to remove inappropriate content.
+Specifies the factors required to define a level of maintainability for the myJym application. <br>	
+***3.3.7.3.1*** App administrators shall be able to remove inappropriate content.<br>
+	
+### 3.3.8 Supporting Information <a name="3.3.8-supporting-information" />
+N/A<br>
 
 ## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
 ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
@@ -1286,6 +1297,19 @@ This section defines the verification for the workout in progress function for t
 <p class="tab">
 <b><i>4.5.2.4.1</b></i> Verify that the workout in progress page shall guide the user through their workout. [3.5.2.4.1] (Technique: demonstration)<br>
 <b><i>4.5.2.4.2</b></i> Verify that the workout in progress page shall display the workout information for the selected workout. [3.5.2.4.2] (Technique: demonstration)<br>
+</p>
+
+<br>
+
+<br>
+
+#### <b>4.5.2.5 My Video Page Verification</b> <a name="4.5.2.5-my-video-page-verification" />
+This section defines the verification for the workout in progress function for the my workout feature.
+<p class="tab">
+<b><i>4.5.2.5.1</b></i> Verify that the My Video page shall display a workout title. [3.3.2.1.1] (Technique: demonstration)<br>
+<b><i>4.5.2.5.2</b></i> Verify that the My Video page shall display an equipment name. [3.3.2.1.2] (Technique: demonstration)<br>
+<b><i>4.5.2.5.3</b></i> Verify that the My Video page shall display a workout video. [3.3.2.1.3] (Technique: demonstration)<br>
+<b><i>4.5.2.5.4</b></i> Verify that the My Video page shall provide a save video button. [3.3.2.1.4] (Technique: demonstration)<br>
 </p>
 
 <br>
