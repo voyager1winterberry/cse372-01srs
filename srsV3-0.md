@@ -820,292 +820,343 @@ The MyJym database shall store all the tables that are necessary for storing inf
 <br>
 
 
-## 3.5 My Workout <a name="3.5-my-workout" /> <!-- team 3 and 4's stuff-->         
-W.3.0.3.1 The workout function shall have the ability to let users create their own workouts.
+## <b>3.5 My Workout</b> <a name="3.5-my-workout" /> <!-- team 3 and 4's stuff-->         
+The workout function shall have the ability to let users create their own workouts.
 
-W.3.0.3.2 The workout function shall have the ability to let users find premade workouts.
+The workout function shall have the ability to let users find premade workouts.
 
-W.3.0.3.3 The workout function shall have the ability to let users view previously saved workouts.
+The workout function shall have the ability to let users view previously saved workouts.
 
 <br>
 
-### 3.5.1 External Interface <a name="3.5.1-external-interface" />
+### <b>3.5.1 External Interface</b> <a name="3.5.1-external-interface" />
 External interfaces are any interfaces outside the main products that will be created during this project.
 
 <br>
 
-#### 3.5.1.1 Database <a name="3.5.1.1-database" />
+#### <b>3.5.1.1 Database</b> <a name="3.5.1.1-database" />
 This list outlines what columns shall be included to create the database.  Specific columns and requirements of the database can be found in section 3.5.
 <p class="tab">
-3.5.1.1.1 The database shall store workout <b>title</b>.<br>
-3.5.1.1.2 The database shall store workout video links.<br>
-3.5.1.1.3 The database shall store workout description.<br>
-3.5.1.1.4 The database shall store workout <b>sets</b>.<br>
-3.5.1.1.5 The database shall store workout <b>reps</b>.<br>
-3.5.1.1.6 The database shall store workout <b>tags</b>.<br>
+<b><i>3.5.1.1.1</b></i> The database shall store workout <b>title</b>.<br>
+<b><i>3.5.1.1.2</b></i> The database shall store workout video links.<br>
+<b><i>3.5.1.1.3</b></i> The database shall store workout description.<br>
+<b><i>3.5.1.1.4</b></i> The database shall store workout <b>sets</b>.<br>
+<b><i>3.5.1.1.5</b></i> The database shall store workout <b>reps</b>.<br>
+<b><i>3.5.1.1.6</b></i> The database shall store workout <b>tags</b>.<br>
 </p>
 
 <br>
 
-#### 3.5.1.2 Video Provider <a name="3.5.1.2-video provider" />
+#### <b>3.5.1.2 Video Provider</b> <a name="3.5.1.2-video provider" />
 The **API** for the video provider will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
-* **Gymgoers** shall have the ability to access workout videos.
+<p class="tab">
+<b><i>3.5.1.2.1</b></i> <b>Gymgoers</b> shall have the ability to access workout videos.<br>
+</p>
 
 <br>
     
-### 3.5.2 Functions <a name="3.5.2-functions" />
+### <b>3.5.2 Functions</b> <a name="3.5.2-functions" />
 This section is responsible for explaining what the myJym app is expected to perform. These functions are divided into sub-sections that explain the procedure, performance and tasks of the myJym app.
 
 <br>
 
-#### 3.5.2.1 Create Workout <a name="3.5.2.1-create-workout" />
+#### <b>3.5.2.1 Create Workout</b> <a name="3.5.2.1-create-workout" />
 Create workout is a page within the app that allows users to create workouts to their own specifications.  The following list is what is needed to achieve that functionality.
-* The workout creation shall allow the **user** to specify a workout name.
-* The workout creation shall allow the user to specify a muscle group to workout.
-* The workout creation shall allow the user to specify an amount of **reps**.
-* The workout creation shall allow the user to specify an amount of **sets**.
-* The workout creation shall allow the user to embed a video link.
+<p class="tab">
+<b><i>3.5.2.1.1</b></i> The workout creation shall allow the <b>user</b> to specify a workout name.<br>
+<b><i>3.5.2.1.2</b></i> The workout creation shall allow the user to specify a muscle group to workout.<br>
+<b><i>3.5.2.1.3</b></i> The workout creation shall allow the user to specify an amount of <b>reps</b>.<br>
+<b><i>3.5.2.1.4</b></i> The workout creation shall allow the user to specify an amount of <b>sets</b>.<br>
+<b><i>3.5.2.1.5</b></i> The workout creation shall allow the user to embed a video link.<br>
+</p>
 
 <br>
 
-#### 3.5.2.2 Find Workout <a name="3.5.2.2-find-workout" />
+#### <b>3.5.2.2 Find Workout</b> <a name="3.5.2.2-find-workout" />
 Find workout is a page within the app that allows users to find workouts that other users have already created. The following list is what is needed to achieve that functionality.
-* The find workout page shall have the ability to search by predetermined **tag**s.
-* One of the tags that can be used to search by shall be **author**.
-* One of the tags that can be used to search by shall be **name of workout**.
-* One of the tags that can be used to search by shall be **length**.
-* One of the tags that can be used to search by shall be **workout type**.
-* One of the tags that can be used to search by shall be **difficulty**.
-* One of the tags that can be used to search by shall be **equipment type**.
-* One of the tags that can be used to search by shall be **muscle groups**.
-* The user shall have the ability to save a workout they find to their saved workouts list.
+<p class="tab">
+<b><i>3.5.2.2.1</b></i> The find workout page shall have the ability to search by predetermined <b>tag</b>s.<br>
+<b><i>3.5.2.2.2</b></i> One of the tags that can be used to search by shall be <b>author</b>.<br>
+<b><i>3.5.2.2.3</b></i> One of the tags that can be used to search by shall be <b>name of workout</b>.<br>
+<b><i>3.5.2.2.4</b></i> One of the tags that can be used to search by shall be <b>length</b>.<br>
+<b><i>3.5.2.2.5</b></i> One of the tags that can be used to search by shall be <b>workout type</b>.<br>
+<b><i>3.5.2.2.6</b></i> One of the tags that can be used to search by shall be <b>difficulty</b>.<br>
+<b><i>3.5.2.2.7</b></i> One of the tags that can be used to search by shall be <b>equipment type</b>.<br>
+<b><i>3.5.2.2.8</b></i> One of the tags that can be used to search by shall be <b>muscle groups</b>.<br>
+<b><i>3.5.2.2.9</b></i> The user shall have the ability to save a workout they find to their saved workouts list.<br>
+</p>
 
 <br>
 
-#### 3.5.2.3 Saved Workout <a name="3.5.2.3-saved-workout" />
+#### <b>3.5.2.3 Saved Workout</b> <a name="3.5.2.3-saved-workout" />
 Saved workout is a page within the app that allows users to save a workout that they created or found. The following list is what is needed to achieve that functionality.
-* The user shall have the option to edit the workout.
-* Selecting edit workout shall redirect the user back to the create workout page with all the workout information filled in.
-* The user shall have the option to immediately start the workout.
-* Selecting start workout shall redirect the user to the workout in progress page.
-* The user shall have the option to delete a previously saved workout.
+<p class="tab">
+<b><i>3.5.2.3.1</b></i> The user shall have the option to edit the workout.<br>
+<b><i>3.5.2.3.2</b></i> Selecting edit workout shall redirect the user back to the create workout page with all the workout information filled in.<br>
+<b><i>3.5.2.3.3</b></i> The user shall have the option to immediately start the workout.<br>
+<b><i>3.5.2.3.4</b></i> Selecting start workout shall redirect the user to the workout in progress page.<br>
+<b><i>3.5.2.3.5</b></i> The user shall have the option to delete a previously saved workout.<br>
+</p>
 
 <br>
 
-#### 3.5.2.4 Workout in Progress Page <a name="3.5.2.4-workout-in-progress-page" />
+#### <b>3.5.2.4 Workout in Progress Page</b> <a name="3.5.2.4-workout-in-progress-page" />
 Workout in progress is a page within the app that displays the current workout in progress. The following list is what is needed to achieve that functionality.
-* The workout in progress page shall guide the user through their workout.
-* The workout in progress page shall display the workout information for the selected workout.
+<p class="tab">
+<b><i>3.5.2.4.1</b></i> The workout in progress page shall guide the user through their workout.<br>
+<b><i>3.5.2.4.2</b></i> The workout in progress page shall display the workout information for the selected workout.<br>
+</p>
 
 <br>
 
-### 3.5.3 Usability Requirements <a name="3.5.3-usability-requirements" />
+### <b>3.5.3 Usability Requirements</b> <a name="3.5.3-usability-requirements" />
 This section explains the usability and quality of the use requirements and objectives for the myJym application including measurable effectiveness and satisfaction criteria for the my workout feature.
-* The user shall be able to create a workout.
-* The user shall be able to find a workout.
-* The user shall be able to save a workout.
-* The user shall be able to start a workout.
-* The user shall be able to see workout progress.
+<p class="tab">
+<b><i>3.5.3.1</b></i>The user shall be able to create a workout.<br>
+<b><i>3.5.3.2</b></i>The user shall be able to find a workout.<br>
+<b><i>3.5.3.3</b></i>The user shall be able to save a workout.<br>
+<b><i>3.5.3.4</b></i>The user shall be able to start a workout.<br>
+<b><i>3.5.3.5</b></i>The user shall be able to see workout progress.<br>
+</p>
 
 <br>
 
-### 3.5.4 Performance Requirements <a name="3.5.4-performance-requirments" />
+### <b>3.5.4 Performance Requirements</b> <a name="3.5.4-performance-requirments" />
 For the myJym application to meet performance standards there are specific requirements that need to be met. These requirements are specified below.
-* The user shall only be able to save one video link for a specific exercise.
-* The system shall support a configurable amount of workouts.
-* The system shall support a configurable amount of tags per workout.
+<p class="tab">
+<b><i>3.5.4.1</b></i> The user shall only be able to save one video link for a specific exercise.<br>
+<b><i>3.5.4.2</b></i> The system shall support a configurable amount of workouts.<br>
+<b><i>3.5.4.3</b></i> The system shall support a configurable amount of tags per workout.<br>
+</p>
 
 <br>
 
-### 3.5.5 Logical Database Requirements <a name="3.5.5-logical-database-requirments" />
+### <b>3.5.5 Logical Database Requirements</b> <a name="3.5.5-logical-database-requirments" />
 The myJym database shall store all the tables that are necessary for storing information required by the application.
-* The workout table shall contain an exercise title column.
-* The workout table shall contain a tag column.
-* The workout table shall contain a rep column.
-* The workout table shall contain a set column.
-* The workout table shall contain a description column.
-* The workout table shall contain a video link column.
-* The workout table shall contain a workout id column that acts as a **primary key**.
+<p class="tab">
+<b><i>3.5.5.1</b></i> The workout table shall contain an exercise title column.<br>
+<b><i>3.5.5.2</b></i> The workout table shall contain a tag column.<br>
+<b><i>3.5.5.3</b></i> The workout table shall contain a rep column.<br>
+<b><i>3.5.5.4</b></i> The workout table shall contain a set column.<br>
+<b><i>3.5.5.5</b></i> The workout table shall contain a description column.<br>
+<b><i>3.5.5.6</b></i> The workout table shall contain a video link column.<br>
+<b><i>3.5.5.7</b></i> The workout table shall contain a workout id column that acts as a **primary key**.<br>
+</p>
 
 <br>
 
-### 3.5.6 Design Constraints <a name="3.5.6-design-constraints" />
+### <b>3.5.6 Design Constraints</b> <a name="3.5.6-design-constraints" />
 This section specifies the constraints with the myJym application that would arise from project limitations, external standards, and specific requirements.
-* The user shall only be able to add approved video links from a video provider to an exercise.
-* The user shall only be able to input an integer into the rep field.
-* The user shall only be able to input an integer into the set field.
-* The user shall have to add a title to the workouts they create.
+<p class="tab">
+<b><i>3.5.6.1</b></i> The user shall only be able to add approved video links from a video provider to an exercise.<br>
+<b><i>3.5.6.2</b></i> The user shall only be able to input an integer into the rep field.<br>
+<b><i>3.5.6.3</b></i> The user shall only be able to input an integer into the set field.<br>
+<b><i>3.5.6.4</b></i> The user shall have to add a title to the workouts they create.<br>
+</p>
 
 <br>
 
-### 3.5.7 Software System Attributes <a name="3.5.7-software-system-attributes" />
+### <b>3.5.7 Software System Attributes</b> <a name="3.5.7-software-system-attributes" />
 This section specifies the required attributes of the myJym application explaining the reliability, security, and maintainability.
 
 <br>
 
-#### 3.5.7.1 Reliability <a name="3.5.7.1-reliability" />
+#### <b>3.5.7.1 Reliability</b> <a name="3.5.7.1-reliability" />
 Specifies factors required to establish reliability of the myJym application at the time of delivery.
-* The system shall exit immediately when user finds an error.
-* The app shall check that locally stored user information matches what is stored in database.
+<p class="tab">
+<b><i>3.5.7.1.1</b></i> The system shall exit immediately when user finds an error.<br>
+<b><i>3.5.7.1.2</b></i> The app shall check that locally stored user information matches what is stored in database.<br>
+</p>
 
 <br>
 
-#### 3.5.7.2 Security <a name="3.5.7.2-security" />
+#### <b>3.5.7.2 Security</b> <a name="3.5.7.2-security" />
 Specifies the factors required to guarantee a defined level of availability for the myJym application in regards to the workout videos.
-*  The user shall only be able to add approved video links from a video provider to an exercise.
+<p class="tab">
+<b><i>3.5.7.2.1</b></i> The user shall only be able to add approved video links from a video provider to an exercise.<br>
+</p>
 
 <br>
 
-#### 3.5.7.3 Maintainability <a name="3.5.7.3-maintainability" />
+#### <b>3.5.7.3 Maintainability</b> <a name="3.5.7.3-maintainability" />
 Specifies the factors required to define a level of maintainability for the myJym application.
-* App administrators shall be able to remove **inappropriate** content.
+<p class="tab">
+<b><i>3.5.7.3.1</b></i> App administrators shall be able to remove <b>inappropriate</b> content.
+</p>
 
 <br>
 
-### 3.8.3 Supporting Information
-- Not applicable for the my workout feature.
+### <b>3.8.3 Supporting Information</b>
+Not applicable for the my workout feature.
 
 <br>
+<br>
 
-## Section 4 Validation
+## <b>4.0 Validation</b> <a name="4.0-validation" />
 This section will validate that all features from section 3 will be in working order.       
 
 <br>
 
 <!-- team 3 and 4's stuff--> 
-### 4.5.1 External Interface Verification <a name="4.5.1-external-interface-verification" />
+### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.
 
 <br>
 
-#### 4.5.1.1 Database Verification <a name="4.5.1.1-database-verification" />
+#### <b>4.5.1.1 Database Verification</b> <a name="4.5.1.1-database-verification" />
 This section defines the verification for the database for the my workout function.
-* Verify that the database shall store workout **title**. [Number of bullet point from section 3]
-* Verify that the database shall store workout video links.
-* Verify that the database shall store workout description.
-* Verify that the database shall store workout **sets**.
-* Verify that the database shall store workout **reps**.
-* Verify that the database shall store workout **tags**.
+<p class="tab">
+<b><i>4.5.1.1.1</b></i> Verify that the database shall store workout <b>title</b>. [3.5.1.1.1]<br>
+<b><i>4.5.1.1.2</b></i> Verify that the database shall store workout video links. [3.5.1.1.2]<br>
+<b><i>4.5.1.1.3</b></i> Verify that the database shall store workout description. [3.5.1.1.3]<br>
+<b><i>4.5.1.1.4</b></i> Verify that the database shall store workout <b>sets</b>. [3.5.1.1.4]<br>
+<b><i>4.5.1.1.5</b></i> Verify that the database shall store workout <b>reps</b>. [3.5.1.1.5]<br>
+<b><i>4.5.1.1.6</b></i> Verify that the database shall store workout <b>tags</b>. [3.5.1.1.6]<br>
+</p>
 
 <br>
 
-#### 4.5.1.2 Video Provider Verification <a name="4.5.1.2-video provider-verification" />
+#### <b>4.5.1.2 Video Provider Verification</b> <a name="4.5.1.2-video provider-verification" />
 This section defines the verification for the video provider integration for the my workout function.
-* Verify that the **gymgoers** shall have the ability to access workout videos.
+<p class="tab">
+<b><i>4.5.1.2.1</b></i> Verify that the <b>gymgoers</b> shall have the ability to access workout videos. [3.5.1.2.1]<br>
+</p>
 
 <br>
     
-### 4.5.2 Functions Verification <a name="4.5.2-functions-verification" />
+### <b>4.5.2 Functions Verification</b> <a name="4.5.2-functions-verification" />
 This section defines the verification for functionality for the my workout feature.
 
 <br>
 
-#### 4.5.2.1 Create Workout Verification <a name="4.5.2.1-create-workout-verification" />
+#### <b>4.5.2.1 Create Workout Verification</b> <a name="4.5.2.1-create-workout-verification" />
 This section defines the verification for the create workout function for the my workout feature.
-* Verify that the workout creation shall allow the **user** to specify a workout name. (Technique: demonstration)
-* Verify that the workout creation shall allow the user to specify a muscle group to workout. (Technique: demonstration)
-* Verify that the workout creation shall allow the user to specify an amount of **reps**. (Technique: demonstration)
-* Verify that the workout creation shall allow the user to specify an amount of **sets**. (Technique: demonstration)
-* Verify that the workout creation shall allow the user to embed a video link. (Technique: demonstration)
+<p class="tab">
+<b><i>4.5.2.1.1</b></i> Verify that the workout creation shall allow the <b>user</b> to specify a workout name. [3.5.2.1.1] (Technique: demonstration)<br>
+<b><i>4.5.2.1.2</b></i> Verify that the workout creation shall allow the user to specify a muscle group to workout. [3.5.2.1.2] (Technique: demonstration)<br>
+<b><i>4.5.2.1.3</b></i> Verify that the workout creation shall allow the user to specify an amount of <b>reps</b>. [3.5.2.1.3] (Technique: demonstration)<br>
+<b><i>4.5.2.1.4</b></i> Verify that the workout creation shall allow the user to specify an amount of <b>sets</b>. [3.5.2.1.4] (Technique: demonstration)<br>
+<b><i>4.5.2.1.5</b></i> Verify that the workout creation shall allow the user to embed a video link. [3.5.2.1.5] (Technique: demonstration)<br>
+</p>
 
 <br>
 
-#### 4.5.2.2 Find Workout Verification <a name="4.5.2.2-find-workout-verification" />
+#### <b>4.5.2.2 Find Workout Verification</b> <a name="4.5.2.2-find-workout-verification" />
 This section defines the verification for the find workout function for the my workout feature.
-* Verify that the find workout page shall have the ability to search by predetermined **tag**s. (Technique: demonstration)
-* Verify that one of the tags that can be used to search by shall be **author**. (Technique: demonstration)
-* Verify that one of the tags that can be used to search by shall be **name of workout**. (Technique: demonstration)
-* Verify that one of the tags that can be used to search by shall be **length**. (Technique: demonstration)
-* Verify that one of the tags that can be used to search by shall be **workout type**. (Technique: demonstration)
-* Verify that one of the tags that can be used to search by shall be **difficulty**. (Technique: demonstration)
-* Verify that one of the tags that can be used to search by shall be **equipment type**. (Technique: demonstration)
-* Verify that one of the tags that can be used to search by shall be **muscle groups**. (Technique: demonstration)
-* Verify that the user shall have the ability to save a workout they find to their saved workouts list. (Technique: demonstration)
+<p class="tab">
+<b><i>4.5.2.2.1</b></i> Verify that the find workout page shall have the ability to search by predetermined <b>tag</b>s. [3.5.2.2.1] (Technique: demonstration)<br>
+<b><i>4.5.2.2.2</b></i> Verify that one of the tags that can be used to search by shall be <b>author</b>. [3.5.2.2.2] (Technique: demonstration)<br>
+<b><i>4.5.2.2.3</b></i> Verify that one of the tags that can be used to search by shall be <b>name of workout</b>. [3.5.2.2.3] (Technique: demonstration)<br>
+<b><i>4.5.2.2.4</b></i> Verify that one of the tags that can be used to search by shall be <b>length</b>. [3.5.2.2.4] (Technique: demonstration)<br>
+<b><i>4.5.2.2.5</b></i> Verify that one of the tags that can be used to search by shall be <b>workout type</b>. [3.5.2.2.5] (Technique: demonstration)<br>
+<b><i>4.5.2.2.6</b></i> Verify that one of the tags that can be used to search by shall be <b>difficulty</b>. [3.5.2.2.6] (Technique: demonstration)<br>
+<b><i>4.5.2.2.7</b></i> Verify that one of the tags that can be used to search by shall be <b>equipment type</b>. [3.5.2.2.7] (Technique: demonstration)<br>
+<b><i>4.5.2.2.8</b></i> Verify that one of the tags that can be used to search by shall be <b>muscle groups</b>. [3.5.2.2.8] (Technique: demonstration)<br>
+<b><i>4.5.2.2.9</b></i> Verify that the user shall have the ability to save a workout they find to their saved workouts list. [3.5.2.2.9] (Technique: demonstration)<br>
+</p>
 
 <br>
 
-#### 4.5.2.3 Saved Workout Verification <a name="4.5.2.3-saved-workout-verification" />
+#### <b>4.5.2.3 Saved Workout Verification</b> <a name="4.5.2.3-saved-workout-verification" />
 This section defines the verification for the saved workout function for the my workout feature.
-* Verify that the user shall have the option to edit the workout. (Technique: demonstration)
-* Verify that selecting edit workout shall redirect the user back to the create workout page with all the workout information filled in. (Technique: demonstration)
-* Verify that the user shall have the option to immediately start the workout. (Technique: demonstration)
-* Verify that selecting start workout shall redirect the user to the workout in progress page. (Technique: demonstration)
-* Verify that the user shall have the option to delete a previously saved workout. (Technique: demonstration)
+<p class="tab">
+<b><i>4.5.2.3.1</b></i> Verify that the user shall have the option to edit the workout. [3.5.2.3.1] (Technique: demonstration)<br>
+<b><i>4.5.2.3.2</b></i> Verify that selecting edit workout shall redirect the user back to the create workout page with all the workout information filled in. [3.5.2.3.2] (Technique: demonstration)<br>
+<b><i>4.5.2.3.3</b></i> Verify that the user shall have the option to immediately start the workout. [3.5.2.3.3] (Technique: demonstration)<br>
+<b><i>4.5.2.3.4</b></i> Verify that selecting start workout shall redirect the user to the workout in progress page. [3.5.2.3.4] (Technique: demonstration)<br>
+<b><i>4.5.2.3.5</b></i> Verify that the user shall have the option to delete a previously saved workout. [3.5.2.3.5] (Technique: demonstration)<br>
+</p>
 
 <br>
 
-#### 4.5.2.4 Workout in Progress Page Verification <a name="4.5.2.4-workout-in-progress-page-verification" />
+#### <b>4.5.2.4 Workout in Progress Page Verification</b> <a name="4.5.2.4-workout-in-progress-page-verification" />
 This section defines the verification for the workout in progress function for the my workout feature.
-* Verify that the workout in progress page shall guide the user through their workout. (Technique: demonstration)
-* Verify that the workout in progress page shall display the workout information for the selected workout. (Technique: demonstration)
+<p class="tab">
+<b><i>4.5.2.4.1</b></i> Verify that the workout in progress page shall guide the user through their workout. [3.5.2.4.1] (Technique: demonstration)<br>
+<b><i>4.5.2.4.2</b></i> Verify that the workout in progress page shall display the workout information for the selected workout. [3.5.2.4.2] (Technique: demonstration)<br>
+</p>
 
 <br>
 
-### 4.5.3 Usability Requirements Verification <a name="4.5.3-usability-requirements-verification" />
+### <b>4.5.3 Usability Requirements Verification</b> <a name="4.5.3-usability-requirements-verification" />
 This section defines the verification for the usability requirements for the my workout feature.
-* Verify that the user shall be able to create a workout. (Technique: demonstration)
-* Verify that the user shall be able to find a workout. (Technique: demonstration)
-* Verify that the user shall be able to save a workout. (Technique: demonstration)
-* Verify that the user shall be able to start a workout. (Technique: demonstration)
-* Verify that the user shall be able to see workout progress. (Technique: demonstration)
+<p class="tab">
+<b><i>4.5.3.1</b></i> Verify that the user shall be able to create a workout. [3.5.3.1] (Technique: demonstration)<br>
+<b><i>4.5.3.2</b></i> Verify that the user shall be able to find a workout. [3.5.3.2] (Technique: demonstration)<br>
+<b><i>4.5.3.3</b></i> Verify that the user shall be able to save a workout. [3.5.3.3] (Technique: demonstration)<br>
+<b><i>4.5.3.4</b></i> Verify that the user shall be able to start a workout. [3.5.3.4] (Technique: demonstration)<br>
+<b><i>4.5.3.5</b></i> Verify that the user shall be able to see workout progress. [3.5.3.5] (Technique: demonstration)<br>
+</p>
 
 <br>
 
-### 4.5.4 Performance Requirements Verification <a name="4.5.4-performance-requirments-verification" />
+### <b>4.5.4 Performance Requirements Verification</b> <a name="4.5.4-performance-requirments-verification" />
 This section defines the verification for the performance requirements for the my workout feature.
-* Verify that the user shall only be able to save one video link for a specific exercise. (Technique: test)
-* Verify that the system shall support a configurable amount of workouts. (Technique: test)
-* Verify that the system shall support a configurable amount of tags per workout. (Technique: test)
+<p class="tab">
+<b><i>4.5.4.1</b></i> Verify that the user shall only be able to save one video link for a specific exercise. [3.5.4.1] (Technique: test)<br>
+<b><i>4.5.4.2</b></i> Verify that the system shall support a configurable amount of workouts. [3.5.4.2] (Technique: test)<br>
+<b><i>4.5.4.3</b></i> Verify that the system shall support a configurable amount of tags per workout. [3.5.4.3] (Technique: test)<br>
+</p>
 
 <br>
 
-### 4.5.5 Logical Database Requirements Verification <a name="4.5.5-logical-database-requirments-verification" />
+### <b>4.5.5 Logical Database Requirements Verification</b> <a name="4.5.5-logical-database-requirments-verification" />
 This section defines the verification for the logical database requirements for the my workout feature.
-* Verify that the workout table shall contain an exercise title column. (Technique: inspection)
-* Verify that the workout table shall contain a tag column. (Technique: inspection)
-* Verify that the workout table shall contain a rep column. (Technique: inspection)
-* Verify that the workout table shall contain a set column. (Technique: inspection)
-* Verify that the workout table shall contain a description column. (Technique: inspection)
-* Verify that the workout table shall contain a video link column. (Technique: inspection)
-* Verify that the workout table shall contain a workout id column that acts as a **primary key**. (Technique: inspection)
+<p class="tab">
+<b><i>4.5.5.1</b></i> Verify that the workout table shall contain an exercise title column. [3.5.5.1] (Technique: inspection)<br>
+<b><i>4.5.5.2</b></i> Verify that the workout table shall contain a tag column. [3.5.5.2] (Technique: inspection)<br>
+<b><i>4.5.5.3</b></i> Verify that the workout table shall contain a rep column. [3.5.5.3] (Technique: inspection)<br>
+<b><i>4.5.5.4</b></i> Verify that the workout table shall contain a set column. [3.5.5.4] (Technique: inspection)<br>
+<b><i>4.5.5.5</b></i> Verify that the workout table shall contain a description column. [3.5.5.5] (Technique: inspection)<br>
+<b><i>4.5.5.6</b></i> Verify that the workout table shall contain a video link column. [3.5.5.6] (Technique: inspection)<br>
+<b><i>4.5.5.7</b></i> Verify that the workout table shall contain a workout id column that acts as a <b>primary key</b>. [3.5.5.7] (Technique: inspection)<br>
+</p>
 
 <br>
 
-### 4.5.6 Design Constraints Verification <a name="4.5.6-design-constraints-verification" />
+### <b>4.5.6 Design Constraints Verification</b> <a name="4.5.6-design-constraints-verification" />
 This section defines the verification for the design constraints for the my workout feature. 
-* Verify that the user shall only be able to add approved video links from a video provider to an exercise. (Technique: demonstration)
-* Verify that the user shall only be able to input an integer into the rep field. (Technique: demonstration)
-* Verify that the user shall only be able to input an integer into the set field. (Technique: demonstration)
-* Verify that the user shall have to add a title to the workouts they create. (Technique: demonstration)
+<p class="tab">
+<b><i>4.5.6.1</b></i> Verify that the user shall only be able to add approved video links from a video provider to an exercise. [3.5.6.1] (Technique: demonstration)<br>
+<b><i>4.5.6.2</b></i> Verify that the user shall only be able to input an integer into the rep field. [3.5.6.2] (Technique: demonstration)<br>
+<b><i>4.5.6.3</b></i> Verify that the user shall only be able to input an integer into the set field. [3.5.6.3] (Technique: demonstration)<br>
+<b><i>4.5.6.4</b></i> Verify that the user shall have to add a title to the workouts they create. [3.5.6.4] (Technique: demonstration)<br>
+</p>
 
 <br>
 
-### 4.5.7 Software System Attributes Verification <a name="4.5.7-software-system-attributes-verification" />
+### <b>4.5.7 Software System Attributes Verification</b> <a name="4.5.7-software-system-attributes-verification" />
 This section defines the verification for the software system attributes for the my workout feature.
 
 <br>
 
-#### 4.5.7.1 Reliability Verification <a name="4.5.7.1-reliability-verification" />
+#### <b>4.5.7.1 Reliability Verification</b> <a name="4.5.7.1-reliability-verification" />
 This section defines the verification for the reliability of the my workout feature.
-* Verify that the system shall exit immediately when user finds an error. (Technique: demonstration)
-* Verify that the app shall check that locally stored user information matches what is stored in database. (Technique: inspection)
+<p class="tab">
+<b><i>4.5.7.1.1</b></i> Verify that the system shall exit immediately when user finds an error. [3.5.7.1.1] (Technique: demonstration)<br>
+<b><i>4.5.7.1.2</b></i> Verify that the app shall check that locally stored user information matches what is stored in database. [3.5.7.1.2] (Technique: inspection)<br>
+</p>
 
 <br>
 
-#### 4.5.7.2 Security Verification <a name="4.5.7.2-security-verification" />
+#### <b>4.5.7.2 Security Verification</b> <a name="4.5.7.2-security-verification" />
 This section defines the verification for the security of the my workout feature.
-*  Verify that the user shall only be able to add approved video links from a video provider to an exercise. (Technique: demonstration)
+<p class="tab">
+<b><i>4.5.7.2.1</b></i> Verify that the user shall only be able to add approved video links from a video provider to an exercise. [3.5.7.2.1] (Technique: demonstration)<br>
+</p>
 
 <br>
 
-#### 4.5.7.3 Maintainability Verification <a name="4.5.7.3-maintainability-verification" />
+#### <b>4.5.7.3 Maintainability Verification</b> <a name="4.5.7.3-maintainability-verification" />
 This section defines the verification for the maintainability of the my workout feature.
-* Verify that the app administrators shall be able to remove **inappropriate** content. (Technique: demonstration)
+<p class="tab">
+<b><i>4.5.7.3.1</b></i> Verify that the app administrators shall be able to remove <b>inappropriate</b> content. [3.5.7.3.1] (Technique: demonstration)<br>
+</p>
 
 <br>
 
-### 4.8.3 Supporting Information Verification
-- Not applicable for the my workout feature.
+### <b>4.8.3 Supporting Information Verification</b>
+Not applicable for the my workout feature.
 
 <br>
 
