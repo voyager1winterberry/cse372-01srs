@@ -175,6 +175,8 @@ The myJym app is to help people at all levels of experience feel confident using
 ## 1.2 Scope <a name="1.2-scope" />
 The scope outlines what will and will not be included in the project.
 
+<br>
+
 ### 1.2.1 Products to be Produced <a name="1.2.1-proucts-to-be-produced" />
 The products to be produced is all the main programs that will be needed to make the product work.
 The myJym app will utilize:
@@ -183,9 +185,13 @@ The myJym app will utilize:
 - mobile myJym app
 - web based myJym app
 
+<br>
+
 ### 1.2.2 What Will the Software Product Do <a name="1.2.2-what-will-the-software-product-do" />
 This is a description of what the product to be produced will do.
 - The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
+
+<br>
 
 ### 1.2.3 Included Core Features <a name="1.2.3-included-core-features" />
 This is a table outlining the main features of the app with a brief description of what the feature is.
@@ -197,6 +203,8 @@ This is a table outlining the main features of the app with a brief description 
 | My Workouts | Page that allows creation and execution of workouts.             |
 | My Videos | Page that has a list of links to all videos used by the app.       |
 | Gym Map | A map showing the location of equipment, services, and gym features. |
+
+<br>
 
 ### 1.2.4 Excluded Features <a name="1.2.4-excluded-features" />
 This is a table outlining what features are outside the scope of this project with a brief description of the feature.
