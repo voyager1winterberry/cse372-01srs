@@ -705,10 +705,10 @@ The purpose of the following section provides the capabilities of the video page
 ### 3.3.4 Performance requirements <a name="3.3.4-performance-requirements" />
 
 For the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.
-***3.3.4.1*** User shall be able to save a selected video
-***3.3.4.2*** The user shall only be able to save one video link per exercise.
-***3.3.4.3*** The My Video page shall support a configurable amount of workouts
-***3.3.4.4*** The My Video page shall support a configurable amount of workouts videos
+***3.3.4.1*** User shall be able to save a selected video<br>
+***3.3.4.2*** The user shall only be able to save one video link per exercise.<br>
+***3.3.4.3*** The My Video page shall support a configurable amount of workouts<br>
+***3.3.4.4*** The My Video page shall support a configurable amount of workouts videos<br>
 
 ### 3.3.5 Logical Database Requirements <a name="3.3.5-logical-database-requirements" />
 
@@ -819,12 +819,14 @@ External interfaces are any interfaces outside the main products that will be cr
 
 #### 3.5.1.1 Database <a name="3.5.1.1-database" />
 This list outlines what columns shall be included to create the database.  Specific columns and requirements of the database can be found in section 3.5.
-* The database shall store workout **title**.
-* The database shall store workout video links.
-* The database shall store workout description.
-* The database shall store workout **sets**.
-* The database shall store workout **reps**.
-* The database shall store workout **tags**.
+<p class="tab">
+3.5.1.1.1 The database shall store workout <b>title</b>.<br>
+3.5.1.1.2 The database shall store workout video links.<br>
+3.5.1.1.3 The database shall store workout description.<br>
+3.5.1.1.4 The database shall store workout <b>sets</b>.<br>
+3.5.1.1.5 The database shall store workout <b>reps</b>.<br>
+3.5.1.1.6 The database shall store workout <b>tags</b>.<br>
+</p>
 
 <br>
 
