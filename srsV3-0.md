@@ -16,12 +16,14 @@ Date: 11/20/21
 | Richards, Olivia  | Roberts, Russell | Stapley, Collette | Warner, Spencer         | Whittier, Aaron  |
 
 <br><br><br>
-
-<style type="text/css">
 <!--
+<style type="text/css">
+
  .tab { margin-left: 40px; }
--->
+
 </style>
+-->
+
 
 ## Table of Contents
 * [1.1 Purpose](#1.1-purpose)
