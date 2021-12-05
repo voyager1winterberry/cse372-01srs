@@ -1220,6 +1220,66 @@ This section defines the verification for reliability.
 
 <br>
 
+<!-- Team 2> -->
+### <b>4.2.1 Map External Interfaces Verification</b> <a name="4.2.1" />
+This section defines the verification for the gym map external interface requirements.
+<p class="tab">
+<b><i>4.2.1.1</b></i> Verify that the map utilizes the System Database to generate the map. [3.2.1.1] <br>
+<b><i>4.2.1.2</b></i> Verify that the map search bar obtains user data from the System Database. [SRS 3.2.1.2] <br>
+
+### <b>4.2.2 Map Functions Verification </b> <a name="4.2.2" />
+This section defines the verification for the gym map functions.
+<p class="tab">
+<b><i>4.2.1.1</b></i> Verify the map organizes gym equipment according to a layout file. [3.2.2.1.1] <br>
+<b><i>4.2.1.2</b></i> The map shall organize gym services according to a layout file. [3.2.2.1.2] <br>
+<b><i>4.2.1.3</b></i> Verify the map properly refreshes when an error occurs. [3.2.2.1.2] <br>
+<b><i>4.2.1.4</b></i> Verify an administrator can modify the map layout. [3.2.2.1.4] <br>
+<b><i>4.2.1.5</b></i> Verify a map tutorial opens when the map is first opened. [3.2.2.1.5] <br>
+<b><i>4.2.2.1</b></i> Verify that the map search bar performs validation on inputs matching them to gym functions. [3.2.2.2.1] <br>
+<b><i>4.2.2.2</b></i> Verify that the search bar has functionality to locate gym functions.  [3.2.2.2.2] <br>
+<b><i>4.2.2.3</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. [3.2.2.2.3] <br>
+<b><i>4.2.2.4</b></i> Verify that facilities in the gym are searchable by name through the map search bar. [3.2.2.2.4] <br>
+<b><i>4.2.2.1</b></i> Verify that the map has a scrollable edge. This can be tested by swiping on the page to trigger the scroll function. [3.2.2.3.1] <br>
+<b><i>4.2.3.2</b></i> Verify that the map supports zooming, detecting when a zoom request is made.  [3.2.2.3.2] <br>
+<b><i>4.2.3.3</b></i>  Verify that gym function icons are interactable to view options related to that function.  [3.2.2.3.3] <br>
+
+### <b>4.2.3 Map Usability Requirements Verification </b> <a name="4.2.3" />
+This section defines the verification for the gym map usability requirements.
+<p class="tab">
+<b><i>4.2.3.1</b></i>  Verify the map is intuitive so the user can easily form a mental model of its workings.  [3.2.3.1] <br>
+<b><i>4.2.3.2</b></i>  Verify a gym goer can quickly identify where they should be in the gym to complete their desired activity.  [3.2.3.2] <br>
+<b><i>4.2.3.3</b></i>  Verify the map icons and interfaces use simple command formats to ensure users understand map functionalities.  [3.2.3.3] <br>
+<b><i>4.2.3.4</b></i>  Verify when a task failure occurs the map stops its operation and refreshes.  [3.2.3.4] <br>
+<b><i>4.2.3.5</b></i>  Verify map iconography is consistent with commonly recognized symbols.  [3.2.3.5] <br>
+
+### <b>4.2.4 Map Performance Requirements Verification </b> <a name="4.2.4" />
+This section defines the verification for the gym map performance requirements.
+<p class="tab">
+<b><i>4.2.4.1</b></i>  Verify the map prioritizes loading the graphical display elements prior to lower priority tasks.  [3.2.4.1] <br>
+<b><i>4.2.4.2</b></i>  Verify the map search functionality returns results in higher algorithm efficiency than** O**(n log n).  [3.2.4.2] <br>
+<b><i>4.2.4.3</b></i>  Verify the map allows for interaction with elements after a predetermined time post loading.  [3.2.4.3] <br>
+
+### <b>4.2.5 Map Logical Database Requirements Verification </b> <a name="4.2.5" />
+This section defines the verification for the gym map logical database requirements.
+<p class="tab">
+<b><i>4.2.5.1</b></i>  Verify the map icons are loaded into memory from the **System Database** when the view is selected.  [3.2.5.2.1] <br>
+<b><i>4.2.5.2</b></i>  Verify the map search functionality is accessible on demand. This will be accomplished in the testing lifecycle by a performance test.  [3.2.5.2.2] <br>
+<b><i>4.2.5.3</b></i>  Verify that the map is accessible from the homepage of the myJym application.  [3.2.5.3.1] <br>
+<b><i>4.2.5.4</b></i>  Verify the map has access to the **System Database** to access gym equipment locations.  [3.2.5.3.2] <br>
+<b><i>4.2.5.5</b></i>  Verify that the map has access to the **System Database** to return search results.  [3.2.5.3.3] <br>
+<b><i>4.2.5.6</b></i>  Verify that the map handles data for the exercise machine locations.  [3.2.5.4.1] <br>
+<b><i>4.2.5.6</b></i>  Verify that the map handles data for the exercise machine images.  [3.2.5.4.2] <br>
+<b><i>4.2.5.6</b></i>  Verify that the map handles data for the map search bar results.  [3.2.5.4.3] <br>
+<b><i>4.2.5.7</b></i>  Verify that map icons are entries to the database.  [3.2.5.5.1] <br>
+<b><i>4.2.5.8</b></i>  Verify that map data is formatted to match the conventions of the database.  [3.2.5.5.2] <br>
+<b><i>4.2.5.9</b></i>  Verify that data used for the map is only accessible by the functions of myJym.  [3.2.5.6.1] <br>
+<b><i>4.2.5.10</b></i> Verify that the interactable map features provides sufficient **Pixels Per Inch** that the average human is able to cleanly select them.  [3.2.6.1] <br>
+<b><i>4.2.5.11</b></i> Verify that the map is available when the application has been opened to the home page.   [3.2.7.1] <br>
+<b><i>4.2.5.12</b></i> Verify that the map is available offline when no internet connectivity is available.  [3.2.7.2] <br>
+<b><i>4.2.5.13</b></i> Verify that the maps delivered to the user on MyJym delivers accurate data based on the information in the **System Database.**  [3.2.7.1.1] <br>
+<b><i>4.2.5.14</b></i> Verify that the MyJym map is retained in memory while the myJym application is focused on a separate page.  [3.2.7.1.2] <br>
+<b><i>4.2.5.15</b></i> Verify that the map shall only be editable by an admin. The system should only accept admin credentials when editing.  [3.2.7.2.1] <br>
+
 <!-- team 3 and 4's stuff--> 
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.
