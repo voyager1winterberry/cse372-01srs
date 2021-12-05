@@ -150,6 +150,12 @@ Date: 11/20/21
         * [3.5.7.3 Maintainability](#3.5.7.3-maintainability)
 * [4.0 Validation](#4.0-validation)
     * [4.1.1 External Interface Verification](#4.1.1-external-interface-verification)
+<!-- start -->
+    * [4.2.1 Map External Interfaces Verification](#4.2.1)
+    * [4.2.2 Map Functions Verification](#4.2.2)
+    * [4.2.3 Map Usability Requirements Verification](#4.2.3)
+    * [4.2.4 Map Performance Requirements Verification](#4.2.4)
+    * [4.2.5 Map Logical Database Requirements Verification](#4.2.5)
     * [4.5.1 External Interface Verification](#4.5.1-external-interface-verification)
         * [4.5.1.1 Database Verification](#4.5.1.1-database-verification)
         * [4.5.1.2 Video Provider Verification](#4.5.1.2-video-provider-verification)
