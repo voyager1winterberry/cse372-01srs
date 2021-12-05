@@ -800,69 +800,81 @@ Specifies the factors required to define a level of maintainability for the myJy
 N/A<br>
 
 ## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
+The first pages that the user will see. The user will login and then use the homepage to access the various features of the application.  
 ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
+Communication with third party applications. The login page requires external interfaces to function. The following list details necessary external interfaces. 
 <p class="tab">
-<i>3.4.1.1</i> The login page shall provide the ability to login through Google.<br>
-<i>3.4.1.2</i> The system shall send an automated password recovery email to the user on request
+<i>3.4.1.1</i> The login page shall provide the ability to login to an account using login credentials.  <br>
+<i>3.4.1.2</i> The system shall send an automated password recovery email to the user on request  
 </p>
 
 ### 3.4.2 Functions <a name="3.4.2-functions" />
 <p class="tab">
-<i>3.4.2.1</i> The home page shall provide access to myTrainer.<br>
-<i>3.4.2.2</i> The home page shall provide access to myWorkouts.<br>
-<i>3.4.2.3</i> The home page shall provide access to myVideos.<br>
+Operations that the system can perform. The following list details operations that are necessary for the login and homepage to properly function. 
+<i>3.4.2.1</i> The home page shall provide access to myTrainer.  <br>
+<i>3.4.2.2</i> The home page shall provide access to myWorkouts.  <br>
+<i>3.4.2.3</i> The home page shall provide access to myVideos.  <br>
 <i>3.4.2.4</i> The home page shall provide access to myGymMap.<br>
-<i>3.4.2.5</i> The login page shall provide the user with the <i>ability</i> to recover a lost password.<br>
-<i>3.4.2.6</i> The login page shall provide the user with the ability to create an account.<br>
-<i>3.4.2.7</i> The login page shall display an error message when invalid credentials are submitted.<br>
-<i>3.4.2.8</i> The system shall check the login credentials against the database.
+<i>3.4.2.5</i> The login page shall provide the user with the ability to recover a lost password.  <br>
+<i>3.4.2.6</i> The login page shall provide the user with the ability to create an account. <br>
+<i>3.4.2.7</i> The login page shall display an error message when invalid credentials are submitted. <br>
+<i>3.4.2.8</i> The system shall check the login credentials against the database. 
 </p>
 
 ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
+Requirements relating to the ease of use of the application.  
 <p class="tab">
-<i>3.4.3.1</i> The login page shall inform the user of password requirements. <br>
-<i>3.4.3.2</i> The login page shall allow the user to enter login credentials.
+<i>3.4.3.1</i> The login page shall inform the user of password requirements.  <br>
+<i>3.4.3.2</i> The login page shall allow the user to enter login credentials. 
 </p>
 
 ### 3.4.4 Performance Requirements <a name="3.4.4-performance-requirements" />
+Requirements relating to the performance metrics of the application. 
 <p class="tab">
-<i>3.4.4.1</i> The system shall have the ability to process login credentials.
+<i>3.4.4.1</i> The system shall have the ability to process login credentials. 
 </p>
 
 ### 3.4.5 Logical Database Requirements <a name="3.4.5-logical-database-requirements" />
+This section will define what the database will store as the application receives data. 
 <p class="tab">
-<i>3.4.5.1</i> The UserData database table shall have a Google authentication key from the Google third party login.<br>
-<i>3.4.5.2</i> The UserData database table shall store usernames.<br>
-<i>3.4.5.3</i> The UserData database table shall store the passwords.<br>
-<i>3.4.5.4</i> The database shall be accessed by the login page when user credentials are submitted through the login page.<br>
-<i>3.4.5.5</i> The database shall keep the login credentials of users confidential.
+<i>3.4.5.1</i> The UserData database table shall have a Google authentication key from the Google third party login. <br>
+<i>3.4.5.2</i> The UserData database table shall store usernames. <br>
+<i>3.4.5.3</i> The UserData database table shall store the passwords. <br>
+<i>3.4.5.4</i> The database shall be accessed by the login page when user credentials are submitted through the login page. <br>
+<i>3.4.5.5</i> The database shall keep the login credentials of users confidential. 
 </p>
 
 ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
+Standards that will define the design of the application. 
 <p class="tab">
-<i>3.4.6.1</i> The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.<br>
+<i>3.4.6.1</i> The myJym app shall be completed in its entirety by the end of Jared's Senior Project class. <br>
 <i>3.4.6.2</i> The budget for the myJym app shall be $0.00.
 </p>
 
 ### 3.4.7 Software System Attributes <a name="3.4.7-software-system-attributes" />
+Metrics used to describe myJyms’ features.
 #### 3.4.7.1 Reliability <a name="3.4.7.1-reliability" />
+Applications distinct types of use. 
 <p class="tab">
 <i>3.4.7.1.1</i> The app shall require the compliance of personal trainers.<br>
 <i>3.4.7.1.2</i> The app shall require an administrator.
-<p>
+</p>
 
 #### 3.4.7.2 Availability <a name="3.4.7.2-availability" />
+When myJym will be available for use. 
 <p class="tab">
-<i>3.4.7.2.1</i> The myJym app shall be available during all gym hours.
+<i>3.4.7.2.1</i> The myJym app shall be available on demand of the user. 
 </p>
 
 #### 3.4.7.3 Security <a name="3.4.7.3-security" />
+Measures of what will be done to protect user’s assets 
 <p class="tab">
 <i>3.4.7.3.1</i> The system shall encrypt user accounts.<br>
 <i>3.4.7.3.2</i> The system shall use a protocol to secure online communications.
 </p>
 
 #### 3.4.7.4 Portability <a name="3.4.7.4-portability" />
+What will be done to distribute the application. 
 <p class="tab">
 <i>3.4.7.4.1</i> The application shall be built with a programming language that can be ported to both iOS and Android.
 </p>
