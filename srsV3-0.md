@@ -1322,6 +1322,68 @@ This section defines the verification for the gym map logical database requireme
 <b><i>4.2.5.14</b></i> Verify that the MyJym map is retained in memory while the myJym application is focused on a separate page.  [3.2.7.1.2] <br>
 <b><i>4.2.5.15</b></i> Verify that the map shall only be editable by an admin. The system should only accept admin credentials when editing.  [3.2.7.2.1] <br>
 
+## 4.4 Login & Homepage Verification
+<a name="4.4-login-&-homepage-verification" />
+Verify the Login & Homepage requirements
+
+#### 4.4.1 External Interfaces Verification <a name="4.4.1-external-interfaces-verification" />
+Verification of the interfaces that the application will output to the user. 
+***4.4.1.1***
+***4.4.1.2***
+#### 4.4.2 Functions Verification <a name="4.4.2-functions-verification" />
+Verification of the different functionalities within the application.
+***4.4.2.1***
+***4.4.2.2***
+***4.4.2.3***
+***4.4.2.4***
+***4.4.2.5***
+***4.4.2.6***
+***4.4.2.7***
+***4.4.2.8***
+
+#### 4.4.3 Usability Requirements Verification <a name="4.4.3-usability-requirements-verification" />
+Verification of the requirements related to usability.
+***4.4.3.1***
+***4.4.3.2***
+
+#### 4.4.4 Performance Requirements Verification <a name="4.4.4-performance-requirements-verification" />
+Verification of the system's ability to process user requests.
+***4.4.4.1***
+
+#### 4.4.5 Logical Database Requirements Verification <a name="4.4.5-logical-database-requirements-verification" />
+Verification of the operation of the database.
+***4.4.5.1***
+***4.4.5.2***
+***4.4.5.3***
+***4.4.5.4***
+***4.4.5.5***
+
+#### 4.4.6 Design Constraints Verification <a name="4.4.6-design-constraints-verification" />
+Verification of the metrics set to limit the application.
+***4.4.6.1***
+***4.4.6.2***
+
+#### 4.4.7 Software System Attributes Verification <a name="4.4.7-software-system-attributes-verification" />
+Verification of the software system attribute requirements
+
+##### 4.4.7.1 Reliability Verification <a name="4.4.7.1-reliability-verification" />
+Verification of the dependability of the application.
+***4.4.7.1.1***
+***4.4.7.1.2***
+
+##### 4.4.7.2 Availability Verification <a name="4.4.7.2-availability-verification" />
+Verification of the systems uptime for users.
+***4.4.7.2.1***
+
+##### 4.4.7.3 Security Verification <a name="4.4.7.3-security-verification" />
+Verification of the applications ability to protect user assets.
+***4.4.7.3.1***
+***4.4.7.3.2***
+
+##### 4.4.7.4 Portability Verification <a name="4.4.7.4-portability-verification" />
+Verification of the applications ability to work on different operating systems.
+***4.4.7.4.1***
+
 <!-- team 3 and 4's stuff--> 
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.
