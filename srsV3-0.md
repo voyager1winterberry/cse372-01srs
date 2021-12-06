@@ -644,7 +644,7 @@ Software Quality Attributes:  Features that facilitate the measurement of perfor
 The map of the gym used by the MyJym application and it's requirements will be detailed in this section. <br>
 ### 3.2.1 External Interfaces <a name="3.2.1-external-interfaces" />
 ***3.2.1.1*** The map shall utilize the System Database to obtain needed information for the map generation. <br>
-***3.2.1.1*** The map search bar shall obtain user data from the System Database. <br>
+***3.2.1.1*** The map search bar shall obtain user data from the **System Database**. <br>
 ### 3.2.2 Functions <a name="3.2.2-functions" />
 Functions of the gym map and it's associated features are detailed below: <br>
 #### 3.2.2.1 Map Display <a name="3.2.2.1-map-display" />
@@ -662,8 +662,9 @@ The map features a search bar with the following capabilities: <br>
 ***3.2.2.2.3*** The map search bar shall be a modeless interface not restricting user input to other parts of the application. <br>
 ***3.2.2.2.4*** Facilities in the gym shall be searchable by name through the map search bar. <br>
 #### 3.2.2.3 Map Navigation <a name="3.2.2.3-map-navigation" />
-***3.2.2.3.1*** The map shall be scrollable edge to edge responding to user input. <br>
-***3.2.2.3.2*** The map shall support zooming detecting when a zoom request is made by the user. <br>
+The requirements for navigating on the map are as follows:
+***3.2.2.3.1*** The map shall be scrollable edge to edge. <br>
+***3.2.2.3.2*** The map shall support zooming, detecting when a zoom request is made. <br>
 ***3.2.2.3.3*** Gym function icons shall be interactable to view options related to that function. <br>
 * ### 3.2.3 Usability Requirements <a name="3.2.3-usability-requirements" />
 For the myGym app the usability requirements serve to increase the usability for the user include the ease of learning, task efficiency, ease of remembering, understandability, task failure, and accessibility. These are criteria which serve to increase the usability of myJym.
