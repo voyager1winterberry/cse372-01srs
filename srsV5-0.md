@@ -464,6 +464,12 @@ This is a comprehensive list of needed definitions used by the myJym application
 <br>
 
 # 3.0 Requirements <a name="3.0-requirements" />
+Workflow of the document:
+1. Login Page & Homepage 3.4
+2. myTrainer
+3. myWorkout 
+4. myVideo
+The current order is for convenience's sake.
 
 ## 3.1 My Trainer <a name="3.1-my-trainer" />
 The My trainer portion is a page accessible through the homepage.
