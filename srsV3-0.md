@@ -157,6 +157,7 @@ Date: 11/20/21
     * [4.2.3 Map Usability Requirements Verification](#4.2.3)
     * [4.2.4 Map Performance Requirements Verification](#4.2.4)
     * [4.2.5 Map Logical Database Requirements Verification](#4.2.5)
+* [4.5 My Workout Verification](#4.5-my-workout-verification)
     * [4.5.1 External Interface Verification](#4.5.1-external-interface-verification)
         * [4.5.1.1 Database Verification](#4.5.1.1-database-verification)
         * [4.5.1.2 Video Provider Verification](#4.5.1.2-video-provider-verification)
@@ -1439,7 +1440,13 @@ Verification of the applications ability to work on different operating systems.
 Method: Inspection<br>
 What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
+<br>
+
 <!-- team 3 and 4's stuff--> 
+## <b>4.5 My Workout Verification</b> <a name="4.5-my-workout-verification" />
+
+<br>
+
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.
 
