@@ -815,23 +815,21 @@ N/A<br>
 The first pages that the user will see. The user will login and then use the homepage to access the various features of the application.  
 ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
 Communication with third party applications. The login page requires external interfaces to function. The following list details necessary external interfaces. 
-<p class="tab">
-<i>3.4.1.1</i> The login page shall provide the ability to login to an account using login credentials.  <br>
-<i>3.4.1.2</i> The system shall send an automated password recovery email to the user on request  
-</p>
+***3.4.1.1*** The login page shall provide the ability to login to an account using login credentials.  <br>
+***3.4.1.2*** The system shall send an automated password recovery email to the user on request  
+<br>
 
 ### 3.4.2 Functions <a name="3.4.2-functions" />
-<p class="tab">
 Operations that the system can perform. The following list details operations that are necessary for the login and homepage to properly function. 
-<i>3.4.2.1</i> The home page shall provide access to myTrainer.  <br>
-<i>3.4.2.2</i> The home page shall provide access to myWorkouts.  <br>
-<i>3.4.2.3</i> The home page shall provide access to myVideos.  <br>
-<i>3.4.2.4</i> The home page shall provide access to myGymMap.<br>
-<i>3.4.2.5</i> The login page shall provide the user with the ability to recover a lost password.  <br>
-<i>3.4.2.6</i> The login page shall provide the user with the ability to create an account. <br>
-<i>3.4.2.7</i> The login page shall display an error message when invalid credentials are submitted. <br>
-<i>3.4.2.8</i> The system shall check the login credentials against the database. 
-</p>
+***3.4.2.1*** The home page shall provide access to myTrainer.  <br>
+***3.4.2.2*** The home page shall provide access to myWorkouts.  <br>
+***3.4.2.3*** The home page shall provide access to myVideos.  <br>
+***3.4.2.4*** The home page shall provide access to myGymMap.<br>
+***3.4.2.5*** The login page shall provide the user with the ability to recover a lost password.  <br>
+***3.4.2.6*** The login page shall provide the user with the ability to create an account. <br>
+***3.4.2.7*** The login page shall display an error message when invalid credentials are submitted. <br>
+***3.4.2.8*** The system shall check the login credentials against the database. 
+<br>
 
 ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
 Requirements relating to the ease of use of the application.  
