@@ -1275,14 +1275,14 @@ This section defines the verification for the gym map external interface require
 ### <b>4.2.2 Map Functions Verification </b> <a name="4.2.2" />
 This section defines the verification for the gym map functions.
 <p class="tab">
-<b><i>4.2.1.1</b></i> Verify the map organizes gym equipment according to a layout file. (Technique: Inspection) [3.2.2.1.1] <br>
-<b><i>4.2.1.2</b></i> Verify the map organizes gym services according to a layout file. (Technique: Inspection) [3.2.2.1.2] <br>
-<b><i>4.2.1.3</b></i> Verify the map properly refreshes when an error occurs. (Technique: Test) [3.2.2.1.2] <br>
-<b><i>4.2.1.4</b></i> Verify an administrator can modify the map layout. (Technique: Demonstration) [3.2.2.1.4] <br>
-<b><i>4.2.1.5</b></i> Verify a map tutorial opens when the map is first opened. (Technique: Demonstration) [3.2.2.1.5] <br>
-<b><i>4.2.2.1</b></i> Verify that the map search bar performs validation on inputs matching them to gym functions. (Technique: Inspection)[3.2.2.2.1] <br>
-<b><i>4.2.2.2</b></i> Verify that the search bar has functionality to locate gym functions. (Technique: Demonstration) [3.2.2.2.2] <br>
-<b><i>4.2.2.3</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. (Technique: Inspection) [3.2.2.2.3] <br>
+<b><i>4.2.2.1</b></i> Verify the map organizes gym equipment according to a layout file. (Technique: Inspection) [3.2.2.1.1] <br>
+<b><i>4.2.2.2</b></i> Verify the map organizes gym services according to a layout file. (Technique: Inspection) [3.2.2.1.2] <br>
+<b><i>4.2.2.3</b></i> Verify the map properly refreshes when an error occurs. (Technique: Test) [3.2.2.1.2] <br>
+<b><i>4.2.3.4</b></i> Verify an administrator can modify the map layout. (Technique: Demonstration) [3.2.2.1.4] <br>
+<b><i>4.2.4.5</b></i> Verify a map tutorial opens when the map is first opened. (Technique: Demonstration) [3.2.2.1.5] <br>
+<b><i>4.2.2.6</b></i> Verify that the map search bar performs validation on inputs matching them to gym functions. (Technique: Inspection)[3.2.2.2.1] <br>
+<b><i>4.2.2.7</b></i> Verify that the search bar has functionality to locate gym functions. (Technique: Demonstration) [3.2.2.2.2] <br>
+<b><i>4.2.2.8</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. (Technique: Inspection) [3.2.2.2.3] <br>
 <b><i>4.2.2.4</b></i> Verify that facilities in the gym are searchable by name through the map search bar. (Technique: Demonstration) [3.2.2.2.4] <br>
 <b><i>4.2.2.1</b></i> Verify that the map has a scrollable edge. (Technique: Demonstration)  [3.2.2.3.1] <br>
 <b><i>4.2.3.2</b></i> Verify that the map supports zooming, detecting when a zoom request is made. (Technique: Demonstration) [3.2.2.3.2] <br>
