@@ -1628,4 +1628,4 @@ Not applicable for the my workout feature.
 
 [3] “Macintosh Operating System (Mac OS).” Techopedia, techopedia, 2012, www.techopedia.com/definition/2639/macintosh-operating-system-mac-os.
 
-[4] https://github.com/voyager1winterberry/cse372-01srs/blob/m
+[4] https://github.com/voyager1winterberry/cse372-01srs/blob/main/refDocs/Week10Assignments.docx
