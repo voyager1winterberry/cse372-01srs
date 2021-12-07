@@ -157,7 +157,6 @@ Date: 11/20/21
     * [4.2.3 Map Usability Requirements Verification](#4.2.3)
     * [4.2.4 Map Performance Requirements Verification](#4.2.4)
     * [4.2.5 Map Logical Database Requirements Verification](#4.2.5)
-* [4.5 My Workout Verification](#4.5-my-workout-verification)
     * [4.5.1 External Interface Verification](#4.5.1-external-interface-verification)
         * [4.5.1.1 Database Verification](#4.5.1.1-database-verification)
         * [4.5.1.2 Video Provider Verification](#4.5.1.2-video-provider-verification)
@@ -1284,10 +1283,13 @@ This section defines the verification for the gym map functions.
 <b><i>4.2.2.6</b></i> Verify that the map search bar performs validation on inputs matching them to gym functions. (Technique: Inspection)[3.2.2.2.1] <br>
 <b><i>4.2.2.7</b></i> Verify that the search bar has functionality to locate gym functions. (Technique: Demonstration) [3.2.2.2.2] <br>
 <b><i>4.2.2.8</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. (Technique: Inspection) [3.2.2.2.3] <br>
-<b><i>4.2.2.4</b></i> Verify that facilities in the gym are searchable by name through the map search bar. (Technique: Demonstration) [3.2.2.2.4] <br>
-<b><i>4.2.2.1</b></i> Verify that the map has a scrollable edge. (Technique: Demonstration)  [3.2.2.3.1] <br>
-<b><i>4.2.3.2</b></i> Verify that the map supports zooming, detecting when a zoom request is made. (Technique: Demonstration) [3.2.2.3.2] <br>
-<b><i>4.2.3.3</b></i>  Verify that gym function icons are interactable to view options related to that function. (Technique: Demonstration) [3.2.2.3.3] <br>
+<b><i>4.2.2.9</b></i> Verify that facilities in the gym are searchable by name through the map search bar. (Technique: Demonstration) [3.2.2.2.4] <br>
+	
+### <b> 4.2.2.3 Map Navigation </b> 
+This section describes the verification for the map navigation.
+<b><i>4.2.2.3.1</b></i> Verify that the map has a scrollable edge. (Technique: Demonstration)  [3.2.2.3.1] <br>
+<b><i>4.2.2.3.2</b></i> Verify that the map supports zooming, detecting when a zoom request is made. (Technique: Demonstration) [3.2.2.3.2] <br>
+<b><i>4.2.2.3.3</b></i>  Verify that gym function icons are interactable to view options related to that function. (Technique: Demonstration) [3.2.2.3.3] <br>
 
 ### <b>4.2.3 Map Usability Requirements Verification </b> <a name="4.2.3" />
 This section defines the verification for the gym map usability requirements.
@@ -1440,13 +1442,7 @@ Verification of the applications ability to work on different operating systems.
 Method: Inspection<br>
 What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
-<br>
-
 <!-- team 3 and 4's stuff--> 
-## <b>4.5 My Workout Verification</b> <a name="4.5-my-workout-verification" />
-
-<br>
-
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.
 
