@@ -671,11 +671,12 @@ For the myGym app the usability requirements serve to increase the usability for
 
 These are as follows: <br>
 ***3.2.3.1*** Ease of learning- The map shall be intuitive allowing the user to easily form a mental model of its workings. This will be facilitated by a clean organization for the display elements of the map. <br>
-***3.2.3.1*** Task efficiency- The map shall facilitate a user quickly identifying where they should be in the gym to complete their desired activity. <br>
-***3.2.3.2*** Ease of remembering. The map shall utilize simple command formats to ensure users are capable of creating a mental model of the map functionalities. <br>
-***3.2.3.3*** Understandability: The user shall understand the purpose of the map. Map features shall use formats akin to those found on similar mobile applications. New users will be greeted by a tutorial upon first entering the map view. <br>
-***3.2.3.4*** Task failure. When encountering a task failure the map shall stop its operation and refresh. <br>
-***3.2.3.5*** Accessibility. Map iconography shall be created based upon commonly recognized symbols. <br>
+***3.2.3.2*** Task efficiency- The map shall facilitate a user quickly identifying where they should be in the gym to complete their desired activity. <br>
+***3.2.3.3*** Ease of remembering. The map shall utilize simple command formats to ensure users are capable of creating a mental model of the map functionalities. <br>
+***3.2.3.4*** Understandability: The user shall understand the purpose of the map. Map features shall use formats akin to those found on similar mobile applications. New users will be greeted by a tutorial upon first entering the map view. <br>
+***3.2.3.5*** Task failure. When encountering a task failure the map shall stop its operation and refresh. <br>
+***3.2.3.6*** Accessibility. Map iconography shall be created based upon commonly recognized symbols. <br>
+
 
 ### 3.2.4 Performance Requirements <a name="3.2.4-performance-requirements" />
 The performance requirements of the system for the myJym map feature will define the performance capabilities and how various conditions will impact their operation.
@@ -1287,6 +1288,7 @@ This section defines the verification for the gym map functions.
 	
 ### <b> 4.2.2.3 Map Navigation </b> 
 This section describes the verification for the map navigation.
+<p class="tab">
 <b><i>4.2.2.3.1</b></i> Verify that the map has a scrollable edge. (Technique: Demonstration)  [3.2.2.3.1] <br>
 <b><i>4.2.2.3.2</b></i> Verify that the map supports zooming, detecting when a zoom request is made. (Technique: Demonstration) [3.2.2.3.2] <br>
 <b><i>4.2.2.3.3</b></i>  Verify that gym function icons are interactable to view options related to that function. (Technique: Demonstration) [3.2.2.3.3] <br>
@@ -1296,9 +1298,10 @@ This section defines the verification for the gym map usability requirements.
 <p class="tab">
 <b><i>4.2.3.1</b></i>  Verify the map is intuitive so the user can easily form a mental model of its workings. (Technique: Inspection) [3.2.3.1] <br>
 <b><i>4.2.3.2</b></i>  Verify a gym goer can quickly identify where they should be in the gym to complete their desired activity. (Technique: Demonstration) [3.2.3.2] <br>
-<b><i>4.2.3.3</b></i>  Verify the map icons and interfaces use simple command formats to ensure users understand map functionalities. (Technique: Inspection) [3.2.3.3] <br>
-<b><i>4.2.3.4</b></i>  Verify when a task failure occurs the map stops its operation and refreshes. (Technique: Test) [3.2.3.4] <br>
-<b><i>4.2.3.5</b></i>  Verify map iconography is consistent with commonly recognized symbols. (Technique: Inspection) [3.2.3.5] <br>
+<b><i>4.2.3.3</b></i>  Verify that map uses simple, intelligle command formats. (Technique: Demonstration) [3.2.2.2]<br>
+<b><i>4.2.3.4</b></i>  Verify the map icons and interfaces use simple command formats to ensure users understand map functionalities. (Technique: Inspection) [3.2.3.3] <br>
+<b><i>4.2.3.5</b></i>  Verify when a task failure occurs the map stops its operation and refreshes. (Technique: Test) [3.2.3.4] <br>
+<b><i>4.2.3.6</b></i>  Verify map iconography is consistent with commonly recognized symbols. (Technique: Inspection) [3.2.3.5] <br>
 
 ### <b>4.2.4 Map Performance Requirements Verification </b> <a name="4.2.4" />
 This section defines the verification for the gym map performance requirements.
