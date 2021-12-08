@@ -134,6 +134,7 @@ Date: 11/20/21
         * [3.5.2.2 Find Workout](#3.5.2.2-find-workout)
         * [3.5.2.3 Saved Workout](#3.5.2.3-saved-workout)
         * [3.5.2.4 Workout in Progress Page](#3.5.2.4-workout-in-progress-page)
+        * [3.5.2.5 My Video page Verification](#3.5.2.5-my-video-page)
     * [3.5.3 Usability Requirements](#3.5.3-usability-requirements)
     * [3.5.4 Performance Requiremnts](#3.5.4-performance-requirements)
     * [3.5.5 Logical Database Requirements](#3.5.5-logical-database-requirements)
@@ -149,6 +150,19 @@ Date: 11/20/21
     * [4.2.3 Map Usability Requirements Verification](#4.2.3)
     * [4.2.4 Map Performance Requirements Verification](#4.2.4)
     * [4.2.5 Map Logical Database Requirements Verification](#4.2.5)
+* [4.3 MyJym Videos Verification](#4.3-myjym-videos-verification)
+    * [4.3.1 External Interfaces Specification Verification](#4.3.1-external-interfaces-specifications-verification)
+        * [4.3.1.1 Database Verification](#4.3.1.1-database-verification)
+    * [4.3.2 Functions Verification](#4.3.2-functions-verification)
+        * [4.3.2.1 My Video Verification](#4.3.2.1-my-video-verifiaction)
+    * [4.3.3 Usability Requirement Verifiaction](#4.3.3-usability-requirement-verification)
+    * [4.3.4 Performance Requirements Verification](4.3.4-performance-requirements-verification)
+    * [4.3.5 Logical Database Requirements Verification](#4.3.5-logical-database-requirements-verification)
+    * [4.3.6 Design Constraint Verification](#4.3.6-design-constraints-verification)
+    * [4.3.7 Software System Attributes Verification](#4.3.7-software-system-attributes-verification)
+        * [4.3.7.1 Reliability Verification](#4.3.7.1-reliability-verification)
+        * [4.3.7.2 Security Verification](#4.3.7.2-security-verification)
+        * [4.3.7.3 Maintainability Verification](#4.3.7.3-maintainability-verification)
     * [4.5.1 External Interface Verification](#4.5.1-external-interface-verification)
         * [4.5.1.1 Database Verification](#4.5.1.1-database-verification)
         * [4.5.1.2 Video Provider Verification](#4.5.1.2-video-provider-verification)
@@ -970,7 +984,16 @@ Workout in progress is a page within the app that displays the current workout i
 </p>
 
 <br>
-
+	
+#### <b>3.5.2.5 My Video Page </b> <a name="3.5.2.5-my-video-page" />
+This section defines the workout in progress function for the my workout feature.
+<p class="tab">
+<b><i>3.5.2.5.1</b></i> My Video page shall display a workout title. [3.3.2.1.1] (Technique: demonstration)<br>
+<b><i>3.5.2.5.2</b></i> My Video page shall display an equipment name. [3.3.2.1.2] (Technique: demonstration)<br>
+<b><i>3.5.2.5.3</b></i> My Video page shall display a workout video. [3.3.2.1.3] (Technique: demonstration)<br>
+<b><i>3.5.2.5.4</b></i> My Video page shall provide a save video button. [3.3.2.1.4] (Technique: demonstration)<br>
+</p>
+	
 ### <b>3.5.3 Usability Requirements</b> <a name="3.5.3-usability-requirements" />
 This section explains the usability and quality of the use requirements and objectives for the myJym application including measurable effectiveness and satisfaction criteria for the my workout feature.
 <p class="tab">
@@ -1359,6 +1382,75 @@ This section defines the verification for the gym map logical database requireme
 <b><i>4.2.5.14</b></i> Verify that the MyJym map is retained in memory while the myJym application is focused on a separate page. (Technique: Test) [3.2.7.1.2] <br>
 <b><i>4.2.5.15</b></i> Verify that the map only be editable by an admin. (Technique: Inspection) [3.2.7.2.1] <br>
 
+## 4.3 MyJym Videos Verification <a name="4.3-myjym-videos-verification" /> <!-- team 3's work -->
+
+Verify the MyJym Videos requirements
+
+### 4.3.1 External Interfaces Specification Verification <a name="4.3.1-external-interfaces-specifications-verification" />
+Verify that the section defines the inputs and outputs of the MyJym application.<br>
+#### 4.3.1.1 Database Verification <a name="4.3.1.1-database-verification" />
+Verify that this shows the what columns will be included to create the database. The specific column requirements are listed in section 3.5<br>
+***4.3.1.1.1*** Verify that the database shall store workout title<br>
+***4.3.1.1.2*** Verify that the database shall store workout video links<br>
+***4.3.1.1.3*** Verify that the database shall store workout description<br>
+***4.3.1.1.4*** Verify that the database shall store the image links
+
+#### 4.3.1.2 Video Streaming Verification <a name="4.3.1.2-video-streaming-verification" />
+Verify that the API for a video streaming website will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
+
+***4.3.1.2.1*** Verify that Gymgoers shall have the ability to access workout videos
+	
+### 4.3.2 Functions Verification <a name="4.3.2-functions-verification" />
+Verify that this section is responsible for explaining MyJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
+
+#### 4.3.2.1 My Video Verification <a name="4.3.2.1-my-video-verifiaction" />
+
+***4.3.2.1.1*** Verify that the My Video page shall display a workout title.<br>
+***4.3.2.1.2*** Verify that the My Video page shall display an equipment name.<br>
+***4.3.2.1.3*** Verify that the My Video page shall display a workout video.<br>
+***4.3.2.1.4*** Verify that the My Video page shall provide a save video button.<br>
+
+### 4.3.3 Usability Requirement Verifiaction <a name="4.3.3-usability-requirement-verification" />
+Verify that this section lists the quality and use requirements for the MyJym application. Including measurable effectiveness and satisfaction criteria for the My Video feature. <br>
+***4.3.3.1*** Verify that User shall be able to save a selected video<br>
+***4.3.3.2*** Verify that User shall be able to view the workout video<br>
+***4.3.3.3*** Verify that User shall be able to view saved videos<br>
+	
+### 4.3.4 Performance Requirements Verification <a name="4.3.4-performance-requirements-verification" />
+Verify that for the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.<br>
+***4.3.4.1*** Verify that User shall be able to save a selected video<br>
+***4.3.4.2*** Verify that The user shall only be able to save one video link per exercise.<br>
+***4.3.4.3*** Verify that The My Video page shall support a configurable amount of workouts<br>
+***4.3.4.4*** Verify that The My Video page shall support a configurable amount of workouts videos<br>
+
+### 4.3.5 Logical Database Requirements Verification <a name="4.3.5-logical-database-requirements-verification" />
+
+Verify that the MyJym database shall store all the tables that are necessary for storing information required by the application.<br>
+
+***4.3.5.1*** Verify that the workout table shall contain an exercise title column<br>
+***4.3.5.2*** Verify that the workout table shall contain a description column<br>
+***4.3.5.3*** Verify that the workout table shall contain a video link column<br>
+***4.3.5.4*** Verify that the workout table shall contain a workout id column that acts as a primary key<br>
+
+### 4.3.6 Design Constraint Verification <a name="4.3.6-design-constraints-verification" />
+Verify that this section specifies the constraints with the myJym application that would arise from project limitations, external standards, and specific requirements.<br>
+***4.3.6.1*** Verify that the user shall only be able to save workout the video<br>
+
+### 4.3.7 Software System Attributes Verification <a name="4.3.7-software-system-attributes-verification" />
+#### 4.3.7.1 Reliability Verification <a name="4.3.7.1-reliability-verification" />
+Verify that factors required to establish reliability of the myJym application at the time of delivery.<br>
+	
+***4.3.7.1.1*** Verify that the system shall exit immediately when a user finds an error.
+***4.3.7.1.2*** Verify that the app shall check that locally stored user information matches what is stored in a database.
+#### 4.3.7.2 Security Verification <a name="4.3.7.2-security-verification" />
+Verify that the factors required to guarantee a defined level of availability for the myJym application in regards to the workout videos. <br>	
+***4.3.7.2.1*** Verify that the user shall only be able to add approved video links to an exercise.
+#### 4.3.7.3 Maintainability Verification <a name="4.3.7.3-maintainability-verification" />
+Verify that the factors required to define a level of maintainability for the myJym application. <br>	
+***4.3.7.3.1*** Verify that App administrators shall be able to remove inappropriate content.<br>
+N/A<br>	
+	
+	
 ## 4.4 Login & Homepage Verification
 <a name="4.4-login-&-homepage-verification" />
 Verify the Login & Homepage requirements
