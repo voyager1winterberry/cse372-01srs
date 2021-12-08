@@ -1081,6 +1081,11 @@ Verify the google authentication.
 ### <b>4.1.2 Functions Verification</b> <a name="4.1.2-functions-verifications" />
 This section will verify all the functions of the my trainer page.
 
+<p class="tab">
+<b><i>4.1.2.1</b></i> Verify the myJym application shall send users Notifications. [3.1.2.1.1] (Technique: demonstration) <br>
+<b><i>4.1.2.2</b></i> Verify the myTrainer page shall allow users to view trainer profiles. [3.1.2.1.2] (Technique: demonstration) <br>
+</p>
+
 #### <b>4.1.2.1 Notifications Verification</b> <a name="4.1.2.1-notifications-verifications" />
 This section defines the verification for notifications.
 <p class="tab">
@@ -1091,23 +1096,17 @@ This section defines the verification for notifications.
 #### <b>4.1.2.2 View Trainer Profile Verification</b> <a name="4.1.2.2-view-trainer-profile-verifications" />
 This section defines the verification for viewing trainer profiles.
 <p class="tab">
-<b><i>4.1.2.2.1</b></i> Verify the myTrainer page shall allow users to search for trainers. [3.1.2.2.1] (Technique: demonstration) <br>
-<b><i>4.1.2.2.2</b></i> Verify the myTrainer page shall allow users to update their profile. [3.1.2.2.2] (Technique: demonstration) <br>
-<b><i>4.1.2.2.3</b></i> Verify the myTrainer page shall allow users to message trainers. [3.1.2.2.3] (Technique: demonstration) <br>
-<b><i>4.1.2.2.4</b></i> Verify the myTrainer page shall allow trainers to message users. [3.1.2.2.4] (Technique: demonstration) <br>
-<b><i>4.1.2.2.5</b></i> Verify a notification shall be sent to the user’s devices when a user sets a time for their workout. [3.1.2.2.5] (Technique: demonstration) <br>
-<b><i>4.1.2.2.6</b></i> Verify a notification shall be sent to the user’s device when the user receives a message. [3.1.2.2.6] (Technique: demonstration) <br>
-<b><i>4.1.2.2.7</b></i> Verify trainer profile shall be viewable by gymgoers. [3.1.2.2.7] (Technique: demonstration) <br>
-<b><i>4.1.2.2.8</b></i> Verify trainer profile shall display a picture of the trainer. [3.1.2.2.8] (Technique: demonstration) <br>
-<b><i>4.1.2.2.9</b></i> Verify trainer profile shall display a short biography of the trainer. [3.1.2.2.9] (Technique: demonstration) <br>
-<b><i>4.1.2.2.10</b></i> Verify trainer profile shall display a link to the trainer’s YouTube channel. [3.1.2.2.10] (Technique: demonstration) <br>
-<b><i>4.1.2.2.11</b></i> Verify “View Workouts” shall be an option on the Trainer profile that allows the user to view a trainer’s created workouts. [3.1.2.2.11] (Technique: demonstration) <br>
-<b><i>4.1.2.2.12</b></i> Verify “Message Trainer” shall be an option on the Trainer profile that allows the user to send a message to the trainer. [3.1.2.2.12] (Technique: demonstration) <br>
-<b><i>4.1.2.2.13</b></i> Verify trainer profiles shall store a trainers first name [3.1.2.2.13] (Technique: demonstration) <br>
-<b><i>4.1.2.2.14</b></i> Verify trainer profiles shall store a trainer’s last name. [3.1.2.2.14] (Technique: demonstration) <br>
-<b><i>4.1.2.2.15</b></i> Verify trainer profiles shall store a trainer’s email. [3.1.2.2.15] (Technique: demonstration) <br>
-<b><i>4.1.2.2.16</b></i> Verify the system shall create a unique ID for each trainer. [3.1.2.2.16] (Technique: demonstration) <br>
-<b><i>4.1.2.2.17</b></i> Verify the system shall create a personal key for each trainer. [3.1.2.2.17] (Technique: demonstration) <br>
+<b><i>4.1.2.2.1</b></i> Verify the trainer profile shall be viewable by gymgoers. [3.1.2.2.1] (Technique: demonstration) <br>
+<b><i>4.1.2.2.2</b></i> Verify the trainer profile shall display a picture of the trainer. [3.1.2.2.2] (Technique: demonstration) <br>
+<b><i>4.1.2.2.3</b></i> Verify the trainer profile shall display a short biography of the trainer. [3.1.2.2.3] (Technique: demonstration) <br>
+<b><i>4.1.2.2.4</b></i> Verify the trainer profile shall display a clickable link to the trainer’s videos on a video provider. [3.1.2.2.4] (Technique: demonstration) <br>
+<b><i>4.1.2.2.5</b></i> Verify the “View Workouts” shall be an option on the Trainer profile that allows the user to view a trainer’s created workouts. [3.1.2.2.5] (Technique: demonstration) <br>
+<b><i>4.1.2.2.6</b></i> Verify the “Message Trainer” shall be an option on the Trainer profile that allows the user to send a message to the trainer. [3.1.2.2.6] (Technique: demonstration) <br>
+<b><i>4.1.2.2.7</b></i> Verify trainer profiles shall store a trainers first name [3.1.2.2.7] (Technique: demonstration) <br>
+<b><i>4.1.2.2.8</b></i> Verify trainer profiles shall store a trainer’s last name. [3.1.2.2.8] (Technique: demonstration) <br>
+<b><i>4.1.2.2.9</b></i> Verify trainer profiles shall store a trainer’s email. [3.1.2.2.9] (Technique: demonstration) <br>
+<b><i>4.1.2.2.10</b></i> Verify the system shall create a unique ID for each trainer. [3.1.2.2.10] (Technique: demonstration) <br>
+<b><i>4.1.2.2.11</b></i> Verify the system shall create a personal key for each trainer. [3.1.2.2.11] (Technique: demonstration) <br>
 </p>
 
 #### <b>4.1.2.3 Update Profile Verification</b> <a name="4.1.2.3-update-profile-verifications" />
@@ -1168,6 +1167,7 @@ This section defines the verification for usability requirements.
 <b><i>4.1.3.13</b></i> Verify the system is created with elements that ensure that it is accessible to adults ranging from 18-40. [3.1.3.13] (Technique: demonstration) <br>
 </p>
 
+<br>
 
 ### <b>4.1.4 Performance Requirements Verification</b> <a name="4.1.4-performance-requirments-verification" />
 This section defines the verification performance requirements.
@@ -1183,6 +1183,7 @@ This section defines the verification performance requirements.
 <b><i>4.1.4.9</b></i>Verify that the trainer search results on the mobile app shall load up soon after the search has been entered in. [3.1.4.9] (Technique: test) <br>
 </p>
 
+<br>
 
 ### <b>4.1.5 Logical Database Requirements Verification</b> <a name="4.1.5-logical-database-requirments-verification" />
 This will verify all of the items for logical databases.
@@ -1231,6 +1232,8 @@ This section defines the verification for security.
 <b><i>4.1.5.5.5</b></i> Verify Admin accounts shall have access to all accounts [3.1.5.5.5] (Technique: demonstration) <br>
 </p>
 
+<br>
+
 ### <b>4.1.6 Design Constraints Requirements Verification</b> <a name="4.1.6-design-constraints-requirements-verification" />
 This section will verify the design constraints requirements.
 <p class="tab">
@@ -1242,23 +1245,52 @@ This section will verify the design constraints requirements.
 <b><i>4.1.6.6</b></i> Verify System maintaince managers shall use requirements to understand the system and the relationship between its parts. [3.1.6.6] (Technique: demonstration) <br>
 <p>
 
-### <b>4.1.7 Reliability Verification</b> <a name="4.1.7-reliability-verification" />
-This section defines the verification for reliability.
+<br>
+
+### <b>4.1.7 Software System Attributes Verification</b> <a name="4.1.7-software-system-attributes-verification" />
+This section will verify all things under software system attributes.
+
+<br>
+
+#### <b>4.1.7.1 Reliability Verification</b> <a name="4.1.7.1-reliability-verification" />
 <p class="tab">
-<b><i>4.1.7.1</b></i> Verify applications shall not have errors within the codes to cause applications to close or crash. [3.1.7.1] (Technique: inspection) <br>
-<b><i>4.1.7.2</b></i> Verify there will be functions within the software that perform verifications to notice errors before the application is crashed. [3.1.7.2] (Technique: inspection) <br>
-<b><i>4.1.7.3</b></i> Verify the system shall verify the information that is match between the server and the application. [3.1.7.3] (Technique: inspection) <br>
-<b><i>4.1.7.4</b></i> Verify user information shall be available to users and other users that have access to specific user accounts. [3.1.7.4] (Technique: inspection) <br>
-<b><i>4.1.7.5</b></i> Verify users shall be required to provide an email and password during the account creation process. [3.1.7.5] (Technique: inspection) <br>
-<b><i>4.1.7.6</b></i> Verify user’s account and personal information shall be hidden from all other unauthorized users and parties. [3.1.7.6] (Technique: inspection) <br>
-<b><i>4.1.7.7</b></i> Verify the user account creation process shall be safe and secure. [3.1.7.7] (Technique: inspection) <br>
-<b><i>4.1.7.8</b></i> Verify that the login process to user’s personal accounts is secure. [3.1.7.8] (Technique: inspection) <br>
-<b><i>4.1.7.9</b></i> Verify that once a user logs out from their personal account, all user information shall be removed from the login screen and cannot be accessed without user login with their personal username and password. [3.1.7.9] (Technique: inspection) <br>
-<b><i>4.1.7.10</b></i> Verify users shall be allowed to report to the administration team during circumstances such as when the user wishes to reset their password. [3.1.7.10] (Technique: inspection) <br>
-<b><i>4.1.7.11</b></i> Verify that a password resetting email shall be sent to the user’s email address that is provided by the user during the account creation process. [3.1.7.11] (Technique: inspection) <br>
-<b><i>4.1.7.12</b></i> Verify system database shall store user’s information.  [3.1.7.12] (Technique: inspection) <br> 
-<b><i>4.1.7.13</b></i> Verify myTrainer application shall run on both android and iOS mobile devices. [3.1.7.13] (Technique: inspection) <br>
+<b><i>4.1.7.1.1</b></i> Verify applications shall not have errors within the codes to cause applications to close or crash. [3.1.7.1.1] (Technique: inspection) <br>
+<b><i>4.1.7.1.2</b></i> Verify there will be functions within the software that perform verifications to notice errors before the application is crashed. [3.1.7.1.2] (Technique: inspection) <br>
+<b><i>4.1.7.1.3</b></i> Verify the system shall verify the information that is matched between the server and the application. [3.1.7.1.3] (Technique: inspection) <br>
 </p>
+
+#### <b>4.1.7.2 Security</b> <a name="4.1.7.2-security-verification" />
+<p class="tab">
+<b><i>4.1.7.2.1</b></i> Verify user shall have password protection and encryption. [3.1.7.2.1] (Technique: inspection) <br>
+<b><i>4.1.7.2.2</b></i> Verify the user account creation process shall be safe and secure. [3.1.7.2.2] (Technique: inspection) <br>
+<b><i>4.1.7.2.3</b></i> Verify user’s account and personal information shall be hidden from all other unauthorized users and parties. [3.1.7.2.3] (Technique: inspection) <br>
+<b><i>4.1.7.2.4</b></i> Verify users shall be required to provide an email and password during the account creation process. [3.1.7.2.4] (Technique: inspection) <br>
+</p>
+
+#### <b>4.1.7.3 Data privacy</b> <a name="4.1.7.3-data-privacy-verification" />
+<p class="tab">
+<b><i>4.1.7.3.1</b></i> Verify that user data shall be hidden from all other users and parties. [3.1.7.3.1] (Technique: inspection) <br>
+<b><i>4.1.7.3.2</b></i> Verify login information [3.1.7.3.2] (Technique: inspection) <br>
+<b><i>4.1.7.3.3</b></i> Verify creating an account shall be safe. [3.1.7.3.3] (Technique: inspection) <br>
+<b><i>4.1.7.3.4</b></i> Verify all users shall be allowed to login securely. [3.1.7.3.4] (Technique: inspection) <br>
+<b><i>4.1.7.3.5</b></i> Verify once a user logs out from the account, all user information shall be removed from the login screen.  [3.1.7.3.5] (Technique: inspection) <br> 
+</p>
+
+#### <b>4.1.7.4 Maintainablitly</b> <a name="4.1.7.4-maintainability-verification" />
+<p class="tab">
+<b><i>4.1.7.4.1</b></i> Verify users shall be allowed to report to the administration team if they forget their password, and need to have a reset password email sent to their personal email that has been registered on their myJym account. [3.1.7.4.1] (Technique: inspection) <br>
+<b><i>4.1.7.4.2</b></i> Verify an automatic email shall be sent to the user's email address to allow the user to reset their password. [3.1.7.4.2] (Technique: inspection) <br>
+</p>
+
+#### <b>4.1.7.5 Portability</b> <a name="4.1.7.5-maintainability-verification" />
+<p class="tab">
+<b><i>4.1.7.5.1</b></i> Verify system Database shall store user information. [3.1.7.5.1] (Technique: inspection) <br>
+<b><i>4.1.7.5.2</b></i> Verify myJym application shall run on both Android and iOS mobile interface. [3.1.7.5.2] (Technique: inspection) <br>
+</p>
+
+<br>
+
+### <b>4.1.8 Supporting Information Verification</b> <a name="4.1.8-supporting-information-verification" />
 
 <br>
 
