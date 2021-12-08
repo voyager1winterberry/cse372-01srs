@@ -1440,16 +1440,15 @@ Verify that this section specifies the constraints with the myJym application th
 #### 4.3.7.1 Reliability Verification <a name="4.3.7.1-reliability-verification" />
 Verify that factors required to establish reliability of the myJym application at the time of delivery.<br>
 	
-***4.3.7.1.1*** Verify that the system shall exit immediately when a user finds an error.
-***4.3.7.1.2*** Verify that the app shall check that locally stored user information matches what is stored in a database.
+***4.3.7.1.1*** Verify that the system shall exit immediately when a user finds an error. <br>
+***4.3.7.1.2*** Verify that the app shall check that locally stored user information matches what is stored in a database. <br>
 #### 4.3.7.2 Security Verification <a name="4.3.7.2-security-verification" />
 Verify that the factors required to guarantee a defined level of availability for the myJym application in regards to the workout videos. <br>	
-***4.3.7.2.1*** Verify that the user shall only be able to add approved video links to an exercise.
+***4.3.7.2.1*** Verify that the user shall only be able to add approved video links to an exercise. <br>
 #### 4.3.7.3 Maintainability Verification <a name="4.3.7.3-maintainability-verification" />
 Verify that the factors required to define a level of maintainability for the myJym application. <br>	
-***4.3.7.3.1*** Verify that App administrators shall be able to remove inappropriate content.<br>
-N/A<br>	
-	
+***4.3.7.3.1*** Verify that App administrators shall be able to remove inappropriate content. <br>
+<br>	
 	
 ## 4.4 Login & Homepage Verification
 <a name="4.4-login-&-homepage-verification" />
