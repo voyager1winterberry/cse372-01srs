@@ -1172,15 +1172,15 @@ This section defines the verification for usability requirements.
 ### <b>4.1.4 Performance Requirements Verification</b> <a name="4.1.4-performance-requirments-verification" />
 This section defines the verification performance requirements.
 <p class="tab">
-<b><i>4.1.4.1</b></i>Verify that my trainer page shall load when the user navigates to my trainer page. [3.1.4.1] (Technique: test) <br>
-<b><i>4.1.4.2</b></i>Verify that the trainer shall receive messages soon after the author sends the message. [3.1.4.2] (Technique: test) <br>
-<b><i>4.1.4.3</b></i>Verify that the trainer shall be able to send messages after clicking the send button in the built-in messenger. [3.1.4.3] (Technique: test) <br>
-<b><i>4.1.4.4</b></i>Verify that notifications for the trainer shall be received at the same time as when the message comes in. [3.1.4.4] (Technique: test) <br>
-<b><i>4.1.4.5</b></i>Verify that notifications from the trainer shall be received at the same time the recipient receives the message. [3.1.4.5] (Technique: test) <br>
-<b><i>4.1.4.6</b></i>Verify that the trainer profiles on the web shall be loaded soon after the settings button has been clicked. [3.1.4.6] (Technique: test) <br>
-<b><i>4.1.4.7</b></i>Verify that the trainer profiles on the mobile app shall be loaded soon after the settings button has been clicked. [3.1.4.7] (Technique: test) <br>
-<b><i>4.1.4.8</b></i>Verify that the trainer search results on the web shall load up soon after the search has been entered in. [3.1.4.8] (Technique: test) <br>
-<b><i>4.1.4.9</b></i>Verify that the trainer search results on the mobile app shall load up soon after the search has been entered in. [3.1.4.9] (Technique: test) <br>
+<b><i>4.1.4.1</b></i> Verify that my trainer page shall load when the user navigates to my trainer page. [3.1.4.1] (Technique: test) <br>
+<b><i>4.1.4.2</b></i> Verify that the trainer shall receive messages soon after the author sends the message. [3.1.4.2] (Technique: test) <br>
+<b><i>4.1.4.3</b></i> Verify that the trainer shall be able to send messages after clicking the send button in the built-in messenger. [3.1.4.3] (Technique: test) <br>
+<b><i>4.1.4.4</b></i> Verify that notifications for the trainer shall be received at the same time as when the message comes in. [3.1.4.4] (Technique: test) <br>
+<b><i>4.1.4.5</b></i> Verify that notifications from the trainer shall be received at the same time the recipient receives the message. [3.1.4.5] (Technique: test) <br>
+<b><i>4.1.4.6</b></i> Verify that the trainer profiles on the web shall be loaded soon after the settings button has been clicked. [3.1.4.6] (Technique: test) <br>
+<b><i>4.1.4.7</b></i> Verify that the trainer profiles on the mobile app shall be loaded soon after the settings button has been clicked. [3.1.4.7] (Technique: test) <br>
+<b><i>4.1.4.8</b></i> Verify that the trainer search results on the web shall load up soon after the search has been entered in. [3.1.4.8] (Technique: test) <br>
+<b><i>4.1.4.9</b></i> Verify that the trainer search results on the mobile app shall load up soon after the search has been entered in. [3.1.4.9] (Technique: test) <br>
 </p>
 
 <br>
