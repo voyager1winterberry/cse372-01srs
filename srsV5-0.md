@@ -134,7 +134,7 @@ Date: 11/20/21
         * [3.5.2.2 Find Workout](#3.5.2.2-find-workout)
         * [3.5.2.3 Saved Workout](#3.5.2.3-saved-workout)
         * [3.5.2.4 Workout in Progress Page](#3.5.2.4-workout-in-progress-page)
-        * [3.5.2.5 My Video page Verification](#3.5.2.5-my-video-page)
+        * [3.5.2.5 My Video Page](#3.5.2.5-my-video-page)
     * [3.5.3 Usability Requirements](#3.5.3-usability-requirements)
     * [3.5.4 Performance Requiremnts](#3.5.4-performance-requirements)
     * [3.5.5 Logical Database Requirements](#3.5.5-logical-database-requirements)
