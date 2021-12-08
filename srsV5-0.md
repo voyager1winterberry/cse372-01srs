@@ -1152,7 +1152,7 @@ This section defines the verification for messaging users.
 ### <b>4.1.3 Usability Requirements Verification</b> <a name="4.1.3-usability-requirements-verifications" />
 This section defines the verification for usability requirements.
 <p class="tab">
-<b><i>4.1.3.1</b></i> Verify the system is easy to learn for both novices and users with experience from similar systems through user testing. [3.1.3.1] (Technique: demonstration) <br>
+<b><i>&emsp; 4.1.3.1</b></i> Verify the system is easy to learn for both novices and users with experience from similar systems through user testing. [3.1.3.1] (Technique: demonstration) <br>
 <b><i>4.1.3.2</b></i> Verify users familiar with similar systems is able to create a new account with minimal errors through user testing. [3.1.3.2] (Technique: demonstration) <br>
 <b><i>4.1.3.3</b></i> Verify the system is designed to be simple to use for frequent users through user testing. [3.1.3.3] (Technique: demonstration) <br>
 <b><i>4.1.3.4</b></i> Verify that frequent users are given an option to be able to access their account without having to sign in each session. [3.1.3.4] (Technique: demonstration) <br>
