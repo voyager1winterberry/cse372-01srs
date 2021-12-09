@@ -183,13 +183,12 @@ The myJym app is to help people at all levels of experience feel confident using
 <br>
 
 ## 1.2 Scope <a name="1.2-scope" />
-The scope outlines what will and will not be included in the project.
+The scope of the myJym system will be to produce the myJym application for iOS, Android, and web.  This will include everything listed in the products to be produced, what the software will do, and included core features sections.
 
 <br>
 
 ### 1.2.1 Products to be Produced <a name="1.2.1-proucts-to-be-produced" />
-The products to be produced is all the main programs that will be needed to make the product work.
-The myJym app will utilize:
+The products that the myJym app will utilize:
 - server
 - database
 - mobile myJym app
@@ -198,8 +197,7 @@ The myJym app will utilize:
 <br>
 
 ### 1.2.2 What Will the Software Product Do <a name="1.2.2-what-will-the-software-product-do" />
-This is a description of what the product to be produced will do.
-- The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
+The server will allow users to connect to the database.  The database will house the information required for the app to run.  The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
 
 <br>
 
@@ -217,7 +215,7 @@ This is a table outlining the main features of the app with a brief description 
 <br>
 
 ### 1.2.4 Excluded Features <a name="1.2.4-excluded-features" />
-This is a table outlining what features are outside the scope of this project with a brief description of the feature.
+This is a table outlining what features are outside the scope of this project with a brief description of the feature as discussed in the elicitation data, and reviewed by the customer.
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
 | Nutrition Information | Not intended to recommend meal plans, diets, count calories or anything else similar. | 
