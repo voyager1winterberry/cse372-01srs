@@ -1625,6 +1625,11 @@ Verification of the applications ability to work on different operating systems.
 Method: Inspection<br>
 What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
+<br>
+
+## <b>4.5 My Workout Verification</b>
+
+
 <!-- team 3 and 4's stuff--> 
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.
@@ -1634,12 +1639,12 @@ This section defines the verification for external interfaces for the myJym appl
 #### <b>4.5.1.1 Database Verification</b> <a name="4.5.1.1-database-verification" />
 This section defines the verification for the database for the my workout function.
 <p class="tab">
-<b><i>4.5.1.1.1</b></i> Verify that the database shall store workout <b>title</b>. [3.5.1.1.1]<br>
-<b><i>4.5.1.1.2</b></i> Verify that the database shall store workout video links. [3.5.1.1.2]<br>
-<b><i>4.5.1.1.3</b></i> Verify that the database shall store workout description. [3.5.1.1.3]<br>
-<b><i>4.5.1.1.4</b></i> Verify that the database shall store workout <b>sets</b>. [3.5.1.1.4]<br>
-<b><i>4.5.1.1.5</b></i> Verify that the database shall store workout <b>reps</b>. [3.5.1.1.5]<br>
-<b><i>4.5.1.1.6</b></i> Verify that the database shall store workout <b>tags</b>. [3.5.1.1.6]<br>
+<b><i>4.5.1.1.1</b></i> Verify that the database shall store workout <b>title</b>. [3.5.1.1.1] (Technique: inspection)<br>
+<b><i>4.5.1.1.2</b></i> Verify that the database shall store workout video links. [3.5.1.1.2] (Technique: inspection)<br>
+<b><i>4.5.1.1.3</b></i> Verify that the database shall store workout description. [3.5.1.1.3] (Technique: inspection)<br>
+<b><i>4.5.1.1.4</b></i> Verify that the database shall store workout <b>sets</b>. [3.5.1.1.4] (Technique: inspection)<br>
+<b><i>4.5.1.1.5</b></i> Verify that the database shall store workout <b>reps</b>. [3.5.1.1.5] (Technique: inspection)<br>
+<b><i>4.5.1.1.6</b></i> Verify that the database shall store workout <b>tags</b>. [3.5.1.1.6] (Technique: inspection)<br>
 </p>
 
 <br>
@@ -1647,7 +1652,7 @@ This section defines the verification for the database for the my workout functi
 #### <b>4.5.1.2 Video Provider Verification</b> <a name="4.5.1.2-video provider-verification" />
 This section defines the verification for the video provider integration for the my workout function.
 <p class="tab">
-<b><i>4.5.1.2.1</b></i> Verify that the <b>gymgoers</b> shall have the ability to access workout videos. [3.5.1.2.1]<br>
+<b><i>4.5.1.2.1</b></i> Verify that the <b>gymgoers</b> shall have the ability to access workout videos. [3.5.1.2.1] (Technique: demonstration)<br>
 </p>
 
 <br>
@@ -1703,8 +1708,6 @@ This section defines the verification for the workout in progress function for t
 <b><i>4.5.2.4.1</b></i> Verify that the workout in progress page shall guide the user through their workout. [3.5.2.4.1] (Technique: demonstration)<br>
 <b><i>4.5.2.4.2</b></i> Verify that the workout in progress page shall display the workout information for the selected workout. [3.5.2.4.2] (Technique: demonstration)<br>
 </p>
-
-<br>
 
 <br>
 
@@ -1798,4 +1801,3 @@ This section defines the verification for the maintainability of the my workout 
 
 ### <b>4.8.3 Supporting Information Verification</b>
 Not applicable for the my workout feature.
-
