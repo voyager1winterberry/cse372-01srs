@@ -464,7 +464,8 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
 | Working camera | camera capable of taking clear photos |
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
-
+| System Database | The system database is a datbase containing schemas for the layout of the gym. |
+| Pixels Per Inch (PPI) | The is how the resolution of a display is measure based on the amount of pixels across one inch on the screen. |
 <br>
 
 # 2.0 References <a name="2.0-references" />
