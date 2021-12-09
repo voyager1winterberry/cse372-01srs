@@ -1629,6 +1629,7 @@ What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
 ## <b>4.5 My Workout Verification</b>
 
+<br>
 
 <!-- team 3 and 4's stuff--> 
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
