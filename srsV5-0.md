@@ -49,6 +49,8 @@ Date: 11/20/21
         * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
         * [1.3.4.13 External System Limitations](#1.3.4.13-external-system-limitations)
 * [1.4 Definitions](#1.4-definitions)
+* [2.0 References](#2.0-references)
+* [3.0 Requirements](#3.0-requirements)
 * [3.1 My Trainer](#3.1-my-trainer)
     * [3.1.1 External Interfaces](#3.1.1-external-interfaces)
         * [3.1.1.1 Google Authentication](#3.1.1.1-google-authentication)
@@ -481,9 +483,10 @@ This is a comprehensive list of needed definitions used by the myJym application
 # 3.0 Requirements <a name="3.0-requirements" />
 Workflow of the document:
 1. Login Page & Homepage 3.4
-2. myTrainer
-3. myWorkout 
-4. myVideo
+2. myTrainer 3.1
+3. myWorkout 3.5
+4. myVideo 3.3
+5. Gym Map 3.2
 The current order is for convenience's sake.
 
 ## 3.1 My Trainer <a name="3.1-my-trainer" />
