@@ -691,11 +691,11 @@ The map features a search bar with the following capabilities: <br>
 ***3.2.2.2.3*** The map search bar shall be a modeless interface not restricting user input to other parts of the application. <br>
 ***3.2.2.2.4*** Facilities in the gym shall be searchable by name through the map search bar. <br>
 #### 3.2.2.3 Map Navigation <a name="3.2.2.3-map-navigation" />
-The requirements for navigating on the map are as follows:
+The requirements for navigating on the map are as follows: <br>
 ***3.2.2.3.1*** The map shall be scrollable edge to edge. <br>
 ***3.2.2.3.2*** The map shall support zooming, detecting when a zoom request is made. <br>
 ***3.2.2.3.3*** Gym function icons shall be interactable to view options related to that function. <br>
-* ### 3.2.3 Usability Requirements <a name="3.2.3-usability-requirements" />
+### 3.2.3 Usability Requirements <a name="3.2.3-usability-requirements" />
 For the myGym app the usability requirements serve to increase the usability for the user include the ease of learning, task efficiency, ease of remembering, understandability, task failure, and accessibility. These are criteria which serve to increase the usability of myJym.
 
 These are as follows: <br>
@@ -755,7 +755,7 @@ The system attributes used by the myJym app will detail the reliability and avai
 The factors of reliability for the myJym map shall be as follows: <br>
 ***3.2.7.1.1*** The maps delivered to the user on MyJym shall deliver accurate data based on the information in the **System Database.** <br>
 ***3.2.7.1.2*** The MyJym map shall be retained in memory while the myJym application is focused on a separate page. <br>
-* #### 3.2.7.2 Security <a name="3.2.7.2-security" />
+#### 3.2.7.2 Security <a name="3.2.7.2-security" />
 The following act to maintain the integrity and security of the myJym map: <br>
 ***3.2.7.2.1*** The map shall only be editable by an admin. <br>
 
