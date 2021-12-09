@@ -1374,13 +1374,13 @@ This section defines the verification for the gym map performance requirements.
 This section defines the verification for the gym map logical database requirements.
 <p class="tab">
 
-### <b>4.2.5.1 Frequency of Use Verification </b> <a name="4.2.5.1" />
-This section defines the verification for the frequency of use:
+### <b>4.2.5.1 Type of Information Used By Various Functions Verification </b> <a name="4.2.5.1" />
+This section defines the verification for the types of information used by functions of the gym map:
 <p class="tab">
 <b><i>4.2.5.1.1</b></i>  Verify the icons are stored as a valid data construct. (Technique: Test) [3.2.5.1.1] <br>
 <b><i>4.2.5.1.2</b></i>  Verify the map retrieves the search data correctly. (Technique: Test) [3.2.5.1.2] <br>
 	
-### <b>4.2.5.2Frequency of Use Verification </b> <a name="4.2.5.2" />
+### <b>4.2.5.2 Frequency of Use Verification </b> <a name="4.2.5.2" />
 This section defines the verification for the frequency of use:
 <p class="tab">
 <b><i>4.2.5.2.1</b></i>  Verify the map icons are loaded into memory from the **System Database** when the view is selected. (Technique: Test) [3.2.5.2.1] <br>
@@ -1417,7 +1417,7 @@ This section defines the verification for the gym map design constraints:
 <b><i>4.2.5.7.1</b></i> Verify that the interactable map features provides sufficient **Pixels Per Inch** that the average human is able to cleanly select them. (Technique: Inspection) [3.2.6.1] <br>
 	
 ### <b>4.2.5.8 Software System Attributes Verification </b> <a name="4.2.5.8" />
-This section defines the verification for the gym map security:
+This section defines the verification for the gym map software system attributes:
 <p class="tab">
 <b><i>4.2.5.8.1</b></i> Verify that the map is available when the application has been opened to the home page. (Technique: Demonstration)  [3.2.7.1] <br>
 <b><i>4.2.5.8.2</b></i> Verify that the map is available offline when no internet connectivity is available. (Technique: Demonstration) [3.2.7.2] <br>
