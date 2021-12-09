@@ -476,6 +476,16 @@ This is a comprehensive list of needed definitions used by the myJym application
 [3] “Macintosh Operating System (Mac OS).” Techopedia, techopedia, 2012, www.techopedia.com/definition/2639/macintosh-operating-system-mac-os.
 
 [4] https://github.com/voyager1winterberry/cse372-01srs/blob/main/refDocs/Week10Assignments.docx
+
+[5] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/brother-clements-myjym-diagram.jpg
+
+[6] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/initial-srs-sections.jpg
+
+[7] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v0.5.jpg
+
+[8] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v1.0.jpg
+
+[9] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v2.0.png
 <br>
 
 # 3.0 Requirements <a name="3.0-requirements" />
