@@ -183,23 +183,22 @@ Date: 11/20/21
 * [References](#references)
 <br><hr /><br>
 
-# 1.0 Introduction <n name="Introduction" />
+# <b>1.0 Introduction</b> <n name="Introduction" />
 
 <br>
 
-## 1.1 Purpose <a name="1.1-purpose" />
+## <b>1.1 Purpose</b> <a name="1.1-purpose" />
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainers.  Additional features include work out regiments, gym maps, and ability to track fitness goals.
 
 <br>
 
-## 1.2 Scope <a name="1.2-scope" />
-The scope outlines what will and will not be included in the project.
+## <b>1.2 Scope</b> <a name="1.2-scope" />
+The scope of the myJym system will be to produce the myJym application for iOS, Android, and web.  This will include everything listed in the products to be produced, what the software will do, and included core features sections.
 
 <br>
 
-### 1.2.1 Products to be Produced <a name="1.2.1-proucts-to-be-produced" />
-The products to be produced is all the main programs that will be needed to make the product work.
-The myJym app will utilize:
+### <b>1.2.1 Products to be Produced</b> <a name="1.2.1-proucts-to-be-produced" />
+The products that the myJym app will utilize:
 - server
 - database
 - mobile myJym app
@@ -207,13 +206,12 @@ The myJym app will utilize:
 
 <br>
 
-### 1.2.2 What Will the Software Product Do <a name="1.2.2-what-will-the-software-product-do" />
-This is a description of what the product to be produced will do.
-- The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
+### <b>1.2.2 What Will the Software Product Do</b> <a name="1.2.2-what-will-the-software-product-do" />
+The server will allow users to connect to the database.  The database will house the information required for the app to run.  The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
 
 <br>
 
-### 1.2.3 Included Core Features <a name="1.2.3-included-core-features" />
+### <b>1.2.3 Included Core Features</b> <a name="1.2.3-included-core-features" />
 This is a table outlining the main features of the app with a brief description of what the feature is.
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
@@ -226,8 +224,8 @@ This is a table outlining the main features of the app with a brief description 
 
 <br>
 
-### 1.2.4 Excluded Features <a name="1.2.4-excluded-features" />
-This is a table outlining what features are outside the scope of this project with a brief description of the feature.
+### <b>1.2.4 Excluded Features</b> <a name="1.2.4-excluded-features" />
+This is a table outlining what features are outside the scope of this project with a brief description of the feature as discussed in the elicitation data, and reviewed by the customer.
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
 | Nutrition Information | Not intended to recommend meal plans, diets, count calories or anything else similar. | 
@@ -235,7 +233,7 @@ This is a table outlining what features are outside the scope of this project wi
 
 <br>
 
-### 1.3.1 Product Perspective <a name="1.3.1-product-perspective" /> <!-- Was this section never assigned to a team by the cop leads? (aaron) -->
+### <b>1.3.1 Product Perspective</b> <a name="1.3.1-product-perspective" /> <!-- Was this section never assigned to a team by the cop leads? (aaron) -->
 This section details the relationship of the myJym app to products that are simmilar or related to it. 
 
 #### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
@@ -370,7 +368,7 @@ This table is for the user characteristics from the perspective of a trainer use
 
 
 ### 1.3.4 Limitations <a name="1.3.4-limitations" />
-This section will focus on providing a general description of any aspect of the project that could result in a supply or hardware restriction limitation. 
+The limitations of myJym are defined in the following subsections. 
 #### 1.3.4.1 Regulatory Requirements and Policies <a name="1.3.4.1-regulatory-requirements-and-policies" />
 HIPPA / GDPR - Restrictions on collecting personal information. Important to be transparent. Ensure that personal information does not have to be given to operate, only given voluntarily.
 #### 1.3.4.2 Hardware Limitations (e.g. signal timing requirements) <a name="1.3.4.2-hardware-limitations" />
@@ -380,19 +378,19 @@ One limitation of interfacing with other applications would be the licensing of 
 #### 1.3.4.4 Parallel Operation <a name="1.3.4.4-parallel-operation" />
 Calorie tracking will require the use of a smart watch or fitness tracker which not everyone will have. Bluetooth would be used to connect the devices; Bluetooth could cause problems for less tech savvy users. 
 #### 1.3.4.5 Audit Functions <a name="1.3.4.5-audit-functions" />
-Bug report tool/ user feedback. The system may not get relevant data from the user feedback, and the system will need to handle user feedback. 
+There are no audit functions in version 1.0 of this product.
 #### 1.3.4.6 Control Functions <a name="1.3.4.6-control-functions" />
-Errors in the code of the myJym app could limit the control functions from functioning properly. 
+There are no control functions for version 1.0 of this product.
 #### 1.3.4.7 Higher-Order Language Requirements <a name="1.3.4.7-higher-order-language-requirements" />
 Since this is a mobile application two different apps need to be written, one for android and one for apple. This will require the use of Kotlin and Swift so the developers will need to learn or know at least one of these languages. This could also cause problems in ensuring that the apps are the same. A way to get around this would be to use a web app using Django, HTML, CSS, and JS. 
 #### 1.3.4.8 Signal Handshake Protocols <a name="1.3.4.8-signal-handshake-protocols" />
-Internet access will be the limitation for all signal handshake protocols. The protocols themselves will be limit the signal handshakes that are happening. 
+There are no signal handshake protocols for version 1.0 of this product.
 #### 1.3.4.9 Quality Requirements (e.g. reliability) <a name="1.3.4.9-quality-requirements" />
-The app needs to be easily accessible, efficient, and able to handle data. 
+There are no quality requirements for version 1.0 of this product. 
 #### 1.3.4.10 Criticality of the Application <a name="1.3.4.10-criticality-of-the-application" />
-Most of the app is dependent upon personal trainers and YouTube. If either of these fail the app will have premade workouts, in the form of written descriptions, for the gym goer to reference.  
+There is no criticality of the application for version 1.0 of this product.
 #### 1.3.4.11 Safety and Security Considerations <a name="1.3.4.11-safety-and-security-considerations" />
-One of the limitations is that the system must store personal user data such as usernames, passwords, names, weights, and heights. 
+There are no safety and security consideration limitations for version 1.0 of this product.
 #### 1.3.4.12 Physical/Mental Considerations <a name="1.3.4.12-physical/mental-considerations" />
 The system will need to consider the physical limitations of the gym goer. The system will need to include a liability waiver in the terms and conditions. 
 #### 1.3.4.13 External System Limitations <a name="1.3.4.13-external-system-limitations" />
@@ -464,7 +462,8 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Version number | A set of unique numbers that are assigned to a specific release of a software project. In this case, it will be myJym version 1.0.0 |
 | Working camera | camera capable of taking clear photos |
 | Workout Plan | A set of exercises, times, and practices a user will complete that are displayed in the application. This can be completed individually or with a personal trainer |
-
+| System Database | The system database is a datbase containing schemas for the layout of the gym. |
+| Pixels Per Inch (PPI) | The is how the resolution of a display is measure based on the amount of pixels across one inch on the screen. |
 <br>
 
 # 2.0 References <a name="2.0-references" />
@@ -475,6 +474,16 @@ This is a comprehensive list of needed definitions used by the myJym application
 [3] “Macintosh Operating System (Mac OS).” Techopedia, techopedia, 2012, www.techopedia.com/definition/2639/macintosh-operating-system-mac-os.
 
 [4] https://github.com/voyager1winterberry/cse372-01srs/blob/main/refDocs/Week10Assignments.docx
+
+[5] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/brother-clements-myjym-diagram.jpg
+
+[6] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/initial-srs-sections.jpg
+
+[7] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v0.5.jpg
+
+[8] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v1.0.jpg
+
+[9] https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v2.0.png
 <br>
 
 # 3.0 Requirements <a name="3.0-requirements" />
@@ -729,27 +738,27 @@ The map of the gym used by the MyJym application and it's requirements will be d
 Functions of the gym map and it's associated features are detailed below: <br>
 #### 3.2.2.1 Map Display <a name="3.2.2.1-map-display" />
 The map display will be responsible for how the various graphical display elements will be handled. 
-These are as follows: <br>
-***3.2.2.1.1*** The map shall organize gym equipment according to a JSON file detailing their locations. <br>
-***3.2.2.1.2*** The map shall organize gym services according to a JSON file detailing their locations. <br>
+These are as follows: <br> <br>
+***3.2.2.1.1*** The map shall organize gym equipment according to a configuration file. <br>
+***3.2.2.1.2*** The map shall organize gym services according to a configuration file. <br>
 ***3.2.2.1.3*** When an abnormal state is encountered the map shall stop and refresh. <br>
 ***3.2.2.1.4*** The map shall support modification to facility locations by a system administrator. <br>
 ***3.2.2.1.5*** A simple tutorial of using the map shall display the first time a user opens to that view. <br>
 #### 3.2.2.2 Map Search Function <a name="3.2.2.2-map-search-function" />
-The map features a search bar with the following capabilities: <br>
+The map features a search bar with the following capabilities: <br><br>
 ***3.2.2.2.1*** The map search bar shall perform validation on inputs matching them to gym functions. <br>
 ***3.2.2.2.2*** The map shall provide a search bar used to locate gym functions. <br>
 ***3.2.2.2.3*** The map search bar shall be a modeless interface not restricting user input to other parts of the application. <br>
 ***3.2.2.2.4*** Facilities in the gym shall be searchable by name through the map search bar. <br>
 #### 3.2.2.3 Map Navigation <a name="3.2.2.3-map-navigation" />
-The requirements for navigating on the map are as follows:
+The requirements for navigating on the map are as follows: <br> <br>
 ***3.2.2.3.1*** The map shall be scrollable edge to edge. <br>
 ***3.2.2.3.2*** The map shall support zooming, detecting when a zoom request is made. <br>
 ***3.2.2.3.3*** Gym function icons shall be interactable to view options related to that function. <br>
-* ### 3.2.3 Usability Requirements <a name="3.2.3-usability-requirements" />
+### 3.2.3 Usability Requirements <a name="3.2.3-usability-requirements" />
 For the myGym app the usability requirements serve to increase the usability for the user include the ease of learning, task efficiency, ease of remembering, understandability, task failure, and accessibility. These are criteria which serve to increase the usability of myJym.
 
-These are as follows: <br>
+These are as follows: <br> <br>
 ***3.2.3.1*** Ease of learning- The map shall be intuitive allowing the user to easily form a mental model of its workings. This will be facilitated by a clean organization for the display elements of the map. <br>
 ***3.2.3.2*** Task efficiency- The map shall facilitate a user quickly identifying where they should be in the gym to complete their desired activity. <br>
 ***3.2.3.3*** Ease of remembering. The map shall utilize simple command formats to ensure users are capable of creating a mental model of the map functionalities. <br>
@@ -761,7 +770,7 @@ These are as follows: <br>
 ### 3.2.4 Performance Requirements <a name="3.2.4-performance-requirements" />
 The performance requirements of the system for the myJym map feature will define the performance capabilities and how various conditions will impact their operation.
 
-These are as follows: <br>
+These are as follows: <br> <br>
 ***3.2.4.1*** The map shall prioritize loading of graphical display elements prior to lower priority tasks. <br>
 ***3.2.4.2*** The map search functionality shall return results in higher performant step timing than** O**(n log n). <br>
 ***3.2.4.3*** The map shall allow interaction with elements after a predetermined time post loading. <br>
@@ -770,44 +779,44 @@ These are as follows: <br>
 The data used by the gym map and it's state will be detailed here as follows: <br>
 
 #### 3.2.5.1 Types of information used by various functions <a name="3.2.5.1-types-of-information-used-by-various-functions" />
-The following will be the information used by the myGym map to perform it's required functions: <br>
+The following will be the information used by the myGym map to perform it's required functions: <br> <br>
 ***3.2.5.1.1*** The map shall store the icons for the map as a data construct. <br>
 ***3.2.5.1.2*** The map shall use search inputs to retrieve data from the **System Database**. <br>
 
 #### 3.2.5.2 Frequency of use <a name="3.2.5.2-frequency-of-use" />
-The following will define how often the various functionalities of the myJym map will be accessed. <br>
+The following will define how often the various functionalities of the myJym map will be accessed. <br> <br>
 ***3.2.5.2.1*** Map icons shall be loaded into memory from the **System Database** when the view is selected. <br>
 ***3.2.5.2.2*** The map search functionality shall be accessible on demand.<br>
 #### 3.2.5.3 Accessing Capabilities <a name="3.2.5.3-accessing-capabilities" />
-The map will be able to be accessed from and have access to the following: <br>
+The map will be able to be accessed from and have access to the following: <br> <br>
 ***3.2.5.3.1*** The map shall be accessible from the home page of the myJym application. <br>
 ***3.2.5.3.2*** The map shall have access to the **System Database** to access gym equipment locations. <br>
 ***3.2.5.3.3*** The map shall have access to the **System Database** to return search results. <br>
 #### 3.2.5.4 Data entities and their relationships <a name="3.2.5.4-data-entities-and-their-relationships" />
-The data entities will have the following relationships: <br>
+The data entities will have the following relationships: <br> <br>
 ***3.2.5.4.1*** The map shall handle data for the exercise machine locations. <br>
 ***3.2.5.4.2*** The map shall handle data for the exercise machine images. <br>
 ***3.2.5.4.3*** The map shall handle data for the map search bar results. <br>
 #### 3.2.5.5 Integrity Constraints <a name="3.2.5.5-integrity-constraints" />
-The data stored by the map will be subject to the following integrity constraints: <br>
+The data stored by the map will be subject to the following integrity constraints: <br> <br>
 ***3.2.5.5.1*** Map icons shall be entries to the database. <br>
 ***3.2.5.5.2*** Map data shall be formatted to match the conventions of the database. <br>
 #### 3.2.5.6 Security <a name="3.2.5.6-security" />
-The map data security will apply as follows: <br>
+The map data security will apply as follows: <br> <br>
 ***3.2.5.6.1*** Data used for the map shall not be accessible by other functions of myJym. <br>
 ### 3.2.6 Design Constraints <a name="3.2.6-design-constraints" />
-The design constraints of the map, the limitations on it's design, will be as follows: <br>
+The design constraints of the map, the limitations on it's design, will be as follows: <br> <br>
 ***3.2.6.1*** The interactable map features shall provide sufficient **Pixels Per Inch** that the average human is able to cleanly select them. <br>
 ### 3.2.7 Software System Attributes <a name="3.2.7-software-system-attributes">
-The system attributes used by the myJym app will detail the reliability and availability of the map: <br>
+The system attributes used by the myJym app will detail the reliability and availability of the map: <br> <br>
 ***3.2.7.1*** The map shall be available when the application has been opened to the home page. <br>
 ***3.2.7.2*** The map shall be available offline when not internet connectivity is available. <br>
 #### 3.2.7.1 Reliability <a name="3.2.7.1-reliability" />
-The factors of reliability for the myJym map shall be as follows: <br>
+The factors of reliability for the myJym map shall be as follows: <br> <br>
 ***3.2.7.1.1*** The maps delivered to the user on MyJym shall deliver accurate data based on the information in the **System Database.** <br>
 ***3.2.7.1.2*** The MyJym map shall be retained in memory while the myJym application is focused on a separate page. <br>
-* #### 3.2.7.2 Security <a name="3.2.7.2-security" />
-The following act to maintain the integrity and security of the myJym map: <br>
+#### 3.2.7.2 Security <a name="3.2.7.2-security" />
+The following act to maintain the integrity and security of the myJym map: <br> <br>
 ***3.2.7.2.1*** The map shall only be editable by an admin. <br>
 
 	
@@ -921,7 +930,7 @@ This section will define what the database will store as the application receive
 ***3.4.5.5*** The database shall keep the login credentials of users confidential. <br>
 
 ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
-Standards that will define the design of the application. 
+The design constraints of myJym are as follows.
 ***3.4.6.1*** The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.
 ***3.4.6.2*** The budget for the myJym app shall be $0.00.<br>
 
@@ -1370,6 +1379,8 @@ This section will verify all things under software system attributes.
 <br>
 
 <!-- Team 2> -->
+## <b> 4.2 Gym Map Verification </b> <a name=4.2>
+This section details the verification for the Gym Map (SRS 3.2) section. <br><br>
 ### <b>4.2.1 Map External Interfaces Verification</b> <a name="4.2.1" />
 This section defines the verification for the gym map external interface requirements.
 <p class="tab">
@@ -1379,17 +1390,25 @@ This section defines the verification for the gym map external interface require
 ### <b>4.2.2 Map Functions Verification </b> <a name="4.2.2" />
 This section defines the verification for the gym map functions.
 <p class="tab">
-<b><i>4.2.2.1</b></i> Verify the map organizes gym equipment according to a layout file. (Technique: Inspection) [3.2.2.1.1] <br>
-<b><i>4.2.2.2</b></i> Verify the map organizes gym services according to a layout file. (Technique: Inspection) [3.2.2.1.2] <br>
-<b><i>4.2.2.3</b></i> Verify the map properly refreshes when an error occurs. (Technique: Test) [3.2.2.1.2] <br>
-<b><i>4.2.3.4</b></i> Verify an administrator can modify the map layout. (Technique: Demonstration) [3.2.2.1.4] <br>
-<b><i>4.2.4.5</b></i> Verify a map tutorial opens when the map is first opened. (Technique: Demonstration) [3.2.2.1.5] <br>
-<b><i>4.2.2.6</b></i> Verify that the map search bar performs validation on inputs matching them to gym functions. (Technique: Inspection)[3.2.2.2.1] <br>
-<b><i>4.2.2.7</b></i> Verify that the search bar has functionality to locate gym functions. (Technique: Demonstration) [3.2.2.2.2] <br>
-<b><i>4.2.2.8</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. (Technique: Inspection) [3.2.2.2.3] <br>
-<b><i>4.2.2.9</b></i> Verify that facilities in the gym are searchable by name through the map search bar. (Technique: Demonstration) [3.2.2.2.4] <br>
+
+### <b>4.2.2.1 Map Display Verification</b> <a name="4.2.2" />
+This section defines the verification for the gym map display.
+<p class="tab">
+<b><i>4.2.2.1.1</b></i> Verify the map organizes gym equipment according to a layout file. (Technique: Inspection) [3.2.2.1.1] <br>
+<b><i>4.2.2.1.2</b></i> Verify the map organizes gym services according to a layout file. (Technique: Inspection) [3.2.2.1.2] <br>
+<b><i>4.2.2.1.3</b></i> Verify the map properly refreshes when an error occurs. (Technique: Test) [3.2.2.1.2] <br>
+<b><i>4.2.2.1.4</b></i> Verify an administrator can modify the map layout. (Technique: Demonstration) [3.2.2.1.4] <br>
+<b><i>4.2.2.1.5</b></i> Verify a map tutorial opens when the map is first opened. (Technique: Demonstration) [3.2.2.1.5] <br>
+
+### <b>4.2.2.2 Map Search Verification </b> <a name="4.2.2" />
+This section defines the verification for the gym map functions.
+<p class="tab">
+<b><i>4.2.2.2.1</b></i> Verify that the map search bar performs validation on inputs matching them to gym functions. (Technique: Inspection)[3.2.2.2.1] <br>
+<b><i>4.2.2.2.2</b></i> Verify that the search bar has functionality to locate gym functions. (Technique: Demonstration) [3.2.2.2.2] <br>
+<b><i>4.2.2.2.3</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. (Technique: Inspection) [3.2.2.2.3] <br>
+<b><i>4.2.2.2.4</b></i> Verify that facilities in the gym are searchable by name through the map search bar. (Technique: Demonstration) [3.2.2.2.4] <br>
 	
-### <b> 4.2.2.3 Map Navigation </b> 
+### <b> 4.2.2.3 Map Navigation Verification</b> 
 This section describes the verification for the map navigation.
 <p class="tab">
 <b><i>4.2.2.3.1</b></i> Verify that the map has a scrollable edge. (Technique: Demonstration)  [3.2.2.3.1] <br>
@@ -1401,10 +1420,10 @@ This section defines the verification for the gym map usability requirements.
 <p class="tab">
 <b><i>4.2.3.1</b></i>  Verify the map is intuitive so the user can easily form a mental model of its workings. (Technique: Inspection) [3.2.3.1] <br>
 <b><i>4.2.3.2</b></i>  Verify a gym goer can quickly identify where they should be in the gym to complete their desired activity. (Technique: Demonstration) [3.2.3.2] <br>
-<b><i>4.2.3.3</b></i>  Verify that map uses simple, intelligle command formats. (Technique: Demonstration) [3.2.2.2]<br>
-<b><i>4.2.3.4</b></i>  Verify the map icons and interfaces use simple command formats to ensure users understand map functionalities. (Technique: Inspection) [3.2.3.3] <br>
-<b><i>4.2.3.5</b></i>  Verify when a task failure occurs the map stops its operation and refreshes. (Technique: Test) [3.2.3.4] <br>
-<b><i>4.2.3.6</b></i>  Verify map iconography is consistent with commonly recognized symbols. (Technique: Inspection) [3.2.3.5] <br>
+<b><i>4.2.3.3</b></i>  Verify that map uses simple, intelligle command formats. (Technique: Demonstration) [3.2.3.4]<br>
+<b><i>4.2.3.4</b></i>  Verify the map icons and interfaces use simple command formats to ensure users understand map functionalities. (Technique: Inspection) [3.2.3.4] <br>
+<b><i>4.2.3.5</b></i>  Verify when a task failure occurs the map stops its operation and refreshes. (Technique: Test) [3.2.3.5] <br>
+<b><i>4.2.3.6</b></i>  Verify map iconography is consistent with commonly recognized symbols. (Technique: Inspection) [3.2.3.6] <br>
 
 ### <b>4.2.4 Map Performance Requirements Verification </b> <a name="4.2.4" />
 This section defines the verification for the gym map performance requirements.
@@ -1416,23 +1435,65 @@ This section defines the verification for the gym map performance requirements.
 ### <b>4.2.5 Map Logical Database Requirements Verification </b> <a name="4.2.5" />
 This section defines the verification for the gym map logical database requirements.
 <p class="tab">
-<b><i>4.2.5.1</b></i>  Verify the map icons are loaded into memory from the **System Database** when the view is selected. (Technique: Test) [3.2.5.2.1] <br>
-<b><i>4.2.5.2</b></i>  Verify the map search functionality is accessible on demand. (Technique: Demonstration) [3.2.5.2.2] <br>
-<b><i>4.2.5.3</b></i>  Verify that the map is accessible from the homepage of the myJym application. (Technique: Demonstration) [3.2.5.3.1] <br>
-<b><i>4.2.5.4</b></i>  Verify the map has access to the **System Database** to access gym equipment locations. (Technique: Inspection) [3.2.5.3.2] <br>
-<b><i>4.2.5.5</b></i>  Verify that the map has access to the **System Database** to return search results. (Technique: Inspection) [3.2.5.3.3] <br>
-<b><i>4.2.5.6</b></i>  Verify that the map handles data for the exercise machine locations. (Technique: Inspection) [3.2.5.4.1] <br>
-<b><i>4.2.5.6</b></i>  Verify that the map handles data for the exercise machine images. (Technique: Inspection) [3.2.5.4.2] <br>
-<b><i>4.2.5.6</b></i>  Verify that the map handles data for the map search bar results. (Technique: Inspection) [3.2.5.4.3] <br>
-<b><i>4.2.5.7</b></i>  Verify that map icons are entries to the database. (Technique: Inspection) [3.2.5.5.1] <br>
-<b><i>4.2.5.8</b></i>  Verify that map data is formatted to match the conventions of the database. (Technique: Inspection) [3.2.5.5.2] <br>
-<b><i>4.2.5.9</b></i>  Verify that data used for the map is only accessible by the functions of myJym. (Technique: Test) [3.2.5.6.1] <br>
-<b><i>4.2.5.10</b></i> Verify that the interactable map features provides sufficient **Pixels Per Inch** that the average human is able to cleanly select them. (Technique: Inspection) [3.2.6.1] <br>
-<b><i>4.2.5.11</b></i> Verify that the map is available when the application has been opened to the home page. (Technique: Demonstration)  [3.2.7.1] <br>
-<b><i>4.2.5.12</b></i> Verify that the map is available offline when no internet connectivity is available. (Technique: Demonstration) [3.2.7.2] <br>
-<b><i>4.2.5.13</b></i> Verify that the maps delivered to the user on MyJym delivers accurate data based on the information in the **System Database.** (Technique: Inspection) [3.2.7.1.1] <br>
-<b><i>4.2.5.14</b></i> Verify that the MyJym map is retained in memory while the myJym application is focused on a separate page. (Technique: Test) [3.2.7.1.2] <br>
-<b><i>4.2.5.15</b></i> Verify that the map only be editable by an admin. (Technique: Inspection) [3.2.7.2.1] <br>
+
+### <b>4.2.5.1 Type of Information Used By Various Functions Verification </b> <a name="4.2.5.1" />
+This section defines the verification for the types of information used by functions of the gym map:
+<p class="tab">
+<b><i>4.2.5.1.1</b></i>  Verify the icons are stored as a valid data construct. (Technique: Test) [3.2.5.1.1] <br>
+<b><i>4.2.5.1.2</b></i>  Verify the map retrieves the search data correctly. (Technique: Test) [3.2.5.1.2] <br>
+	
+### <b>4.2.5.2 Frequency of Use Verification </b> <a name="4.2.5.2" />
+This section defines the verification for the frequency of use:
+<p class="tab">
+<b><i>4.2.5.2.1</b></i>  Verify the map icons are loaded into memory from the **System Database** when the view is selected. (Technique: Test) [3.2.5.2.1] <br>
+<b><i>4.2.5.2.2</b></i>  Verify the map search functionality is accessible on demand. (Technique: Demonstration) [3.2.5.2.2] <br>
+
+### <b>4.2.5.3 Accessing Capabilities Verification </b> <a name="4.2.5.3" />
+This section defines the verification for the accessing capabilities of the gym map:
+<p class="tab">
+<b><i>4.2.5.3.1</b></i>  Verify that the map is accessible from the homepage of the myJym application. (Technique: Demonstration) [3.2.5.2.1] <br>
+<b><i>4.2.5.3.2</b></i>  Verify the map has access to the **System Database** to access gym equipment locations. (Technique: Inspection) [3.2.5.2.2] <br>
+	
+### <b>4.2.5.4 Data Entity Relationships Verification </b> <a name="4.2.2.5.4" />
+This section defines the verification for data entity relationships of the gym map:
+<p class="tab">
+<b><i>4.2.5.4.1</b></i>  Verify that the map has access to the **System Database** to return search results. (Technique: Inspection) [3.2.5.3.1] <br>
+<b><i>4.2.5.4.2</b></i>  Verify that the map handles data for the exercise machine locations. (Technique: Inspection) [3.2.5.3.2] <br>
+<b><i>4.2.5.4.3</b></i>  Verify that the map handles data for the exercise machine images. (Technique: Inspection) [3.2.5.3.3] <br>
+
+### <b>4.2.5.5 Integrity Constraints Verification </b> <a name="4.2.5.5" />
+This section defines the verification for the gym map integrity constraints:
+<p class="tab">
+<b><i>4.2.5.5.1</b></i>  Verify that the map handles data for the map search bar results. (Technique: Inspection) [3.2.5.4.1] <br>
+<b><i>4.2.5.5.2</b></i>  Verify that map icons are entries to the database. (Technique: Inspection) [3.2.5.4.2] <br>
+<b><i>4.2.5.5.3</b></i>  Verify that map data is formatted to match the conventions of the database. (Technique: Inspection) [3.2.5.4.3] <br>
+	
+### <b>4.2.5.6 Security Verification </b> <a name="4.2.5.6" />
+This section defines the verification for the gym map security:
+<p class="tab">
+<b><i>4.2.5.6.1</b></i>  Verify that data used for the map is only accessible by the functions of myJym. (Technique: Test) [3.2.5.6.1] <br>
+	
+### <b>4.2.5.7 Design Constraints Verification </b> <a name="4.2.5.7" />
+This section defines the verification for the gym map design constraints:
+<p class="tab">
+<b><i>4.2.5.7.1</b></i> Verify that the interactable map features provides sufficient **Pixels Per Inch** that the average human is able to cleanly select them. (Technique: Inspection) [3.2.6.1] <br>
+	
+### <b>4.2.5.8 Software System Attributes Verification </b> <a name="4.2.5.8" />
+This section defines the verification for the gym map software system attributes:
+<p class="tab">
+<b><i>4.2.5.8.1</b></i> Verify that the map is available when the application has been opened to the home page. (Technique: Demonstration)  [3.2.7.1] <br>
+<b><i>4.2.5.8.2</b></i> Verify that the map is available offline when no internet connectivity is available. (Technique: Demonstration) [3.2.7.2] <br>
+	
+### <b>4.2.5.8.1 Reliability Verification </b> <a name="4.2.5.8.1" />
+This section defines the verification for the gym map software system attributes reliability:
+<p class="tab">
+<b><i>4.2.5.8.1.1</b></i> Verify that the maps delivered to the user on MyJym delivers accurate data based on the information in the **System Database.** (Technique: Inspection) [3.2.7.1.1] <br>
+<b><i>4.2.5.8.1.2</b></i> Verify that the MyJym map is retained in memory while the myJym application is focused on a separate page. (Technique: Test) [3.2.7.1.2] <br>
+	
+### <b>4.2.5.8.2 Security Verification </b> <a name="4.2.2" />
+This section defines the verification for the gym map software systems security:
+<p class="tab">
+<b><i>4.2.5.8.2.1</b></i> Verify that the map only be editable by an admin. (Technique: Inspection) [3.2.7.2.1] <br><br> <!-- End team 2 -->
 
 ## 4.3 MyJym Videos Verification <a name="4.3-myjym-videos-verification" /> <!-- team 3's work -->
 
@@ -1616,6 +1677,12 @@ Verification of the applications ability to work on different operating systems.
 Method: Inspection<br>
 What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
+<br>
+
+## <b>4.5 My Workout Verification</b>
+
+<br>
+
 <!-- team 3 and 4's stuff--> 
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.
@@ -1625,12 +1692,12 @@ This section defines the verification for external interfaces for the myJym appl
 #### <b>4.5.1.1 Database Verification</b> <a name="4.5.1.1-database-verification" />
 This section defines the verification for the database for the my workout function.
 <p class="tab">
-<b><i>4.5.1.1.1</b></i> Verify that the database shall store workout <b>title</b>. [3.5.1.1.1]<br>
-<b><i>4.5.1.1.2</b></i> Verify that the database shall store workout video links. [3.5.1.1.2]<br>
-<b><i>4.5.1.1.3</b></i> Verify that the database shall store workout description. [3.5.1.1.3]<br>
-<b><i>4.5.1.1.4</b></i> Verify that the database shall store workout <b>sets</b>. [3.5.1.1.4]<br>
-<b><i>4.5.1.1.5</b></i> Verify that the database shall store workout <b>reps</b>. [3.5.1.1.5]<br>
-<b><i>4.5.1.1.6</b></i> Verify that the database shall store workout <b>tags</b>. [3.5.1.1.6]<br>
+<b><i>4.5.1.1.1</b></i> Verify that the database shall store workout <b>title</b>. [3.5.1.1.1] (Technique: inspection)<br>
+<b><i>4.5.1.1.2</b></i> Verify that the database shall store workout video links. [3.5.1.1.2] (Technique: inspection)<br>
+<b><i>4.5.1.1.3</b></i> Verify that the database shall store workout description. [3.5.1.1.3] (Technique: inspection)<br>
+<b><i>4.5.1.1.4</b></i> Verify that the database shall store workout <b>sets</b>. [3.5.1.1.4] (Technique: inspection)<br>
+<b><i>4.5.1.1.5</b></i> Verify that the database shall store workout <b>reps</b>. [3.5.1.1.5] (Technique: inspection)<br>
+<b><i>4.5.1.1.6</b></i> Verify that the database shall store workout <b>tags</b>. [3.5.1.1.6] (Technique: inspection)<br>
 </p>
 
 <br>
@@ -1638,7 +1705,7 @@ This section defines the verification for the database for the my workout functi
 #### <b>4.5.1.2 Video Provider Verification</b> <a name="4.5.1.2-video provider-verification" />
 This section defines the verification for the video provider integration for the my workout function.
 <p class="tab">
-<b><i>4.5.1.2.1</b></i> Verify that the <b>gymgoers</b> shall have the ability to access workout videos. [3.5.1.2.1]<br>
+<b><i>4.5.1.2.1</b></i> Verify that the <b>gymgoers</b> shall have the ability to access workout videos. [3.5.1.2.1] (Technique: demonstration)<br>
 </p>
 
 <br>
@@ -1694,8 +1761,6 @@ This section defines the verification for the workout in progress function for t
 <b><i>4.5.2.4.1</b></i> Verify that the workout in progress page shall guide the user through their workout. [3.5.2.4.1] (Technique: demonstration)<br>
 <b><i>4.5.2.4.2</b></i> Verify that the workout in progress page shall display the workout information for the selected workout. [3.5.2.4.2] (Technique: demonstration)<br>
 </p>
-
-<br>
 
 <br>
 
@@ -1789,4 +1854,3 @@ This section defines the verification for the maintainability of the my workout 
 
 ### <b>4.8.3 Supporting Information Verification</b>
 Not applicable for the my workout feature.
-
