@@ -678,8 +678,8 @@ Functions of the gym map and it's associated features are detailed below: <br>
 #### 3.2.2.1 Map Display <a name="3.2.2.1-map-display" />
 The map display will be responsible for how the various graphical display elements will be handled. 
 These are as follows: <br>
-***3.2.2.1.1*** The map shall organize gym equipment according to a JSON file detailing their locations. <br>
-***3.2.2.1.2*** The map shall organize gym services according to a JSON file detailing their locations. <br>
+***3.2.2.1.1*** The map shall organize gym equipment according to a configuration file. <br>
+***3.2.2.1.2*** The map shall organize gym services according to a configuration file. <br>
 ***3.2.2.1.3*** When an abnormal state is encountered the map shall stop and refresh. <br>
 ***3.2.2.1.4*** The map shall support modification to facility locations by a system administrator. <br>
 ***3.2.2.1.5*** A simple tutorial of using the map shall display the first time a user opens to that view. <br>
