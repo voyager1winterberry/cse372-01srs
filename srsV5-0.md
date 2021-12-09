@@ -370,7 +370,7 @@ This table is for the user characteristics from the perspective of a trainer use
 
 
 ### 1.3.4 Limitations <a name="1.3.4-limitations" />
-This section will focus on providing a general description of any aspect of the project that could result in a supply or hardware restriction limitation. 
+The limitations of myJym are defined in the following subsections. 
 #### 1.3.4.1 Regulatory Requirements and Policies <a name="1.3.4.1-regulatory-requirements-and-policies" />
 HIPPA / GDPR - Restrictions on collecting personal information. Important to be transparent. Ensure that personal information does not have to be given to operate, only given voluntarily.
 #### 1.3.4.2 Hardware Limitations (e.g. signal timing requirements) <a name="1.3.4.2-hardware-limitations" />
@@ -380,19 +380,19 @@ One limitation of interfacing with other applications would be the licensing of 
 #### 1.3.4.4 Parallel Operation <a name="1.3.4.4-parallel-operation" />
 Calorie tracking will require the use of a smart watch or fitness tracker which not everyone will have. Bluetooth would be used to connect the devices; Bluetooth could cause problems for less tech savvy users. 
 #### 1.3.4.5 Audit Functions <a name="1.3.4.5-audit-functions" />
-Bug report tool/ user feedback. The system may not get relevant data from the user feedback, and the system will need to handle user feedback. 
+There are no audit functions in version 1.0 of this product.
 #### 1.3.4.6 Control Functions <a name="1.3.4.6-control-functions" />
-Errors in the code of the myJym app could limit the control functions from functioning properly. 
+There are no control functions for version 1.0 of this product.
 #### 1.3.4.7 Higher-Order Language Requirements <a name="1.3.4.7-higher-order-language-requirements" />
 Since this is a mobile application two different apps need to be written, one for android and one for apple. This will require the use of Kotlin and Swift so the developers will need to learn or know at least one of these languages. This could also cause problems in ensuring that the apps are the same. A way to get around this would be to use a web app using Django, HTML, CSS, and JS. 
 #### 1.3.4.8 Signal Handshake Protocols <a name="1.3.4.8-signal-handshake-protocols" />
-Internet access will be the limitation for all signal handshake protocols. The protocols themselves will be limit the signal handshakes that are happening. 
+There are no signal handshake protocols for version 1.0 of this product.
 #### 1.3.4.9 Quality Requirements (e.g. reliability) <a name="1.3.4.9-quality-requirements" />
-The app needs to be easily accessible, efficient, and able to handle data. 
+There are no quality requirements for version 1.0 of this product. 
 #### 1.3.4.10 Criticality of the Application <a name="1.3.4.10-criticality-of-the-application" />
-Most of the app is dependent upon personal trainers and YouTube. If either of these fail the app will have premade workouts, in the form of written descriptions, for the gym goer to reference.  
+There is no criticality of the application for version 1.0 of this product.
 #### 1.3.4.11 Safety and Security Considerations <a name="1.3.4.11-safety-and-security-considerations" />
-One of the limitations is that the system must store personal user data such as usernames, passwords, names, weights, and heights. 
+There are no safety and security consideration limitations for version 1.0 of this product.
 #### 1.3.4.12 Physical/Mental Considerations <a name="1.3.4.12-physical/mental-considerations" />
 The system will need to consider the physical limitations of the gym goer. The system will need to include a liability waiver in the terms and conditions. 
 #### 1.3.4.13 External System Limitations <a name="1.3.4.13-external-system-limitations" />
@@ -869,7 +869,7 @@ This section will define what the database will store as the application receive
 ***3.4.5.5*** The database shall keep the login credentials of users confidential. <br>
 
 ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
-Standards that will define the design of the application. 
+The design constraints of myJym are as follows.
 ***3.4.6.1*** The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.
 ***3.4.6.2*** The budget for the myJym app shall be $0.00.<br>
 
