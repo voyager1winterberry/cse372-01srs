@@ -681,27 +681,27 @@ The map of the gym used by the MyJym application and it's requirements will be d
 Functions of the gym map and it's associated features are detailed below: <br>
 #### 3.2.2.1 Map Display <a name="3.2.2.1-map-display" />
 The map display will be responsible for how the various graphical display elements will be handled. 
-These are as follows: <br>
+These are as follows: <br> <br>
 ***3.2.2.1.1*** The map shall organize gym equipment according to a configuration file. <br>
 ***3.2.2.1.2*** The map shall organize gym services according to a configuration file. <br>
 ***3.2.2.1.3*** When an abnormal state is encountered the map shall stop and refresh. <br>
 ***3.2.2.1.4*** The map shall support modification to facility locations by a system administrator. <br>
 ***3.2.2.1.5*** A simple tutorial of using the map shall display the first time a user opens to that view. <br>
 #### 3.2.2.2 Map Search Function <a name="3.2.2.2-map-search-function" />
-The map features a search bar with the following capabilities: <br>
+The map features a search bar with the following capabilities: <br><br>
 ***3.2.2.2.1*** The map search bar shall perform validation on inputs matching them to gym functions. <br>
 ***3.2.2.2.2*** The map shall provide a search bar used to locate gym functions. <br>
 ***3.2.2.2.3*** The map search bar shall be a modeless interface not restricting user input to other parts of the application. <br>
 ***3.2.2.2.4*** Facilities in the gym shall be searchable by name through the map search bar. <br>
 #### 3.2.2.3 Map Navigation <a name="3.2.2.3-map-navigation" />
-The requirements for navigating on the map are as follows: <br>
+The requirements for navigating on the map are as follows: <br> <br>
 ***3.2.2.3.1*** The map shall be scrollable edge to edge. <br>
 ***3.2.2.3.2*** The map shall support zooming, detecting when a zoom request is made. <br>
 ***3.2.2.3.3*** Gym function icons shall be interactable to view options related to that function. <br>
 ### 3.2.3 Usability Requirements <a name="3.2.3-usability-requirements" />
 For the myGym app the usability requirements serve to increase the usability for the user include the ease of learning, task efficiency, ease of remembering, understandability, task failure, and accessibility. These are criteria which serve to increase the usability of myJym.
 
-These are as follows: <br>
+These are as follows: <br> <br>
 ***3.2.3.1*** Ease of learning- The map shall be intuitive allowing the user to easily form a mental model of its workings. This will be facilitated by a clean organization for the display elements of the map. <br>
 ***3.2.3.2*** Task efficiency- The map shall facilitate a user quickly identifying where they should be in the gym to complete their desired activity. <br>
 ***3.2.3.3*** Ease of remembering. The map shall utilize simple command formats to ensure users are capable of creating a mental model of the map functionalities. <br>
@@ -713,7 +713,7 @@ These are as follows: <br>
 ### 3.2.4 Performance Requirements <a name="3.2.4-performance-requirements" />
 The performance requirements of the system for the myJym map feature will define the performance capabilities and how various conditions will impact their operation.
 
-These are as follows: <br>
+These are as follows: <br> <br>
 ***3.2.4.1*** The map shall prioritize loading of graphical display elements prior to lower priority tasks. <br>
 ***3.2.4.2*** The map search functionality shall return results in higher performant step timing than** O**(n log n). <br>
 ***3.2.4.3*** The map shall allow interaction with elements after a predetermined time post loading. <br>
@@ -722,44 +722,44 @@ These are as follows: <br>
 The data used by the gym map and it's state will be detailed here as follows: <br>
 
 #### 3.2.5.1 Types of information used by various functions <a name="3.2.5.1-types-of-information-used-by-various-functions" />
-The following will be the information used by the myGym map to perform it's required functions: <br>
+The following will be the information used by the myGym map to perform it's required functions: <br> <br>
 ***3.2.5.1.1*** The map shall store the icons for the map as a data construct. <br>
 ***3.2.5.1.2*** The map shall use search inputs to retrieve data from the **System Database**. <br>
 
 #### 3.2.5.2 Frequency of use <a name="3.2.5.2-frequency-of-use" />
-The following will define how often the various functionalities of the myJym map will be accessed. <br>
+The following will define how often the various functionalities of the myJym map will be accessed. <br> <br>
 ***3.2.5.2.1*** Map icons shall be loaded into memory from the **System Database** when the view is selected. <br>
 ***3.2.5.2.2*** The map search functionality shall be accessible on demand.<br>
 #### 3.2.5.3 Accessing Capabilities <a name="3.2.5.3-accessing-capabilities" />
-The map will be able to be accessed from and have access to the following: <br>
+The map will be able to be accessed from and have access to the following: <br> <br>
 ***3.2.5.3.1*** The map shall be accessible from the home page of the myJym application. <br>
 ***3.2.5.3.2*** The map shall have access to the **System Database** to access gym equipment locations. <br>
 ***3.2.5.3.3*** The map shall have access to the **System Database** to return search results. <br>
 #### 3.2.5.4 Data entities and their relationships <a name="3.2.5.4-data-entities-and-their-relationships" />
-The data entities will have the following relationships: <br>
+The data entities will have the following relationships: <br> <br>
 ***3.2.5.4.1*** The map shall handle data for the exercise machine locations. <br>
 ***3.2.5.4.2*** The map shall handle data for the exercise machine images. <br>
 ***3.2.5.4.3*** The map shall handle data for the map search bar results. <br>
 #### 3.2.5.5 Integrity Constraints <a name="3.2.5.5-integrity-constraints" />
-The data stored by the map will be subject to the following integrity constraints: <br>
+The data stored by the map will be subject to the following integrity constraints: <br> <br>
 ***3.2.5.5.1*** Map icons shall be entries to the database. <br>
 ***3.2.5.5.2*** Map data shall be formatted to match the conventions of the database. <br>
 #### 3.2.5.6 Security <a name="3.2.5.6-security" />
-The map data security will apply as follows: <br>
+The map data security will apply as follows: <br> <br>
 ***3.2.5.6.1*** Data used for the map shall not be accessible by other functions of myJym. <br>
 ### 3.2.6 Design Constraints <a name="3.2.6-design-constraints" />
-The design constraints of the map, the limitations on it's design, will be as follows: <br>
+The design constraints of the map, the limitations on it's design, will be as follows: <br> <br>
 ***3.2.6.1*** The interactable map features shall provide sufficient **Pixels Per Inch** that the average human is able to cleanly select them. <br>
 ### 3.2.7 Software System Attributes <a name="3.2.7-software-system-attributes">
-The system attributes used by the myJym app will detail the reliability and availability of the map: <br>
+The system attributes used by the myJym app will detail the reliability and availability of the map: <br> <br>
 ***3.2.7.1*** The map shall be available when the application has been opened to the home page. <br>
 ***3.2.7.2*** The map shall be available offline when not internet connectivity is available. <br>
 #### 3.2.7.1 Reliability <a name="3.2.7.1-reliability" />
-The factors of reliability for the myJym map shall be as follows: <br>
+The factors of reliability for the myJym map shall be as follows: <br> <br>
 ***3.2.7.1.1*** The maps delivered to the user on MyJym shall deliver accurate data based on the information in the **System Database.** <br>
 ***3.2.7.1.2*** The MyJym map shall be retained in memory while the myJym application is focused on a separate page. <br>
 #### 3.2.7.2 Security <a name="3.2.7.2-security" />
-The following act to maintain the integrity and security of the myJym map: <br>
+The following act to maintain the integrity and security of the myJym map: <br> <br>
 ***3.2.7.2.1*** The map shall only be editable by an admin. <br>
 
 	
