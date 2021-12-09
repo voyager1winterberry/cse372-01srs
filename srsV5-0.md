@@ -1318,6 +1318,7 @@ This section will verify all things under software system attributes.
 <br>
 
 <!-- Team 2> -->
+<!-- Team 2> -->
 ### <b>4.2.1 Map External Interfaces Verification</b> <a name="4.2.1" />
 This section defines the verification for the gym map external interface requirements.
 <p class="tab">
@@ -1327,17 +1328,25 @@ This section defines the verification for the gym map external interface require
 ### <b>4.2.2 Map Functions Verification </b> <a name="4.2.2" />
 This section defines the verification for the gym map functions.
 <p class="tab">
-<b><i>4.2.2.1</b></i> Verify the map organizes gym equipment according to a layout file. (Technique: Inspection) [3.2.2.1.1] <br>
-<b><i>4.2.2.2</b></i> Verify the map organizes gym services according to a layout file. (Technique: Inspection) [3.2.2.1.2] <br>
-<b><i>4.2.2.3</b></i> Verify the map properly refreshes when an error occurs. (Technique: Test) [3.2.2.1.2] <br>
-<b><i>4.2.3.4</b></i> Verify an administrator can modify the map layout. (Technique: Demonstration) [3.2.2.1.4] <br>
-<b><i>4.2.4.5</b></i> Verify a map tutorial opens when the map is first opened. (Technique: Demonstration) [3.2.2.1.5] <br>
-<b><i>4.2.2.6</b></i> Verify that the map search bar performs validation on inputs matching them to gym functions. (Technique: Inspection)[3.2.2.2.1] <br>
-<b><i>4.2.2.7</b></i> Verify that the search bar has functionality to locate gym functions. (Technique: Demonstration) [3.2.2.2.2] <br>
-<b><i>4.2.2.8</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. (Technique: Inspection) [3.2.2.2.3] <br>
-<b><i>4.2.2.9</b></i> Verify that facilities in the gym are searchable by name through the map search bar. (Technique: Demonstration) [3.2.2.2.4] <br>
+
+### <b>4.2.2.1 Map Display Verification</b> <a name="4.2.2" />
+This section defines the verification for the gym map display.
+<p class="tab">
+<b><i>4.2.2.1.1</b></i> Verify the map organizes gym equipment according to a layout file. (Technique: Inspection) [3.2.2.1.1] <br>
+<b><i>4.2.2.1.2</b></i> Verify the map organizes gym services according to a layout file. (Technique: Inspection) [3.2.2.1.2] <br>
+<b><i>4.2.2.1.3</b></i> Verify the map properly refreshes when an error occurs. (Technique: Test) [3.2.2.1.2] <br>
+<b><i>4.2.2.1.4</b></i> Verify an administrator can modify the map layout. (Technique: Demonstration) [3.2.2.1.4] <br>
+<b><i>4.2.2.1.5</b></i> Verify a map tutorial opens when the map is first opened. (Technique: Demonstration) [3.2.2.1.5] <br>
+
+### <b>4.2.2.2 Map Search Verification </b> <a name="4.2.2" />
+This section defines the verification for the gym map functions.
+<p class="tab">
+<b><i>4.2.2.2.1</b></i> Verify that the map search bar performs validation on inputs matching them to gym functions. (Technique: Inspection)[3.2.2.2.1] <br>
+<b><i>4.2.2.2.2</b></i> Verify that the search bar has functionality to locate gym functions. (Technique: Demonstration) [3.2.2.2.2] <br>
+<b><i>4.2.2.2.3</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. (Technique: Inspection) [3.2.2.2.3] <br>
+<b><i>4.2.2.2.4</b></i> Verify that facilities in the gym are searchable by name through the map search bar. (Technique: Demonstration) [3.2.2.2.4] <br>
 	
-### <b> 4.2.2.3 Map Navigation </b> 
+### <b> 4.2.2.3 Map Navigation Verification</b> 
 This section describes the verification for the map navigation.
 <p class="tab">
 <b><i>4.2.2.3.1</b></i> Verify that the map has a scrollable edge. (Technique: Demonstration)  [3.2.2.3.1] <br>
@@ -1349,10 +1358,10 @@ This section defines the verification for the gym map usability requirements.
 <p class="tab">
 <b><i>4.2.3.1</b></i>  Verify the map is intuitive so the user can easily form a mental model of its workings. (Technique: Inspection) [3.2.3.1] <br>
 <b><i>4.2.3.2</b></i>  Verify a gym goer can quickly identify where they should be in the gym to complete their desired activity. (Technique: Demonstration) [3.2.3.2] <br>
-<b><i>4.2.3.3</b></i>  Verify that map uses simple, intelligle command formats. (Technique: Demonstration) [3.2.2.2]<br>
-<b><i>4.2.3.4</b></i>  Verify the map icons and interfaces use simple command formats to ensure users understand map functionalities. (Technique: Inspection) [3.2.3.3] <br>
-<b><i>4.2.3.5</b></i>  Verify when a task failure occurs the map stops its operation and refreshes. (Technique: Test) [3.2.3.4] <br>
-<b><i>4.2.3.6</b></i>  Verify map iconography is consistent with commonly recognized symbols. (Technique: Inspection) [3.2.3.5] <br>
+<b><i>4.2.3.3</b></i>  Verify that map uses simple, intelligle command formats. (Technique: Demonstration) [3.2.3.4]<br>
+<b><i>4.2.3.4</b></i>  Verify the map icons and interfaces use simple command formats to ensure users understand map functionalities. (Technique: Inspection) [3.2.3.4] <br>
+<b><i>4.2.3.5</b></i>  Verify when a task failure occurs the map stops its operation and refreshes. (Technique: Test) [3.2.3.5] <br>
+<b><i>4.2.3.6</b></i>  Verify map iconography is consistent with commonly recognized symbols. (Technique: Inspection) [3.2.3.6] <br>
 
 ### <b>4.2.4 Map Performance Requirements Verification </b> <a name="4.2.4" />
 This section defines the verification for the gym map performance requirements.
@@ -1364,23 +1373,65 @@ This section defines the verification for the gym map performance requirements.
 ### <b>4.2.5 Map Logical Database Requirements Verification </b> <a name="4.2.5" />
 This section defines the verification for the gym map logical database requirements.
 <p class="tab">
-<b><i>4.2.5.1</b></i>  Verify the map icons are loaded into memory from the **System Database** when the view is selected. (Technique: Test) [3.2.5.2.1] <br>
-<b><i>4.2.5.2</b></i>  Verify the map search functionality is accessible on demand. (Technique: Demonstration) [3.2.5.2.2] <br>
-<b><i>4.2.5.3</b></i>  Verify that the map is accessible from the homepage of the myJym application. (Technique: Demonstration) [3.2.5.3.1] <br>
-<b><i>4.2.5.4</b></i>  Verify the map has access to the **System Database** to access gym equipment locations. (Technique: Inspection) [3.2.5.3.2] <br>
-<b><i>4.2.5.5</b></i>  Verify that the map has access to the **System Database** to return search results. (Technique: Inspection) [3.2.5.3.3] <br>
-<b><i>4.2.5.6</b></i>  Verify that the map handles data for the exercise machine locations. (Technique: Inspection) [3.2.5.4.1] <br>
-<b><i>4.2.5.6</b></i>  Verify that the map handles data for the exercise machine images. (Technique: Inspection) [3.2.5.4.2] <br>
-<b><i>4.2.5.6</b></i>  Verify that the map handles data for the map search bar results. (Technique: Inspection) [3.2.5.4.3] <br>
-<b><i>4.2.5.7</b></i>  Verify that map icons are entries to the database. (Technique: Inspection) [3.2.5.5.1] <br>
-<b><i>4.2.5.8</b></i>  Verify that map data is formatted to match the conventions of the database. (Technique: Inspection) [3.2.5.5.2] <br>
-<b><i>4.2.5.9</b></i>  Verify that data used for the map is only accessible by the functions of myJym. (Technique: Test) [3.2.5.6.1] <br>
-<b><i>4.2.5.10</b></i> Verify that the interactable map features provides sufficient **Pixels Per Inch** that the average human is able to cleanly select them. (Technique: Inspection) [3.2.6.1] <br>
-<b><i>4.2.5.11</b></i> Verify that the map is available when the application has been opened to the home page. (Technique: Demonstration)  [3.2.7.1] <br>
-<b><i>4.2.5.12</b></i> Verify that the map is available offline when no internet connectivity is available. (Technique: Demonstration) [3.2.7.2] <br>
-<b><i>4.2.5.13</b></i> Verify that the maps delivered to the user on MyJym delivers accurate data based on the information in the **System Database.** (Technique: Inspection) [3.2.7.1.1] <br>
-<b><i>4.2.5.14</b></i> Verify that the MyJym map is retained in memory while the myJym application is focused on a separate page. (Technique: Test) [3.2.7.1.2] <br>
-<b><i>4.2.5.15</b></i> Verify that the map only be editable by an admin. (Technique: Inspection) [3.2.7.2.1] <br>
+
+### <b>4.2.5.1 Frequency of Use Verification </b> <a name="4.2.5.1" />
+This section defines the verification for the frequency of use:
+<p class="tab">
+<b><i>4.2.5.1.1</b></i>  Verify the icons are stored as a valid data construct. (Technique: Test) [3.2.5.1.1] <br>
+<b><i>4.2.5.1.2</b></i>  Verify the map retrieves the search data correctly. (Technique: Test) [3.2.5.1.2] <br>
+	
+### <b>4.2.5.2Frequency of Use Verification </b> <a name="4.2.5.2" />
+This section defines the verification for the frequency of use:
+<p class="tab">
+<b><i>4.2.5.2.1</b></i>  Verify the map icons are loaded into memory from the **System Database** when the view is selected. (Technique: Test) [3.2.5.2.1] <br>
+<b><i>4.2.5.2.2</b></i>  Verify the map search functionality is accessible on demand. (Technique: Demonstration) [3.2.5.2.2] <br>
+
+### <b>4.2.5.3 Accessing Capabilities Verification </b> <a name="4.2.5.3" />
+This section defines the verification for the accessing capabilities of the gym map:
+<p class="tab">
+<b><i>4.2.5.3.1</b></i>  Verify that the map is accessible from the homepage of the myJym application. (Technique: Demonstration) [3.2.5.2.1] <br>
+<b><i>4.2.5.3.2</b></i>  Verify the map has access to the **System Database** to access gym equipment locations. (Technique: Inspection) [3.2.5.2.2] <br>
+	
+### <b>4.2.5.4 Data Entity Relationships Verification </b> <a name="4.2.2.5.4" />
+This section defines the verification for data entity relationships of the gym map:
+<p class="tab">
+<b><i>4.2.5.4.1</b></i>  Verify that the map has access to the **System Database** to return search results. (Technique: Inspection) [3.2.5.3.1] <br>
+<b><i>4.2.5.4.2</b></i>  Verify that the map handles data for the exercise machine locations. (Technique: Inspection) [3.2.5.3.2] <br>
+<b><i>4.2.5.4.3</b></i>  Verify that the map handles data for the exercise machine images. (Technique: Inspection) [3.2.5.3.3] <br>
+
+### <b>4.2.5.5 Integrity Constraints Verification </b> <a name="4.2.5.5" />
+This section defines the verification for the gym map integrity constraints:
+<p class="tab">
+<b><i>4.2.5.5.1</b></i>  Verify that the map handles data for the map search bar results. (Technique: Inspection) [3.2.5.4.1] <br>
+<b><i>4.2.5.5.2</b></i>  Verify that map icons are entries to the database. (Technique: Inspection) [3.2.5.4.2] <br>
+<b><i>4.2.5.5.3</b></i>  Verify that map data is formatted to match the conventions of the database. (Technique: Inspection) [3.2.5.4.3] <br>
+	
+### <b>4.2.5.6 Security Verification </b> <a name="4.2.5.6" />
+This section defines the verification for the gym map security:
+<p class="tab">
+<b><i>4.2.5.6.1</b></i>  Verify that data used for the map is only accessible by the functions of myJym. (Technique: Test) [3.2.5.6.1] <br>
+	
+### <b>4.2.5.7 Design Constraints Verification </b> <a name="4.2.5.7" />
+This section defines the verification for the gym map design constraints:
+<p class="tab">
+<b><i>4.2.5.7.1</b></i> Verify that the interactable map features provides sufficient **Pixels Per Inch** that the average human is able to cleanly select them. (Technique: Inspection) [3.2.6.1] <br>
+	
+### <b>4.2.5.8 Software System Attributes Verification </b> <a name="4.2.5.8" />
+This section defines the verification for the gym map security:
+<p class="tab">
+<b><i>4.2.5.8.1</b></i> Verify that the map is available when the application has been opened to the home page. (Technique: Demonstration)  [3.2.7.1] <br>
+<b><i>4.2.5.8.2</b></i> Verify that the map is available offline when no internet connectivity is available. (Technique: Demonstration) [3.2.7.2] <br>
+	
+### <b>4.2.5.8.1 Reliability Verification </b> <a name="4.2.5.8.1" />
+This section defines the verification for the gym map software system attributes reliability:
+<p class="tab">
+<b><i>4.2.5.8.1.1</b></i> Verify that the maps delivered to the user on MyJym delivers accurate data based on the information in the **System Database.** (Technique: Inspection) [3.2.7.1.1] <br>
+<b><i>4.2.5.8.1.2</b></i> Verify that the MyJym map is retained in memory while the myJym application is focused on a separate page. (Technique: Test) [3.2.7.1.2] <br>
+	
+### <b>4.2.5.8.2 Security Verification </b> <a name="4.2.2" />
+This section defines the verification for the gym map software systems security:
+<p class="tab">
+<b><i>4.2.5.8.2.1</b></i> Verify that the map only be editable by an admin. (Technique: Inspection) [3.2.7.2.1] <br><br> <!-- End team 2 -->
 
 ## 4.3 MyJym Videos Verification <a name="4.3-myjym-videos-verification" /> <!-- team 3's work -->
 
