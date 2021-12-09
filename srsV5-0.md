@@ -183,23 +183,22 @@ Date: 11/20/21
 * [References](#references)
 <br><hr /><br>
 
-# 1.0 Introduction <n name="Introduction" />
+# <b>1.0 Introduction</b> <n name="Introduction" />
 
 <br>
 
-## 1.1 Purpose <a name="1.1-purpose" />
+## <b>1.1 Purpose</b> <a name="1.1-purpose" />
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainers.  Additional features include work out regiments, gym maps, and ability to track fitness goals.
 
 <br>
 
-## 1.2 Scope <a name="1.2-scope" />
-The scope outlines what will and will not be included in the project.
+## <b>1.2 Scope</b> <a name="1.2-scope" />
+The scope of the myJym system will be to produce the myJym application for iOS, Android, and web.  This will include everything listed in the products to be produced, what the software will do, and included core features sections.
 
 <br>
 
-### 1.2.1 Products to be Produced <a name="1.2.1-proucts-to-be-produced" />
-The products to be produced is all the main programs that will be needed to make the product work.
-The myJym app will utilize:
+### <b>1.2.1 Products to be Produced</b> <a name="1.2.1-proucts-to-be-produced" />
+The products that the myJym app will utilize:
 - server
 - database
 - mobile myJym app
@@ -207,13 +206,12 @@ The myJym app will utilize:
 
 <br>
 
-### 1.2.2 What Will the Software Product Do <a name="1.2.2-what-will-the-software-product-do" />
-This is a description of what the product to be produced will do.
-- The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
+### <b>1.2.2 What Will the Software Product Do</b> <a name="1.2.2-what-will-the-software-product-do" />
+The server will allow users to connect to the database.  The database will house the information required for the app to run.  The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
 
 <br>
 
-### 1.2.3 Included Core Features <a name="1.2.3-included-core-features" />
+### <b>1.2.3 Included Core Features</b> <a name="1.2.3-included-core-features" />
 This is a table outlining the main features of the app with a brief description of what the feature is.
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
@@ -226,8 +224,8 @@ This is a table outlining the main features of the app with a brief description 
 
 <br>
 
-### 1.2.4 Excluded Features <a name="1.2.4-excluded-features" />
-This is a table outlining what features are outside the scope of this project with a brief description of the feature.
+### <b>1.2.4 Excluded Features</b> <a name="1.2.4-excluded-features" />
+This is a table outlining what features are outside the scope of this project with a brief description of the feature as discussed in the elicitation data, and reviewed by the customer.
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
 | Nutrition Information | Not intended to recommend meal plans, diets, count calories or anything else similar. | 
@@ -235,7 +233,7 @@ This is a table outlining what features are outside the scope of this project wi
 
 <br>
 
-### 1.3.1 Product Perspective <a name="1.3.1-product-perspective" /> <!-- Was this section never assigned to a team by the cop leads? (aaron) -->
+### <b>1.3.1 Product Perspective</b> <a name="1.3.1-product-perspective" /> <!-- Was this section never assigned to a team by the cop leads? (aaron) -->
 This section details the relationship of the myJym app to products that are simmilar or related to it. 
 
 #### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
