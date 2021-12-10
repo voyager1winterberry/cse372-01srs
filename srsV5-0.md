@@ -269,11 +269,11 @@ Software interfaces (programming interfaces) are the languages, codes and messag
 
 #### 1.3.1.5 Communications Interfaces <a name="1.3.1.5-communications-interfaces" />
 * Communication interfaces shall include communication between the users.
-* Communication interfaces shall include communication between the **trainers**, including a means of messaging within the app. 
+* Communication interfaces shall include communication between the trainers, including a means of messaging within the app. 
 * Communication shall include a means of communicating with myJym to receive help.
 
 #### 1.3.1.6 Memory <a name="1.3.1.6-memory" />
-* **Primary memory** shall be used to store the user’s data such as **profile** and user agreements
+* Primary memory shall be used to store the user’s data such as profile and user agreements
 
 #### 1.3.1.7 Operations <a name="1.3.1.7-operations" />
 * Operations by the user shall include:
