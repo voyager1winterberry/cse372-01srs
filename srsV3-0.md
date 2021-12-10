@@ -1468,6 +1468,12 @@ Verification of the applications ability to work on different operating systems.
 Method: Inspection<br>
 What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
+<br>
+
+## <b>4.5 My Workout Validation</b>
+
+<br>
+
 <!-- team 3 and 4's stuff--> 
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.

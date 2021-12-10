@@ -183,23 +183,22 @@ Date: 11/20/21
 * [References](#references)
 <br><hr /><br>
 
-# 1.0 Introduction <n name="Introduction" />
+# <b>1.0 Introduction</b> <n name="Introduction" />
 
 <br>
 
-## 1.1 Purpose <a name="1.1-purpose" />
+## <b>1.1 Purpose</b> <a name="1.1-purpose" />
 The myJym app is to help people at all levels of experience feel confident using gym equipment.  It also focuses on connecting users to personal trainers.  Additional features include work out regiments, gym maps, and ability to track fitness goals.
 
 <br>
 
-## 1.2 Scope <a name="1.2-scope" />
-The scope outlines what will and will not be included in the project.
+## <b>1.2 Scope</b> <a name="1.2-scope" />
+The scope of the myJym system will be to produce the myJym application for iOS, Android, and web.  This will include everything listed in the products to be produced, what the software will do, and included core features sections.
 
 <br>
 
-### 1.2.1 Products to be Produced <a name="1.2.1-proucts-to-be-produced" />
-The products to be produced is all the main programs that will be needed to make the product work.
-The myJym app will utilize:
+### <b>1.2.1 Products to be Produced</b> <a name="1.2.1-proucts-to-be-produced" />
+The products that the myJym app will utilize:
 - server
 - database
 - mobile myJym app
@@ -207,13 +206,12 @@ The myJym app will utilize:
 
 <br>
 
-### 1.2.2 What Will the Software Product Do <a name="1.2.2-what-will-the-software-product-do" />
-This is a description of what the product to be produced will do.
-- The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
+### <b>1.2.2 What Will the Software Product Do</b> <a name="1.2.2-what-will-the-software-product-do" />
+The server will allow users to connect to the database.  The database will house the information required for the app to run.  The product, the myJym app, will assist users in creating workouts, executing a workout and connecting with trainers.
 
 <br>
 
-### 1.2.3 Included Core Features <a name="1.2.3-included-core-features" />
+### <b>1.2.3 Included Core Features</b> <a name="1.2.3-included-core-features" />
 This is a table outlining the main features of the app with a brief description of what the feature is.
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
@@ -226,8 +224,8 @@ This is a table outlining the main features of the app with a brief description 
 
 <br>
 
-### 1.2.4 Excluded Features <a name="1.2.4-excluded-features" />
-This is a table outlining what features are outside the scope of this project with a brief description of the feature.
+### <b>1.2.4 Excluded Features</b> <a name="1.2.4-excluded-features" />
+This is a table outlining what features are outside the scope of this project with a brief description of the feature as discussed in the elicitation data, and reviewed by the customer.
 | Feature | Description                                                          |
 |---------|----------------------------------------------------------------------|
 | Nutrition Information | Not intended to recommend meal plans, diets, count calories or anything else similar. | 
@@ -235,11 +233,11 @@ This is a table outlining what features are outside the scope of this project wi
 
 <br>
 
-### 1.3.1 Product Perspective <a name="1.3.1-product-perspective" /> <!-- Was this section never assigned to a team by the cop leads? (aaron) -->
-This section details the relationship of the myJym app to products that are simmilar or related to it. 
+### <b>1.3.1 Product Perspective</b> <a name="1.3.1-product-perspective" /> <!-- Was this section never assigned to a team by the cop leads? (aaron) -->
+The myJym app interface will work with multiple internal and external services. Each interface helps in communication betweeen system,, hardware, user, and 3rd parties.
 
 #### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
-The system interfaces will be the systems that the application will be running on. The list below will be the systems used for the application. 
+The system interfaces will be the platforms that the application will be running on. The list below will be the systems used for the application. 
 
 * The myJym app will run on mobile services. 
 * The myJym app will run on web services. 
@@ -249,23 +247,15 @@ The system interfaces will be the systems that the application will be running o
 The user interfaces will be the functionality of the app. This functionality is what the user will see when in the app.  
 
 * The myJym app will include a built-in messaging system to allow communication between users. 
-
-* The myJym app will include a sign-in page and a login page for the user. 
-
-* The myJym app will use the current systems keyboard to allow user input.  
-
-* The myJym app will have interactive buttons that will do different things according to the buttons pressed. These buttons will change the current page, modify workouts, and work with myJym’s built-in messaging. 
-
-* The myJym app will have a search bar that will allow the user to search for anything regarding the application such as different workouts. The search bar will allow for quick searches for the user's needs. 
-
+* The myJym app will include a sign-in page and a login page for the user.   
+* The myJym app will have a search bar that will allow the user to search for workouts, trainers, and pages. The search bar will allow for quick searches for the user's needs. 
 * The myJym app will have a settings page which will have everything in the page that the user can see and change in the app. Settings will include the user's profile and trainers they work with. 
-
-* The myJym app will have a workout page which will allow the user to create, delete, modify, and save workouts. 
-
-* The mJym app will have a myGym page which will find the gym you will be going to and a built-in map of that gym.
+* The myJym app will have a workout page which will allow the user to CRUD workouts. 
+* The myJym app will have a myGym page which will find the gym you will be going to and a built-in map of that gym.
+* The myJym app will allow the user to update their profile through the app.
 
 #### 1.3.1.3 Hardware Interfaces <a name="1.3.1.3-hardware-interfaces" />
-A hardware interface specifies the plugs, sockets, cables and electrical signals that pass through each line between the CPU and a peripheral device or communications network. 
+A hardware interface for the myJym app will be using internet and cell services.
 
 * Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the ios and android devices are able to connect to the internet. Since myJym will be a fitness app, features of myJym shall require users to have the feature of location tracking for personal coach and exercise equipment tutorial videos on their mobile device. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. The version of the iOS system shall be 15.1.1, and android system shall be 11.  
 
@@ -279,11 +269,11 @@ Software interfaces (programming interfaces) are the languages, codes and messag
 
 #### 1.3.1.5 Communications Interfaces <a name="1.3.1.5-communications-interfaces" />
 * Communication interfaces shall include communication between the users.
-* Communication interfaces shall include communication between the **trainers**, including a means of messaging within the app. 
+* Communication interfaces shall include communication between the trainers, including a means of messaging within the app. 
 * Communication shall include a means of communicating with myJym to receive help.
 
 #### 1.3.1.6 Memory <a name="1.3.1.6-memory" />
-* **Primary memory** shall be used to store the user’s data such as **profile** and user agreements. **Secondary memory** will not be utilized.
+* Primary memory shall be used to store the user’s data such as profile and user agreements
 
 #### 1.3.1.7 Operations <a name="1.3.1.7-operations" />
 * Operations by the user shall include:
@@ -404,7 +394,6 @@ This is a comprehensive list of needed definitions used by the myJym application
 | ------ | -------     |
 | Account | An arrangement allowing a user personalized access to the myJym application, requiring the use of a username and password to access. |
 | Admin | The people that run the app. They will connect the user's location to the gym and create QR codes that can be scanned by the user. |
-| Android 11 | The minimum android version that will be required for the project. |
 | Audit Functions | Functions of the application that allow for user feedback and error handling. |
 | App | myJym mobile application. |
 | Client | see *trainee* |
@@ -413,15 +402,13 @@ This is a comprehensive list of needed definitions used by the myJym application
 | The Database | A database that will store all information needed to run the application contraining the following tables: Admin, UserData, Trainer, and WorkOut. |
 | Equipment | The machines at the student gym. |
 | Email | A method of exchanging messages over the internet between electronic devices. |
-| Embedded Video | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video. |
 | Error Message | A message stating that a condition is incorrect and requires that the condition be different. |
 | Forms | Digital way to collect relevant information from the user. |
 | Google | An American company that specializes in internet-related services and products. |
 | Google Authentication Key | A key provided by Google to authenticate users. |
-| GUI | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals. |
 | Gym | A location with workout machines available. |
+| Gymgoers | Users that go to the gym               |
 | Gym Hours | The hours that all partner gyms are open. |
-| Hardware Limitations | Physical technological factors that might limit or slow the progress of the app and its construction. |
 | Higher-Order Language Requirements | Knowledge of high-level programming languages such as Kotlin and Swift. |
 | Home Page | The view which allows access to myTrainer, myWorkout, myVideos, and myGymMap views. |
 | Interface | A point where two systems, subjects, organizations, etc. meet and interact. |
@@ -496,186 +483,241 @@ The current order is for convenience's sake.
 
 ## 3.1 My Trainer <a name="3.1-my-trainer" />
 The My trainer portion is a page accessible through the homepage.
-* ### 3.1.1 External Interfaces <a name="3.1.1-external-interfaces" />
-    The external interfaces section will cover 3rd party programs that will be used.
-    * #### 3.1.1.1 Google Authentication <a name="3.1.1.1-google-authentication" />
-        Google authentication will go over all the requirements for the 3rd party interface. This is all the things that google will be doing for the application.
 
-        ***3.1.1.1.1*** Google Authentication API shall be used by gymgoers and trainers to login to their accounts. <br>
-        ***3.1.1.1.2*** All users shall be able to login to their account using a google account. <br>
-        ***3.1.1.1.3*** All users shall be able to create an account using a google google account. <br>
+<br>
 
-* ### 3.1.2 Functions <a name="3.1.2-functions" />
-    The myJym application will allow users to view the My Trainer page and receive system notifications. 
+### 3.1.1 External Interfaces <a name="3.1.1-external-interfaces" />
+The external interfaces section will cover 3rd party programs that will be used.
 
-    ***3.1.2.1*** The myJym application shall send users Notifications. <br>
-    ***3.1.2.2*** The myTrainer page shall allow users to view trainer profiles. <br>
-    ***3.1.2.3*** The myTrainer page shall allow users to search for trainers. <br>
-    ***3.1.2.4*** The myTrainer page shall allow users to update their profile. <br>
-    ***3.1.2.5*** The myTrainer page shall allow users to message trainers. <br>
-    ***3.1.2.6*** The myTrainer page shall allow trainers to message users. 
+<br>
 
-    * ### 3.1.2.1 Notifications <a name="3.1.2.1-notifications" />
-        Notifications will allow users to receive notifications on their device about scheduled workouts and sent messages.
+#### 3.1.1.1 Google Authentication <a name="3.1.1.1-google-authentication" />
+Google authentication will check the authentication and security of the my trainers login page.
 
-        ***3.1.2.1.1*** A notification shall be sent to the user’s devices when a user sets a time for their workout. <br>
-        ***3.1.2.1.2*** A notification shall be sent to the user’s device when the user receives a message. <br>
+***3.1.1.1.1*** Google Authentication API shall be used by gymgoers and trainers to login to their accounts. <br>
+***3.1.1.1.2*** All users shall be able to login to their account using a google account. <br>
+***3.1.1.1.3*** All users shall be able to create an account using a google google account. <br>
 
-    * ### 3.1.2.2 View Trainer Profile <a name="3.1.2.2-view-trainer-profile" />
-        The trainer profile will provide a viewable page for users with the trainer's photo, short bio, video links from a video provider, a follow button, a link to workouts created by the trainer, and a button to message the trainer.
+<br>
 
-        ***3.1.2.2.1*** Trainer profile shall be viewable by gymgoers. <br>
-        ***3.1.2.2.2*** Trainer profile shall display a picture of the trainer. <br>
-        ***3.1.2.2.3*** Trainer profile shall display a short biography of the trainer. <br>
-        ***3.1.2.2.4*** Trainer profile shall display a clickable link to the trainer’s videos on a video provider. <br>
-        ***3.1.2.2.5*** “View Workouts” shall be an option on the Trainer profile that allows the user to view a trainer’s created workouts. <br>
-        ***3.1.2.2.6*** “Message Trainer” shall be an option on the Trainer profile that allows the user to send a message to the trainer. <br>
-        ***3.1.2.2.7*** Trainer profiles shall store a trainers first name <br>
-        ***3.1.2.2.8*** Trainer profiles shall store a trainer’s last name. <br>
-        ***3.1.2.2.9*** Trainer profiles shall store a trainer’s email. <br>
-        ***3.1.2.2.10*** The system shall create a unique ID for each trainer. <br>
-        ***3.1.2.2.11*** The system shall create a personal key for each trainer. <br> 
+## 3.1.2 Functions <a name="3.1.2-functions" />
+The myJym application will allow users to view the My Trainer page and receive system notifications. 
 
-    * ### 3.1.2.3 Update Profile <a name="3.1.2.3-edit-profile" />
-        The update profile function will allow any user to make changes to their profile. 
+***3.1.2.1*** The myJym application shall send users Notifications. <br>
+***3.1.2.2*** The myTrainer page shall allow users to view trainer profiles. <br>
+***3.1.2.3*** The myTrainer page shall allow users to search for trainers. <br>
+***3.1.2.4*** The myTrainer page shall allow users to update their profile. <br>
+***3.1.2.5*** The myTrainer page shall allow users to message trainers. <br>
+***3.1.2.6*** The myTrainer page shall allow trainers to message users. 
 
-        ***3.1.2.3.1*** Update Profile shall allow any user to update their own picture. <br>
-        ***3.1.2.3.2*** Update Profile shall allow any user to update a biography text-field. <br>
-        ***3.1.2.3.3*** Update Profile shall allow any user to update their personal video links. <br>
-        ***3.1.2.3.4*** Update Profile shall allow any user to update their first and last name. <br>
-        
-    * #### 3.1.2.4 Search Trainer <a name="3.1.2.4-search-trainer" />
-        Search trainer will allow users to search for trainers by name, location, and workout. 
+<br>
 
-        ***3.1.2.4.1*** The system shall have a search bar. <br>
-        ***3.1.2.4.2*** A search bar shall be viewable by the user. <br>
-        ***3.1.2.4.3*** Search trainer shall allow a user to search for a trainer by name. <br>
-        ***3.1.2.4.4*** Search trainer shall allow a user to search for a trainer by location. <br>
-        ***3.1.2.4.5*** Search trainer shall allow a user to search for a trainer by workouts. <br>
+### 3.1.2.1 Notifications <a name="3.1.2.1-notifications" />
+Notifications will allow users to receive notifications on their device about scheduled workouts and sent messages.
 
-    * #### 3.1.2.5 Message Trainer <a name="3.1.2.5-message-trainer" />
-        Message trainer will allow a user to communicate with a trainer. 
+***3.1.2.1.1*** A notification shall be sent to the user’s devices when a user sets a time for their workout. <br>
+***3.1.2.1.2*** A notification shall be sent to the user’s device when the user receives a message. <br>
 
-        ***3.1.2.5.1*** Message Trainer shall give a user the ability to send messages to a trainer. <br>
-        ***3.1.2.5.2*** Message Trainer shall list messages in chronological order. <br>
-        ***3.1.2.5.3*** Messages Trainer shall be able to handle messages containing text. <br>
-        ***3.1.2.5.4*** Message Trainer shall be able to handle messages containing links. <br>
+<br>
 
-    * #### 3.1.2.6 Message Users <a name="3.1.2.6-message-users" />
-        Message Users shall allow the trainer to communicate with users. 
+### 3.1.2.2 View Trainer Profile <a name="3.1.2.2-view-trainer-profile" />
+The trainer profile will provide a viewable page for users with the trainer's photo, short bio, video links from a video provider, a follow button, a link to workouts created by the trainer, and a button to message the trainer.
 
-        ***3.1.2.6.1*** Message users shall give trainers the ability to send messages to users. <br>
-        ***3.1.2.6.2*** Message users shall create a chat between trainer and users. <br>
-        ***3.1.2.6.3*** Message users shall list messages in chronological order. <br> 
-        ***3.1.2.6.4*** Messages Trainer shall be able to handle messages containing text. <br>
-        ***3.1.2.6.5*** Message Trainer shall be able to handle messages containing links <br>
+***3.1.2.2.1*** Trainer profile shall be viewable by gymgoers. <br>
+***3.1.2.2.2*** Trainer profile shall display a picture of the trainer. <br>
+***3.1.2.2.3*** Trainer profile shall display a short biography of the trainer. <br>
+***3.1.2.2.4*** Trainer profile shall display a clickable link to the trainer’s videos on a video provider. <br>
+***3.1.2.2.5*** “View Workouts” shall be an option on the Trainer profile that allows the user to view a trainer’s created workouts. <br>
+***3.1.2.2.6*** “Message Trainer” shall be an option on the Trainer profile that allows the user to send a message to the trainer. <br>
+***3.1.2.2.7*** Trainer profiles shall store a trainers first name <br>
+***3.1.2.2.8*** Trainer profiles shall store a trainer’s last name. <br>
+***3.1.2.2.9*** Trainer profiles shall store a trainer’s email. <br>
+***3.1.2.2.10*** The system shall create a unique ID for each trainer. <br>
+***3.1.2.2.11*** The system shall create a personal key for each trainer. <br> 
 
-* ### 3.1.3 Usability Requirements <a name="3.1.3-usability-requirements" />
-    Requirements that are part of the user experience. It is the different aspects of the system such as understandability, accessibility, task failure and more that impact how a user views and uses the system.  
+<br>
 
-    ***3.1.3.1*** Ease of learning. The system shall be easy to learn for both novices and users with experience from similar systems. Users familiar with similar systems shall be able to create a new account with minimal errors. <br>
-    ***3.1.3.2*** Task efficiency. The system shall be designed to be simple to use for frequent users. Frequent users shall be given an option to be able to access their account without having to sign in each session. Tasks shall be able to be completed by the frequent user quickly and efficiently. <br>
-    ***3.1.3.3*** Ease of remembering. The system shall be clear and well defined. Users experienced with this system shall be able to login to their account quickly. <br>
-    ***3.1.3.4*** Understandability:  A new user shall be able to navigate to any desired option quickly and efficiently. <br>
-    ***3.1.3.5*** Subjective satisfaction. The system shall receive a high rating by test groups when released. <br>
-    ***3.1.3.6*** Task failure. Task failure by the system shall be kept to a minimum. <br>
-    ***3.1.3.7*** Requirements to undo. The system should be able to allow users are able to try things and undo them. The ability to undo should be incorporated into any part of the system that stores information, or task. <br>
-    ***3.1.3.8*** Accessibility. The system shall be created with elements that ensure that it is accessible to adults ranging from 18-40. These elements include but are not limited to: color, text, complexity, and exclusivity. <br>
+### 3.1.2.3 Update Profile <a name="3.1.2.3-edit-profile" />
+The update profile function will allow any user to make changes to their profile. 
 
-* ### 3.1.4 Performance Requirements <a name="3.1.4-performance-requirements" />
-    The performance requirements are showing the performance of unique features of my trainer page. The list will be a list of the features of my trainer page. 
+***3.1.2.3.1*** Update Profile shall allow any user to update their own picture. <br>
+***3.1.2.3.2*** Update Profile shall allow any user to update a biography text-field. <br>
+***3.1.2.3.3*** Update Profile shall allow any user to update their personal video links. <br>
+***3.1.2.3.4*** Update Profile shall allow any user to update their first and last name. <br>
 
-    ***3.1.4.1*** My trainer page shall load when the user navigates to my trainer page. <br>
-    ***3.1.4.2*** The trainer shall receive messages soon after the author sends the message. <br> 
-    ***3.1.4.3*** The trainer shall be able to send messages after clicking the send button in the built-in messenger. <br>
-    ***3.1.4.4*** Notifications for the trainer shall be received at the same time as when the message comes in. <br>
-    ***3.1.4.5*** Notifications from the trainer shall be received at the same time the recipient receives the message. <br>
-    ***3.1.4.6*** The trainer profiles on the web shall be loaded soon after the settings button has been clicked. <br>
-    ***3.1.4.7*** The trainer profiles on the mobile app shall be loaded soon after the settings button has been clicked. <br> 
-    ***3.1.4.8*** Trainer search results on the web shall load up soon after the search has been entered in. <br>
-    ***3.1.4.9*** Trainer search results on the mobile app shall load up soon after the search has been entered in. <br>
+<br>
+
+### 3.1.2.4 Search Trainer <a name="3.1.2.4-search-trainer" />
+Search trainer will allow users to search for trainers by name, location, and workout. 
+
+***3.1.2.4.1*** The system shall have a search bar. <br>
+***3.1.2.4.2*** A search bar shall be viewable by the user. <br>
+***3.1.2.4.3*** Search trainer shall allow a user to search for a trainer by name. <br>
+***3.1.2.4.4*** Search trainer shall allow a user to search for a trainer by location. <br>
+***3.1.2.4.5*** Search trainer shall allow a user to search for a trainer by workouts. <br>
+
+<br>
+
+### 3.1.2.5 Message Trainer <a name="3.1.2.5-message-trainer" />
+Message trainer will allow a user to communicate with a trainer. 
+
+***3.1.2.5.1*** Message Trainer shall give a user the ability to send messages to a trainer. <br>
+***3.1.2.5.2*** Message Trainer shall list messages in chronological order. <br>
+***3.1.2.5.3*** Messages Trainer shall be able to handle messages containing text. <br>
+***3.1.2.5.4*** Message Trainer shall be able to handle messages containing links. <br>
+
+<br>
+
+### 3.1.2.6 Message Users <a name="3.1.2.6-message-users" />
+Message Users shall allow the trainer to communicate with users. 
+
+***3.1.2.6.1*** Message users shall give trainers the ability to send messages to users. <br>
+***3.1.2.6.2*** Message users shall create a chat between trainer and users. <br>
+***3.1.2.6.3*** Message users shall list messages in chronological order. <br> 
+***3.1.2.6.4*** Messages Trainer shall be able to handle messages containing text. <br>
+***3.1.2.6.5*** Message Trainer shall be able to handle messages containing links <br>
+
+<br>
+
+## 3.1.3 Usability Requirements <a name="3.1.3-usability-requirements" />
+Requirements that are part of the user experience. It is the different aspects of the system such as understandability, accessibility, task failure and more that impact how a user views and uses the system.  
+
+***3.1.3.1*** Ease of learning. The system shall be easy to learn for both novices and users with experience from similar systems. Users familiar with similar systems shall be able to create a new account with minimal errors. <br>
+***3.1.3.2*** Task efficiency. The system shall be designed to be simple to use for frequent users. Frequent users shall be given an option to be able to access their account without having to sign in each session. Tasks shall be able to be completed by the frequent user quickly and efficiently. <br>
+***3.1.3.3*** Ease of remembering. The system shall be clear and well defined. Users experienced with this system shall be able to login to their account quickly. <br>
+***3.1.3.4*** Understandability:  A new user shall be able to navigate to any desired option quickly and efficiently. <br>
+***3.1.3.5*** Subjective satisfaction. The system shall receive a high rating by test groups when released. <br>
+***3.1.3.6*** Task failure. Task failure by the system shall be kept to a minimum. <br>
+***3.1.3.7*** Requirements to undo. The system should be able to allow users are able to try things and undo them. The ability to undo should be incorporated into any part of the system that stores information, or task. <br>
+***3.1.3.8*** Accessibility. The system shall be created with elements that ensure that it is accessible to adults ranging from 18-40. These elements include but are not limited to: color, text, complexity, and exclusivity. <br>
+
+<br>
+
+## 3.1.4 Performance Requirements <a name="3.1.4-performance-requirements" />
+The performance requirements are showing the performance of unique features of my trainer page. The list will be a list of the features of my trainer page. 
+
+***3.1.4.1*** My trainer page shall load when the user navigates to my trainer page. <br>
+***3.1.4.2*** The trainer shall receive messages soon after the author sends the message. <br> 
+***3.1.4.3*** The trainer shall be able to send messages after clicking the send button in the built-in messenger. <br>
+***3.1.4.4*** Notifications for the trainer shall be received at the same time as when the message comes in. <br>
+***3.1.4.5*** Notifications from the trainer shall be received at the same time the recipient receives the message. <br>
+***3.1.4.6*** The trainer profiles on the web shall be loaded soon after the settings button has been clicked. <br>
+***3.1.4.7*** The trainer profiles on the mobile app shall be loaded soon after the settings button has been clicked. <br> 
+***3.1.4.8*** Trainer search results on the web shall load up soon after the search has been entered in. <br>
+***3.1.4.9*** Trainer search results on the mobile app shall load up soon after the search has been entered in. <br>
  
-### 3.1.5 Logical Database Requirements <a name="3.1.5-logical-database-requirements" />
+<br>
 
-- ### 3.1.5.1 Types of information used by various functions <a name="3.1.5.1-types-of-information-used-by-various-functions" /> 
-    The system shall include several types of data for each account.  
+## 3.1.5 Logical Database Requirements <a name="3.1.5-logical-database-requirements" />
 
-    ***3.1.5.1.1*** MyTrainer shall store a trainers first name. <br>
-    ***3.1.5.1.2*** MyTrainer shall store a trainer’s last name. <br>
-    ***3.1.5.1.3*** MyTrainer shall store a trainer’s email. <br>
-    ***3.1.5.1.4*** The system shall create a trainer_ID for each trainer. <br>
+<br>
 
-- ### 3.1.5.2 Frequency of use  
-    Data shall not be reused between accounts. This will require all emails and primary keys to be unique to each account. 
+### 3.1.5.1 Types of information used by various functions <a name="3.1.5.1-types-of-information-used-by-various-functions" /> 
+The system shall include several types of data for each account.  
+
+***3.1.5.1.1*** MyTrainer shall store a trainers first name. <br>
+***3.1.5.1.2*** MyTrainer shall store a trainer’s last name. <br>
+***3.1.5.1.3*** MyTrainer shall store a trainer’s email. <br>
+***3.1.5.1.4*** The system shall create a trainer_ID for each trainer. <br>
+
+<br>
+
+### 3.1.5.2 Frequency of use  
+Data shall not be reused between accounts. This will require all emails and primary keys to be unique to each account. 
     
-    ***3.1.5.2.1*** Email data types shall be used for a single account. <br>  
+***3.1.5.2.1*** Email data types shall be used for a single account. <br>  
 
-- ### 3.1.5.3 Accessing Capabilities  
-    The following is the different access that should be given between accounts. 
+<br>
 
-    ***3.1.5.3.1*** Trainers shall have access to UserData first_name. <br>
-    ***3.1.5.3.2*** Trainers shall have access to UserData last_name. <br>
-    ***3.1.5.3.3*** Trainers shall have access to UserData goals. <br>
-    ***3.1.5.3.4*** Trainers shall have access to UserData W/O_plan. <br>
-    ***3.1.5.3.5*** Trainers shall have access to UserData gym. <br>
+### 3.1.5.3 Accessing Capabilities  
+The following is the different access that should be given between accounts. 
 
-- ### 3.1.5.4 Integrity Constraints  
-    The following are constraints and regulations on the data within the database. 
+***3.1.5.3.1*** Trainers shall have access to UserData first_name. <br>
+***3.1.5.3.2*** Trainers shall have access to UserData last_name. <br>
+***3.1.5.3.3*** Trainers shall have access to UserData goals. <br>
+***3.1.5.3.4*** Trainers shall have access to UserData W/O_plan. <br>
+***3.1.5.3.5*** Trainers shall have access to UserData gym. <br>
 
-    ***3.1.5.4.1*** Data entries shall be possible entries. <br>
-    ***3.1.5.4.2*** Impossible data entries shall not be allowed. <br>
-    ***3.1.5.4.3*** Data entries shall be verified to ensure it is possible. <br>
-    ***3.1.5.4.4*** The database shall have entity integrity. <br>
+<br>
 
-- ### 3.1.5.5 Security  
-    The following refers to account security and the different measures that should be taken to ensure account safety.  
+### 3.1.5.4 Integrity Constraints  
+The following are constraints and regulations on the data within the database. 
 
-    ***3.1.5.5.1*** Trainer accounts shall utilize google sign-in to access their account. <br>
-    ***3.1.5.5.2*** User accounts shall utilize google sign-in to access their account. <br>
-    ***3.1.5.5.3*** Trainers shall only have one account. <br>
-    ***3.1.5.5.4*** Gymgoers shall only have one account. <br>
-    ***3.1.5.5.5*** Admin accounts shall have access to all accounts. <br>
+***3.1.5.4.1*** Data entries shall be possible entries. <br>
+***3.1.5.4.2*** Impossible data entries shall not be allowed. <br>
+***3.1.5.4.3*** Data entries shall be verified to ensure it is possible. <br>
+***3.1.5.4.4*** The database shall have entity integrity. <br>
 
-* ### 3.1.6 Design Constraints <a name="3.1.6-design-constraints" />
+<br>
+
+### 3.1.5.5 Security  
+The following refers to account security and the different measures that should be taken to ensure account safety.  
+
+***3.1.5.5.1*** Trainer accounts shall utilize google sign-in to access their account. <br>
+***3.1.5.5.2*** User accounts shall utilize google sign-in to access their account. <br>
+***3.1.5.5.3*** Trainers shall only have one account. <br>
+***3.1.5.5.4*** Gymgoers shall only have one account. <br>
+***3.1.5.5.5*** Admin accounts shall have access to all accounts. <br>
+
+<br>
+
+## 3.1.6 Design Constraints <a name="3.1.6-design-constraints" />
 Design constraints are conditions that need to happen for a project to be successful. Design constraints help narrow choices when creating a project. 
 
-***3.1.6.1*** The interactable map features shall provide sufficient Pixels Per Inch that the average human is able to cleanly select them. <br>
-    ![Design Constraints Image](Images/DesignConstraintsImage.png)
+***3.1.6.1*** The system users shall specify the requirements for myTrainer and ensure to understand these requirements meet their demands and needs. <br>
+***3.1.6.2*** Users shall specify changes to the requirements. <br>
+***3.1.6.3*** The system managers shall use the requirements documentation to plan a bid for the system to plan the system development process for myTrainer. <br>
+***3.1.6.4*** The system engineers shall use the requirements to understand what system is being developed. <br>
+***3.1.6.5*** System testing engineers shall use the requirements for the purpose of development of validation tests for the system of myTrainer. <br>
+***3.1.6.6*** System maintaince managers shall use requirements to understand the system and the relationship between its parts. <br>
 
-* ### 3.1.7 Software System Attributes <a name="3.1.7-software-system-attributes" />
+![Design Constraints Image](Images/DesignConstraintsImage.png)
+
+<br>
+
+## 3.1.7 Software System Attributes <a name="3.1.7-software-system-attributes" />
 Software Quality Attributes:  Features that facilitate the measurement of performance of a software product by Software Testing professionals, and include attributes such as availability, interoperability, correctness, reliability, learnability, robustness, maintainability, readability, extensibility, testability.
 
-* ### 3.1.7.1 Reliability <a name="3.1.7.1-reliability" />
-    ***3.1.7.1.1*** Applications shall not have errors within the codes to cause applications to close or crash. <br>
-    ***3.1.7.1.2*** There will be functions within the software that performs verifications to notice errors before the application break or force closes. <br>
-    ***3.1.7.1.3*** The system shall verify the information that matches from the server and the application. <br>
+<br>
 
-* ### 3.1.7.2 Security <a name="3.1.7.2-security" />
-    ***3.1.7.2.1*** Password Protection and Encryption <br>
-    ***3.1.7.2.2*** User account creation <br>
-    ***3.1.7.2.3*** User information shall be available to users and those have access. <br>
-    ***3.1.7.2.4*** User shall be required to provide email, and password for the purpose of account creation. <br>
+### 3.1.7.1 Reliability <a name="3.1.7.1-reliability" />
+***3.1.7.1.1*** Applications shall not have errors within the codes to cause applications to close or crash. <br>
+***3.1.7.1.2*** There will be functions within the software that performs verifications to notice errors before the application break or force closes. <br>
+***3.1.7.1.3*** The system shall verify the information that matches from the server and the application. <br>
 
-* ### 3.1.7.3 Data Privacy <a name="3.1.7.3-data-privacy" />
-    ***3.1.7.3.1*** User’s data shall be hidden from all other users and parties. <br>
-    ***3.1.7.3.2*** Login Information <br>
-    ***3.1.7.3.3*** Creating an account shall be safe and secure. <br>
-    ***3.1.7.3.4*** All users shall be allowed to login securely. <br>
-    ***3.1.7.3.5*** Once a user logs out from the account, all user information shall be removed from the login screen. <br>
+<br>
 
-* ### 3.1.7.4 Maintainability <a name="3.1.7.4-maintainability" />
-    ***3.1.7.4.1*** Users shall be allowed to report to the administration team if theyforget their password, and need to have a reset password email sent totheir personal email that has been registered on their myJym account. <br>
-    ***3.1.7.4.1*** An automatic email shall be sent to the user's email address to allow the user to reset their password. <br>
+### 3.1.7.2 Security <a name="3.1.7.2-security" />
+***3.1.7.2.1*** Password Protection and Encryption <br>
+***3.1.7.2.2*** User account creation <br>
+***3.1.7.2.3*** User information shall be available to users and those have access. <br>
+***3.1.7.2.4*** User shall be required to provide email, and password for the purpose of account creation. <br>
 
-* ### 3.1.7.5 Portability <a name="3.1.7.5-portability" />
-    ***3.1.7.5.1*** System Database shall store user information. <br>
-    ***3.1.7.5.2*** myJym application shall run on both Android and iOS mobile interface. <br>
+<br>
 
-* ### 3.1.8 Supporting Information <a name="3.1.8-supporting-information" />
-    ![Design Constraints Image](Images/SupportingInfoImage.png)
+### 3.1.7.3 Data Privacy <a name="3.1.7.3-data-privacy" />
+***3.1.7.3.1*** User’s data shall be hidden from all other users and parties. <br>
+***3.1.7.3.2*** Login Information <br>
+***3.1.7.3.3*** Creating an account shall be safe and secure. <br>
+***3.1.7.3.4*** All users shall be allowed to login securely. <br>
+***3.1.7.3.5*** Once a user logs out from the account, all user information shall be removed from the login screen. <br>
 
-    Description of the problems to be solved by the software:
-    A problem that this software will solve is to give users the ability to connect with trainers.Trainers will be able to provide information to users about workouts and feedback on workout plans. Trainers will be able to access user data to be able to help them choose workout plans and give them the motivation to meet their goals.
+<br>
+
+### 3.1.7.4 Maintainability <a name="3.1.7.4-maintainability" />
+***3.1.7.4.1*** Users shall be allowed to report to the administration team if theyforget their password, and need to have a reset password email sent totheir personal email that has been registered on their myJym account. <br>
+***3.1.7.4.1*** An automatic email shall be sent to the user's email address to allow the user to reset their password. <br>
+
+<br>
+
+### 3.1.7.5 Portability <a name="3.1.7.5-portability" />
+***3.1.7.5.1*** System Database shall store user information. <br>
+***3.1.7.5.2*** myJym application shall run on both Android and iOS mobile interface. <br>
+
+## 3.1.8 Supporting Information <a name="3.1.8-supporting-information" />
+![Design Constraints Image](Images/SupportingInfoImage.png)
+
+<br>
 
 ## 3.2 Gym Map <a name="3.2-gym-map" /> <!-- Team 2 -->
 The map of the gym used by the MyJym application and it's requirements will be detailed in this section. <br>
@@ -1625,6 +1667,12 @@ Verification of the applications ability to work on different operating systems.
 Method: Inspection<br>
 What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
+<br>
+
+## <b>4.5 My Workout Verification</b>
+
+<br>
+
 <!-- team 3 and 4's stuff--> 
 ### <b>4.5.1 External Interface Verification</b> <a name="4.5.1-external-interface-verification" />
 This section defines the verification for external interfaces for the myJym application.
@@ -1634,12 +1682,12 @@ This section defines the verification for external interfaces for the myJym appl
 #### <b>4.5.1.1 Database Verification</b> <a name="4.5.1.1-database-verification" />
 This section defines the verification for the database for the my workout function.
 <p class="tab">
-<b><i>4.5.1.1.1</b></i> Verify that the database shall store workout <b>title</b>. [3.5.1.1.1]<br>
-<b><i>4.5.1.1.2</b></i> Verify that the database shall store workout video links. [3.5.1.1.2]<br>
-<b><i>4.5.1.1.3</b></i> Verify that the database shall store workout description. [3.5.1.1.3]<br>
-<b><i>4.5.1.1.4</b></i> Verify that the database shall store workout <b>sets</b>. [3.5.1.1.4]<br>
-<b><i>4.5.1.1.5</b></i> Verify that the database shall store workout <b>reps</b>. [3.5.1.1.5]<br>
-<b><i>4.5.1.1.6</b></i> Verify that the database shall store workout <b>tags</b>. [3.5.1.1.6]<br>
+<b><i>4.5.1.1.1</b></i> Verify that the database shall store workout <b>title</b>. [3.5.1.1.1] (Technique: inspection)<br>
+<b><i>4.5.1.1.2</b></i> Verify that the database shall store workout video links. [3.5.1.1.2] (Technique: inspection)<br>
+<b><i>4.5.1.1.3</b></i> Verify that the database shall store workout description. [3.5.1.1.3] (Technique: inspection)<br>
+<b><i>4.5.1.1.4</b></i> Verify that the database shall store workout <b>sets</b>. [3.5.1.1.4] (Technique: inspection)<br>
+<b><i>4.5.1.1.5</b></i> Verify that the database shall store workout <b>reps</b>. [3.5.1.1.5] (Technique: inspection)<br>
+<b><i>4.5.1.1.6</b></i> Verify that the database shall store workout <b>tags</b>. [3.5.1.1.6] (Technique: inspection)<br>
 </p>
 
 <br>
@@ -1647,7 +1695,7 @@ This section defines the verification for the database for the my workout functi
 #### <b>4.5.1.2 Video Provider Verification</b> <a name="4.5.1.2-video provider-verification" />
 This section defines the verification for the video provider integration for the my workout function.
 <p class="tab">
-<b><i>4.5.1.2.1</b></i> Verify that the <b>gymgoers</b> shall have the ability to access workout videos. [3.5.1.2.1]<br>
+<b><i>4.5.1.2.1</b></i> Verify that the <b>gymgoers</b> shall have the ability to access workout videos. [3.5.1.2.1] (Technique: demonstration)<br>
 </p>
 
 <br>
@@ -1703,8 +1751,6 @@ This section defines the verification for the workout in progress function for t
 <b><i>4.5.2.4.1</b></i> Verify that the workout in progress page shall guide the user through their workout. [3.5.2.4.1] (Technique: demonstration)<br>
 <b><i>4.5.2.4.2</b></i> Verify that the workout in progress page shall display the workout information for the selected workout. [3.5.2.4.2] (Technique: demonstration)<br>
 </p>
-
-<br>
 
 <br>
 
@@ -1798,4 +1844,3 @@ This section defines the verification for the maintainability of the my workout 
 
 ### <b>4.8.3 Supporting Information Verification</b>
 Not applicable for the my workout feature.
-
