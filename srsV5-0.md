@@ -273,7 +273,7 @@ Software interfaces (programming interfaces) are the languages, codes and messag
 * Communication shall include a means of communicating with myJym to receive help.
 
 #### 1.3.1.6 Memory <a name="1.3.1.6-memory" />
-* **Primary memory** shall be used to store the user’s data such as **profile** and user agreements. **Secondary memory** will not be utilized.
+* **Primary memory** shall be used to store the user’s data such as **profile** and user agreements
 
 #### 1.3.1.7 Operations <a name="1.3.1.7-operations" />
 * Operations by the user shall include:
