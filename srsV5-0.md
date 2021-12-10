@@ -396,8 +396,6 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Admin | The people that run the app. They will connect the user's location to the gym and create QR codes that can be scanned by the user. |
 | Audit Functions | Functions of the application that allow for user feedback and error handling. |
 | App | myJym mobile application. |
-| Client | see *trainee* |
-| Control Functions | The interface with which the user will interact with and control the app. |
 | Criticality of the Application | Parts of the application have dependencies that can fail because of them. The most critical parts of the application.|
 | The Database | A database that will store all information needed to run the application contraining the following tables: Admin, UserData, Trainer, and WorkOut. |
 | Equipment | The machines at the student gym. |
@@ -416,7 +414,6 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Invalid Credentials | Login credentials that do not match those associated with an account. |
 | iOS | Internet Operating System or iPhone Operating System. It is the operating system used on Apple products, such as iPhone and iPad. |
 | IOS 14.1 | The minimum IOS version that will be required for the project |
-| Jared's Senior Project Class | A project class that the project sponsor will be taking at some point in the future. |
 | Login Credentials | The username and password associated with an account. |
 | Login Page | A view that requests that the user login. |
 | macOS | The Macintosh Operating System is an operating system designed by Apple Inc. to be installed and operated on the Apple Macintosh series of computers. It is a (GUI) based OS that has since been released in multiple different versions. |
@@ -429,8 +426,8 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Partner Gyms | These are gyms that are partnered with the myJym app. |
 | Password | A key word or phrase associated with an account. |
 | Password Recovery Email | An email the gym-goer and/or trainer provides with account creation to recover their account if they forget their password. |
-| Personal Trainer | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers assist clients. |
-| Personal Trainer Certificate | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers can assist clients, and can do so while working in conjunction with the myJym app. |
+| Personal Trainer | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers assist trainees. |
+| Personal Trainer Certificate | Individuals who have earned certification that demonstrates they have achieved a level of competency for exercising safely and efficiently along with creating safe and effective exercise programs for those who have the medical clearance to participate. Personal trainers can assist trainees, and can do so while working in conjunction with the myJym app. |
 | Physical/mental considerations | Considerations that pertain to the physical and mental health of the application. |
 | Primary memory | Memory utilized by the app on the individual devices |
 | Profile | A personalized account created by the user that will be associated with them and required to utilize the app. |
