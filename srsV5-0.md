@@ -234,10 +234,10 @@ This is a table outlining what features are outside the scope of this project wi
 <br>
 
 ### <b>1.3.1 Product Perspective</b> <a name="1.3.1-product-perspective" /> <!-- Was this section never assigned to a team by the cop leads? (aaron) -->
-This section details the relationship of the myJym app to products that are simmilar or related to it. 
+The myJym app interface will work with multiple internal and external services. Each interface helps in communication betweeen system,, hardware, user, and 3rd parties.
 
 #### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
-The system interfaces will be the systems that the application will be running on. The list below will be the systems used for the application. 
+The system interfaces will be the platforms that the application will be running on. The list below will be the systems used for the application. 
 
 * The myJym app will run on mobile services. 
 * The myJym app will run on web services. 
@@ -247,23 +247,15 @@ The system interfaces will be the systems that the application will be running o
 The user interfaces will be the functionality of the app. This functionality is what the user will see when in the app.  
 
 * The myJym app will include a built-in messaging system to allow communication between users. 
-
-* The myJym app will include a sign-in page and a login page for the user. 
-
-* The myJym app will use the current systems keyboard to allow user input.  
-
-* The myJym app will have interactive buttons that will do different things according to the buttons pressed. These buttons will change the current page, modify workouts, and work with myJym’s built-in messaging. 
-
-* The myJym app will have a search bar that will allow the user to search for anything regarding the application such as different workouts. The search bar will allow for quick searches for the user's needs. 
-
+* The myJym app will include a sign-in page and a login page for the user.   
+* The myJym app will have a search bar that will allow the user to search for workouts, trainers, and pages. The search bar will allow for quick searches for the user's needs. 
 * The myJym app will have a settings page which will have everything in the page that the user can see and change in the app. Settings will include the user's profile and trainers they work with. 
-
-* The myJym app will have a workout page which will allow the user to create, delete, modify, and save workouts. 
-
-* The mJym app will have a myGym page which will find the gym you will be going to and a built-in map of that gym.
+* The myJym app will have a workout page which will allow the user to CRUD workouts. 
+* The myJym app will have a myGym page which will find the gym you will be going to and a built-in map of that gym.
+* The myJym app will allow the user to update their profile through the app.
 
 #### 1.3.1.3 Hardware Interfaces <a name="1.3.1.3-hardware-interfaces" />
-A hardware interface specifies the plugs, sockets, cables and electrical signals that pass through each line between the CPU and a peripheral device or communications network. 
+A hardware interface for the myJym app will be using internet and cell services.
 
 * Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the ios and android devices are able to connect to the internet. Since myJym will be a fitness app, features of myJym shall require users to have the feature of location tracking for personal coach and exercise equipment tutorial videos on their mobile device. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. The version of the iOS system shall be 15.1.1, and android system shall be 11.  
 
@@ -402,7 +394,6 @@ This is a comprehensive list of needed definitions used by the myJym application
 | ------ | -------     |
 | Account | An arrangement allowing a user personalized access to the myJym application, requiring the use of a username and password to access. |
 | Admin | The people that run the app. They will connect the user's location to the gym and create QR codes that can be scanned by the user. |
-| Android 11 | The minimum android version that will be required for the project. |
 | Audit Functions | Functions of the application that allow for user feedback and error handling. |
 | App | myJym mobile application. |
 | Client | see *trainee* |
@@ -411,15 +402,13 @@ This is a comprehensive list of needed definitions used by the myJym application
 | The Database | A database that will store all information needed to run the application contraining the following tables: Admin, UserData, Trainer, and WorkOut. |
 | Equipment | The machines at the student gym. |
 | Email | A method of exchanging messages over the internet between electronic devices. |
-| Embedded Video | Embedded Videos: Videos in applications that play a video inside of the app without having to go to the place containing the original video. |
 | Error Message | A message stating that a condition is incorrect and requires that the condition be different. |
 | Forms | Digital way to collect relevant information from the user. |
 | Google | An American company that specializes in internet-related services and products. |
 | Google Authentication Key | A key provided by Google to authenticate users. |
-| GUI | GUI (Graphical User Interface) is a user interface that includes graphical elements, such as windows, icons, and buttons. The purpose is to appeal to the user using visuals. |
 | Gym | A location with workout machines available. |
+| Gymgoers | Users that go to the gym               |
 | Gym Hours | The hours that all partner gyms are open. |
-| Hardware Limitations | Physical technological factors that might limit or slow the progress of the app and its construction. |
 | Higher-Order Language Requirements | Knowledge of high-level programming languages such as Kotlin and Swift. |
 | Home Page | The view which allows access to myTrainer, myWorkout, myVideos, and myGymMap views. |
 | Interface | A point where two systems, subjects, organizations, etc. meet and interact. |
@@ -505,7 +494,7 @@ The external interfaces section will cover 3rd party programs that will be used.
 <br>
 
 #### 3.1.1.1 Google Authentication <a name="3.1.1.1-google-authentication" />
-Google authentication will go over all the requirements for the 3rd party interface. This is all the things that google will be doing for the application.
+Google authentication will check the authentication and security of the my trainers login page.
 
 ***3.1.1.1.1*** Google Authentication API shall be used by gymgoers and trainers to login to their accounts. <br>
 ***3.1.1.1.2*** All users shall be able to login to their account using a google account. <br>
@@ -677,8 +666,14 @@ The following refers to account security and the different measures that should 
 ## 3.1.6 Design Constraints <a name="3.1.6-design-constraints" />
 Design constraints are conditions that need to happen for a project to be successful. Design constraints help narrow choices when creating a project. 
 
-***3.1.6.1*** The interactable map features shall provide sufficient Pixels Per Inch that the average human is able to cleanly select them. <br>
-    ![Design Constraints Image](Images/DesignConstraintsImage.png)
+***3.1.6.1*** The system users shall specify the requirements for myTrainer and ensure to understand these requirements meet their demands and needs. <br>
+***3.1.6.2*** Users shall specify changes to the requirements. <br>
+***3.1.6.3*** The system managers shall use the requirements documentation to plan a bid for the system to plan the system development process for myTrainer. <br>
+***3.1.6.4*** The system engineers shall use the requirements to understand what system is being developed. <br>
+***3.1.6.5*** System testing engineers shall use the requirements for the purpose of development of validation tests for the system of myTrainer. <br>
+***3.1.6.6*** System maintaince managers shall use requirements to understand the system and the relationship between its parts. <br>
+
+![Design Constraints Image](Images/DesignConstraintsImage.png)
 
 <br>
 
@@ -723,9 +718,6 @@ Software Quality Attributes:  Features that facilitate the measurement of perfor
 
 ## 3.1.8 Supporting Information <a name="3.1.8-supporting-information" />
 ![Design Constraints Image](Images/SupportingInfoImage.png)
-
-Description of the problems to be solved by the software:
-A problem that this software will solve is to give users the ability to connect with trainers.Trainers will be able to provide information to users about workouts and feedback on workout plans. Trainers will be able to access user data to be able to help them choose workout plans and give them the motivation to meet their goals.
 
 <br>
 
