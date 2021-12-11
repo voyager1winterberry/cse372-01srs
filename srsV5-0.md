@@ -49,6 +49,7 @@ Date: 11/20/21
         * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
         * [1.3.4.13 External System Limitations](#1.3.4.13-external-system-limitations)
 * [1.4 Definitions](#1.4-definitions)
+* [1.5 Table of Tables](#1.5-table-of-tables)
 * [3.1 My Trainer](#3.1-my-trainer)
     * [3.1.1 External Interfaces](#3.1.1-external-interfaces)
         * [3.1.1.1 Google Authentication](#3.1.1.1-google-authentication)
@@ -451,6 +452,10 @@ This is a comprehensive list of needed definitions used by the myJym application
 | System Database | The system database is a datbase containing schemas for the layout of the gym. |
 | Pixels Per Inch (PPI) | The is how the resolution of a display is measure based on the amount of pixels across one inch on the screen. |
 <br>
+
+# 1.5 Table of Tables <a name="1.5-table-of-tables" />
+[1.3.3 User Characteristics](#1.3.3-user-characteristics)
+[1.4 Definitions](#1.4-definitions)
 
 # 2.0 References <a name="2.0-references" />
 [1] S.R.O., Eccam. “Example Software Requirements Specification (SRS)  ReqView Documentation.” ReqView, 2018, www.reqview.com/doc/iso-iec-ieee-29148-srs-example.
