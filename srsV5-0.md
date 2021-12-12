@@ -147,8 +147,18 @@ Date: 11/20/21
             * [3.5.7.1 Reliability](#3.5.7.1-reliability)
             * [3.5.7.2 Security](#3.5.7.2-security)
             * [3.5.7.3 Maintainability](#3.5.7.3-maintainability)
-    * [4.0 Validation](#4.0-validation)
+* [4.0 Validation](#4.0-validation)
+    * [4.1 My Trainer](#4.1-my-trainer)
         * [4.1.1 External Interface Verification](#4.1.1-external-interface-verification)
+            * [4.1.1.1 Google Authentication Verification](#4.1.1.1-google-authentication-verification)
+        * [4.1.2 Functions Verification](#4.1.2-functions-verifications)
+            * [4.1.2.1 Notifications Verification](#4.1.2.1-notifications-verifications)
+            * [4.1.2.2 View Trainer Profile Verification](#4.1.2.2-view-trainer-profile-verifications)
+            * [4.1.2.3 Update Profile Verification](#4.1.2.3-update-profile-verifications)
+            * [4.1.2.4 Search Trainer Verification](#4.1.2.4-search-trainer-verifications)
+            * [4.1.2.5 Message Trainer Verification](#4.1.2.5-message-trainer-verifications)
+            * [4.1.2.6 Message Users Verification](#4.1.2.6-message-users-verifications)
+        * [4.1.3 Usability Requirements Verification](#4.1.3-usability-requirements-verifications)
         * [4.2.1 Map External Interfaces Verification](#4.2.1)
         * [4.2.2 Map Functions Verification](#4.2.2)
         * [4.2.3 Map Usability Requirements Verification](#4.2.3)
@@ -185,7 +195,7 @@ Date: 11/20/21
             * [4.5.7.1 Reliability Verification](#4.5.7.1-reliability-verification)
             * [4.5.7.2 Security Verification](#4.5.7.2-security-verification)
             * [4.5.7.3 Maintainability Verification](#4.5.7.3-maintainability-verification)
-    * [References](#references)
+* [References](#references)
 <br><br /><br>
 
 # <b>1.0 Introduction</b> <a name="1.0-introduction" />
@@ -1333,6 +1343,8 @@ It was written in the same workflow order as section 3. Thus, the ideal order to
 | 4.2 | My Gym Map |   
 
 <br>
+
+## <b>4.1 My Trainer</b> <a name="4.1-my-trainer" />
 
 <!-- team 1's stuff--> 
 ### <b>4.1.1 External Interfaces Verification</b> <a name="4.1.1-external-interface-verification" />
