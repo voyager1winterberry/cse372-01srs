@@ -17,7 +17,7 @@ Date: 11/20/21
 
 <br><br><br>
 
-## Table of Contents
+## <b>Table of Contents</b>
 * [1.1 Purpose](#1.1-purpose)
 * [1.2 Scope](#1.2-scope)
     * [1.2.1 Products to be Produced](#1.2.1-products-to-be-produced)
@@ -164,6 +164,7 @@ Date: 11/20/21
         * [4.3.7.1 Reliability Verification](#4.3.7.1-reliability-verification)
         * [4.3.7.2 Security Verification](#4.3.7.2-security-verification)
         * [4.3.7.3 Maintainability Verification](#4.3.7.3-maintainability-verification)
+* [4.5 My Workout Verification](#4.5-my-workout-verification)
     * [4.5.1 External Interface Verification](#4.5.1-external-interface-verification)
         * [4.5.1.1 Database Verification](#4.5.1.1-database-verification)
         * [4.5.1.2 Video Provider Verification](#4.5.1.2-video-provider-verification)
@@ -184,7 +185,7 @@ Date: 11/20/21
 * [References](#references)
 <br><hr /><br>
 
-# <b>1.0 Introduction</b> <n name="Introduction" />
+# <b>1.0 Introduction</b> <a name="introduction" />
 
 <br>
 
@@ -1671,7 +1672,7 @@ What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
 <br>
 
-## <b>4.5 My Workout Verification</b>
+## <b>4.5 My Workout Verification</b> <a name="4.5-my-workout-verification" />
 
 <br>
 
