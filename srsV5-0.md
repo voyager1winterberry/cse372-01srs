@@ -18,174 +18,177 @@ Date: 11/20/21
 <br><br><br>
 
 ## <b>Table of Contents</b>
-* [1.1 Purpose](#1.1-purpose)
-* [1.2 Scope](#1.2-scope)
-    * [1.2.1 Products to be Produced](#1.2.1-products-to-be-produced)
-    * [1.2.2 What Will the Software Product Do](#1.2.2-what-will-the-software-product-do)
-    * [1.2.3 Included Core Features](#1.2.3-included-core-features) 
-    * [1.2.4 Possible Features](#1.2.4-excluded-features)
-* [1.3](#1.3)
-    * [1.3.1 Product Perspective](#1.3.1-product-perspective)
-        * [1.3.1.1 System Interfaces](#1.3.1.1-system-interfaces)
-        * [1.3.1.2 User Interfaces](#1.3.1.2-user-interfaces)
-        * [1.3.1.3 Hardware Interfaces](#1.3.1.3-hardware-interfaces)
-        * [1.3.1.4 Software Interfaces](#1.3.1.4-software-interfaces)
-        * [1.3.2 Product Functions](#1.3.2-product-functions)
-            * [1.3.2.1 User Profiles](#1.3.2.1-user-profiles)
-            * [1.3.2.2 User Scenarios](#1.3.2.2-user-scenarios)
-    * [1.3.3 User Characteristics](#1.3.3-user-characteristics)
-    * [1.3.4 Limitations](#1.3.4-limitations)
-        * [1.3.4.1 Regulatory Requirements and Policies](#1.3.4.1-regulatory-requirements-and-policies)
-        * [1.3.4.2 Hardware Limitations](#1.3.4.2-hardware-limitations)
-        * [1.3.4.3 Interfaces to Other Applications](#1.3.4.3-interfaces-to-other-applications)
-        * [1.3.4.4 Parallel Operation](#1.3.4.4-parallel-operation)
-        * [1.3.4.5 Audit Functions](#1.3.4.5-audit-functions)
-        * [1.3.4.6 Control Functions](#1.3.4.6-control-functions) 
-        * [1.3.4.7 Higher-order Language Requirements](#1.3.4.7-higher-order-language-requirements)
-        * [1.3.4.8 Signal Handshake Protocols](#1.3.4.8-signal-handshake-protocols)
-        * [1.3.4.9 Quality Requirements](#1.3.4.9-quality-requirements)
-        * [1.3.4.10 Criticality of the Application](#1.3.4.10-criticality-of-the-application)
-        * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
-        * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
-        * [1.3.4.13 External System Limitations](#1.3.4.13-external-system-limitations)
-* [1.4 Definitions](#1.4-definitions)
-* [1.5 Table of Tables](#1.5-table-of-tables)
-* [3.1 My Trainer](#3.1-my-trainer)
-    * [3.1.1 External Interfaces](#3.1.1-external-interfaces)
-        * [3.1.1.1 Google Authentication](#3.1.1.1-google-authentication)
-    * [3.1.2 Functions](#3.1.2-functions)
-        * [3.1.2.1 myJym](#3.1.2.1-myJym)
-        * [3.1.2.2 Notifications](#3.1.2.2-notifications)
-        * [3.1.2.3 My Trainer](#3.1.2.3-my-trainer)
-        * [3.1.2.4 View Trainer Profile](#3.1.2.4-view-trainer-profile)
-        * [3.1.2.5 Edit Profile](#3.1.2.5-edit-profile)
-        * [3.1.2.6 Search Trainer](#3.1.2.6-search-trainer)
-        * [3.1.2.7 Message Trainer](#3.1.2.7-message-trainer)
-        * [3.1.2.8 Message Users](#3.1.2.8-message-users)
-    * [3.1.3 Usability Requirements](#3.1.3-usability-requirements)
-    * [3.1.4 Performance Requirements](#3.1.4-performance-requirements)
-    * [3.1.5 Logical Database Requirements](#3.1.5-logical-database-requirements)
-        * [3.1.5.1 Types of information used by various functions](#3.1.5.1-types-of-information-used-by-various-functions)
-        * [3.1.5.2 Frequency of use](#3.1.5.2-frequency-of-use)
-        * [3.1.5.3 Accessing Capabilities](#3.1.5.3-accessing-capabilities)
-        * [3.1.5.4 Data entities and their relationships](#3.1.5.4-data-entities-and-their-relationships)
-        * [3.1.5.5 Integrity Constraints](#3.1.5.5-integrity-constraints)
-        * [3.1.5.6 Security](#3.1.5.6-security)
-        * [3.1.5.7 Data retention requirements](#3.1.5.7-data-retention-requirements)
-    * [3.1.6 Design Constraints](#3.1.6-design-constraints)
-    * [3.1.7 Software System Attributes](#3.1.7-software-system-attributes)
-        * [3.1.7.1 Reliability](#3.1.7.1-reliability)
-        * [3.1.7.2 Security](#3.1.7.2-security)
-        * [3.1.7.3 Data Privacy](#3.1.7.3-data-privacy)
-        * [3.1.7.4 Maintainability](#3.1.7.4-maintainability)
-        * [3.1.7.5 Portability](#3.1.7.5-portability)
-    * [3.1.8 Supporting Information](#3.1.8-supporting-information)
-* [3.2 Gym Map](#3.2-gym-map)
-    * [3.2.1 External Interfaces](#3.2.1-external-interfaces)
-    * [3.2.2 Functions](#3.2.2-functions)
-        * [3.2.2.1 Map Display](#3.2.2.1-map-display)
-        * [3.2.2.2 Map Search Function](#3.2.2.2-map-search-function)
-        * [3.2.2.3 Map Navigation](#3.2.2.3-map-navigation)
-    * [3.2.3 Usability Requirements](#3.2.3-usability-requirements)
-    * [3.2.4 Performance Requirements](#3.2.4-performance-requirements)
-    * [3.2.5 Logical Database Requirements](#3.2.5-logical-database-requirements)
-        * [3.2.5.1 Types of information used by various functions](#3.2.5.1-types-of-information-used-by-various-functions)
-        * [3.2.5.2 Frequency of use](#3.2.5.2-frequency-of-use)
-        * [3.2.5.3 Accessing Capabilities](#3.2.5.3-accessing-capabilities)
-        * [3.2.5.4 Data entities and their relationships](#3.2.5.4-data-entities-and-their-relationships)
-        * [3.2.5.5 Integrity Constraints](#3.2.5.5-integrity-constraints)
-        * [3.2.5.6 Security](#3.2.5.6-security)
-    * [3.2.6 Design Constraints](#3.2.6-design-constraints)
-    * [3.2.7 Software System Attributes](#3.2.7-software-system-attributes)
-        * [3.2.7.1 Reliability](#3.2.7.1-reliability)
-        * [3.2.7.2 Security](#3.2.7.2-security)
-* [3.3 MyJym Videos](#3.3-myjym-videos)
-    * [3.3.1 External Interfaces Specification](#3.3.1-external-interfaces-specification)
-        * [3.3.1.1 Database](#3.3.1.1-database)
-        * [3.3.1.2 Video Streaming](#3.3.1.2-video-streaming)   
-    * [3.3.2 Functions](#3.3.2-functions)
-        * [3.3.2.1 My Video](#3.3.2.1-my-video)
-    * [3.3.3 Usability Requirement](#3.3.3-usability-requirement)   
-    * [3.3.4 Performance requirements](#3.3.4-performance-requirements)
-    * [3.3.5 Logical Database Requirements](#3.3.5-logical-database-requirements)
-    * [3.3.6 Design Constraints](#3.3.6-design-constraints)
-    * [3.3.7 Software System Attributes](#3.3.7-software-system-attributes)
-        * [3.3.7.1 Reliability](#3.3.7.1-reliability)
-        * [3.3.7.2 Security](#3.3.7.2-security)
-        * [3.3.7.3 Maintainability](#3.3.7.3-maintainability)
-    * [3.3.8 Supporting Information](#3.3.8-supporting-information)
-* [3.4 Login & Homepage](#3.4-login-&-homepage)
-    * [3.4.1 External Interfaces](#3.4.1-external-interfaces)
-    * [3.4.2 Functions](#3.4.2-functions)
-    * [3.4.3 Usability Requirements](#3.4.3-usability-requirements)
-    * [3.4.4 Performance Requirements](#3.4.4-performance-requirements)
-    * [3.4.5 Logical Database Requirements](#3.4.5-logical-database-requirements)
-    * [3.4.6 Design Constraints](#3.4.6-design-constraints)
-    * [3.4.7 Software System Attributes](#3.4.7-software-system-attributes)
-        * [3.4.7.1 Reliability](#3.4.7.1-reliability)
-        * [3.4.7.2 Availability](#3.4.7.2-availability)
-        * [3.4.7.3 Security](#3.4.7.3-security)
-        * [3.4.7.4 Portability](#3.4.7.4-portability) 
-* [3.5 My Workout](#3.5-my-workout)
-    * [3.5.1 External Interface](#3.5.1-external-interface)
-        * [3.5.1.1 Database](#3.5.1.1-database)
-        * [3.5.1.2 video provider](#3.5.1.2-video-provider)
-    * [3.5.2 Functions](#3.5.2-functions)
-        * [3.5.2.1 Create Workout](#3.5.2.1-create-workout)
-        * [3.5.2.2 Find Workout](#3.5.2.2-find-workout)
-        * [3.5.2.3 Saved Workout](#3.5.2.3-saved-workout)
-        * [3.5.2.4 Workout in Progress Page](#3.5.2.4-workout-in-progress-page)
-        * [3.5.2.5 My Video Page](#3.5.2.5-my-video-page)
-    * [3.5.3 Usability Requirements](#3.5.3-usability-requirements)
-    * [3.5.4 Performance Requirements](#3.5.4-performance-requirements)
-    * [3.5.5 Logical Database Requirements](#3.5.5-logical-database-requirements)
-    * [3.5.6 Design Constraints](#3.5.6-design-constraints)
-    * [3.5.7 Software System Attributes](#3.5.7-software-system-attributes)
-        * [3.5.7.1 Reliability](#3.5.7.1-reliability)
-        * [3.5.7.2 Security](#3.5.7.2-security)
-        * [3.5.7.3 Maintainability](#3.5.7.3-maintainability)
-* [4.0 Validation](#4.0-validation)
-    * [4.1.1 External Interface Verification](#4.1.1-external-interface-verification)
-    * [4.2.1 Map External Interfaces Verification](#4.2.1)
-    * [4.2.2 Map Functions Verification](#4.2.2)
-    * [4.2.3 Map Usability Requirements Verification](#4.2.3)
-    * [4.2.4 Map Performance Requirements Verification](#4.2.4)
-    * [4.2.5 Map Logical Database Requirements Verification](#4.2.5)
-* [4.3 MyJym Videos Verification](#4.3-myjym-videos-verification)
-    * [4.3.1 External Interfaces Specification Verification](#4.3.1-external-interfaces-specifications-verification)
-        * [4.3.1.1 Database Verification](#4.3.1.1-database-verification)
-    * [4.3.2 Functions Verification](#4.3.2-functions-verification)
-        * [4.3.2.1 My Video Verification](#4.3.2.1-my-video-verifiaction)
-    * [4.3.3 Usability Requirement Verification](#4.3.3-usability-requirement-verification)
-    * [4.3.4 Performance Requirements Verification](4.3.4-performance-requirements-verification)
-    * [4.3.5 Logical Database Requirements Verification](#4.3.5-logical-database-requirements-verification)
-    * [4.3.6 Design Constraint Verification](#4.3.6-design-constraints-verification)
-    * [4.3.7 Software System Attributes Verification](#4.3.7-software-system-attributes-verification)
-        * [4.3.7.1 Reliability Verification](#4.3.7.1-reliability-verification)
-        * [4.3.7.2 Security Verification](#4.3.7.2-security-verification)
-        * [4.3.7.3 Maintainability Verification](#4.3.7.3-maintainability-verification)
-* [4.5 My Workout Verification](#4.5-my-workout-verification)
-    * [4.5.1 External Interface Verification](#4.5.1-external-interface-verification)
-        * [4.5.1.1 Database Verification](#4.5.1.1-database-verification)
-        * [4.5.1.2 Video Provider Verification](#4.5.1.2-video-provider-verification)
-    * [4.5.2 Functions Verification](#4.5.2-functions-verification)
-        * [4.5.2.1 Create Workout Verification](#4.5.2.1-create-workout-verification)
-        * [4.5.2.2 Find Workout Verification](#4.5.2.2-find-workout-verification)
-        * [4.5.2.3 Saved Workout Verification](#4.5.2.3-saved-workout-verification)
-        * [4.5.2.4 Workout in Progress Page Verification](#4.5.2.4-workout-in-progress-page-verification)
-        * [4.5.2.5 My Video page Verification](#4.5.2.5-my-video-page-verification)
-    * [4.5.3 Usability Requirements Verification](#4.5.3-usability-requirements-verification)
-    * [4.5.4 Performance Requirements Verification](#4.5.4-performance-requirments-verification)
-    * [4.5.5 Logical Database Requirements Verification](#4.5.5-logical-database-requirments-verification)
-    * [4.5.6 Design Constraints Verification](#4.5.6-design-constraints-verification)
-    * [4.5.7 Software System Attributes Verification](#4.5.7-software-system-attributes-verification)
-        * [4.5.7.1 Reliability Verification](#4.5.7.1-reliability-verification)
-        * [4.5.7.2 Security Verification](#4.5.7.2-security-verification)
-        * [4.5.7.3 Maintainability Verification](#4.5.7.3-maintainability-verification)
-* [References](#references)
+* [1.0 Introduction](#1.0-introduction)
+    * [1.1 Purpose](#1.1-purpose)
+    * [1.2 Scope](#1.2-scope)
+        * [1.2.1 Products to be Produced](#1.2.1-products-to-be-produced)
+        * [1.2.2 What Will the Software Product Do](#1.2.2-what-will-the-software-product-do)
+        * [1.2.3 Included Core Features](#1.2.3-included-core-features) 
+        * [1.2.4 Possible Features](#1.2.4-excluded-features)
+    * [1.3](#1.3)
+        * [1.3.1 Product Perspective](#1.3.1-product-perspective)
+            * [1.3.1.1 System Interfaces](#1.3.1.1-system-interfaces)
+            * [1.3.1.2 User Interfaces](#1.3.1.2-user-interfaces)
+            * [1.3.1.3 Hardware Interfaces](#1.3.1.3-hardware-interfaces)
+            * [1.3.1.4 Software Interfaces](#1.3.1.4-software-interfaces)
+            * [1.3.2 Product Functions](#1.3.2-product-functions)
+                * [1.3.2.1 User Profiles](#1.3.2.1-user-profiles)
+                * [1.3.2.2 User Scenarios](#1.3.2.2-user-scenarios)
+        * [1.3.3 User Characteristics](#1.3.3-user-characteristics)
+        * [1.3.4 Limitations](#1.3.4-limitations)
+            * [1.3.4.1 Regulatory Requirements and Policies](#1.3.4.1-regulatory-requirements-and-policies)
+            * [1.3.4.2 Hardware Limitations](#1.3.4.2-hardware-limitations)
+            * [1.3.4.3 Interfaces to Other Applications](#1.3.4.3-interfaces-to-other-applications)
+            * [1.3.4.4 Parallel Operation](#1.3.4.4-parallel-operation)
+            * [1.3.4.5 Audit Functions](#1.3.4.5-audit-functions)
+            * [1.3.4.6 Control Functions](#1.3.4.6-control-functions) 
+            * [1.3.4.7 Higher-order Language Requirements](#1.3.4.7-higher-order-language-requirements)
+            * [1.3.4.8 Signal Handshake Protocols](#1.3.4.8-signal-handshake-protocols)
+            * [1.3.4.9 Quality Requirements](#1.3.4.9-quality-requirements)
+            * [1.3.4.10 Criticality of the Application](#1.3.4.10-criticality-of-the-application)
+            * [1.3.4.11 Safety and Security Considerations](#1.3.4.11-safety-and-security-considerations)
+            * [1.3.4.12 Physical/Mental Considerations](#1.3.4.12-physical/mental-considerations)
+            * [1.3.4.13 External System Limitations](#1.3.4.13-external-system-limitations)
+    * [1.4 Definitions](#1.4-definitions)
+    * [1.5 Table of Tables](#1.5-table-of-tables)
+* [2.0 References](#2.0-references)
+* [3.0 Requirements](#3.0-requirements)
+    * [3.1 My Trainer](#3.1-my-trainer)
+        * [3.1.1 External Interfaces](#3.1.1-external-interfaces)
+            * [3.1.1.1 Google Authentication](#3.1.1.1-google-authentication)
+        * [3.1.2 Functions](#3.1.2-functions)
+            * [3.1.2.1 myJym](#3.1.2.1-myJym)
+            * [3.1.2.2 Notifications](#3.1.2.2-notifications)
+            * [3.1.2.3 My Trainer](#3.1.2.3-my-trainer)
+            * [3.1.2.4 View Trainer Profile](#3.1.2.4-view-trainer-profile)
+            * [3.1.2.5 Edit Profile](#3.1.2.5-edit-profile)
+            * [3.1.2.6 Search Trainer](#3.1.2.6-search-trainer)
+            * [3.1.2.7 Message Trainer](#3.1.2.7-message-trainer)
+            * [3.1.2.8 Message Users](#3.1.2.8-message-users)
+        * [3.1.3 Usability Requirements](#3.1.3-usability-requirements)
+        * [3.1.4 Performance Requirements](#3.1.4-performance-requirements)
+        * [3.1.5 Logical Database Requirements](#3.1.5-logical-database-requirements)
+            * [3.1.5.1 Types of information used by various functions](#3.1.5.1-types-of-information-used-by-various-functions)
+            * [3.1.5.2 Frequency of use](#3.1.5.2-frequency-of-use)
+            * [3.1.5.3 Accessing Capabilities](#3.1.5.3-accessing-capabilities)
+            * [3.1.5.4 Data entities and their relationships](#3.1.5.4-data-entities-and-their-relationships)
+            * [3.1.5.5 Integrity Constraints](#3.1.5.5-integrity-constraints)
+            * [3.1.5.6 Security](#3.1.5.6-security)
+            * [3.1.5.7 Data retention requirements](#3.1.5.7-data-retention-requirements)
+        * [3.1.6 Design Constraints](#3.1.6-design-constraints)
+        * [3.1.7 Software System Attributes](#3.1.7-software-system-attributes)
+            * [3.1.7.1 Reliability](#3.1.7.1-reliability)
+            * [3.1.7.2 Security](#3.1.7.2-security)
+            * [3.1.7.3 Data Privacy](#3.1.7.3-data-privacy)
+            * [3.1.7.4 Maintainability](#3.1.7.4-maintainability)
+            * [3.1.7.5 Portability](#3.1.7.5-portability)
+        * [3.1.8 Supporting Information](#3.1.8-supporting-information)
+    * [3.2 Gym Map](#3.2-gym-map)
+        * [3.2.1 External Interfaces](#3.2.1-external-interfaces)
+        * [3.2.2 Functions](#3.2.2-functions)
+            * [3.2.2.1 Map Display](#3.2.2.1-map-display)
+            * [3.2.2.2 Map Search Function](#3.2.2.2-map-search-function)
+            * [3.2.2.3 Map Navigation](#3.2.2.3-map-navigation)
+        * [3.2.3 Usability Requirements](#3.2.3-usability-requirements)
+        * [3.2.4 Performance Requirements](#3.2.4-performance-requirements)
+        * [3.2.5 Logical Database Requirements](#3.2.5-logical-database-requirements)
+            * [3.2.5.1 Types of information used by various functions](#3.2.5.1-types-of-information-used-by-various-functions)
+            * [3.2.5.2 Frequency of use](#3.2.5.2-frequency-of-use)
+            * [3.2.5.3 Accessing Capabilities](#3.2.5.3-accessing-capabilities)
+            * [3.2.5.4 Data entities and their relationships](#3.2.5.4-data-entities-and-their-relationships)
+            * [3.2.5.5 Integrity Constraints](#3.2.5.5-integrity-constraints)
+            * [3.2.5.6 Security](#3.2.5.6-security)
+        * [3.2.6 Design Constraints](#3.2.6-design-constraints)
+        * [3.2.7 Software System Attributes](#3.2.7-software-system-attributes)
+            * [3.2.7.1 Reliability](#3.2.7.1-reliability)
+            * [3.2.7.2 Security](#3.2.7.2-security)
+    * [3.3 MyJym Videos](#3.3-myjym-videos)
+        * [3.3.1 External Interfaces Specification](#3.3.1-external-interfaces-specification)
+            * [3.3.1.1 Database](#3.3.1.1-database)
+            * [3.3.1.2 Video Streaming](#3.3.1.2-video-streaming)   
+        * [3.3.2 Functions](#3.3.2-functions)
+            * [3.3.2.1 My Video](#3.3.2.1-my-video)
+        * [3.3.3 Usability Requirement](#3.3.3-usability-requirement)   
+        * [3.3.4 Performance requirements](#3.3.4-performance-requirements)
+        * [3.3.5 Logical Database Requirements](#3.3.5-logical-database-requirements)
+        * [3.3.6 Design Constraints](#3.3.6-design-constraints)
+        * [3.3.7 Software System Attributes](#3.3.7-software-system-attributes)
+            * [3.3.7.1 Reliability](#3.3.7.1-reliability)
+            * [3.3.7.2 Security](#3.3.7.2-security)
+            * [3.3.7.3 Maintainability](#3.3.7.3-maintainability)
+        * [3.3.8 Supporting Information](#3.3.8-supporting-information)
+    * [3.4 Login & Homepage](#3.4-login-&-homepage)
+        * [3.4.1 External Interfaces](#3.4.1-external-interfaces)
+        * [3.4.2 Functions](#3.4.2-functions)
+        * [3.4.3 Usability Requirements](#3.4.3-usability-requirements)
+        * [3.4.4 Performance Requirements](#3.4.4-performance-requirements)
+        * [3.4.5 Logical Database Requirements](#3.4.5-logical-database-requirements)
+        * [3.4.6 Design Constraints](#3.4.6-design-constraints)
+        * [3.4.7 Software System Attributes](#3.4.7-software-system-attributes)
+            * [3.4.7.1 Reliability](#3.4.7.1-reliability)
+            * [3.4.7.2 Availability](#3.4.7.2-availability)
+            * [3.4.7.3 Security](#3.4.7.3-security)
+            * [3.4.7.4 Portability](#3.4.7.4-portability) 
+    * [3.5 My Workout](#3.5-my-workout)
+        * [3.5.1 External Interface](#3.5.1-external-interface)
+            * [3.5.1.1 Database](#3.5.1.1-database)
+            * [3.5.1.2 video provider](#3.5.1.2-video-provider)
+        * [3.5.2 Functions](#3.5.2-functions)
+            * [3.5.2.1 Create Workout](#3.5.2.1-create-workout)
+            * [3.5.2.2 Find Workout](#3.5.2.2-find-workout)
+            * [3.5.2.3 Saved Workout](#3.5.2.3-saved-workout)
+            * [3.5.2.4 Workout in Progress Page](#3.5.2.4-workout-in-progress-page)
+            * [3.5.2.5 My Video Page](#3.5.2.5-my-video-page)
+        * [3.5.3 Usability Requirements](#3.5.3-usability-requirements)
+        * [3.5.4 Performance Requirements](#3.5.4-performance-requirements)
+        * [3.5.5 Logical Database Requirements](#3.5.5-logical-database-requirements)
+        * [3.5.6 Design Constraints](#3.5.6-design-constraints)
+        * [3.5.7 Software System Attributes](#3.5.7-software-system-attributes)
+            * [3.5.7.1 Reliability](#3.5.7.1-reliability)
+            * [3.5.7.2 Security](#3.5.7.2-security)
+            * [3.5.7.3 Maintainability](#3.5.7.3-maintainability)
+    * [4.0 Validation](#4.0-validation)
+        * [4.1.1 External Interface Verification](#4.1.1-external-interface-verification)
+        * [4.2.1 Map External Interfaces Verification](#4.2.1)
+        * [4.2.2 Map Functions Verification](#4.2.2)
+        * [4.2.3 Map Usability Requirements Verification](#4.2.3)
+        * [4.2.4 Map Performance Requirements Verification](#4.2.4)
+        * [4.2.5 Map Logical Database Requirements Verification](#4.2.5)
+    * [4.3 MyJym Videos Verification](#4.3-myjym-videos-verification)
+        * [4.3.1 External Interfaces Specification Verification](#4.3.1-external-interfaces-specifications-verification)
+            * [4.3.1.1 Database Verification](#4.3.1.1-database-verification)
+        * [4.3.2 Functions Verification](#4.3.2-functions-verification)
+            * [4.3.2.1 My Video Verification](#4.3.2.1-my-video-verifiaction)
+        * [4.3.3 Usability Requirement Verification](#4.3.3-usability-requirement-verification)
+        * [4.3.4 Performance Requirements Verification](4.3.4-performance-requirements-verification)
+        * [4.3.5 Logical Database Requirements Verification](#4.3.5-logical-database-requirements-verification)
+        * [4.3.6 Design Constraint Verification](#4.3.6-design-constraints-verification)
+        * [4.3.7 Software System Attributes Verification](#4.3.7-software-system-attributes-verification)
+            * [4.3.7.1 Reliability Verification](#4.3.7.1-reliability-verification)
+            * [4.3.7.2 Security Verification](#4.3.7.2-security-verification)
+            * [4.3.7.3 Maintainability Verification](#4.3.7.3-maintainability-verification)
+    * [4.5 My Workout Verification](#4.5-my-workout-verification)
+        * [4.5.1 External Interface Verification](#4.5.1-external-interface-verification)
+            * [4.5.1.1 Database Verification](#4.5.1.1-database-verification)
+            * [4.5.1.2 Video Provider Verification](#4.5.1.2-video-provider-verification)
+        * [4.5.2 Functions Verification](#4.5.2-functions-verification)
+            * [4.5.2.1 Create Workout Verification](#4.5.2.1-create-workout-verification)
+            * [4.5.2.2 Find Workout Verification](#4.5.2.2-find-workout-verification)
+            * [4.5.2.3 Saved Workout Verification](#4.5.2.3-saved-workout-verification)
+            * [4.5.2.4 Workout in Progress Page Verification](#4.5.2.4-workout-in-progress-page-verification)
+            * [4.5.2.5 My Video page Verification](#4.5.2.5-my-video-page-verification)
+        * [4.5.3 Usability Requirements Verification](#4.5.3-usability-requirements-verification)
+        * [4.5.4 Performance Requirements Verification](#4.5.4-performance-requirments-verification)
+        * [4.5.5 Logical Database Requirements Verification](#4.5.5-logical-database-requirments-verification)
+        * [4.5.6 Design Constraints Verification](#4.5.6-design-constraints-verification)
+        * [4.5.7 Software System Attributes Verification](#4.5.7-software-system-attributes-verification)
+            * [4.5.7.1 Reliability Verification](#4.5.7.1-reliability-verification)
+            * [4.5.7.2 Security Verification](#4.5.7.2-security-verification)
+            * [4.5.7.3 Maintainability Verification](#4.5.7.3-maintainability-verification)
+    * [References](#references)
 <br><br /><br>
 
-# <b>1.0 Introduction</b> <a name="introduction" />
+# <b>1.0 Introduction</b> <a name="1.0-introduction" />
 
 <br>
 
@@ -238,14 +241,18 @@ This is a table outlining what features are outside the scope of this project wi
 ### <b>1.3.1 Product Perspective</b> <a name="1.3.1-product-perspective" />
 The myJym app interface will work with multiple internal and external services. Each interface helps in communication between system, hardware, user, and 3rd parties.
 
-#### 1.3.1.1 System Interfaces <a name="1.3.1.1-system-interfaces" />
+<br>
+
+#### <b>1.3.1.1 System Interfaces</b> <a name="1.3.1.1-system-interfaces" />
 The system interfaces will be the platforms that the application will be running on. The list below will be the systems used for the application. 
 
 * The myJym app will run on mobile services. 
 * The myJym app will run on web services. 
 * The myJym app will connect to google authentication for login credentials. 
 
-#### 1.3.1.2 User Interfaces <a name="1.3.1.2-user-interfaces" />
+<br>
+
+#### <b>1.3.1.2 User Interfaces</b> <a name="1.3.1.2-user-interfaces" />
 The user interfaces will be the functionality of the app. This functionality is what the user will see when in the app.  
 
 * The myJym app will include a built-in messaging system to allow communication between users. 
@@ -256,12 +263,16 @@ The user interfaces will be the functionality of the app. This functionality is 
 * The myJym app will have a myJym page which will find the gym you will be going to and a built-in map of that gym.
 * The myJym app will allow the user to update their profile through the app.
 
-#### 1.3.1.3 Hardware Interfaces <a name="1.3.1.3-hardware-interfaces" />
+<br>
+
+#### <b>1.3.1.3 Hardware Interfaces</b> <a name="1.3.1.3-hardware-interfaces" />
 A hardware interface for the myJym app will be using internet and cell services.
 
 * Since the application will be run over the internet and cell service data, most of the hardware requirements will ensure the iOS and android devices are able to connect to the internet. Since myJym will be a fitness app, features of myJym shall require users to have the feature of location tracking for personal coach and exercise equipment tutorial videos on their mobile device. Preferably, iPhone 6 and later gen, for the purpose of app store update reasons. The version of the iOS system shall be 15.1.1, and android system shall be 11.  
 
-#### 1.3.1.4 Software Interfaces <a name="1.3.1.4-software-interfaces" />
+<br>
+
+#### <b>1.3.1.4 Software Interfaces</b> <a name="1.3.1.4-software-interfaces" />
 Software interfaces (programming interfaces) are the languages, codes and messages that programs use to communicate with each other and to the hardware. Examples are the Windows, Mac and Linux operating systems, SMTP email, IP network protocols and the software drivers that activate the peripheral devices. 
 
 * Specify the use of other required software products.  
@@ -269,15 +280,21 @@ Software interfaces (programming interfaces) are the languages, codes and messag
 
     - Linkage: Users shall be allowed to sign up myJym with their existing personal email address to login to their accounts.   
 
-#### 1.3.1.5 Communications Interfaces <a name="1.3.1.5-communications-interfaces" />
+<br>
+
+#### <b>1.3.1.5 Communications Interfaces</b> <a name="1.3.1.5-communications-interfaces" />
 * Communication interfaces shall include communication between the users.
 * Communication interfaces shall include communication between the trainers, including a means of messaging within the app. 
 * Communication shall include a means of communicating with myJym to receive help.
 
-#### 1.3.1.6 Memory <a name="1.3.1.6-memory" />
+<br>
+
+#### <b>1.3.1.6 Memory</b> <a name="1.3.1.6-memory" />
 * Primary memory shall be used to store the user’s data such as profile and user agreements
 
-#### 1.3.1.7 Operations <a name="1.3.1.7-operations" />
+<br>
+
+#### <b>1.3.1.7 Operations</b> <a name="1.3.1.7-operations" />
 * Operations by the user shall include:
     - Creating a profile upon first use of the app
     - Connect with trainers that can offer insight and assistance into the workout  schedule of the user
@@ -287,21 +304,29 @@ Software interfaces (programming interfaces) are the languages, codes and messag
     - Receiving approval from myJym to contact and train users through an approval process
     -Connect with users through messaging and other means through the app to assist with training goals
 
-#### 1.3.1.8 Site Adaption Requirements <a name="1.3.1.8-site-adaption-requirements" />
+<br>
+
+#### <b>1.3.1.8 Site Adaption Requirements</b> <a name="1.3.1.8-site-adaption-requirements" />
 The system must be available in the following formats. 
 * Android 
 * IOS 
 * Web application 
 
-#### 1.3.1.9 Interfaces with Services <a name="1.3.1.9-interfaces-with-services" />
+<br>
+
+#### <b>1.3.1.9 Interfaces with Services</b> <a name="1.3.1.9-interfaces-with-services" />
 The different services that the system will interact with. 
 * Video links from a video provider links to the various workout videos must be accessible 
 * The server will connect accounts to the main database to access the account information 
 
-### 1.3.2 Product Functions <a name="1.3.2-product-functions" />
+<br>
+
+### <b>1.3.2 Product Functions</b> <a name="1.3.2-product-functions" />
 For the product functions of the myJym application the following User Profiles and User Scenarios will be as follows:
 
-#### 1.3.2.1 User Profiles <a name="1.3.2.1-user-profiles" />
+<br>
+
+#### <b>1.3.2.1 User Profiles</b> <a name="1.3.2.1-user-profiles" />
 The following User Profiles define the target demographics for the myJym application:
  - A returned missionary attending BYU-Idaho, in their early twenties, has a busy schedule with work and a heavy course load.
  - A student in their junior year, also attending BYU-Idaho, in their early twenties, they enjoy playing football with their friends and family.
@@ -309,16 +334,19 @@ The following User Profiles define the target demographics for the myJym applica
  - A couple that likes to spend time together by playing sports and working out.
 The application will be available to all age groups and demographics; however, these groups will serve as the focus the application.
 
+<br>
 
-#### 1.3.2.2 User Scenarios <a name="1.3.2.2-user-scenarios" />
+#### <b>1.3.2.2 User Scenarios</b> <a name="1.3.2.2-user-scenarios" />
 The following User Scenarios serve to describe the use cases that have been elicited to be applicable to the product functions of the myJym application:
 - Only being able to attend the gym in the early morning, with no previous time to set a workout routine or research workout machines.
 - Brand new to exercising, there is a fear of feeling inadequate and confused in front of others, and a desire to be helped in a discreet way.
 - Getting burnt out with their current workout routine, and desiring new machines and techniques that can help them develop new routines.
 - A student desires additional experience with a variety of exercises including strength training, endurance training, weight loss, and cardio training to be able to better meet their fitness goals.
 
-### 1.3.3 User Characteristics <a name="1.3.3-user-characteristics" />
-This table is for the user characteristics from the perspective of a trainee user.
+<br>
+
+### <b>1.3.3 User Characteristics</b> <a name="1.3.3-user-characteristics" />
+This table is for the user characteristics from the perspective of a gymgoer.
 | ***User Group***       | ***Trainee***       |
 | -------------    | ------------  |
 | User Profile | This User group will be using the myJym application to connect to a personal trainer, as well as obtain information on workout equipment and techniques. The Trainee will have to register on the myJym application and have time available to meet with a Personal Trainer, learn workout equipment and routines|
@@ -337,8 +365,10 @@ This table is for the user characteristics from the perspective of a trainee use
 | Privacy and Security | Security, as well as user information security, need to be protected via encryption or password.|
 | Graphic Style | Application appearance/graphics should be functional but most importantly readable, there should be no small fonts or distracting colors or images to allow easy use, as well as allow for people with disabilities and international constraints |
 | Fulfillment and reliability | Reliability is essential. The application should always be functional since the ability to constantly communicate between users and trainers should be available |
+
 <br>
-This table is for the user characteristics from the perspective of a trainer user.
+
+This table is for the user characteristics from the perspective of a trainer.
 
 | ***User Group*** | ***Personal Trainer*** |
 |------------- | ---------------- |
@@ -359,38 +389,79 @@ This table is for the user characteristics from the perspective of a trainer use
 | Graphic Style | App appearance/graphics should be functional but most importantly readable, there should be no small fonts or distracting colors or images to allow easy use |
 | Fulfillment and reliability | Reliability is essential, the application should be always functional since ability to constantly communicate between users and trainers should be available |
 
+<br>
 
-
-### 1.3.4 Limitations <a name="1.3.4-limitations" />
+### <b>1.3.4 Limitations</b> <a name="1.3.4-limitations" />
 The limitations of myJym are defined in the following subsections. 
-#### 1.3.4.1 Regulatory Requirements and Policies <a name="1.3.4.1-regulatory-requirements-and-policies" />
+
+<br>
+
+#### <b>1.3.4.1 Regulatory Requirements and Policies</b> <a name="1.3.4.1-regulatory-requirements-and-policies" />
 HIPPA / GDPR - Restrictions on collecting personal information. Important to be transparent. Ensure that personal information does not have to be given to operate, only given voluntarily.
-#### 1.3.4.2 Hardware Limitations (e.g., signal timing requirements) <a name="1.3.4.2-hardware-limitations" />
+
+<br>
+
+#### <b>1.3.4.2 Hardware Limitations</b> <a name="1.3.4.2-hardware-limitations" />
 Hardware requirements are a camera, internet access, and a smart phone. The computers of the development team are a limiting factor. 
-#### 1.3.4.3 Interfaces to Other Applications <a name="1.3.4.3-interfaces-to-other-applications" />
+
+<br>
+
+#### <b>1.3.4.3 Interfaces to Other Applications</b> <a name="1.3.4.3-interfaces-to-other-applications" />
 One limitation of interfacing with other applications would be the licensing of a third-party video service. The video service might also run ads, this hurt the user experience. The messaging service could require the user to create an account, this could deter some users from using the app. 
-#### 1.3.4.4 Parallel Operation <a name="1.3.4.4-parallel-operation" />
+
+<br>
+
+#### <b>1.3.4.4 Parallel Operation</b> <a name="1.3.4.4-parallel-operation" />
 Calorie tracking will require the use of a smart watch or fitness tracker which not everyone will have. Bluetooth would be used to connect the devices; Bluetooth could cause problems for less tech savvy users. 
-#### 1.3.4.5 Audit Functions <a name="1.3.4.5-audit-functions" />
+
+<br>
+
+#### <b>1.3.4.5 Audit Functions</b> <a name="1.3.4.5-audit-functions" />
 There are no audit functions in version 1.0 of this product.
-#### 1.3.4.6 Control Functions <a name="1.3.4.6-control-functions" />
+
+<br>
+
+#### <b>1.3.4.6 Control Functions</b> <a name="1.3.4.6-control-functions" />
 There are no control functions for version 1.0 of this product.
-#### 1.3.4.7 Higher-Order Language Requirements <a name="1.3.4.7-higher-order-language-requirements" />
+
+<br>
+
+#### <b>1.3.4.7 Higher-Order Language Requirements</b> <a name="1.3.4.7-higher-order-language-requirements" />
 Since this is a mobile application two different apps need to be written, one for android and one for apple. This will require the use of Kotlin and Swift so the developers will need to learn or know at least one of these languages. This could also cause problems in ensuring that the apps are the same. A way to get around this would be to use a web app using Django, HTML, CSS, and JS. 
-#### 1.3.4.8 Signal Handshake Protocols <a name="1.3.4.8-signal-handshake-protocols" />
+
+<br>
+
+#### <b>1.3.4.8 Signal Handshake Protocols</b> <a name="1.3.4.8-signal-handshake-protocols" />
 There are no signal handshake protocols for version 1.0 of this product.
-#### 1.3.4.9 Quality Requirements (e.g., reliability) <a name="1.3.4.9-quality-requirements" />
+
+<br>
+
+#### <b>1.3.4.9 Quality Requirements</b> <a name="1.3.4.9-quality-requirements" />
 There are no quality requirements for version 1.0 of this product. 
-#### 1.3.4.10 Criticality of the Application <a name="1.3.4.10-criticality-of-the-application" />
+
+<br>
+
+#### <b>1.3.4.10 Criticality of the Application</b> <a name="1.3.4.10-criticality-of-the-application" />
 There is no criticality of the application for version 1.0 of this product.
-#### 1.3.4.11 Safety and Security Considerations <a name="1.3.4.11-safety-and-security-considerations" />
+
+<br>
+
+#### <b>1.3.4.11 Safety and Security Considerations</b> <a name="1.3.4.11-safety-and-security-considerations" />
 There are no safety and security consideration limitations for version 1.0 of this product.
-#### 1.3.4.12 Physical/Mental Considerations <a name="1.3.4.12-physical/mental-considerations" />
+
+<br>
+
+#### <b>1.3.4.12 Physical/Mental Considerations</b> <a name="1.3.4.12-physical/mental-considerations" />
 The system will need to consider the physical limitations of the gym goer. The system will need to include a liability waiver in the terms and conditions. 
-#### 1.3.4.13 External System Limitations <a name="1.3.4.13-external-system-limitations" />
+
+<br>
+
+#### <b>1.3.4.13 External System Limitations</b> <a name="1.3.4.13-external-system-limitations" />
 The limitations of a video streaming service will apply to the app. 
 
-## 1.4 Definitions: <a name="1.4-definitions" />
+<br>
+
+## <b>1.4 Definitions:</b> <a name="1.4-definitions" />
 This is a comprehensive list of needed definitions used by the myJym application:
 | Word   |  Definition |
 | ------ | -------     |
@@ -454,47 +525,62 @@ This is a comprehensive list of needed definitions used by the myJym application
 | Pixels Per Inch (PPI) | The is how the resolution of a display is measure based on the amount of pixels across one inch on the screen. |
 <br>
 
-# 1.5 Table of Tables <a name="1.5-table-of-tables" />
-[1.3.3 User Characteristics](#1.3.3-user-characteristics)
-[1.4 Definitions](#1.4-definitions)
+## <b>1.5 Table of Tables</b> <a name="1.5-table-of-tables" />
+| Table | Link |
+|---------|----------------------------------------------------------------------|
+| 1.2.3 | [1.2.3 Included Core Features](#1.2.3-included-core-features) | 
+| 1.2.4 | [1.2.4 Excluded Features](#1.2.4-excluded-features) | 
+| 1.3.3 | [1.3.3 User Characteristics](#1.3.3-user-characteristics) | 
+| 1.4 | [1.4 Definitions](#1.4-definitions) | 
+| 3.0 | [3.0 Requirements](#3.0-requirements) | 
+| 4.0 | [4.0 Validation](#4.0-validation) | 
 
-# 2.0 References <a name="2.0-references" />
+<br>
+<br>
+
+# <b>2.0 References</b> <a name="2.0-references" />
 [1] S.R.O., Eccam. “Example Software Requirements Specification (SRS)  ReqView Documentation.” ReqView, 2018, www.reqview.com/doc/iso-iec-ieee-29148-srs-example.
 
 [2] IIEEE, " 29148-2018 - ISO/IEC/IEEE International Standard - Systems and software engineering -- Life cycle processes -- Requirements engineering " pp. 56-87, Jul. 2018. [Online] Available: https://ieeexplore-ieee-org.byui.idm.oclc.org/document/8559686 
 
 [3] “Macintosh Operating System (Mac OS).” Techopedia, techopedia, 2012, www.techopedia.com/definition/2639/macintosh-operating-system-mac-os.
 
-[5] Brother Clements' myJym Diagram, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/brother-clements-myjym-diagram.jpg
+[4] Brother Clements' myJym Diagram, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/brother-clements-myjym-diagram.jpg
 
-[6] Initial SRS sections, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/initial-srs-sections.jpg
+[5] Initial SRS sections, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/initial-srs-sections.jpg
 
-[7] myJym Diagram v0.5, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v0.5.jpg
+[6] myJym Diagram v0.5, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v0.5.jpg
 
-[8] myJym Diagram v1.0, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v1.0.jpg
+[7] myJym Diagram v1.0, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v1.0.jpg
 
-[9] myJym Diagram v2.0, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v2.0.png
+[8] myJym Diagram v2.0, https://github.com/voyager1winterberry/cse372-01srs/tree/main/Images/myjym-diagram-v2.0.png
+
+<br>
 <br>
 
-# 3.0 Requirements <a name="3.0-requirements" />
-Workflow of the document:
-1. Login Page & Homepage 3.4
-2. My Trainer
-3. My Workout 
-4. My Video
-The current order is for convenience's sake.
+# <b>3.0 Requirements</b> <a name="3.0-requirements" />
+This section was written and ordered in the manner that was most convenient for workflow. However, the ideal order to read this section of the document is:
+| Section | Title Name|
+|---------|----------------------------------------------------------------------|
+| 3.4 | Login Page & Homepage | 
+| 3.1 | My Trainer |
+| 3.5 | My Workout |
+| 3.3 | My Video |
+| 3.2 | My Gym Map |
 
-## 3.1 My Trainer <a name="3.1-my-trainer" />
+<br>
+
+## <b>3.1 My Trainer</b> <a name="3.1-my-trainer" />
 The My trainer portion is a page accessible through the homepage.
 
 <br>
 
-### 3.1.1 External Interfaces <a name="3.1.1-external-interfaces" />
+### <b>3.1.1 External Interfaces</b> <a name="3.1.1-external-interfaces" />
 The external interfaces section will cover 3rd party programs that will be used.
 
 <br>
 
-#### 3.1.1.1 Google Authentication <a name="3.1.1.1-google-authentication" />
+#### <b>3.1.1.1 Google Authentication</b> <a name="3.1.1.1-google-authentication" />
 Google authentication will check the authentication and security of the my trainers login page.
 
 ***3.1.1.1.1*** Google Authentication API shall be used by gymgoers and trainers to login to their accounts. <br>
@@ -503,7 +589,7 @@ Google authentication will check the authentication and security of the my train
 
 <br>
 
-## 3.1.2 Functions <a name="3.1.2-functions" />
+## <b>3.1.2 Functions</b> <a name="3.1.2-functions" />
 The myJym application will allow users to view the My Trainer page and receive system notifications. 
 
 ***3.1.2.1*** The myJym application shall send users Notifications. <br>
@@ -515,7 +601,7 @@ The myJym application will allow users to view the My Trainer page and receive s
 
 <br>
 
-### 3.1.2.1 Notifications <a name="3.1.2.1-notifications" />
+### <b>3.1.2.1 Notifications</b> <a name="3.1.2.1-notifications" />
 Notifications will allow users to receive notifications on their device about scheduled workouts and sent messages.
 
 ***3.1.2.1.1*** A notification shall be sent to the user’s devices when a user sets a time for their workout. <br>
@@ -523,7 +609,7 @@ Notifications will allow users to receive notifications on their device about sc
 
 <br>
 
-### 3.1.2.2 View Trainer Profile <a name="3.1.2.2-view-trainer-profile" />
+### <b>3.1.2.2 View Trainer Profile</b> <a name="3.1.2.2-view-trainer-profile" />
 The trainer profile will provide a viewable page for users with the trainer's photo, short bio, video links from a video provider, a follow button, a link to workouts created by the trainer, and a button to message the trainer.
 
 ***3.1.2.2.1*** Trainer profile shall be viewable by gymgoers. <br>
@@ -540,7 +626,7 @@ The trainer profile will provide a viewable page for users with the trainer's ph
 
 <br>
 
-### 3.1.2.3 Update Profile <a name="3.1.2.3-edit-profile" />
+### <b>3.1.2.3 Update Profile</b> <a name="3.1.2.3-edit-profile" />
 The update profile function will allow any user to make changes to their profile. 
 
 ***3.1.2.3.1*** Update Profile shall allow any user to update their own picture. <br>
@@ -550,7 +636,7 @@ The update profile function will allow any user to make changes to their profile
 
 <br>
 
-### 3.1.2.4 Search Trainer <a name="3.1.2.4-search-trainer" />
+### <b>3.1.2.4 Search Trainer</b> <a name="3.1.2.4-search-trainer" />
 Search trainer will allow users to search for trainers by name, location, and workout. 
 
 ***3.1.2.4.1*** The system shall have a search bar. <br>
@@ -561,7 +647,7 @@ Search trainer will allow users to search for trainers by name, location, and wo
 
 <br>
 
-### 3.1.2.5 Message Trainer <a name="3.1.2.5-message-trainer" />
+### <b>3.1.2.5 Message Trainer</b> <a name="3.1.2.5-message-trainer" />
 Message trainer will allow a user to communicate with a trainer. 
 
 ***3.1.2.5.1*** Message Trainer shall give a user the ability to send messages to a trainer. <br>
@@ -571,7 +657,7 @@ Message trainer will allow a user to communicate with a trainer.
 
 <br>
 
-### 3.1.2.6 Message Users <a name="3.1.2.6-message-users" />
+### <b>3.1.2.6 Message Users</b> <a name="3.1.2.6-message-users" />
 Message Users shall allow the trainer to communicate with users. 
 
 ***3.1.2.6.1*** Message users shall give trainers the ability to send messages to users. <br>
@@ -582,7 +668,7 @@ Message Users shall allow the trainer to communicate with users.
 
 <br>
 
-## 3.1.3 Usability Requirements <a name="3.1.3-usability-requirements" />
+## <b>3.1.3 Usability Requirements</b> <a name="3.1.3-usability-requirements" />
 Requirements that are part of the user experience. It is the different aspects of the system such as understandability, accessibility, task failure and more that impact how a user views and uses the system.  
 
 ***3.1.3.1*** Ease of learning. The system shall be easy to learn for both novices and users with experience from similar systems. Users familiar with similar systems shall be able to create a new account with minimal errors. <br>
@@ -596,7 +682,7 @@ Requirements that are part of the user experience. It is the different aspects o
 
 <br>
 
-## 3.1.4 Performance Requirements <a name="3.1.4-performance-requirements" />
+## <b>3.1.4 Performance Requirements</b> <a name="3.1.4-performance-requirements" />
 The performance requirements are showing the performance of unique features of my trainer page. The list will be a list of the features of my trainer page. 
 
 ***3.1.4.1*** My trainer page shall load when the user navigates to my trainer page. <br>
@@ -611,11 +697,11 @@ The performance requirements are showing the performance of unique features of m
  
 <br>
 
-## 3.1.5 Logical Database Requirements <a name="3.1.5-logical-database-requirements" />
+## <b>3.1.5 Logical Database Requirements</b> <a name="3.1.5-logical-database-requirements" />
 
 <br>
 
-### 3.1.5.1 Types of information used by various functions <a name="3.1.5.1-types-of-information-used-by-various-functions" /> 
+### <b>3.1.5.1 Types of Information Used by Various Functions</b> <a name="3.1.5.1-types-of-information-used-by-various-functions" /> 
 The system shall include several types of data for each account.  
 
 ***3.1.5.1.1*** My Trainer shall store a trainers first name. <br>
@@ -625,14 +711,14 @@ The system shall include several types of data for each account.
 
 <br>
 
-### 3.1.5.2 Frequency of use  
+### <b>3.1.5.2 Frequency of Use</b>  
 Data shall not be reused between accounts. This will require all emails and primary keys to be unique to each account. 
     
 ***3.1.5.2.1*** Email data types shall be used for a single account. <br>  
 
 <br>
 
-### 3.1.5.3 Accessing Capabilities  
+### <b>3.1.5.3 Accessing Capabilities</b>
 The following is the different access that should be given between accounts. 
 
 ***3.1.5.3.1*** Trainers shall have access to User Data first name. <br>
@@ -643,7 +729,7 @@ The following is the different access that should be given between accounts.
 
 <br>
 
-### 3.1.5.4 Integrity Constraints  
+### <b>3.1.5.4 Integrity Constraints</b> 
 The following are constraints and regulations on the data within the database. 
 
 ***3.1.5.4.1*** Data entries shall be possible entries. <br>
@@ -653,7 +739,7 @@ The following are constraints and regulations on the data within the database.
 
 <br>
 
-### 3.1.5.5 Security  
+### <b>3.1.5.5 Security</b>  
 The following refers to account security and the different measures that should be taken to ensure account safety.  
 
 ***3.1.5.5.1*** Trainer accounts shall utilize google sign-in to access their account. <br>
@@ -664,7 +750,7 @@ The following refers to account security and the different measures that should 
 
 <br>
 
-## 3.1.6 Design Constraints <a name="3.1.6-design-constraints" />
+## <b>3.1.6 Design Constraints</b> <a name="3.1.6-design-constraints" />
 Design constraints are conditions that need to happen for a project to be successful. Design constraints help narrow choices when creating a project. 
 
 ***3.1.6.1*** The system users shall specify the requirements for My Trainer and ensure to understand these requirements meet their demands and needs. <br>
@@ -678,19 +764,19 @@ Design constraints are conditions that need to happen for a project to be succes
 
 <br>
 
-## 3.1.7 Software System Attributes <a name="3.1.7-software-system-attributes" />
+## <b>3.1.7 Software System Attributes</b> <a name="3.1.7-software-system-attributes" />
 Software Quality Attributes:  Features that facilitate the measurement of performance of a software product by Software Testing professionals, and include attributes such as availability, interoperability, correctness, reliability, learnability, robustness, maintainability, readability, extensibility, testability.
 
 <br>
 
-### 3.1.7.1 Reliability <a name="3.1.7.1-reliability" />
+### <b>3.1.7.1 Reliability</b> <a name="3.1.7.1-reliability" />
 ***3.1.7.1.1*** Applications shall not have errors within the codes to cause applications to close or crash. <br>
 ***3.1.7.1.2*** There will be functions within the software that performs verifications to notice errors before the application break or force closes. <br>
 ***3.1.7.1.3*** The system shall verify the information that matches from the server and the application. <br>
 
 <br>
 
-### 3.1.7.2 Security <a name="3.1.7.2-security" />
+### <b>3.1.7.2 Security</b> <a name="3.1.7.2-security" />
 ***3.1.7.2.1*** Password Protection and Encryption <br>
 ***3.1.7.2.2*** User account creation <br>
 ***3.1.7.2.3*** User information shall be available to users and those have access. <br>
@@ -698,7 +784,7 @@ Software Quality Attributes:  Features that facilitate the measurement of perfor
 
 <br>
 
-### 3.1.7.3 Data Privacy <a name="3.1.7.3-data-privacy" />
+### <b>3.1.7.3 Data Privacy</b> <a name="3.1.7.3-data-privacy" />
 ***3.1.7.3.1*** User’s data shall be hidden from all other users and parties. <br>
 ***3.1.7.3.2*** Login Information <br>
 ***3.1.7.3.3*** Creating an account shall be safe and secure. <br>
@@ -707,51 +793,72 @@ Software Quality Attributes:  Features that facilitate the measurement of perfor
 
 <br>
 
-### 3.1.7.4 Maintainability <a name="3.1.7.4-maintainability" />
+### <b>3.1.7.4 Maintainability</b> <a name="3.1.7.4-maintainability" />
 ***3.1.7.4.1*** Users shall be allowed to report to the administration team if they forget their password, and need to have a reset password email sent to their personal email that has been registered on their myJym account. <br>
 ***3.1.7.4.1*** An automatic email shall be sent to the user's email address to allow the user to reset their password. <br>
 
 <br>
 
-### 3.1.7.5 Portability <a name="3.1.7.5-portability" />
+### <b>3.1.7.5 Portability</b> <a name="3.1.7.5-portability" />
 ***3.1.7.5.1*** System Database shall store user information. <br>
 ***3.1.7.5.2*** myJym application shall run on both Android and iOS mobile interface. <br>
 
-## 3.1.8 Supporting Information <a name="3.1.8-supporting-information" />
+## <b>3.1.8 Supporting Information</b> <a name="3.1.8-supporting-information" />
 ![Design Constraints Image](Images/SupportingInfoImage.png)
 
 <br>
 
-## 3.2 Gym Map <a name="3.2-gym-map" /> <!-- Team 2 -->
-The map of the gym used by the MyJym application and its requirements will be detailed in this section. <br>
+## <b>3.2 Gym Map</b> <a name="3.2-gym-map" /> <!-- Team 2 -->
+The map of the gym used by the MyJym application and its requirements will be detailed in this section.
+
+<br>
+
 ### 3.2.1 External Interfaces <a name="3.2.1-external-interfaces" />
 ***3.2.1.1*** The map shall utilize the System Database to obtain needed information for the map generation. <br>
+
+<br>
+
 ***3.2.1.1*** The map search bar shall obtain user data from the **System Database**. <br>
+
+<br>
+
 ### 3.2.2 Functions <a name="3.2.2-functions" />
-Functions of the gym map and its associated features are detailed below: <br>
+Functions of the gym map and its associated features are detailed below:
+
+<br>
+
 #### 3.2.2.1 Map Display <a name="3.2.2.1-map-display" />
 The map display will be responsible for how the various graphical display elements will be handled. 
-These are as follows: <br> <br>
+These are as follows:<br>
 ***3.2.2.1.1*** The map shall organize gym equipment according to a configuration file. <br>
 ***3.2.2.1.2*** The map shall organize gym services according to a configuration file. <br>
 ***3.2.2.1.3*** When an abnormal state is encountered the map shall stop and refresh. <br>
 ***3.2.2.1.4*** The map shall support modification to facility locations by a system administrator. <br>
 ***3.2.2.1.5*** A simple tutorial of using the map shall display the first time a user opens to that view. <br>
+
+<br>
+
 #### 3.2.2.2 Map Search Function <a name="3.2.2.2-map-search-function" />
-The map features a search bar with the following capabilities: <br><br>
+The map features a search bar with the following capabilities: <br>
 ***3.2.2.2.1*** The map search bar shall perform validation on inputs matching them to gym functions. <br>
 ***3.2.2.2.2*** The map shall provide a search bar used to locate gym functions. <br>
 ***3.2.2.2.3*** The map search bar shall be a modeless interface not restricting user input to other parts of the application. <br>
 ***3.2.2.2.4*** Facilities in the gym shall be searchable by name through the map search bar. <br>
+
+<br>
+
 #### 3.2.2.3 Map Navigation <a name="3.2.2.3-map-navigation" />
-The requirements for navigating on the map are as follows: <br> <br>
+The requirements for navigating on the map are as follows: <br>
 ***3.2.2.3.1*** The map shall be scrollable edge to edge. <br>
 ***3.2.2.3.2*** The map shall support zooming, detecting when a zoom request is made. <br>
 ***3.2.2.3.3*** Gym function icons shall be interactable to view options related to that function. <br>
+
+<br>
+
 ### 3.2.3 Usability Requirements <a name="3.2.3-usability-requirements" />
 For the myJym app the usability requirements serve to increase the usability for the user include the ease of learning, task efficiency, ease of remembering, understandability, task failure, and accessibility. These are criteria which serve to increase the usability of myJym.
 
-These are as follows: <br> <br>
+These are as follows: <br>
 ***3.2.3.1*** Ease of learning- The map shall be intuitive allowing the user to easily form a mental model of its workings. This will be facilitated by a clean organization for the display elements of the map. <br>
 ***3.2.3.2*** Task efficiency- The map shall facilitate a user quickly identifying where they should be in the gym to complete their desired activity. <br>
 ***3.2.3.3*** Ease of remembering. The map shall utilize simple command formats to ensure users are capable of creating a mental model of the map functionalities. <br>
@@ -759,39 +866,55 @@ These are as follows: <br> <br>
 ***3.2.3.5*** Task failure. When encountering a task failure, the map shall stop its operation and refresh. <br>
 ***3.2.3.6*** Accessibility. Map iconography shall be created based upon commonly recognized symbols. <br>
 
+<br>
 
 ### 3.2.4 Performance Requirements <a name="3.2.4-performance-requirements" />
 The performance requirements of the system for the myJym map feature will define the performance capabilities and how various conditions will impact their operation.
 
-These are as follows: <br> <br>
+These are as follows: <br>
 ***3.2.4.1*** The map shall prioritize loading of graphical display elements prior to lower priority tasks. <br>
 ***3.2.4.2*** The map search functionality shall return results in higher performant step timing than** O**(n log n). <br>
 ***3.2.4.3*** The map shall allow interaction with elements after a predetermined time post loading. <br>
 
+<br>
+
 ### 3.2.5 Logical Database Requirements <a name="3.2.5-logical-database-requirements" />
 The data used by the gym map and its state will be detailed here as follows: <br>
 
+<br>
+
 #### 3.2.5.1 Types of information used by various functions <a name="3.2.5.1-types-of-information-used-by-various-functions" />
-The following will be the information used by the myJym map to perform it's required functions: <br> <br>
+The following will be the information used by the myJym map to perform it's required functions: <br>
 ***3.2.5.1.1*** The map shall store the icons for the map as a data construct. <br>
 ***3.2.5.1.2*** The map shall use search inputs to retrieve data from the **System Database**. <br>
 
+<br>
+
 #### 3.2.5.2 Frequency of use <a name="3.2.5.2-frequency-of-use" />
-The following will define how often the various functionalities of the myJym map will be accessed. <br> <br>
+The following will define how often the various functionalities of the myJym map will be accessed. <br>
 ***3.2.5.2.1*** Map icons shall be loaded into memory from the **System Database** when the view is selected. <br>
 ***3.2.5.2.2*** The map search functionality shall be accessible on demand.<br>
+
+<br>
+
 #### 3.2.5.3 Accessing Capabilities <a name="3.2.5.3-accessing-capabilities" />
-The map will be able to be accessed from and have access to the following: <br> <br>
+The map will be able to be accessed from and have access to the following: <br>
 ***3.2.5.3.1*** The map shall be accessible from the home page of the myJym application. <br>
 ***3.2.5.3.2*** The map shall have access to the **System Database** to access gym equipment locations. <br>
 ***3.2.5.3.3*** The map shall have access to the **System Database** to return search results. <br>
+
+<br>
+
 #### 3.2.5.4 Data entities and their relationships <a name="3.2.5.4-data-entities-and-their-relationships" />
-The data entities will have the following relationships: <br> <br>
+The data entities will have the following relationships: <br>
 ***3.2.5.4.1*** The map shall handle data for the exercise machine locations. <br>
 ***3.2.5.4.2*** The map shall handle data for the exercise machine images. <br>
 ***3.2.5.4.3*** The map shall handle data for the map search bar results. <br>
+
+<br>
+
 #### 3.2.5.5 Integrity Constraints <a name="3.2.5.5-integrity-constraints" />
-The data stored by the map will be subject to the following integrity constraints: <br> <br>
+The data stored by the map will be subject to the following integrity constraints: <br>
 ***3.2.5.5.1*** Map icons shall be entries to the database. <br>
 ***3.2.5.5.2*** Map data shall be formatted to match the conventions of the database. <br>
 #### 3.2.5.6 Security <a name="3.2.5.6-security" />
@@ -800,25 +923,40 @@ The map data security will apply as follows: <br> <br>
 ### 3.2.6 Design Constraints <a name="3.2.6-design-constraints" />
 The design constraints of the map, the limitations on its design, will be as follows: <br> <br>
 ***3.2.6.1*** The interactable map features shall provide sufficient **Pixels Per Inch** that the average human is able to cleanly select them. <br>
+
+<br>
+
 ### 3.2.7 Software System Attributes <a name="3.2.7-software-system-attributes">
-The system attributes used by the myJym app will detail the reliability and availability of the map: <br> <br>
+The system attributes used by the myJym app will detail the reliability and availability of the map: <br>
 ***3.2.7.1*** The map shall be available when the application has been opened to the home page. <br>
 ***3.2.7.2*** The map shall be available offline when not internet connectivity is available. <br>
+
+<br>
+
 #### 3.2.7.1 Reliability <a name="3.2.7.1-reliability" />
-The factors of reliability for the myJym map shall be as follows: <br> <br>
+The factors of reliability for the myJym map shall be as follows: <br>
 ***3.2.7.1.1*** The maps delivered to the user on MyJym shall deliver accurate data based on the information in the **System Database.** <br>
 ***3.2.7.1.2*** The MyJym map shall be retained in memory while the myJym application is focused on a separate page. <br>
+
+<br>
+
 #### 3.2.7.2 Security <a name="3.2.7.2-security" />
-The following act to maintain the integrity and security of the myJym map: <br> <br>
+The following act to maintain the integrity and security of the myJym map: <br>
 ***3.2.7.2.1*** The map shall only be editable by an admin. <br>
 
+<br>
 	
-## 3.3 MyJym Videos  <a name="3.3-myjym-videos" /> <!-- team 3's work -->
+## <b>3.3 MyJym Videos</b> <a name="3.3-myjym-videos" /> <!-- team 3's work -->
 
 This Specification section explains the MyJym application in detail, the specification goes over eight categories. Such as external interfaces, functionality, usability, performance, database, design constraints, and software system attribute requirements for the MyJym application. 
 
+<br>
+
 ### 3.3.1 External Interfaces Specification <a name="3.3.1-external-interfaces-specifications" />
 This section defines the inputs and outputs of the MyJym application.<br>
+
+<br>
+
 #### 3.3.1.1 Database <a name="3.3.1.1-database" />
 This shows the what columns will be included to create the database. The specific column requirements are listed in section 3.5<br>
 ***3.3.1.1.1*** The database shall store workout title<br>
@@ -826,16 +964,21 @@ This shows the what columns will be included to create the database. The specifi
 ***3.3.1.1.3*** The database shall store workout description<br>
 ***3.3.1.1.4*** The database shall store the image links
 
+<br>
+
 #### 3.3.1.2 Video Streaming <a name="3.3.1.2-video-streaming" />
 The API for a video streaming website will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
 
 ***3.3.1.2.1*** Gymgoers shall have the ability to access workout videos
+
+<br>
 	
 ### 3.3.2 Functions <a name="3.3.2-functions" />
 This section is responsible for explaining myJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
 
-#### 3.3.2.1 My Video <a name="3.3.2.1-my-video" />
+<br>
 
+#### 3.3.2.1 My Video <a name="3.3.2.1-my-video" />
 The purpose of the following section provides the capabilities of the video page. This represents an individual user for the MyJym application.<br>
 
 ***3.3.2.1.1*** The My Video page shall display a workout title.<br>
@@ -843,11 +986,15 @@ The purpose of the following section provides the capabilities of the video page
 ***3.3.2.1.3*** The My Video page shall display a workout video.<br>
 ***3.3.2.1.4*** The My Video page shall provide a save video button.<br>
 
+<br>
+
 ### 3.3.3 Usability Requirements <a name="3.3.3-usability-requirement" />
 This section lists the quality and use requirements for the MyJym application. Including measurable effectiveness and satisfaction criteria for the My Video feature. <br>
 ***3.3.3.1*** User shall be able to save a selected video<br>
 ***3.3.3.2*** User shall be able to view the workout video<br>
 ***3.3.3.3*** User shall be able to view saved videos<br>
+
+<br>
 	
 ### 3.3.4 Performance requirements <a name="3.3.4-performance-requirements" />
 For the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.<br>
@@ -855,6 +1002,8 @@ For the MyJym application to meet performance standards, there are specific requ
 ***3.3.4.2*** The user shall only be able to save one video link per exercise.<br>
 ***3.3.4.3*** The My Video page shall support a configurable amount of workouts<br>
 ***3.3.4.4*** The My Video page shall support a configurable amount of workouts videos<br>
+
+<br>
 
 ### 3.3.5 Logical Database Requirements <a name="3.3.5-logical-database-requirements" />
 
@@ -865,32 +1014,54 @@ The MyJym database shall store all the tables that are necessary for storing inf
 ***3.3.5.3*** The workout table shall contain a video link column<br>
 ***3.3.5.4*** The workout table shall contain a workout id column that acts as a primary key<br>
 
+<br>
+
 ### 3.3.6 Design Constraints <a name="3.3.6-design-constraints" />
 This section specifies the constraints with the myJym application that would arise from project limitations, external standards, and specific requirements.<br>
 ***3.3.6.1*** The user shall only be able to save workout the video<br>
 
+<br>
+
 ### 3.3.7 Software System Attributes <a name="3.3.7-software-system-attributes" />
+
+<br>
+
 #### 3.3.7.1 Reliability <a name="3.3.7.1-reliability" />
 Specifies factors required to establish reliability of the myJym application at the time of delivery.<br>
 	
 ***3.3.7.1.1*** The system shall exit immediately when a user finds an error.
 ***3.3.7.1.2*** The app shall check that locally stored user information matches what is stored in a database.
+
+<br>
+
 #### 3.3.7.2 Security <a name="3.3.7.2-security" />
 Specifies the factors required to guarantee a defined level of availability for the myJym application in regards to the workout videos. <br>	
 ***3.3.7.2.1*** The user shall only be able to add approved video links to an exercise.
+
+<br>
+
 #### 3.3.7.3 Maintainability <a name="3.3.7.3-maintainability" />
 Specifies the factors required to define a level of maintainability for the myJym application. <br>	
 ***3.3.7.3.1*** App administrators shall be able to remove inappropriate content.<br>
+
+<br>
 	
 ### 3.3.8 Supporting Information <a name="3.3.8-supporting-information" />
 N/A<br>
 
-## 3.4 Login & Homepage <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
-The first pages that the user will see. The user will login and then use the homepage to access the various features of the application.<br>  
+<br>
+
+## <b>3.4 Login & Homepage</b> <a name="3.4-login-&-homepage" /> <!-- 3.4 is Team 5's work -->
+The first pages that the user will see. The user will login and then use the homepage to access the various features of the application.<br> 
+
+<br>
+
 ### 3.4.1 External Interfaces <a name="3.4.1-external-interfaces" />
 Communication with third party applications. The login page requires external interfaces to function. The following list details necessary external interfaces. 
 ***3.4.1.1*** The login page shall provide the ability to login to an account using login credentials.  <br>
 ***3.4.1.2*** The system shall send an automated password recovery email to the user on request  
+<br>
+
 <br>
 
 ### 3.4.2 Functions <a name="3.4.2-functions" />
@@ -905,14 +1076,20 @@ Operations that the system can perform. The following list details operations th
 ***3.4.2.8*** The system shall check the login credentials against the database. 
 <br>
 
+<br>
+
 ### 3.4.3 Usability Requirements <a name="3.4.3-usability-requirements" />
 Requirements relating to the ease of use of the application.  
 ***3.4.3.1*** The login page shall inform the user of password requirements.
 ***3.4.3.2*** The login page shall allow the user to enter login credentials.<br>
 
+<br>
+
 ### 3.4.4 Performance Requirements <a name="3.4.4-performance-requirements" />
 Requirements relating to the performance metrics of the application. 
 ***3.4.4.1*** The system shall have the ability to process login credentials.<br>
+
+<br>
 
 ### 3.4.5 Logical Database Requirements <a name="3.4.5-logical-database-requirements" />
 This section will define what the database will store as the application receives data. 
@@ -922,10 +1099,14 @@ This section will define what the database will store as the application receive
 ***3.4.5.4*** The database shall be accessed by the login page when user credentials are submitted through the login page.
 ***3.4.5.5*** The database shall keep the login credentials of users confidential. <br>
 
+<br>
+
 ### 3.4.6 Design Constraints <a name="3.4.6-design-constraints" />
 The design constraints of myJym are as follows.
 ***3.4.6.1*** The myJym app shall be completed in its entirety by the end of Jared's Senior Project class.
 ***3.4.6.2*** The budget for the myJym app shall be $0.00.<br>
+
+<br>
 
 ### 3.4.7 Software System Attributes <a name="3.4.7-software-system-attributes" />
 Metrics used to describe myJym’s features.<br>
@@ -934,14 +1115,20 @@ Applications distinct types of use.
 ***3.4.7.1.1*** The app shall require the compliance of personal trainers.
 ***3.4.7.1.2*** The app shall require an administrator.<br>
 
+<br>
+
 #### 3.4.7.2 Availability <a name="3.4.7.2-availability" />
 When myJym will be available for use. 
 <br><i>3.4.7.2.1</i><br> The myJym app shall be available on demand of the user.<br>
+
+<br>
 
 #### 3.4.7.3 Security <a name="3.4.7.3-security" />
 Measures of what will be done to protect user’s assets 
 ***3.4.7.3.1*** The system shall encrypt user accounts.
 ***3.4.7.3.2*** The system shall use a protocol to secure online communications.<br>
+
+<br>
 
 #### 3.4.7.4 Portability <a name="3.4.7.4-portability" />
 What will be done to distribute the application. 
@@ -1047,6 +1234,8 @@ This section defines the workout in progress function for the my workout feature
 <b><i>3.5.2.5.3</b></i> My Video page shall display a workout video. [3.3.2.1.3] (Technique: demonstration)<br>
 <b><i>3.5.2.5.4</b></i> My Video page shall provide a save video button. [3.3.2.1.4] (Technique: demonstration)<br>
 </p>
+
+<br>
 	
 ### <b>3.5.3 Usability Requirements</b> <a name="3.5.3-usability-requirements" />
 This section explains the usability and quality of the use requirements and objectives for the myJym application including measurable effectiveness and satisfaction criteria for the my workout feature.
@@ -1131,8 +1320,17 @@ Not applicable for the my workout feature.
 <br>
 <br>
 
-## <b>4.0 Validation</b> <a name="4.0-validation" />
-This section will validate that all features from section 3 will be in working order.       
+# <b>4.0 Validation</b> <a name="4.0-validation" />
+This section will validate that all features from section 3 will be in working order.    
+
+It was written in the same workflow order as section 3. Thus, the ideal order to read this section of the document is:
+| Section | Title Name|
+|---------|----------------------------------------------------------------------|
+| 4.4 | Login Page & Homepage | 
+| 4.1 | My Trainer |
+| 4.5 | My Workout |
+| 4.3 | My Video |
+| 4.2 | My Gym Map |   
 
 <br>
 
@@ -1140,7 +1338,7 @@ This section will validate that all features from section 3 will be in working o
 ### <b>4.1.1 External Interfaces Verification</b> <a name="4.1.1-external-interface-verification" />
 This section will define the verification for the external interfaces for the My Trainer section.
 <p class="tab">
-<b><i>&emsp;4.1.1.1</b></i> Verify the My trainer portion is a page accessible through the homepage. [3.1.1.1] (Technique: demonstration) <br>
+<b><i>4.1.1.1</b></i> Verify the My trainer portion is a page accessible through the homepage. [3.1.1.1] (Technique: demonstration) <br>
 </p>
 
 <br>
@@ -1148,9 +1346,9 @@ This section will define the verification for the external interfaces for the My
 #### <b>4.1.1.1 Google Authentication Verification</b> <a name="4.1.1.1-google-authentication-verification" />
 Verify the google authentication.
 <p class="tab">
-<b><i>&emsp;4.1.1.1.1</b></i> Verify that google authentication API shall be used by users to login to their accounts. [3.1.1.1.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.1.1.2</b></i> Verify that all users shall be able to login to their account using a google account. [3.1.1.1.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.1.1.3</b></i> Verify that all users shall be able to create an account using a google account. [3.1.1.1.3] (Technique: demonstration) <br>
+<b><i>4.1.1.1.1</b></i> Verify that google authentication API shall be used by users to login to their accounts. [3.1.1.1.1] (Technique: demonstration) <br>
+<b><i>4.1.1.1.2</b></i> Verify that all users shall be able to login to their account using a google account. [3.1.1.1.2] (Technique: demonstration) <br>
+<b><i>4.1.1.1.3</b></i> Verify that all users shall be able to create an account using a google account. [3.1.1.1.3] (Technique: demonstration) <br>
 </p>
 
 <br> 
@@ -1159,69 +1357,81 @@ Verify the google authentication.
 This section will verify all the functions of the my trainer page.
 
 <p class="tab">
-<b><i>&emsp;4.1.2.1</b></i> Verify the myJym application shall send users Notifications. [3.1.2.1.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2</b></i> Verify the My Trainer page shall allow users to view trainer profiles. [3.1.2.1.2] (Technique: demonstration) <br>
+<b><i>4.1.2.1</b></i> Verify the myJym application shall send users Notifications. [3.1.2.1.1] (Technique: demonstration) <br>
+<b><i>4.1.2.2</b></i> Verify the My Trainer page shall allow users to view trainer profiles. [3.1.2.1.2] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.2.1 Notifications Verification</b> <a name="4.1.2.1-notifications-verifications" />
 This section defines the verification for notifications.
 <p class="tab">
-<b><i>&emsp;4.1.2.1.1</b></i> Verify the myJym application shall send users Notifications. [3.1.2.1.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.1.2</b></i> Verify the My Trainer page shall allow users to view trainer profiles. [3.1.2.1.2] (Technique: demonstration) <br>
+<b><i>4.1.2.1.1</b></i> Verify the myJym application shall send users Notifications. [3.1.2.1.1] (Technique: demonstration) <br>
+<b><i>4.1.2.1.2</b></i> Verify the My Trainer page shall allow users to view trainer profiles. [3.1.2.1.2] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.2.2 View Trainer Profile Verification</b> <a name="4.1.2.2-view-trainer-profile-verifications" />
 This section defines the verification for viewing trainer profiles.
 <p class="tab">
-<b><i>&emsp;4.1.2.2.1</b></i> Verify the trainer profile shall be viewable by gymgoers. [3.1.2.2.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.2</b></i> Verify the trainer profile shall display a picture of the trainer. [3.1.2.2.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.3</b></i> Verify the trainer profile shall display a short biography of the trainer. [3.1.2.2.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.4</b></i> Verify the trainer profile shall display a clickable link to the trainer’s videos on a video provider. [3.1.2.2.4] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.5</b></i> Verify the “View Workouts” shall be an option on the Trainer profile that allows the user to view a trainer’s created workouts. [3.1.2.2.5] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.6</b></i> Verify the “Message Trainer” shall be an option on the Trainer profile that allows the user to send a message to the trainer. [3.1.2.2.6] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.7</b></i> Verify trainer profiles shall store a trainers first name [3.1.2.2.7] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.8</b></i> Verify trainer profiles shall store a trainer’s last name. [3.1.2.2.8] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.9</b></i> Verify trainer profiles shall store a trainer’s email. [3.1.2.2.9] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.10</b></i> Verify the system shall create a unique ID for each trainer. [3.1.2.2.10] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.2.11</b></i> Verify the system shall create a personal key for each trainer. [3.1.2.2.11] (Technique: demonstration) <br>
+<b><i>4.1.2.2.1</b></i> Verify the trainer profile shall be viewable by gymgoers. [3.1.2.2.1] (Technique: demonstration) <br>
+<b><i>4.1.2.2.2</b></i> Verify the trainer profile shall display a picture of the trainer. [3.1.2.2.2] (Technique: demonstration) <br>
+<b><i>4.1.2.2.3</b></i> Verify the trainer profile shall display a short biography of the trainer. [3.1.2.2.3] (Technique: demonstration) <br>
+<b><i>4.1.2.2.4</b></i> Verify the trainer profile shall display a clickable link to the trainer’s videos on a video provider. [3.1.2.2.4] (Technique: demonstration) <br>
+<b><i>4.1.2.2.5</b></i> Verify the “View Workouts” shall be an option on the Trainer profile that allows the user to view a trainer’s created workouts. [3.1.2.2.5] (Technique: demonstration) <br>
+<b><i>4.1.2.2.6</b></i> Verify the “Message Trainer” shall be an option on the Trainer profile that allows the user to send a message to the trainer. [3.1.2.2.6] (Technique: demonstration) <br>
+<b><i>4.1.2.2.7</b></i> Verify trainer profiles shall store a trainers first name [3.1.2.2.7] (Technique: demonstration) <br>
+<b><i>4.1.2.2.8</b></i> Verify trainer profiles shall store a trainer’s last name. [3.1.2.2.8] (Technique: demonstration) <br>
+<b><i>4.1.2.2.9</b></i> Verify trainer profiles shall store a trainer’s email. [3.1.2.2.9] (Technique: demonstration) <br>
+<b><i>4.1.2.2.10</b></i> Verify the system shall create a unique ID for each trainer. [3.1.2.2.10] (Technique: demonstration) <br>
+<b><i>4.1.2.2.11</b></i> Verify the system shall create a personal key for each trainer. [3.1.2.2.11] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.2.3 Update Profile Verification</b> <a name="4.1.2.3-update-profile-verifications" />
 This section defines the verification for updating profiles.
 <p class="tab">
-<b><i>&emsp;4.1.2.3.1</b></i> Verify update Profile shall allow any user to update their own picture. [3.1.2.3.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.3.2</b></i> Verify update Profile shall allow any user to update a biography text-field. [3.1.2.3.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.3.3</b></i> Verify update Profile shall allow any user to update their personal YouTube link. [3.1.2.3.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.3.4</b></i> Verify update Profile shall allow any user to update their first and last name. [3.1.2.3.4] (Technique: demonstration) <br>
+<b><i>4.1.2.3.1</b></i> Verify update Profile shall allow any user to update their own picture. [3.1.2.3.1] (Technique: demonstration) <br>
+<b><i>4.1.2.3.2</b></i> Verify update Profile shall allow any user to update a biography text-field. [3.1.2.3.2] (Technique: demonstration) <br>
+<b><i>4.1.2.3.3</b></i> Verify update Profile shall allow any user to update their personal YouTube link. [3.1.2.3.3] (Technique: demonstration) <br>
+<b><i>4.1.2.3.4</b></i> Verify update Profile shall allow any user to update their first and last name. [3.1.2.3.4] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.2.4 Search Trainer Verification</b> <a name="4.1.2.4-search-trainer-verifications" />
 This section defines the verification for searching trainers.
 <p class="tab">
-<b><i>&emsp;4.1.2.4.1</b></i> Verify the system shall have a search bar. [3.1.2.4.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.4.2</b></i> Verify a search bar shall be viewable by the user. [3.1.2.4.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.4.3</b></i> Verify search trainer shall allow a user to search for a trainer by name. [3.1.2.4.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.4.4</b></i> Verify search trainer shall allow a user to search for a trainer by location. [3.1.2.4.4] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.4.5</b></i> Verify search trainer shall allow a user to search for a trainer by workouts. [3.1.2.4.5] (Technique: demonstration) <br>
+<b><i>4.1.2.4.1</b></i> Verify the system shall have a search bar. [3.1.2.4.1] (Technique: demonstration) <br>
+<b><i>4.1.2.4.2</b></i> Verify a search bar shall be viewable by the user. [3.1.2.4.2] (Technique: demonstration) <br>
+<b><i>4.1.2.4.3</b></i> Verify search trainer shall allow a user to search for a trainer by name. [3.1.2.4.3] (Technique: demonstration) <br>
+<b><i>4.1.2.4.4</b></i> Verify search trainer shall allow a user to search for a trainer by location. [3.1.2.4.4] (Technique: demonstration) <br>
+<b><i>4.1.2.4.5</b></i> Verify search trainer shall allow a user to search for a trainer by workouts. [3.1.2.4.5] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.2.5</b> Message Trainer Verification<a name="4.1.2.5-message-trainer-verifications" />
 This section defines the verification for messaging trainers.
 <p class="tab">
-<b><i>&emsp;4.1.2.5.1</b></i> Verify message Trainer shall give a user the ability to send messages to a trainer. [3.1.2.5.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.5.2</b></i> Verify message Trainer shall list messages in chronological order. [3.1.2.5.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.5.3</b></i> Verify messages Trainer shall be able to handle messages containing text. [3.1.2.5.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.5.4</b></i> Verify message Trainer shall be able to handle messages containing links.  [3.1.2.5.4] (Technique: demonstration) <br>
+<b><i>4.1.2.5.1</b></i> Verify message Trainer shall give a user the ability to send messages to a trainer. [3.1.2.5.1] (Technique: demonstration) <br>
+<b><i>4.1.2.5.2</b></i> Verify message Trainer shall list messages in chronological order. [3.1.2.5.2] (Technique: demonstration) <br>
+<b><i>4.1.2.5.3</b></i> Verify messages Trainer shall be able to handle messages containing text. [3.1.2.5.3] (Technique: demonstration) <br>
+<b><i>4.1.2.5.4</b></i> Verify message Trainer shall be able to handle messages containing links.  [3.1.2.5.4] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.2.6 Message Users Verification</b> <a name="4.1.2.6-message-users-verifications" />
 This section defines the verification for messaging users.
 <p class="tab">
-<b><i>&emsp;4.1.2.6.1</b></i> Verify message users shall give trainers the ability to send messages to users. [3.1.2.6.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.6.2</b></i> Verify message users shall create a chat between trainer and users. [3.1.2.6.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.6.3</b></i> Verify message users shall list messages in chronological order. [3.1.2.6.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.6.4</b></i> Verify messages Trainer shall be able to handle messages containing text. [3.1.2.6.4] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.2.6.5</b></i> Verify message Trainer shall be able to handle messages containing links [3.1.2.6.5] (Technique: demonstration) <br>
+<b><i>4.1.2.6.1</b></i> Verify message users shall give trainers the ability to send messages to users. [3.1.2.6.1] (Technique: demonstration) <br>
+<b><i>4.1.2.6.2</b></i> Verify message users shall create a chat between trainer and users. [3.1.2.6.2] (Technique: demonstration) <br>
+<b><i>4.1.2.6.3</b></i> Verify message users shall list messages in chronological order. [3.1.2.6.3] (Technique: demonstration) <br>
+<b><i>4.1.2.6.4</b></i> Verify messages Trainer shall be able to handle messages containing text. [3.1.2.6.4] (Technique: demonstration) <br>
+<b><i>4.1.2.6.5</b></i> Verify message Trainer shall be able to handle messages containing links [3.1.2.6.5] (Technique: demonstration) <br>
 </p>
 
 <br>
@@ -1229,19 +1439,19 @@ This section defines the verification for messaging users.
 ### <b>4.1.3 Usability Requirements Verification</b> <a name="4.1.3-usability-requirements-verifications" />
 This section defines the verification for usability requirements.
 <p class="tab">
-<b><i>&emsp; 4.1.3.1</b></i> Verify the system is easy to learn for both novices and users with experience from similar systems through user testing. [3.1.3.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.2</b></i> Verify users familiar with similar systems is able to create a new account with minimal errors through user testing. [3.1.3.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.3</b></i> Verify the system is designed to be simple to use for frequent users through user testing. [3.1.3.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.4</b></i> Verify that frequent users are given an option to be able to access their account without having to sign in each session. [3.1.3.4] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.5</b></i> Verify tasks are able to be completed by the frequent user quickly and efficiently through user testing. [3.1.3.5] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.6</b></i> Verify the system is clear and well defined through user surveying. [3.1.3.6] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.7</b></i> Verify users experienced with this system are able to login to their account quickly(within 5 seconds of opening the app) through user testing. [3.1.3.7] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.8</b></i> Verify a new user is able to navigate to any desired option quickly and efficiently through user testing. [3.1.3.8] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.9</b></i> Verify the system receives a high rating by test groups. [3.1.3.9] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.10</b></i> Verify task failure by the system is kept to a minimum through user testing. [3.1.3.10] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.11</b></i> Verify the system is able to allow users to try things and undo them through user testing. [3.1.3.11] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.12</b></i> Verify the ability to undo is incorporated into any part of the system that stores information, including tasks. [3.1.3.12] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.3.13</b></i> Verify the system is created with elements that ensure that it is accessible to adults ranging from 18-40. [3.1.3.13] (Technique: demonstration) <br>
+<b><i>4.1.3.1</b></i> Verify the system is easy to learn for both novices and users with experience from similar systems through user testing. [3.1.3.1] (Technique: demonstration) <br>
+<b><i>4.1.3.2</b></i> Verify users familiar with similar systems is able to create a new account with minimal errors through user testing. [3.1.3.2] (Technique: demonstration) <br>
+<b><i>4.1.3.3</b></i> Verify the system is designed to be simple to use for frequent users through user testing. [3.1.3.3] (Technique: demonstration) <br>
+<b><i>4.1.3.4</b></i> Verify that frequent users are given an option to be able to access their account without having to sign in each session. [3.1.3.4] (Technique: demonstration) <br>
+<b><i>4.1.3.5</b></i> Verify tasks are able to be completed by the frequent user quickly and efficiently through user testing. [3.1.3.5] (Technique: demonstration) <br>
+<b><i>4.1.3.6</b></i> Verify the system is clear and well defined through user surveying. [3.1.3.6] (Technique: demonstration) <br>
+<b><i>4.1.3.7</b></i> Verify users experienced with this system are able to login to their account quickly(within 5 seconds of opening the app) through user testing. [3.1.3.7] (Technique: demonstration) <br>
+<b><i>4.1.3.8</b></i> Verify a new user is able to navigate to any desired option quickly and efficiently through user testing. [3.1.3.8] (Technique: demonstration) <br>
+<b><i>4.1.3.9</b></i> Verify the system receives a high rating by test groups. [3.1.3.9] (Technique: demonstration) <br>
+<b><i>4.1.3.10</b></i> Verify task failure by the system is kept to a minimum through user testing. [3.1.3.10] (Technique: demonstration) <br>
+<b><i>4.1.3.11</b></i> Verify the system is able to allow users to try things and undo them through user testing. [3.1.3.11] (Technique: demonstration) <br>
+<b><i>4.1.3.12</b></i> Verify the ability to undo is incorporated into any part of the system that stores information, including tasks. [3.1.3.12] (Technique: demonstration) <br>
+<b><i>4.1.3.13</b></i> Verify the system is created with elements that ensure that it is accessible to adults ranging from 18-40. [3.1.3.13] (Technique: demonstration) <br>
 </p>
 
 <br>
@@ -1249,15 +1459,15 @@ This section defines the verification for usability requirements.
 ### <b>4.1.4 Performance Requirements Verification</b> <a name="4.1.4-performance-requirments-verification" />
 This section defines the verification performance requirements.
 <p class="tab">
-<b><i>&emsp;4.1.4.1</b></i> Verify that my trainer page shall load when the user navigates to my trainer page. [3.1.4.1] (Technique: test) <br>
-<b><i>&emsp;4.1.4.2</b></i> Verify that the trainer shall receive messages soon after the author sends the message. [3.1.4.2] (Technique: test) <br>
-<b><i>&emsp;4.1.4.3</b></i> Verify that the trainer shall be able to send messages after clicking the send button in the built-in messenger. [3.1.4.3] (Technique: test) <br>
-<b><i>&emsp;4.1.4.4</b></i> Verify that notifications for the trainer shall be received at the same time as when the message comes in. [3.1.4.4] (Technique: test) <br>
-<b><i>&emsp;4.1.4.5</b></i> Verify that notifications from the trainer shall be received at the same time the recipient receives the message. [3.1.4.5] (Technique: test) <br>
-<b><i>&emsp;4.1.4.6</b></i> Verify that the trainer profiles on the web shall be loaded soon after the settings button has been clicked. [3.1.4.6] (Technique: test) <br>
-<b><i>&emsp;4.1.4.7</b></i> Verify that the trainer profiles on the mobile app shall be loaded soon after the settings button has been clicked. [3.1.4.7] (Technique: test) <br>
-<b><i>&emsp;4.1.4.8</b></i> Verify that the trainer search results on the web shall load up soon after the search has been entered in. [3.1.4.8] (Technique: test) <br>
-<b><i>&emsp;4.1.4.9</b></i> Verify that the trainer search results on the mobile app shall load up soon after the search has been entered in. [3.1.4.9] (Technique: test) <br>
+<b><i>4.1.4.1</b></i> Verify that my trainer page shall load when the user navigates to my trainer page. [3.1.4.1] (Technique: test) <br>
+<b><i>4.1.4.2</b></i> Verify that the trainer shall receive messages soon after the author sends the message. [3.1.4.2] (Technique: test) <br>
+<b><i>4.1.4.3</b></i> Verify that the trainer shall be able to send messages after clicking the send button in the built-in messenger. [3.1.4.3] (Technique: test) <br>
+<b><i>4.1.4.4</b></i> Verify that notifications for the trainer shall be received at the same time as when the message comes in. [3.1.4.4] (Technique: test) <br>
+<b><i>4.1.4.5</b></i> Verify that notifications from the trainer shall be received at the same time the recipient receives the message. [3.1.4.5] (Technique: test) <br>
+<b><i>4.1.4.6</b></i> Verify that the trainer profiles on the web shall be loaded soon after the settings button has been clicked. [3.1.4.6] (Technique: test) <br>
+<b><i>4.1.4.7</b></i> Verify that the trainer profiles on the mobile app shall be loaded soon after the settings button has been clicked. [3.1.4.7] (Technique: test) <br>
+<b><i>4.1.4.8</b></i> Verify that the trainer search results on the web shall load up soon after the search has been entered in. [3.1.4.8] (Technique: test) <br>
+<b><i>4.1.4.9</b></i> Verify that the trainer search results on the mobile app shall load up soon after the search has been entered in. [3.1.4.9] (Technique: test) <br>
 </p>
 
 <br>
@@ -1265,48 +1475,58 @@ This section defines the verification performance requirements.
 ### <b>4.1.5 Logical Database Requirements Verification</b> <a name="4.1.5-logical-database-requirments-verification" />
 This will verify all of the items for logical databases.
 
+<br>
+
 #### <b>4.1.5.1 Types of information used by various functions verification</b> <a name="4.1.5.1-types-of-information-used-by-various-functions-verifications" />
 This section defines the verification for types of information used by various functions.
 <p class="tab">
-<b><i>&emsp;4.1.5.1.1</b></i> Verify My Trainer shall store a trainers first name [3.1.5.1.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.1.2</b></i> Verify My Trainer shall store a trainer’s last name. [3.1.5.1.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.1.3</b></i> Verify My Trainer shall store a trainer’s email. [3.1.5.1.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.1.4</b></i> Verify The system shall create a trainer ID for each trainer. [3.1.5.1.4] (Technique: demonstration) <br>
+<b><i>4.1.5.1.1</b></i> Verify My Trainer shall store a trainers first name [3.1.5.1.1] (Technique: demonstration) <br>
+<b><i>4.1.5.1.2</b></i> Verify My Trainer shall store a trainer’s last name. [3.1.5.1.2] (Technique: demonstration) <br>
+<b><i>4.1.5.1.3</b></i> Verify My Trainer shall store a trainer’s email. [3.1.5.1.3] (Technique: demonstration) <br>
+<b><i>4.1.5.1.4</b></i> Verify The system shall create a trainer ID for each trainer. [3.1.5.1.4] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.5.2 Frequency of use verification</b> <a name="4.1.5.2-frequency-of-use-verifications" />
 This section defines the verification for frequency of use.
 <p class="tab">
-<b><i>&emsp;4.1.5.2.1</b></i> Verify Email data types shall be used for a single account. [3.1.5.2.1] (Technique: demonstration) <br>
+<b><i>4.1.5.2.1</b></i> Verify Email data types shall be used for a single account. [3.1.5.2.1] (Technique: demonstration) <br>
 </p> 
+
+<br>
 
 #### <b>4.1.5.3 Accessing Capabilities verification</b> <a name="4.1.5.3-accessing-capabilities-verifications" />
 This section defines the verification for accessing capabilities.
 <p class="tab">
-<b><i>&emsp;4.1.5.3.1</b></i> Verify Trainers shall have access to User first name. [3.1.5.3.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.3.2</b></i> Verify Trainers shall have access to User last name. [3.1.5.3.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.3.3</b></i> Verify Trainers shall have access to User goals. [3.1.5.3.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.3.4</b></i> Verify Trainers shall have access to User workout plan. [3.1.5.3.4] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.3.5</b></i> Verify Trainers shall have access to User gym. [3.1.5.3.5] (Technique: demonstration) <br>
+<b><i>4.1.5.3.1</b></i> Verify Trainers shall have access to User first name. [3.1.5.3.1] (Technique: demonstration) <br>
+<b><i>4.1.5.3.2</b></i> Verify Trainers shall have access to User last name. [3.1.5.3.2] (Technique: demonstration) <br>
+<b><i>4.1.5.3.3</b></i> Verify Trainers shall have access to User goals. [3.1.5.3.3] (Technique: demonstration) <br>
+<b><i>4.1.5.3.4</b></i> Verify Trainers shall have access to User workout plan. [3.1.5.3.4] (Technique: demonstration) <br>
+<b><i>4.1.5.3.5</b></i> Verify Trainers shall have access to User gym. [3.1.5.3.5] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.5.4 Integrity Constraints verification</b> <a name="4.1.5.4-integrity-constraints-verifications" />
 This section defines the verification for integrity constraints.
 <p class="tab">
-<b><i>&emsp;4.1.5.4.1</b></i> Verify Data entries shall be possible entries. [3.1.5.4.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.4.2</b></i> Verify Impossible data entries shall not be allowed. [3.1.5.4.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.4.3</b></i> Verify Data entries shall be verified to ensure it is possible. [3.1.5.4.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.4.4</b></i> Verify The database shall have entity integrity. [3.1.5.4.4] (Technique: demonstration) <br>
+<b><i>4.1.5.4.1</b></i> Verify Data entries shall be possible entries. [3.1.5.4.1] (Technique: demonstration) <br>
+<b><i>4.1.5.4.2</b></i> Verify Impossible data entries shall not be allowed. [3.1.5.4.2] (Technique: demonstration) <br>
+<b><i>4.1.5.4.3</b></i> Verify Data entries shall be verified to ensure it is possible. [3.1.5.4.3] (Technique: demonstration) <br>
+<b><i>4.1.5.4.4</b></i> Verify The database shall have entity integrity. [3.1.5.4.4] (Technique: demonstration) <br>
 </p>
+
+<br>
 
 #### <b>4.1.5.5 Security verification</b> <a name="4.1.5.5-security-verifications" />
 This section defines the verification for security.
 <p class="tab">
-<b><i>&emsp;4.1.5.5.1</b></i> Verify Trainer accounts shall utilize google sign-in to access their account. [3.1.5.5.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.5.2</b></i> Verify User accounts shall utilize google sign-in to access their account. [3.1.5.5.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.5.3</b></i> Verify Trainers shall only have one account. [3.1.5.5.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.5.4</b></i> Verify Gymgoers shall only have one account. [3.1.5.5.4] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.5.5.5</b></i> Verify Admin accounts shall have access to all accounts [3.1.5.5.5] (Technique: demonstration) <br>
+<b><i>4.1.5.5.1</b></i> Verify Trainer accounts shall utilize google sign-in to access their account. [3.1.5.5.1] (Technique: demonstration) <br>
+<b><i>4.1.5.5.2</b></i> Verify User accounts shall utilize google sign-in to access their account. [3.1.5.5.2] (Technique: demonstration) <br>
+<b><i>4.1.5.5.3</b></i> Verify Trainers shall only have one account. [3.1.5.5.3] (Technique: demonstration) <br>
+<b><i>4.1.5.5.4</b></i> Verify Gymgoers shall only have one account. [3.1.5.5.4] (Technique: demonstration) <br>
+<b><i>4.1.5.5.5</b></i> Verify Admin accounts shall have access to all accounts [3.1.5.5.5] (Technique: demonstration) <br>
 </p>
 
 <br>
@@ -1314,12 +1534,12 @@ This section defines the verification for security.
 ### <b>4.1.6 Design Constraints Requirements Verification</b> <a name="4.1.6-design-constraints-requirements-verification" />
 This section will verify the design constraints requirements.
 <p class="tab">
-<b><i>&emsp;4.1.6.1</b></i> Verify system users shall specify the requirements for My Trainer and ensure to understand these requirements meet their demands and needs. [3.1.6.1] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.6.2</b></i> Verify users shall specify changes to the requirements.  [3.1.6.2] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.6.3</b></i> Verify system managers shall use the requirements documentation to plan a bid for the system to plan the system development process for My Trainer. [3.1.6.3] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.6.4</b></i> Verify system engineers shall use the requirements to understand what system is being developed. [3.1.6.4] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.6.5</b></i> Verify System testing engineers shall use the requirements for the purpose of development of validation tests for the system of My Trainer. [3.1.6.5] (Technique: demonstration) <br>
-<b><i>&emsp;4.1.6.6</b></i> Verify System maintenance managers shall use requirements to understand the system and the relationship between its parts. [3.1.6.6] (Technique: demonstration) <br>
+<b><i>4.1.6.1</b></i> Verify system users shall specify the requirements for My Trainer and ensure to understand these requirements meet their demands and needs. [3.1.6.1] (Technique: demonstration) <br>
+<b><i>4.1.6.2</b></i> Verify users shall specify changes to the requirements.  [3.1.6.2] (Technique: demonstration) <br>
+<b><i>4.1.6.3</b></i> Verify system managers shall use the requirements documentation to plan a bid for the system to plan the system development process for My Trainer. [3.1.6.3] (Technique: demonstration) <br>
+<b><i>4.1.6.4</b></i> Verify system engineers shall use the requirements to understand what system is being developed. [3.1.6.4] (Technique: demonstration) <br>
+<b><i>4.1.6.5</b></i> Verify System testing engineers shall use the requirements for the purpose of development of validation tests for the system of My Trainer. [3.1.6.5] (Technique: demonstration) <br>
+<b><i>4.1.6.6</b></i> Verify System maintenance managers shall use requirements to understand the system and the relationship between its parts. [3.1.6.6] (Technique: demonstration) <br>
 <p>
 
 <br>
@@ -1331,58 +1551,75 @@ This section will verify all things under software system attributes.
 
 #### <b>4.1.7.1 Reliability Verification</b> <a name="4.1.7.1-reliability-verification" />
 <p class="tab">
-<b><i>&emsp;4.1.7.1.1</b></i> Verify applications shall not have errors within the codes to cause applications to close or crash. [3.1.7.1.1] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.1.2</b></i> Verify there will be functions within the software that perform verifications to notice errors before the application is crashed. [3.1.7.1.2] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.1.3</b></i> Verify the system shall verify the information that is matched between the server and the application. [3.1.7.1.3] (Technique: inspection) <br>
+<b><i>4.1.7.1.1</b></i> Verify applications shall not have errors within the codes to cause applications to close or crash. [3.1.7.1.1] (Technique: inspection) <br>
+<b><i>4.1.7.1.2</b></i> Verify there will be functions within the software that perform verifications to notice errors before the application is crashed. [3.1.7.1.2] (Technique: inspection) <br>
+<b><i>4.1.7.1.3</b></i> Verify the system shall verify the information that is matched between the server and the application. [3.1.7.1.3] (Technique: inspection) <br>
 </p>
+
+<br>
 
 #### <b>4.1.7.2 Security</b> <a name="4.1.7.2-security-verification" />
 <p class="tab">
-<b><i>&emsp;4.1.7.2.1</b></i> Verify user shall have password protection and encryption. [3.1.7.2.1] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.2.2</b></i> Verify the user account creation process shall be safe and secure. [3.1.7.2.2] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.2.3</b></i> Verify user’s account and personal information shall be hidden from all other unauthorized users and parties. [3.1.7.2.3] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.2.4</b></i> Verify users shall be required to provide an email and password during the account creation process. [3.1.7.2.4] (Technique: inspection) <br>
+<b><i>4.1.7.2.1</b></i> Verify user shall have password protection and encryption. [3.1.7.2.1] (Technique: inspection) <br>
+<b><i>4.1.7.2.2</b></i> Verify the user account creation process shall be safe and secure. [3.1.7.2.2] (Technique: inspection) <br>
+<b><i>4.1.7.2.3</b></i> Verify user’s account and personal information shall be hidden from all other unauthorized users and parties. [3.1.7.2.3] (Technique: inspection) <br>
+<b><i>4.1.7.2.4</b></i> Verify users shall be required to provide an email and password during the account creation process. [3.1.7.2.4] (Technique: inspection) <br>
 </p>
+
+<br>
 
 #### <b>4.1.7.3 Data privacy</b> <a name="4.1.7.3-data-privacy-verification" />
 <p class="tab">
-<b><i>&emsp;4.1.7.3.1</b></i> Verify that user data shall be hidden from all other users and parties. [3.1.7.3.1] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.3.2</b></i> Verify login information [3.1.7.3.2] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.3.3</b></i> Verify creating an account shall be safe. [3.1.7.3.3] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.3.4</b></i> Verify all users shall be allowed to login securely. [3.1.7.3.4] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.3.5</b></i> Verify once a user logs out from the account, all user information shall be removed from the login screen.  [3.1.7.3.5] (Technique: inspection) <br> 
+<b><i>4.1.7.3.1</b></i> Verify that user data shall be hidden from all other users and parties. [3.1.7.3.1] (Technique: inspection) <br>
+<b><i>4.1.7.3.2</b></i> Verify login information [3.1.7.3.2] (Technique: inspection) <br>
+<b><i>4.1.7.3.3</b></i> Verify creating an account shall be safe. [3.1.7.3.3] (Technique: inspection) <br>
+<b><i>4.1.7.3.4</b></i> Verify all users shall be allowed to login securely. [3.1.7.3.4] (Technique: inspection) <br>
+<b><i>4.1.7.3.5</b></i> Verify once a user logs out from the account, all user information shall be removed from the login screen.  [3.1.7.3.5] (Technique: inspection) <br> 
 </p>
+
+<br>
 
 #### <b>4.1.7.4 Maintainability</b> <a name="4.1.7.4-maintainability-verification" />
 <p class="tab">
-<b><i>&emsp;4.1.7.4.1</b></i> Verify users shall be allowed to report to the administration team if they forget their password, and need to have a reset password email sent to their personal email that has been registered on their myJym account. [3.1.7.4.1] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.4.2</b></i> Verify an automatic email shall be sent to the user's email address to allow the user to reset their password. [3.1.7.4.2] (Technique: inspection) <br>
+<b><i>4.1.7.4.1</b></i> Verify users shall be allowed to report to the administration team if they forget their password, and need to have a reset password email sent to their personal email that has been registered on their myJym account. [3.1.7.4.1] (Technique: inspection) <br>
+<b><i>4.1.7.4.2</b></i> Verify an automatic email shall be sent to the user's email address to allow the user to reset their password. [3.1.7.4.2] (Technique: inspection) <br>
 </p>
+
+<br>
 
 #### <b>4.1.7.5 Portability</b> <a name="4.1.7.5-maintainability-verification" />
 <p class="tab">
-<b><i>&emsp;4.1.7.5.1</b></i> Verify system Database shall store user information. [3.1.7.5.1] (Technique: inspection) <br>
-<b><i>&emsp;4.1.7.5.2</b></i> Verify myJym application shall run on both Android and iOS mobile interface. [3.1.7.5.2] (Technique: inspection) <br>
+<b><i>4.1.7.5.1</b></i> Verify system Database shall store user information. [3.1.7.5.1] (Technique: inspection) <br>
+<b><i>4.1.7.5.2</b></i> Verify myJym application shall run on both Android and iOS mobile interface. [3.1.7.5.2] (Technique: inspection) <br>
 </p>
 
 <br>
 
 ### <b>4.1.8 Supporting Information Verification</b> <a name="4.1.8-supporting-information-verification" />
+N/A
 
+<br>
 <br>
 
 <!-- Team 2> -->
 ## <b> 4.2 Gym Map Verification </b> <a name=4.2>
-This section details the verification for the Gym Map (SRS 3.2) section. <br><br>
+This section details the verification for the Gym Map (SRS 3.2) section. <br>
+
+<br>
+
 ### <b>4.2.1 Map External Interfaces Verification</b> <a name="4.2.1" />
 This section defines the verification for the gym map external interface requirements.
 <p class="tab">
 <b><i>4.2.1.1</b></i> Verify that the map utilizes the System Database to generate the map. (Technique: Inspection) [3.2.1.1] <br>
 <b><i>4.2.1.2</b></i> Verify that the map search bar obtains user data from the System Database. (Technique: Inspection) [SRS 3.2.1.2] <br>
 
+<br>
+
 ### <b>4.2.2 Map Functions Verification </b> <a name="4.2.2" />
 This section defines the verification for the gym map functions.
 <p class="tab">
+
+<br>
 
 ### <b>4.2.2.1 Map Display Verification</b> <a name="4.2.2" />
 This section defines the verification for the gym map display.
@@ -1393,6 +1630,8 @@ This section defines the verification for the gym map display.
 <b><i>4.2.2.1.4</b></i> Verify an administrator can modify the map layout. (Technique: Demonstration) [3.2.2.1.4] <br>
 <b><i>4.2.2.1.5</b></i> Verify a map tutorial opens when the map is first opened. (Technique: Demonstration) [3.2.2.1.5] <br>
 
+<br>
+
 ### <b>4.2.2.2 Map Search Verification </b> <a name="4.2.2" />
 This section defines the verification for the gym map functions.
 <p class="tab">
@@ -1400,6 +1639,8 @@ This section defines the verification for the gym map functions.
 <b><i>4.2.2.2.2</b></i> Verify that the search bar has functionality to locate gym functions. (Technique: Demonstration) [3.2.2.2.2] <br>
 <b><i>4.2.2.2.3</b></i> Verify that the map search bar is a modeless interface allowing for interaction with other page elements while it is open. (Technique: Inspection) [3.2.2.2.3] <br>
 <b><i>4.2.2.2.4</b></i> Verify that facilities in the gym are searchable by name through the map search bar. (Technique: Demonstration) [3.2.2.2.4] <br>
+
+<br>
 	
 ### <b> 4.2.2.3 Map Navigation Verification</b> 
 This section describes the verification for the map navigation.
@@ -1407,6 +1648,8 @@ This section describes the verification for the map navigation.
 <b><i>4.2.2.3.1</b></i> Verify that the map has a scrollable edge. (Technique: Demonstration)  [3.2.2.3.1] <br>
 <b><i>4.2.2.3.2</b></i> Verify that the map supports zooming, detecting when a zoom request is made. (Technique: Demonstration) [3.2.2.3.2] <br>
 <b><i>4.2.2.3.3</b></i>  Verify that gym function icons are interactable to view options related to that function. (Technique: Demonstration) [3.2.2.3.3] <br>
+
+<br>
 
 ### <b>4.2.3 Map Usability Requirements Verification </b> <a name="4.2.3" />
 This section defines the verification for the gym map usability requirements.
@@ -1418,6 +1661,8 @@ This section defines the verification for the gym map usability requirements.
 <b><i>4.2.3.5</b></i>  Verify when a task failure occurs the map stops its operation and refreshes. (Technique: Test) [3.2.3.5] <br>
 <b><i>4.2.3.6</b></i>  Verify map iconography is consistent with commonly recognized symbols. (Technique: Inspection) [3.2.3.6] <br>
 
+<br>
+
 ### <b>4.2.4 Map Performance Requirements Verification </b> <a name="4.2.4" />
 This section defines the verification for the gym map performance requirements.
 <p class="tab">
@@ -1425,9 +1670,13 @@ This section defines the verification for the gym map performance requirements.
 <b><i>4.2.4.2</b></i>  Verify the map search functionality returns results in higher algorithm efficiency than** O**(n log n). (Technique: Test) [3.2.4.2] <br>
 <b><i>4.2.4.3</b></i>  Verify the map allows for interaction with elements after a predetermined time post loading. (Technique: Test) [3.2.4.3] <br>
 
+<br>
+
 ### <b>4.2.5 Map Logical Database Requirements Verification </b> <a name="4.2.5" />
 This section defines the verification for the gym map logical database requirements.
 <p class="tab">
+
+<br>
 
 ### <b>4.2.5.1 Type of Information Used by Various Functions Verification </b> <a name="4.2.5.1" />
 This section defines the verification for the types of information used by functions of the gym map:
@@ -1435,17 +1684,23 @@ This section defines the verification for the types of information used by funct
 <b><i>4.2.5.1.1</b></i>  Verify the icons are stored as a valid data construct. (Technique: Test) [3.2.5.1.1] <br>
 <b><i>4.2.5.1.2</b></i>  Verify the map retrieves the search data correctly. (Technique: Test) [3.2.5.1.2] <br>
 	
+<br>
+
 ### <b>4.2.5.2 Frequency of Use Verification </b> <a name="4.2.5.2" />
 This section defines the verification for the frequency of use:
 <p class="tab">
 <b><i>4.2.5.2.1</b></i>  Verify the map icons are loaded into memory from the **System Database** when the view is selected. (Technique: Test) [3.2.5.2.1] <br>
 <b><i>4.2.5.2.2</b></i>  Verify the map search functionality is accessible on demand. (Technique: Demonstration) [3.2.5.2.2] <br>
 
+<br>
+
 ### <b>4.2.5.3 Accessing Capabilities Verification </b> <a name="4.2.5.3" />
 This section defines the verification for the accessing capabilities of the gym map:
 <p class="tab">
 <b><i>4.2.5.3.1</b></i>  Verify that the map is accessible from the homepage of the myJym application. (Technique: Demonstration) [3.2.5.2.1] <br>
 <b><i>4.2.5.3.2</b></i>  Verify the map has access to the **System Database** to access gym equipment locations. (Technique: Inspection) [3.2.5.2.2] <br>
+
+<br>
 	
 ### <b>4.2.5.4 Data Entity Relationships Verification </b> <a name="4.2.2.5.4" />
 This section defines the verification for data entity relationships of the gym map:
@@ -1454,46 +1709,65 @@ This section defines the verification for data entity relationships of the gym m
 <b><i>4.2.5.4.2</b></i>  Verify that the map handles data for the exercise machine locations. (Technique: Inspection) [3.2.5.3.2] <br>
 <b><i>4.2.5.4.3</b></i>  Verify that the map handles data for the exercise machine images. (Technique: Inspection) [3.2.5.3.3] <br>
 
+<br>
+
 ### <b>4.2.5.5 Integrity Constraints Verification </b> <a name="4.2.5.5" />
 This section defines the verification for the gym map integrity constraints:
 <p class="tab">
 <b><i>4.2.5.5.1</b></i>  Verify that the map handles data for the map search bar results. (Technique: Inspection) [3.2.5.4.1] <br>
 <b><i>4.2.5.5.2</b></i>  Verify that map icons are entries to the database. (Technique: Inspection) [3.2.5.4.2] <br>
 <b><i>4.2.5.5.3</b></i>  Verify that map data is formatted to match the conventions of the database. (Technique: Inspection) [3.2.5.4.3] <br>
+
+<br>
 	
 ### <b>4.2.5.6 Security Verification </b> <a name="4.2.5.6" />
 This section defines the verification for the gym map security:
 <p class="tab">
 <b><i>4.2.5.6.1</b></i>  Verify that data used for the map is only accessible by the functions of myJym. (Technique: Test) [3.2.5.6.1] <br>
+
+<br>
 	
 ### <b>4.2.5.7 Design Constraints Verification </b> <a name="4.2.5.7" />
 This section defines the verification for the gym map design constraints:
 <p class="tab">
 <b><i>4.2.5.7.1</b></i> Verify that the interactable map features provides sufficient **Pixels Per Inch** that the average human is able to cleanly select them. (Technique: Inspection) [3.2.6.1] <br>
+
+<br>
 	
 ### <b>4.2.5.8 Software System Attributes Verification </b> <a name="4.2.5.8" />
 This section defines the verification for the gym map software system attributes:
 <p class="tab">
 <b><i>4.2.5.8.1</b></i> Verify that the map is available when the application has been opened to the home page. (Technique: Demonstration)  [3.2.7.1] <br>
 <b><i>4.2.5.8.2</b></i> Verify that the map is available offline when no internet connectivity is available. (Technique: Demonstration) [3.2.7.2] <br>
+
+<br>
 	
 ### <b>4.2.5.8.1 Reliability Verification </b> <a name="4.2.5.8.1" />
 This section defines the verification for the gym map software system attributes reliability:
 <p class="tab">
 <b><i>4.2.5.8.1.1</b></i> Verify that the maps delivered to the user on MyJym delivers accurate data based on the information in the **System Database.** (Technique: Inspection) [3.2.7.1.1] <br>
 <b><i>4.2.5.8.1.2</b></i> Verify that the MyJym map is retained in memory while the myJym application is focused on a separate page. (Technique: Test) [3.2.7.1.2] <br>
+
+<br>
 	
 ### <b>4.2.5.8.2 Security Verification </b> <a name="4.2.2" />
 This section defines the verification for the gym map software systems security:
 <p class="tab">
 <b><i>4.2.5.8.2.1</b></i> Verify that the map only be editable by an admin. (Technique: Inspection) [3.2.7.2.1] <br><br> <!-- End team 2 -->
 
-## 4.3 MyJym Videos Verification <a name="4.3-myjym-videos-verification" /> <!-- team 3's work -->
+<br>
+
+## <b>4.3 MyJym Videos Verification</b> <a name="4.3-myjym-videos-verification" /> <!-- team 3's work -->
 
 Verify the MyJym Videos requirements
 
+<br>
+
 ### 4.3.1 External Interfaces Specification Verification <a name="4.3.1-external-interfaces-specifications-verification" />
 Verify that the section defines the inputs and outputs of the MyJym application.<br>
+
+<br>
+
 #### 4.3.1.1 Database Verification <a name="4.3.1.1-database-verification" />
 Verify that this shows the what columns will be included to create the database. The specific column requirements are listed in section 3.5<br>
 ***4.3.1.1.1*** Verify that the database shall store workout title<br>
@@ -1501,13 +1775,19 @@ Verify that this shows the what columns will be included to create the database.
 ***4.3.1.1.3*** Verify that the database shall store workout description<br>
 ***4.3.1.1.4*** Verify that the database shall store the image links
 
+<br>
+
 #### 4.3.1.2 Video Streaming Verification <a name="4.3.1.2-video-streaming-verification" />
 Verify that the API for a video streaming website will be used to share videos on workout techniques and forms, and how to use gym exercise equipment. This will be used according to the product owner and stakeholder’s decisions.
 
 ***4.3.1.2.1*** Verify that Gymgoers shall have the ability to access workout videos
+
+<br>
 	
 ### 4.3.2 Functions Verification <a name="4.3.2-functions-verification" />
 Verify that this section is responsible for explaining myJym’s ability to perform to the User’s standard. These functions are split up into sections that explain the procedure of the MyJym application in how to perform or complete tasks.
+
+<br>
 
 #### 4.3.2.1 My Video Verification <a name="4.3.2.1-my-video-verifiaction" />
 
@@ -1516,11 +1796,15 @@ Verify that this section is responsible for explaining myJym’s ability to perf
 ***4.3.2.1.3*** Verify that the My Video page shall display a workout video.<br>
 ***4.3.2.1.4*** Verify that the My Video page shall provide a save video button.<br>
 
+<br>
+
 ### 4.3.3 Usability Requirement Verification <a name="4.3.3-usability-requirement-verification" />
 Verify that this section lists the quality and use requirements for the MyJym application. Including measurable effectiveness and satisfaction criteria for the My Video feature. <br>
 ***4.3.3.1*** Verify that user shall be able to save a selected video<br>
 ***4.3.3.2*** Verify that user shall be able to view the workout video<br>
 ***4.3.3.3*** Verify that user shall be able to view saved videos<br>
+
+<br>
 	
 ### 4.3.4 Performance Requirements Verification <a name="4.3.4-performance-requirements-verification" />
 Verify that for the MyJym application to meet performance standards, there are specific requirements that are needed to be met, specified below.<br>
@@ -1528,6 +1812,8 @@ Verify that for the MyJym application to meet performance standards, there are s
 ***4.3.4.2*** Verify that the user shall only be able to save one video link per exercise.<br>
 ***4.3.4.3*** Verify that the My Video page shall support a configurable amount of workouts<br>
 ***4.3.4.4*** Verify that the My Video page shall support a configurable amount of workouts videos<br>
+
+<br>
 
 ### 4.3.5 Logical Database Requirements Verification <a name="4.3.5-logical-database-requirements-verification" />
 
@@ -1538,27 +1824,43 @@ Verify that the MyJym database shall store all the tables that are necessary for
 ***4.3.5.3*** Verify that the workout table shall contain a video link column<br>
 ***4.3.5.4*** Verify that the workout table shall contain a workout id column that acts as a primary key<br>
 
+<br>
+
 ### 4.3.6 Design Constraint Verification <a name="4.3.6-design-constraints-verification" />
 Verify that this section specifies the constraints with the myJym application that would arise from project limitations, external standards, and specific requirements.<br>
 ***4.3.6.1*** Verify that the user shall only be able to save workout the video<br>
 
+<br>
+
 ### 4.3.7 Software System Attributes Verification <a name="4.3.7-software-system-attributes-verification" />
+
+<br>
+
 #### 4.3.7.1 Reliability Verification <a name="4.3.7.1-reliability-verification" />
 Verify that factors required to establish reliability of the myJym application at the time of delivery.<br>
 	
 ***4.3.7.1.1*** Verify that the system shall exit immediately when a user finds an error. <br>
 ***4.3.7.1.2*** Verify that the app shall check that locally stored user information matches what is stored in a database. <br>
+
+<br>
+
 #### 4.3.7.2 Security Verification <a name="4.3.7.2-security-verification" />
 Verify that the factors required to guarantee a defined level of availability for the myJym application in regards to the workout videos. <br>	
 ***4.3.7.2.1*** Verify that the user shall only be able to add approved video links to an exercise. <br>
+
+<br>
+
 #### 4.3.7.3 Maintainability Verification <a name="4.3.7.3-maintainability-verification" />
 Verify that the factors required to define a level of maintainability for the myJym application. <br>	
 ***4.3.7.3.1*** Verify that App administrators shall be able to remove inappropriate content. <br>
+
 <br>	
 	
-## 4.4 Login & Homepage Verification
+## <b>4.4 Login & Homepage Verification</b>
 <a name="4.4-login-&-homepage-verification" />
 Verify the Login & Homepage requirements
+
+<br>
 
 #### 4.4.1 External Interfaces Verification <a name="4.4.1-external-interfaces-verification" />
 Verification of the interfaces that the application will output to the user. <br>
@@ -1568,6 +1870,9 @@ What: Attempt to login to an account using both valid and invalid credentials an
 ***4.4.1.2*** Verify that the system shall send an automated password recovery email to the user on request. [3.4.1.2] <br>
 Method: Test<br>
 What: Attempt to recover a password and confirm that the recovery email is sent. <br>
+
+<br>
+
 #### 4.4.2 Functions Verification <a name="4.4.2-functions-verification" />
 Verification of the different functionalities within the application.<br>
 ***4.4.2.1*** Verify that the home page shall provide access to My Trainer. [3.4.2.1]<br>
@@ -1595,6 +1900,8 @@ What: When a user attempts to log in with invalid credentials, the login page sh
 Method: Test<br>
 What: The user shall only be able to login and view the home page after they provide valid login credentials.<br>
 
+<br>
+
 #### 4.4.3 Usability Requirements Verification <a name="4.4.3-usability-requirements-verification" />
 Verification of the requirements related to usability.<br>
 ***4.4.3.1*** Verify that the signup page shall inform the user of password requirements. [3.4.3.1]<br>
@@ -1604,11 +1911,15 @@ What: When creating an account verify that the message for password requirements
 Method: Test<br>
 What: Attempt to enter login credentials on the login page.<br>
 
+<br>
+
 #### 4.4.4 Performance Requirements Verification <a name="4.4.4-performance-requirements-verification" />
 Verification of the system's ability to process user requests.<br>
 ***4.4.4.1*** Verify that the system shall have the ability to process login credentials. [3.4.4.1]<br>
 Method: Test<br>
 What: The system shall store the login credentials by allowing the user to re-login multiple times.<br>
+
+<br>
 
 #### 4.4.5 Logical Database Requirements Verification <a name="4.4.5-logical-database-requirements-verification" />
 Verification of the operation of the database.<br>
@@ -1628,6 +1939,8 @@ What: Have the tester attempt to login with a valid and invalid credentials. Che
 Method: Test<br>
 What: Have a "hacker" try to access personal information in the database. Run this test until the database is secure from all attacks.<br>
 
+<br>
+
 #### 4.4.6 Design Constraints Verification <a name="4.4.6-design-constraints-verification" />
 Verification of the metrics set to limit the application.<br>
 ***4.4.6.1*** Verify that the myJym app shall be completed in its entirety by the end of Jared's Senior Project class. [3.4.6.1]<br>
@@ -1637,8 +1950,12 @@ What: Show that the myJym app is completed within the given timeframe.<br>
 Method: Demo<br>
 What: Show that there has been no money spent on the development of the application.<br>
 
+<br>
+
 #### 4.4.7 Software System Attributes Verification <a name="4.4.7-software-system-attributes-verification" />
 Verification of the software system attribute requirements
+
+<br>
 
 ##### 4.4.7.1 Reliability Verification <a name="4.4.7.1-reliability-verification" />
 Verification of the dependability of the application.<br>
@@ -1649,11 +1966,15 @@ What: Demonstrate the compliance of personal trainers in the use of the applicat
 Method: Demo<br>
 What: Demonstrate the administrator requirements in the use of the application.<br>
 
+<br>
+
 ##### 4.4.7.2 Availability Verification <a name="4.4.7.2-availability-verification" />
 Verification of the systems uptime for users.<br>
 ***4.4.7.2.1*** Verify that the myJym app shall be available on demand of the user. [3.4.7.2.1]<br>
 Method: Demo<br>
 What: Access the myJym application at various times to ensure that it is available whenever needed.<br>
+
+<br>
 
 ##### 4.4.7.3 Security Verification <a name="4.4.7.3-security-verification" />
 Verification of the applications ability to protect user assets.<br>
@@ -1663,6 +1984,8 @@ What: Inspect the code to ensure that the user account information is properly e
 ***4.4.7.3.2*** Verify that the system shall use a protocol to secure online communications. [3.4.7.3.2]<br>
 Method: Inspection<br>
 What: Inspect code to ensure that a protocol is properly used to secure online communication.<br>
+
+<br>
 
 ##### 4.4.7.4 Portability Verification <a name="4.4.7.4-portability-verification" />
 Verification of the applications ability to work on different operating systems.<br>
