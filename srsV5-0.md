@@ -1888,90 +1888,70 @@ Verify the Login & Homepage requirements
 
 #### 4.4.1 External Interfaces Verification <a name="4.4.1-external-interfaces-verification" />
 Verification of the interfaces that the application will output to the user. <br>
-***4.4.1.1*** Verify that the login page shall provide the ability to login to an account using login credentials. [3.4.1.1]<br>
-Method: Test<br>
+***4.4.1.1*** Verify that the login page shall provide the ability to login to an account using login credentials. (Technique: Test)[3.4.1.1]<br>
 What: Attempt to login to an account using both valid and invalid credentials and verify that the happy path is achieved.<br> 
-***4.4.1.2*** Verify that the system shall send an automated password recovery email to the user on request. [3.4.1.2] <br>
-Method: Test<br>
+***4.4.1.2*** Verify that the system shall send an automated password recovery email to the user on request. (Technique: Test)[3.4.1.2]<br>
 What: Attempt to recover a password and confirm that the recovery email is sent. <br>
 
 <br>
 
 #### 4.4.2 Functions Verification <a name="4.4.2-functions-verification" />
 Verification of the different functionalities within the application.<br>
-***4.4.2.1*** Verify that the home page shall provide access to My Trainer. [3.4.2.1]<br>
-Method: Test<br>
+***4.4.2.1*** Verify that the home page shall provide access to My Trainer. (Technique: Inspection)[3.4.2.1]<br>
 What: The application shall take the user to the My Trainer page after the My Trainer button has been selected while on the home page.<br>
-***4.4.2.2*** Verify that the home page shall provide access to My Workouts. [3.4.2.2]<br>
-Method: Test<br>
+***4.4.2.2*** Verify that the home page shall provide access to My Workouts. (Technique: Test)[3.4.2.2]<br>
 What: The application shall take the user to the My Workouts page after the My Workouts button has been pressed while on the home page.<br>
-***4.4.2.3*** Verify that the home page shall provide access to My Videos. [3.4.2.3]<br>
-Method: Test<br>
+***4.4.2.3*** Verify that the home page shall provide access to My Videos. (Technique: Test)[3.4.2.3]<br>
 What: The application shall take the user to the My Videos page after the My Videos button has been pressed while on the home page.<br>
-***4.4.2.4*** Verify that the home page shall provide access to My Gym Map. [3.4.2.4]<br>
-Method: Test<br>
+***4.4.2.4*** Verify that the home page shall provide access to My Gym Map. (Technique: Test)[3.4.2.4]<br>
 What: The application shall take the user to the My Gym Map page after the My Gym Map button has been while on the home page.<br>
-***4.4.2.5*** Verify that the login page shall provide the user with the ability to recover a lost password. [3.4.2.5]<br>
-Method: Test<br>
+***4.4.2.5*** Verify that the login page shall provide the user with the ability to recover a lost password. (Technique: Test)[3.4.2.5]<br>
 What: The application shall provide the user with a temporary password when requested. The password will go through email and shall only become the current active password when it is used on the app after the user views it in their email. The user will then be required to set a new password immediately after logging in.<br>
-***4.4.2.6*** Verify that the login page shall provide the user with the ability to create an account. [3.4.2.6]<br>
-Method: Test<br>
+***4.4.2.6*** Verify that the login page shall provide the user with the ability to create an account. (Technique: Test)[3.4.2.6]<br>
 What: The application shall allow the user to create an account with their individual credentials and access the apps features.<br>
-***4.4.2.7*** Verify that the login page shall display an error message when invalid credentials are submitted. [3.4.2.7]<br>
-Method: Test<br>
+***4.4.2.7*** Verify that the login page shall display an error message when invalid credentials are submitted. (Technique: Test)[3.4.2.7]<br>
 What: When a user attempts to log in with invalid credentials, the login page shall display an error message that the credentials were invalid and re-prompt for valid credentials.<br>
-***4.4.2.8*** Verify that the system shall check the login credentials against the database. [3.4.2.8]<br>
-Method: Test<br>
+***4.4.2.8*** Verify that the system shall check the login credentials against the database. (Technique: Test)[3.4.2.8]<br>
 What: The user shall only be able to login and view the home page after they provide valid login credentials.<br>
 
 <br>
 
 #### 4.4.3 Usability Requirements Verification <a name="4.4.3-usability-requirements-verification" />
 Verification of the requirements related to usability.<br>
-***4.4.3.1*** Verify that the signup page shall inform the user of password requirements. [3.4.3.1]<br>
-Method: Test<br>
+***4.4.3.1*** Verify that the signup page shall inform the user of password requirements. (Technique: Test)[3.4.3.1]<br>
 What: When creating an account verify that the message for password requirements appears.<br>
-***4.4.3.2*** Verify that the login page shall allow the user to enter login credentials [3.4.3.2]<br>
-Method: Test<br>
+***4.4.3.2*** Verify that the login page shall allow the user to enter login credentials (Technique: Test)[3.4.3.2]<br>
 What: Attempt to enter login credentials on the login page.<br>
 
 <br>
 
 #### 4.4.4 Performance Requirements Verification <a name="4.4.4-performance-requirements-verification" />
 Verification of the system's ability to process user requests.<br>
-***4.4.4.1*** Verify that the system shall have the ability to process login credentials. [3.4.4.1]<br>
-Method: Test<br>
+***4.4.4.1*** Verify that the system shall have the ability to process login credentials. (Technique: Test)[3.4.4.1]<br>
 What: The system shall store the login credentials by allowing the user to re-login multiple times.<br>
 
 <br>
 
 #### 4.4.5 Logical Database Requirements Verification <a name="4.4.5-logical-database-requirements-verification" />
 Verification of the operation of the database.<br>
-***4.4.5.1*** Verify that the User Data database table shall have a Google authentication key from the Google third party login. [3.4.5.1]<br>
-Method: Inspection<br>
+***4.4.5.1*** Verify that the User Data database table shall have a Google authentication key from the Google third party login. (Technique: Inspection)[3.4.5.1]<br>
 What: Inspect the User Data table to ensure that it can collect and store google authentication keys.<br>
-***4.4.5.2*** Verify that the User Data database table shall store usernames [3.4.5.2]<br>
-Method: Inspection<br>
+***4.4.5.2*** Verify that the User Data database table shall store usernames (Technique: Inspection)[3.4.5.2]<br>
 What: Inspect the User Data table to ensure that it can collect and store usernames.<br>
-***4.4.5.3*** Verify that the User Data database table shall store the passwords [3.4.5.3]<br>
-Method: Inspection<br>
+***4.4.5.3*** Verify that the User Data database table shall store the passwords (Technique: Inspection)[3.4.5.3]<br>
 What: Inspect the User Data table to ensure that it can collect and store passwords.<br>
-***4.4.5.4*** Verify that the database shall be accessed by the login page when user credentials are submitted through the login page. [3.4.5.4]<br>
-Method: Test<br>
+***4.4.5.4*** Verify that the database shall be accessed by the login page when user credentials are submitted through the login page. (Technique: Test)[3.4.5.4]<br>
 What: Have the tester attempt to login with a valid and invalid credentials. Check if the system allows valid credentials to login and doesn't allow invalid credentials to login.<br>
-***4.4.5.5*** Verify that the database shall keep the login credentials of users confidential. [3.4.5.5]<br>
-Method: Test<br>
+***4.4.5.5*** Verify that the database shall keep the login credentials of users confidential. (Technique: Test)[3.4.5.5]<br>
 What: Have a "hacker" try to access personal information in the database. Run this test until the database is secure from all attacks.<br>
 
 <br>
 
 #### 4.4.6 Design Constraints Verification <a name="4.4.6-design-constraints-verification" />
 Verification of the metrics set to limit the application.<br>
-***4.4.6.1*** Verify that the myJym app shall be completed in its entirety by the end of Jared's Senior Project class. [3.4.6.1]<br>
-Method: Demo<br>
+***4.4.6.1*** Verify that the myJym app shall be completed in its entirety by the end of Jared's Senior Project class. (Technique: Demo)[3.4.6.1]<br>
 What: Show that the myJym app is completed within the given timeframe.<br>
-***4.4.6.2*** Verify that the budget for the myJym app shall be $0.00. [3.4.6.2]<br>
-Method: Demo<br>
+***4.4.6.2*** Verify that the budget for the myJym app shall be $0.00. (Technique: Demo)[3.4.6.2]<br>
 What: Show that there has been no money spent on the development of the application.<br>
 
 <br>
@@ -1983,38 +1963,32 @@ Verification of the software system attribute requirements
 
 ##### 4.4.7.1 Reliability Verification <a name="4.4.7.1-reliability-verification" />
 Verification of the dependability of the application.<br>
-***4.4.7.1.1*** Verify that the app shall require the compliance of personal trainers. [3.4.7.1.1]<br>
-Method: Demo<br>
+***4.4.7.1.1*** Verify that the app shall require the compliance of personal trainers. (Technique: Demo)[3.4.7.1.1]<br>
 What: Demonstrate the compliance of personal trainers in the use of the application.<br>
-***4.4.7.1.2*** Verify that the app shall require the administrator. [3.4.7.1.2]<br>
-Method: Demo<br>
+***4.4.7.1.2*** Verify that the app shall require the administrator. (Technique: Demo)[3.4.7.1.2]<br>
 What: Demonstrate the administrator requirements in the use of the application.<br>
 
 <br>
 
 ##### 4.4.7.2 Availability Verification <a name="4.4.7.2-availability-verification" />
 Verification of the systems uptime for users.<br>
-***4.4.7.2.1*** Verify that the myJym app shall be available on demand of the user. [3.4.7.2.1]<br>
-Method: Demo<br>
+***4.4.7.2.1*** Verify that the myJym app shall be available on demand of the user. (Technique: Demo)[3.4.7.2.1]<br>
 What: Access the myJym application at various times to ensure that it is available whenever needed.<br>
 
 <br>
 
 ##### 4.4.7.3 Security Verification <a name="4.4.7.3-security-verification" />
 Verification of the applications ability to protect user assets.<br>
-***4.4.7.3.1*** Verify that the system shall encrypt user accounts. [3.4.7.3.1]<br>
-Method: Inspection<br>
+***4.4.7.3.1*** Verify that the system shall encrypt user accounts. (Technique: Inspection)[3.4.7.3.1]<br>
 What: Inspect the code to ensure that the user account information is properly encrypted.<br>
-***4.4.7.3.2*** Verify that the system shall use a protocol to secure online communications. [3.4.7.3.2]<br>
-Method: Inspection<br>
+***4.4.7.3.2*** Verify that the system shall use a protocol to secure online communications. (Technique: Inspection)[3.4.7.3.2]<br>
 What: Inspect code to ensure that a protocol is properly used to secure online communication.<br>
 
 <br>
 
 ##### 4.4.7.4 Portability Verification <a name="4.4.7.4-portability-verification" />
 Verification of the applications ability to work on different operating systems.<br>
-***4.4.7.4.1*** Verify that the application shall be built with a programming language that can be ported to both iOS and Android. [3.4.7.4.1]<br>
-Method: Inspection<br>
+***4.4.7.4.1*** Verify that the application shall be built with a programming language that can be ported to both iOS and Android. (Technique: Inspection)[3.4.7.4.1]<br>
 What: Inspect the code to ensure that it can be ported to iOS and Android.<br>
 
 <br>
