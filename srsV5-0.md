@@ -1,6 +1,6 @@
 myJym Software Requirements Specification
 =========================================
-Project Sponsor: Jared Barnes
+Project Sponsor: Jared Barney
 <br>
 Project Owner: Brother Clements
 =========================================
